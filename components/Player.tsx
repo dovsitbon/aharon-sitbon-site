@@ -211,11 +211,11 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
         hidden
       />
       {current && (
-        <section aria-label={d.player.label} className="fade-up fixed inset-x-0 bottom-0 z-40 border-t border-line-dark bg-night-2/95 text-parchment backdrop-blur-md">
+        <section aria-label={d.player.label} className="fade-up fixed inset-x-0 bottom-0 z-40 bg-blue-deep/97 text-paper shadow-[0_-10px_40px_-20px_rgba(20,53,83,0.5)] backdrop-blur-md">
           {mode === "video" && current.youtubeId && (
-            <div className="absolute start-3 bottom-full mb-3 w-[min(22rem,calc(100vw-6rem))] overflow-hidden bg-black shadow-[0_20px_50px_-20px_rgba(0,0,0,0.8)] ring-1 ring-gold/30 md:start-6">
-              <div className="flex items-center justify-between gap-2 bg-night px-3 py-1.5">
-                <span className="truncate text-[0.75rem] text-mist">{d.player.video}</span>
+            <div className="absolute start-3 bottom-full mb-3 w-[min(22rem,calc(100vw-6rem))] overflow-hidden bg-black shadow-[0_20px_50px_-20px_rgba(0,0,0,0.8)] rounded-xl ring-1 ring-sand/40 md:start-6">
+              <div className="flex items-center justify-between gap-2 bg-blue-deep px-3 py-1.5">
+                <span className="truncate text-[0.75rem] text-haze">{d.player.video}</span>
               </div>
               <iframe
                 key={current.id}
@@ -232,32 +232,32 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
           <div className="mx-auto flex max-w-[1400px] items-center gap-3 px-3 py-2.5 md:gap-6 md:px-6">
             <div className="flex min-w-0 flex-1 items-center gap-3 md:flex-none md:basis-72">
               {current.youtubeId && (
-                <Image src={thumb(current.youtubeId)} alt="" width={96} height={54} className="hidden h-11 w-11 shrink-0 object-cover sm:block" style={{ objectPosition: `${current.focal ?? 60}% 30%` }} />
+                <Image src={thumb(current.youtubeId)} alt="" width={96} height={54} className="hidden h-11 w-11 shrink-0 rounded-md object-cover sm:block" style={{ objectPosition: `${current.focal ?? 60}% 30%` }} />
               )}
               <div className="min-w-0">
                 <p className="truncate font-[family-name:var(--font-frank)] text-[1.05rem] leading-tight" lang="he" dir="rtl">
                   {current.he}
                 </p>
-                <p className="truncate text-[0.8125rem] text-mist">{trOf(current, lang)}</p>
+                <p className="truncate text-[0.8125rem] text-haze">{trOf(current, lang)}</p>
               </div>
             </div>
 
             <div className="flex shrink-0 items-center gap-1 md:gap-2" dir="ltr">
-              <button type="button" onClick={toggleShuffle} aria-label={d.player.shuffle} aria-pressed={isShuffle} className={`hidden h-10 w-10 items-center justify-center transition-colors md:flex ${isShuffle ? "text-gold" : "text-mist hover:text-parchment"}`}>
+              <button type="button" onClick={toggleShuffle} aria-label={d.player.shuffle} aria-pressed={isShuffle} className={`hidden h-10 w-10 items-center justify-center transition-colors md:flex ${isShuffle ? "text-sand" : "text-haze hover:text-paper"}`}>
                 <ShuffleIcon />
               </button>
-              <button type="button" onClick={prev} aria-label={d.player.prev} className="flex h-10 w-10 items-center justify-center text-mist transition-colors hover:text-parchment">
+              <button type="button" onClick={prev} aria-label={d.player.prev} className="flex h-10 w-10 items-center justify-center text-haze transition-colors hover:text-paper">
                 <PrevIcon />
               </button>
-              <button type="button" onClick={toggle} aria-label={playing ? d.player.pause : d.player.play} className="flex h-11 w-11 items-center justify-center rounded-full border border-gold text-gold transition-colors hover:bg-gold hover:text-night">
+              <button type="button" onClick={toggle} aria-label={playing ? d.player.pause : d.player.play} className="flex h-11 w-11 items-center justify-center rounded-full bg-terra text-white transition-colors hover:bg-terra-deep">
                 {playing ? <PauseIcon /> : <PlayIcon />}
               </button>
-              <button type="button" onClick={next} disabled={index >= queue.length - 1} aria-label={d.player.next} className="flex h-10 w-10 items-center justify-center text-mist transition-colors hover:text-parchment disabled:opacity-30">
+              <button type="button" onClick={next} disabled={index >= queue.length - 1} aria-label={d.player.next} className="flex h-10 w-10 items-center justify-center text-haze transition-colors hover:text-paper disabled:opacity-30">
                 <NextIcon />
               </button>
             </div>
 
-            <div className="hidden flex-1 items-center gap-3 text-[0.75rem] text-mist tabular-nums lg:flex" dir="ltr">
+            <div className="hidden flex-1 items-center gap-3 text-[0.75rem] text-haze tabular-nums lg:flex" dir="ltr">
               <span className="w-10 text-end">{fmt(time)}</span>
               <input
                 type="range"
@@ -274,17 +274,17 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
               <span className="w-10">{fmt(duration)}</span>
             </div>
 
-            <div className="hidden items-center gap-2 text-mist md:flex" dir="ltr">
+            <div className="hidden items-center gap-2 text-haze md:flex" dir="ltr">
               <VolumeIcon />
               <input type="range" className="range w-20" min={0} max={100} value={volume} onChange={(e) => setVolume(Number(e.target.value))} aria-label={d.player.volume} style={{ "--p": `${volume}%` } as React.CSSProperties} />
             </div>
 
-            <button type="button" onClick={close} aria-label={d.player.close} className="flex h-10 w-10 shrink-0 items-center justify-center text-mist transition-colors hover:text-parchment">
+            <button type="button" onClick={close} aria-label={d.player.close} className="flex h-10 w-10 shrink-0 items-center justify-center text-haze transition-colors hover:text-paper">
               <CloseIcon className="h-4 w-4" />
             </button>
           </div>
-          <div className="h-px bg-line-dark lg:hidden" aria-hidden="true">
-            <div className="h-px bg-gold transition-[width] duration-500" style={{ width: `${pct}%` }} />
+          <div className="h-px bg-line-blue lg:hidden" aria-hidden="true">
+            <div className="h-px bg-sand transition-[width] duration-500" style={{ width: `${pct}%` }} />
           </div>
         </section>
       )}

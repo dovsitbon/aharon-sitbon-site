@@ -4,30 +4,54 @@ import { AppleMusicIcon, FacebookIcon, PhoneIcon, WhatsAppIcon, YouTubeIcon } fr
 import { LogoFull, SkylineRule } from "@/components/Logo";
 import type { Dict, Locale } from "@/lib/i18n";
 import { waLink } from "@/lib/booking";
+import { href } from "@/lib/routes";
 
 export function Footer({ lang, d }: { lang: Locale; d: Dict }) {
   const year = new Date().getFullYear();
-  const home = `/${lang}`;
   const nav = [
-    { href: `${home}#story`, label: d.nav.story },
-    { href: `${home}#music`, label: d.nav.music },
-    { href: `${home}#clips`, label: d.nav.clips },
-    { href: `${home}#concerts`, label: d.nav.concerts },
-    { href: `${home}#press`, label: d.nav.press },
-    { href: `${home}#contact`, label: d.nav.book },
+    { href: href(lang, "story"), label: d.nav.story },
+    { href: href(lang, "music"), label: d.nav.music },
+    { href: href(lang, "videos"), label: d.nav.clips },
+    { href: href(lang, "services"), label: d.nav.services },
+    { href: href(lang, "events"), label: d.nav.events },
+    { href: href(lang, "press"), label: d.nav.press },
+    { href: href(lang, "contact"), label: d.nav.contact },
   ];
-  const ext = "inline-flex min-h-9 items-center gap-3 transition-colors hover:text-gold";
+  const ext = "inline-flex min-h-9 items-center gap-3 transition-colors hover:text-sand";
   return (
-    <footer className="grain relative overflow-hidden bg-night text-parchment">
-      <SkylineRule className="pointer-events-none absolute inset-x-0 top-0 h-24 w-full text-gold/15" />
-      <div className="relative mx-auto grid max-w-[1400px] items-start gap-14 px-5 pt-28 pb-12 md:grid-cols-3 md:px-10 md:pt-36">
-        <div className="order-first md:order-none md:col-start-2">
-          <LogoFull />
-          <p className="mx-auto mt-8 max-w-xs text-center text-[0.9375rem] leading-relaxed text-mist">{d.footer.tagline}</p>
+    <footer className="dark grain relative overflow-hidden">
+      {/* Bandeau d'appel avant le pied de page */}
+      <div className="relative mx-auto flex max-w-[1320px] flex-col items-start justify-between gap-8 border-b border-line-blue px-5 pt-20 pb-16 md:flex-row md:items-end md:px-10">
+        <div>
+          <p className="eyebrow">{d.booking.eyebrow}</p>
+          <p className="display mt-5 max-w-2xl text-[clamp(2rem,4.4vw,3.4rem)]" dangerouslySetInnerHTML={{ __html: d.home.ctaTitle }} />
         </div>
-        <div className="md:col-start-1 md:row-start-1">
-          <p className="eyebrow">{d.footer.contact}</p>
-          <ul className="mt-5 space-y-2 text-[0.9375rem]">
+        <Link href={href(lang, "contact")} className="btn shrink-0">
+          {d.home.ctaButton}
+        </Link>
+      </div>
+
+      <SkylineRule className="pointer-events-none absolute inset-x-0 bottom-0 h-32 w-full text-sand/10" />
+      <div className="relative mx-auto grid max-w-[1320px] gap-12 px-5 py-16 md:grid-cols-[1.3fr_1fr_1fr] md:px-10">
+        <div>
+          <LogoFull className="items-start [&>span]:items-start" />
+          <p className="mt-6 max-w-xs text-[0.9375rem] leading-relaxed text-haze">{d.footer.tagline}</p>
+        </div>
+        <div>
+          <p className="eyebrow plain">{d.footer.explore}</p>
+          <ul className="mt-5 grid grid-cols-2 gap-x-6 gap-y-1 text-[0.9375rem] text-paper/90 md:grid-cols-1">
+            {nav.map((l) => (
+              <li key={l.href}>
+                <Link href={l.href} className="inline-flex min-h-9 items-center transition-colors hover:text-sand">
+                  {l.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <p className="eyebrow plain">{d.footer.contact}</p>
+          <ul className="mt-5 space-y-1 text-[0.9375rem] text-paper/90">
             <li>
               <a href={`tel:${site.phoneIntl.replace(/[\s-]/g, "")}`} className={ext}>
                 <PhoneIcon className="h-4 w-4" />
@@ -60,26 +84,14 @@ export function Footer({ lang, d }: { lang: Locale; d: Dict }) {
             </li>
           </ul>
         </div>
-        <div className="md:text-end">
-          <p className="eyebrow">{d.footer.explore}</p>
-          <ul className="mt-5 space-y-2 text-[0.9375rem] text-parchment/85">
-            {nav.map((l) => (
-              <li key={l.href}>
-                <Link href={l.href} className="inline-flex min-h-9 items-center transition-colors hover:text-gold">
-                  {l.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
       </div>
-      <div className="relative mx-auto flex max-w-[1400px] flex-col gap-2 border-t border-line-dark px-5 py-6 pb-24 text-[0.8125rem] text-mist md:flex-row md:justify-between md:px-10 md:pb-6">
+      <div className="relative mx-auto flex max-w-[1320px] flex-col gap-2 border-t border-line-blue px-5 py-6 pb-24 text-[0.8125rem] text-haze md:flex-row md:justify-between md:px-10 md:pb-6">
         <p>
           © {year} <span translate="no">Aharon Sitbon · אהרון סיטבון</span> · {d.footer.rights}
         </p>
         <p className="flex flex-wrap gap-x-6 gap-y-1">
           <span>{d.footer.photos}</span>
-          <Link href={`${home}/mentions-legales`} className="underline-offset-4 hover:text-parchment hover:underline">
+          <Link href={href(lang, "mentions-legales")} className="underline-offset-4 hover:text-paper hover:underline">
             {d.footer.legal}
           </Link>
         </p>

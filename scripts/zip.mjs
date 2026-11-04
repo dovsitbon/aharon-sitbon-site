@@ -1,5 +1,5 @@
-// Prépare au moment du build un .zip par album (public/audio/zips/<album>.zip),
-// UNIQUEMENT si tous ses titres ont un MP3 (public/audio/...) et downloadable: true dans data/music.json.
+// Prépare au moment du build un .zip par album (public/music/zips/<album>.zip),
+// UNIQUEMENT si tous ses titres ont un MP3 (public/music/...) et downloadable: true dans data/music.json.
 // Tant que les producteurs (Eli Klein, Yitzy Berry, צבעים הפקות) n'ont pas donné leur accord écrit, downloadable reste false
 // et aucun zip n'est créé : le bouton « Télécharger tout l'album » ne s'affiche pas.
 import { existsSync } from "node:fs";
@@ -16,14 +16,14 @@ let changed = false;
 for (const album of music.albums) {
   const tracks = album.tracks.map((id) => byId[id]);
   const ok = tracks.every((t) => t?.downloadable && t.audioFile && existsSync(path.join(ROOT, "public", t.audioFile)));
-  const target = ok ? `/audio/zips/${album.id}.zip` : null;
+  const target = ok ? `/music/zips/${album.id}.zip` : null;
   if (ok) {
     const files = {};
     for (const [i, t] of tracks.entries()) {
       const name = `${String(i + 1).padStart(2, "0")} - ${t.latin}${path.extname(t.audioFile)}`;
       files[`Aharon Sitbon - ${album.latin}/${name}`] = [new Uint8Array(await readFile(path.join(ROOT, "public", t.audioFile))), { level: 0 }];
     }
-    await mkdir(path.join(ROOT, "public/audio/zips"), { recursive: true });
+    await mkdir(path.join(ROOT, "public/music/zips"), { recursive: true });
     await writeFile(path.join(ROOT, "public", target), zipSync(files));
     console.log(`zip prêt : ${target}`);
   }

@@ -18,10 +18,10 @@ export function Mark({ className = "h-5 w-14" }: { className?: string }) {
 export function Wordmark({ className = "" }: { className?: string }) {
   return (
     <span className={`flex flex-col items-center leading-none ${className}`} translate="no">
-      <span dir="ltr" className="font-[family-name:var(--font-cormorant)] text-[0.95rem] font-light tracking-[0.42em] ps-[0.42em] md:text-[1.15rem]">
+      <span dir="ltr" className="font-[family-name:var(--font-playfair)] text-[0.9rem] font-medium tracking-[0.3em] ps-[0.3em] md:text-[1.05rem]">
         AHARON SITBON
       </span>
-      <span dir="rtl" lang="he" className="mt-1.5 font-[family-name:var(--font-frank)] text-[0.8rem] font-light tracking-[0.12em] opacity-80 md:text-[0.9rem]">
+      <span dir="rtl" lang="he" className="mt-1.5 font-[family-name:var(--font-frank)] text-[0.85rem] tracking-[0.08em] opacity-85 md:text-[0.95rem]">
         אהרון סיטבון
       </span>
     </span>
@@ -31,7 +31,7 @@ export function Wordmark({ className = "" }: { className?: string }) {
 export function LogoFull({ className = "" }: { className?: string }) {
   return (
     <div className={`flex flex-col items-center ${className}`}>
-      <Mark className="mb-4 h-7 w-20 text-gold" />
+      <Mark className="mb-4 h-7 w-20 text-sand" />
       <Wordmark />
     </div>
   );

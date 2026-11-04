@@ -39,6 +39,19 @@
   }
  },
  {
+  "media": "Hidabroot",
+  "date": "2020-11-01",
+  "lang": "he",
+  "url": "https://www.hidabroot.org/article/1146431",
+  "title": null,
+  "summary": {
+   "he": "״ירושלים״: ההופעה מול חומות העיר העתיקה.",
+   "fr": "« Yerushalayim » : le concert devant les remparts de la Vieille Ville.",
+   "en": "“Yerushalayim”: the concert before the Old City walls.",
+   "es": "«Yerushalayim»: el concierto ante las murallas de la Ciudad Vieja."
+  }
+ },
+ {
   "media": "Torah-Box",
   "date": "2014",
   "lang": "fr",
@@ -153,6 +166,32 @@
    "fr": "Le spectacle « Tzama » en direct.",
    "en": "The “Tzama” show, live.",
    "es": "El espectáculo «Tzama», en directo."
+  }
+ },
+ {
+  "media": "COLlive",
+  "date": "2024",
+  "lang": "en",
+  "url": "https://collive.com/chassidic-artist-releases-soulful-single",
+  "title": "Chassidic artist releases soulful single",
+  "summary": {
+   "he": "סינגל חדש ומרגש.",
+   "fr": "Un nouveau single, plein d'âme.",
+   "en": "A new single, full of soul.",
+   "es": "Un nuevo sencillo, lleno de alma."
+  }
+ },
+ {
+  "media": "Mostly Music",
+  "date": "2014",
+  "lang": "en",
+  "url": "https://mostlymusic.com/blogs/z-report/15612685-new-musical-clip-r-aaron-sitbon-adon-olam",
+  "title": "New musical clip: R' Aaron Sitbon – Adon Olam",
+  "summary": {
+   "he": "הקליף של ״אדון עולם״.",
+   "fr": "Le clip d'« Adon Olam ».",
+   "en": "The “Adon Olam” video.",
+   "es": "El videoclip de «Adon Olam»."
   }
  }
 ]

@@ -5,10 +5,17 @@
 Langues : hébreu (/he), français (/fr), anglais (/en), espagnol (/es).
 
 ## Pages
-- [Accueil (hébreu)](https://aharon-sitbon.vercel.app/he) : histoire, discographie, clips, concerts, presse, réservation
+- [Accueil (hébreu)](https://aharon-sitbon.vercel.app/he)
 - [Accueil (français)](https://aharon-sitbon.vercel.app/fr)
 - [Home (English)](https://aharon-sitbon.vercel.app/en)
 - [Inicio (español)](https://aharon-sitbon.vercel.app/es)
+- [Son histoire](https://aharon-sitbon.vercel.app/fr/story) : de Gilbert Sitbon (Olympia 1977) à Aharon Sitbon
+- [Albums et singles](https://aharon-sitbon.vercel.app/fr/music) · [Shehecheyanu](https://aharon-sitbon.vercel.app/fr/music/shehecheyanu) · [Higia Zman Geulatchem](https://aharon-sitbon.vercel.app/fr/music/higia-zman-geulatchem)
+- [Clips](https://aharon-sitbon.vercel.app/fr/videos)
+- [Prestations](https://aharon-sitbon.vercel.app/fr/services) : mariages, bar-mitsva, farbrenguen, communautés, entreprises, Zoom
+- [Événements](https://aharon-sitbon.vercel.app/fr/events)
+- [Presse](https://aharon-sitbon.vercel.app/fr/press)
+- [Contact et réservation](https://aharon-sitbon.vercel.app/fr/contact)
 
 ## Discographie
 - שהחיינו – Shehecheyanu (album, 2016), production Eli Klein & Yitzy Berry, צבעים הפקות

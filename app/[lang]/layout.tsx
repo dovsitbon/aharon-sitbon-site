@@ -13,33 +13,34 @@ import { SmoothScroll } from "@/components/SmoothScroll";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 
 // Polices servies en local (app/fonts) : aucun appel à Google Fonts, ni au build ni à l'affichage.
-const cormorant = localFont({
+const playfair = localFont({
   src: [
-    { path: "../fonts/cormorant-garamond-latin-300-normal.woff2", weight: "300" },
-    { path: "../fonts/cormorant-garamond-latin-300-italic.woff2", weight: "300", style: "italic" },
-    { path: "../fonts/cormorant-garamond-latin-400-normal.woff2", weight: "400" },
-    { path: "../fonts/cormorant-garamond-latin-400-italic.woff2", weight: "400", style: "italic" },
+    { path: "../fonts/playfair-display-latin-400-normal.woff2", weight: "400" },
+    { path: "../fonts/playfair-display-latin-400-italic.woff2", weight: "400", style: "italic" },
+    { path: "../fonts/playfair-display-latin-500-normal.woff2", weight: "500" },
+    { path: "../fonts/playfair-display-latin-500-italic.woff2", weight: "500", style: "italic" },
   ],
-  variable: "--font-cormorant",
+  variable: "--font-playfair",
   display: "swap",
   adjustFontFallback: false,
 });
-const jost = localFont({
+const inter = localFont({
   src: [
-    { path: "../fonts/jost-latin-300-normal.woff2", weight: "300" },
-    { path: "../fonts/jost-latin-400-normal.woff2", weight: "400" },
+    { path: "../fonts/inter-latin-300-normal.woff2", weight: "300" },
+    { path: "../fonts/inter-latin-400-normal.woff2", weight: "400" },
+    { path: "../fonts/inter-latin-500-normal.woff2", weight: "500" },
   ],
-  variable: "--font-jost",
+  variable: "--font-inter",
   display: "swap",
   adjustFontFallback: false,
 });
-const heebo = localFont({
+const assistant = localFont({
   src: [
-    { path: "../fonts/heebo-hebrew-300-normal.woff2", weight: "300" },
-    { path: "../fonts/heebo-hebrew-400-normal.woff2", weight: "400" },
-    { path: "../fonts/heebo-hebrew-500-normal.woff2", weight: "500" },
+    { path: "../fonts/assistant-hebrew-300-normal.woff2", weight: "300" },
+    { path: "../fonts/assistant-hebrew-400-normal.woff2", weight: "400" },
+    { path: "../fonts/assistant-hebrew-600-normal.woff2", weight: "600" },
   ],
-  variable: "--font-heebo",
+  variable: "--font-assistant",
   display: "swap",
   adjustFontFallback: false,
 });
@@ -82,7 +83,7 @@ export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Prom
   };
 }
 
-export const viewport: Viewport = { themeColor: "#0f1424", width: "device-width", initialScale: 1, colorScheme: "dark" };
+export const viewport: Viewport = { themeColor: "#fbf8f2", width: "device-width", initialScale: 1, colorScheme: "light" };
 
 export async function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
@@ -98,7 +99,7 @@ export default async function LangLayout({ children, params }: LayoutProps<"/[la
   const d = getDict(lang);
 
   return (
-    <html lang={lang} dir={dirOf(lang)} className={`${cormorant.variable} ${jost.variable} ${heebo.variable} ${frank.variable}`} suppressHydrationWarning>
+    <html lang={lang} dir={dirOf(lang)} className={`${playfair.variable} ${inter.variable} ${assistant.variable} ${frank.variable}`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: introScript }} />
       </head>

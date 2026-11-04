@@ -9,18 +9,23 @@
     "skip": "Ir al contenido",
     "menu": "Menú",
     "close": "Cerrar el menú",
-    "home": "Aharon Sitbon, inicio",
-    "story": "Historia",
-    "music": "Música",
+    "home": "Inicio",
+    "story": "Su historia",
+    "music": "Álbumes",
     "clips": "Videos",
     "concerts": "Conciertos",
     "press": "Prensa",
     "contact": "Contacto",
     "book": "Reservar un concierto",
     "bookShort": "Reservar",
-    "language": "Idioma"
+    "language": "Idioma",
+    "services": "Actuaciones",
+    "events": "Eventos"
   },
-  "intro": { "skip": "Saltar", "tagline": "LA VOZ DEL ALMA" },
+  "intro": {
+    "skip": "Saltar",
+    "tagline": "LA VOZ DEL ALMA"
+  },
   "hero": {
     "eyebrow": "CANTANTE · COMPOSITOR · JERUSALÉN",
     "title": "La voz que volvió tras 30 años de silencio",
@@ -36,9 +41,27 @@
   "cards": {
     "eyebrow": "En tres tiempos",
     "items": [
-      { "n": "001", "title": "La historia", "text": "Gilbert, Gilles d'Avray, Gilbert Sainroch y luego Aharon: una vida que nadie se habría atrevido a escribir.", "link": "Leer su historia", "href": "story" },
-      { "n": "002", "title": "La música", "text": "Dos álbumes y más de veinte sencillos desde 2014, todos aquí, canción por canción.", "link": "Escuchar", "href": "music" },
-      { "n": "003", "title": "En el escenario", "text": "Conciertos, bodas, farbrenguen, veladas comunitarias y conciertos por Zoom, en Israel y en Francia.", "link": "Reservar", "href": "contact" }
+      {
+        "n": "001",
+        "title": "La historia",
+        "text": "Gilbert, Gilles d'Avray, Gilbert Sainroch y luego Aharon: una vida que nadie se habría atrevido a escribir.",
+        "link": "Leer su historia",
+        "href": "story"
+      },
+      {
+        "n": "002",
+        "title": "La música",
+        "text": "Dos álbumes y más de veinte sencillos desde 2014, todos aquí, canción por canción.",
+        "link": "Escuchar",
+        "href": "music"
+      },
+      {
+        "n": "003",
+        "title": "En el escenario",
+        "text": "Conciertos, bodas, farbrenguen, veladas comunitarias y conciertos por Zoom, en Israel y en Francia.",
+        "link": "Reservar",
+        "href": "contact"
+      }
     ]
   },
   "span": {
@@ -54,16 +77,56 @@
     "title": "De Gilbert a Aharon",
     "intro": "Las grandes etapas de una vida en dos actos, tal como las ha contado la prensa. El resto lo cuenta mejor él mismo, en el escenario.",
     "steps": [
-      { "year": "Los orígenes", "title": "Una casa llena de música", "text": "Crece en una familia tradicional de nueve hijos. Su hermana mayor canta acompañándose del laúd; uno de sus hermanos llegará a ser batería de los grandes nombres de la canción francesa." },
-      { "year": "Marsella · París", "title": "La guitarra", "text": "La familia se instala en Francia, primero en Marsella y luego en París. Hacia los diecisiete años, la guitarra ya no lo suelta." },
-      { "year": "Años 70", "title": "El escenario", "text": "Un concurso ganado, un primer disco, giras. Se le conoce como Gilles d'Avray, Gilbert Sainroch o Gilbert Sitbon. Su representante, Roland Bismuth, también lleva a Yves Duteil y a Michel Fugain." },
-      { "year": "1977", "title": "El Olympia", "text": "Aparece en la televisión en el programa de Philippe Bouvard y canta seis canciones en el Olympia, como telonero de Herbert Pagani." },
-      { "year": "Hacia los 30", "title": "Los tefilín", "text": "En París, unos jasidim de Jabad le proponen ponerse los tefilín. El gesto lo conmueve profundamente. Poco a poco deja el escenario, justo cuando le ofrecen un largo contrato de gira." },
-      { "year": "30 años", "title": "El silencio", "text": "Estudia Torá y se gana la vida de otra manera. Sus hijos, y después sus nietos, ni siquiera saben que fue cantante." },
-      { "year": "Israel", "title": "La vieja guitarra", "text": "Ya instalado en Israel, en Jerusalén, saca su vieja guitarra. Una melodía de su amigo Michel Fugain no lo deja dormir, y le pone las palabras de Adon Olam." },
-      { "year": "2014", "title": "Adon Olam", "text": "El productor Yuval Stoppel la escucha y la publica como sencillo. Duda en volver a su edad; en las cartas del Rebe de Lubavitch lee que un artista que vuelve a la fe debe poner su talento al servicio de la santidad. Ahí está su respuesta." },
-      { "year": "2016 · 2021", "title": "Dos álbumes", "text": "«Shehecheyanu», cuyos beneficios fueron para la asociación Eshel Tsion, y luego «Higia Zman Geulatchem», preparado durante tres años con Eli Klein e Yitzy Berry." },
-      { "year": "2022 · 2026", "title": "Más canciones", "text": "«Or Be'einai», una melodía que ya cantaba en 1977, «Odeh Hashem Elokai» durante la guerra, «Tefila LeShalom» y después «Niggun Yehudi» para Purim. Su misión: alegrar al pueblo judío." }
+      {
+        "year": "Los orígenes",
+        "title": "Una casa llena de música",
+        "text": "Crece en una familia tradicional de nueve hijos. Su hermana mayor canta acompañándose del laúd; uno de sus hermanos llegará a ser batería de los grandes nombres de la canción francesa."
+      },
+      {
+        "year": "Marsella · París",
+        "title": "La guitarra",
+        "text": "La familia se instala en Francia, primero en Marsella y luego en París. Hacia los diecisiete años, la guitarra ya no lo suelta."
+      },
+      {
+        "year": "Años 70",
+        "title": "El escenario",
+        "text": "Un concurso ganado, un primer disco, giras. Se le conoce como Gilles d'Avray, Gilbert Sainroch o Gilbert Sitbon. Su representante, Roland Bismuth, también lleva a Yves Duteil y a Michel Fugain."
+      },
+      {
+        "year": "1977",
+        "title": "El Olympia",
+        "text": "Aparece en la televisión en el programa de Philippe Bouvard y canta seis canciones en el Olympia, como telonero de Herbert Pagani."
+      },
+      {
+        "year": "Hacia los 30",
+        "title": "Los tefilín",
+        "text": "En París, unos jasidim de Jabad le proponen ponerse los tefilín. El gesto lo conmueve profundamente. Poco a poco deja el escenario, justo cuando le ofrecen un largo contrato de gira."
+      },
+      {
+        "year": "30 años",
+        "title": "El silencio",
+        "text": "Estudia Torá y se gana la vida de otra manera. Sus hijos, y después sus nietos, ni siquiera saben que fue cantante."
+      },
+      {
+        "year": "Israel",
+        "title": "La vieja guitarra",
+        "text": "Ya instalado en Israel, en Jerusalén, saca su vieja guitarra. Una melodía de su amigo Michel Fugain no lo deja dormir, y le pone las palabras de Adon Olam."
+      },
+      {
+        "year": "2014",
+        "title": "Adon Olam",
+        "text": "El productor Yuval Stoppel la escucha y la publica como sencillo. Duda en volver a su edad; en las cartas del Rebe de Lubavitch lee que un artista que vuelve a la fe debe poner su talento al servicio de la santidad. Ahí está su respuesta."
+      },
+      {
+        "year": "2016 · 2021",
+        "title": "Dos álbumes",
+        "text": "«Shehecheyanu», cuyos beneficios fueron para la asociación Eshel Tsion, y luego «Higia Zman Geulatchem», preparado durante tres años con Eli Klein e Yitzy Berry."
+      },
+      {
+        "year": "2022 · 2026",
+        "title": "Más canciones",
+        "text": "«Or Be'einai», una melodía que ya cantaba en 1977, «Odeh Hashem Elokai» durante la guerra, «Tefila LeShalom» y después «Niggun Yehudi» para Purim. Su misión: alegrar al pueblo judío."
+      }
     ]
   },
   "music": {
@@ -115,7 +178,13 @@
     "eyebrow": "Videoclips",
     "title": "Para ver",
     "intro": "Los videos de su canal de YouTube, del más reciente al más antiguo. Cada uno se carga solo al hacer clic.",
-    "filters": { "all": "Todo", "official": "Videoclips oficiales", "live": "En directo", "interview": "Entrevistas", "archive": "Archivo" },
+    "filters": {
+      "all": "Todo",
+      "official": "Videoclips oficiales",
+      "live": "En directo",
+      "interview": "Entrevistas",
+      "archive": "Archivo"
+    },
     "play": "Ver el video",
     "views": "{n} visualizaciones",
     "channel": "Todo el canal de YouTube",
@@ -135,7 +204,11 @@
     "title": "Antes de Aharon, estaba Gilbert",
     "text": "En los años 70 graba discos, hace giras por Francia y suena en la radio. Él mismo ya no los escuchaba. Aquí están, reunidos.",
     "names": "Sus nombres artísticos",
-    "namesList": ["Gilles d'Avray", "Gilbert Sainroch", "Gilbert Sitbon"],
+    "namesList": [
+      "Gilles d'Avray",
+      "Gilbert Sainroch",
+      "Gilbert Sitbon"
+    ],
     "records": "Los sencillos en vinilo",
     "coverSoon": "Portada próximamente",
     "sideA": "Cara A",
@@ -152,7 +225,14 @@
     "text": "En el escenario y en el estudio, la música se transmite. Canta a menudo con su hijo, el cantante jasídico David Sitbon, y a veces con sus nietos.",
     "david": "«Achake Lo», con su hijo David Sitbon",
     "grandson": "«Modeh Ani», a dúo con su nieto",
-    "children": "«Ani Maamin», rodeado de niños"
+    "children": "«Ani Maamin», rodeado de niños",
+    "son": {
+      "eyebrow": "David Sitbon",
+      "title": "El hijo, <em>en el escenario</em>",
+      "text": "Su hijo David Sitbon es cantante jasídico por derecho propio: en 2025 celebra quince años de escenario en Israel y en el extranjero. Durante la guerra cantó en decenas de bases del ejército, y compartió escenario con Mordejai Ben David en Francia (2011).",
+      "single": "Su último sencillo: «Lehitbonein Nachon» (noviembre de 2025)",
+      "watch": "Ver el videoclip"
+    }
   },
   "press": {
     "eyebrow": "Hablan de él",
@@ -169,15 +249,33 @@
     "title": "Invitar a Aharon Sitbon",
     "intro": "Concierto, boda, bar mitzvá, farbrenguen o velada comunitaria, en Israel, en Francia o por Zoom. Rellena unas líneas y tu solicitud se abre en WhatsApp, ya redactada.",
     "type": "Tipo de evento",
-    "types": { "concert": "Concierto", "wedding": "Boda", "barmitzvah": "Bar mitzvá", "chabad": "Evento de Jabad / farbrenguen", "community": "Velada comunitaria", "corporate": "Evento de empresa", "zoom": "Concierto por Zoom", "other": "Otro" },
+    "types": {
+      "concert": "Concierto",
+      "wedding": "Boda",
+      "barmitzvah": "Bar mitzvá",
+      "chabad": "Evento de Jabad / farbrenguen",
+      "community": "Velada comunitaria",
+      "corporate": "Evento de empresa",
+      "zoom": "Concierto por Zoom",
+      "other": "Otro"
+    },
     "date": "Fecha",
     "dateTaken": "Esa fecha ya está reservada. Escríbenos de todos modos y buscaremos una solución.",
     "city": "Ciudad / sala",
     "country": "País",
-    "countries": { "IL": "Israel", "FR": "Francia", "other": "Otro" },
+    "countries": {
+      "IL": "Israel",
+      "FR": "Francia",
+      "other": "Otro"
+    },
     "guests": "Número de personas",
     "formula": "Formato",
-    "formulas": { "band": "Con músicos", "guitar": "Guitarra y voz", "david": "Con su hijo David", "zoom": "Por Zoom" },
+    "formulas": {
+      "band": "Con músicos",
+      "guitar": "Guitarra y voz",
+      "david": "Con su hijo David",
+      "zoom": "Por Zoom"
+    },
     "budget": "Presupuesto aproximado",
     "optional": "opcional",
     "name": "Nombre",
@@ -188,7 +286,12 @@
     "submit": "Enviar por WhatsApp",
     "note": "Sin pago en línea. El mensaje se abre en WhatsApp y puedes leerlo antes de enviarlo.",
     "call": "O por teléfono",
-    "errors": { "type": "Elige un tipo de evento.", "name": "Escribe tu nombre.", "phone": "Escribe un número de teléfono válido.", "email": "Este correo no parece válido." },
+    "errors": {
+      "type": "Elige un tipo de evento.",
+      "name": "Escribe tu nombre.",
+      "phone": "Escribe un número de teléfono válido.",
+      "email": "Este correo no parece válido."
+    },
     "wa": {
       "title": "Solicitud de concierto – Aharon Sitbon",
       "type": "Evento",
@@ -253,5 +356,204 @@
     "modeh-ani-petit-fils": "Aharon Sitbon toca la guitarra sentado en una roca junto a su nieto",
     "achake-lo-david": "Aharon Sitbon y su hijo David Sitbon en el estudio con auriculares",
     "ani-maamin-enfants": "Aharon Sitbon toca la guitarra ante un grupo de niños"
+  },
+  "pages": {
+    "story": {
+      "title": "Su historia – de Gilbert Sitbon a Aharon Sitbon",
+      "eyebrow": "Su historia",
+      "h1": "Del Olympia a las <em>murallas</em> de Jerusalén",
+      "intro": "Cantante de variedades en la Francia de los años 70, luego treinta años de silencio y estudio, y el regreso a la música a casi 70 años."
+    },
+    "music": {
+      "title": "Álbumes y sencillos – Shehecheyanu, Higia Zman Geulatchem, Adon Olam",
+      "eyebrow": "Discografía",
+      "h1": "Toda su <em>música</em>",
+      "intro": "Dos álbumes, más de veinte sencillos y los discos de sus años franceses. Haz clic en una canción para escucharla."
+    },
+    "videos": {
+      "title": "Videoclips y conciertos grabados",
+      "eyebrow": "Videos",
+      "h1": "Sus <em>videos</em> y conciertos",
+      "intro": "Videoclips oficiales, conciertos grabados, entrevistas y archivo, tal como se publican en su canal de YouTube."
+    },
+    "services": {
+      "title": "Actuaciones – conciertos, bodas, bar mitzvá, farbrenguen, Zoom",
+      "eyebrow": "Actuaciones",
+      "h1": "Una voz para tus <em>grandes momentos</em>",
+      "intro": "Aharon Sitbon canta en bodas, bar mitzvás, veladas comunitarias, eventos de Jabad y conciertos, en Israel, en Francia y por Zoom."
+    },
+    "events": {
+      "title": "Conciertos y eventos",
+      "eyebrow": "Eventos",
+      "h1": "En el <em>escenario</em>",
+      "intro": "Las próximas fechas y los escenarios donde ya ha cantado: del Olympia en 1977 al Heijal Menorá."
+    },
+    "press": {
+      "title": "Prensa – hablan de Aharon Sitbon",
+      "eyebrow": "Prensa",
+      "h1": "Hablan de <em>él</em>",
+      "intro": "Retratos, entrevistas y anuncios de estrenos, en francés, hebreo e inglés."
+    },
+    "contact": {
+      "title": "Contacto y reserva de conciertos",
+      "eyebrow": "Contacto",
+      "h1": "Invitar a <em>Aharon Sitbon</em>",
+      "intro": "Una fecha, un lugar, unas palabras sobre tu evento: la solicitud se abre en WhatsApp, ya redactada."
+    }
+  },
+  "home": {
+    "facts": [
+      {
+        "n": "1977",
+        "t": "El Olympia, en París"
+      },
+      {
+        "n": "30",
+        "t": "años de silencio y estudio"
+      },
+      {
+        "n": "2",
+        "t": "álbumes y más de veinte sencillos"
+      },
+      {
+        "n": "510 000",
+        "t": "visualizaciones de «Odeh Hashem Elokai»"
+      }
+    ],
+    "latestEyebrow": "Último estreno · 2026",
+    "latestText": "Un canto sobre el milagro de Purim, estrenado en marzo de 2026, con un videoclip de Zeevi Heller.",
+    "latestListen": "Escuchar el sencillo",
+    "storyTitle": "Una vida en <em>dos actos</em>",
+    "storyText": "Gilbert Sitbon cantaba al amor en francés. Un día, en París, unos jasidim de Jabad le propusieron ponerse los tefilín. Dejó el escenario en lo más alto, estudió treinta años, y luego una melodía no lo dejó dormir: Adon Olam.",
+    "storyLink": "Leer su historia",
+    "musicTitle": "Los <em>álbumes</em>",
+    "musicLink": "Toda la discografía",
+    "servicesTitle": "Viene a cantar <em>para ti</em>",
+    "servicesText": "Bodas, bar mitzvás, farbrenguen, veladas comunitarias, eventos de empresa: con músicos, guitarra y voz, con su hijo David o por Zoom.",
+    "servicesLink": "Ver las actuaciones",
+    "videosTitle": "Para <em>ver</em>",
+    "videosLink": "Todos los videos",
+    "eventsTitle": "Próximas <em>fechas</em>",
+    "eventsLink": "Todos los eventos",
+    "pressTitle": "Hablan de <em>él</em>",
+    "pressLink": "Toda la prensa",
+    "ctaTitle": "¿Y si fuera para <em>tu</em> evento?",
+    "ctaText": "Escríbenos la fecha y el lugar, te respondemos por WhatsApp.",
+    "ctaButton": "Reservar un concierto"
+  },
+  "services": {
+    "formulasEyebrow": "Formatos",
+    "formulasTitle": "Cuatro maneras de <em>recibirlo</em>",
+    "formulas": [
+      {
+        "id": "band",
+        "title": "Con músicos",
+        "text": "El concierto completo con su banda: para grandes salas, bodas y veladas en las que se baila.",
+        "ideal": "Bodas, conciertos, grandes eventos"
+      },
+      {
+        "id": "guitar",
+        "title": "Guitarra y voz",
+        "text": "Él y su guitarra, como el primer día. Un momento íntimo en el que también cuenta su historia entre canciones.",
+        "ideal": "Farbrenguen, veladas comunitarias, Shabat"
+      },
+      {
+        "id": "david",
+        "title": "Con su hijo David",
+        "text": "Padre e hijo a dúo en el escenario: «Achake Lo» y los cantos que comparten desde hace años.",
+        "ideal": "Bar mitzvás, fiestas familiares, galas"
+      },
+      {
+        "id": "zoom",
+        "title": "Concierto por Zoom",
+        "text": "Un concierto en directo a distancia, para una comunidad, una escuela o una familia repartida entre países.",
+        "ideal": "Comunidades en el extranjero, escuelas, residencias"
+      }
+    ],
+    "occasionsEyebrow": "Ocasiones",
+    "occasionsTitle": "¿Para qué <em>eventos</em>?",
+    "occasions": [
+      {
+        "title": "Bodas",
+        "text": "La jupá, la entrada de los novios y luego la alegría de la noche."
+      },
+      {
+        "title": "Bar mitzvás",
+        "text": "Un concierto para el gran día, con cantos que todos corean."
+      },
+      {
+        "title": "Eventos de Jabad",
+        "text": "Farbrenguen, congresos, fiestas: su repertorio nació en el mundo de Jabad."
+      },
+      {
+        "title": "Veladas comunitarias",
+        "text": "Sinagogas, centros comunitarios, fiestas de Janucá o de Purim."
+      },
+      {
+        "title": "Eventos de empresa",
+        "text": "Una velada con sentido, con un artista cuya historia emociona a todos."
+      },
+      {
+        "title": "Conciertos",
+        "text": "Salas de espectáculos y festivales, en Israel y en Francia."
+      }
+    ],
+    "stepsEyebrow": "Cómo funciona",
+    "stepsTitle": "En cuatro <em>pasos</em>",
+    "steps": [
+      {
+        "title": "Tu solicitud",
+        "text": "Rellenas el formulario: fecha, lugar, tipo de evento. El mensaje se abre en WhatsApp."
+      },
+      {
+        "title": "Hablamos",
+        "text": "Te llamamos para entender el ambiente, el público y lo que te importa."
+      },
+      {
+        "title": "La propuesta",
+        "text": "Recibes una propuesta a medida: formato, duración, músicos, condiciones."
+      },
+      {
+        "title": "El gran día",
+        "text": "Llega, canta, y el resto de la noche es tuya."
+      }
+    ],
+    "faqEyebrow": "Preguntas frecuentes",
+    "faqTitle": "Bueno <em>saberlo</em>",
+    "faq": [
+      {
+        "q": "¿Cuánto cuesta una actuación?",
+        "a": "Depende del formato, la fecha, el lugar y el número de músicos. Envía tu solicitud y recibirás una propuesta a medida."
+      },
+      {
+        "q": "¿Viaja a Francia?",
+        "a": "Sí. Vive en Israel y también actúa en Francia; solo hay que pedirlo con tiempo para organizar el viaje."
+      },
+      {
+        "q": "¿En qué idiomas canta?",
+        "a": "Sus canciones son en hebreo. Entre canción y canción puede hablar en hebreo o en francés."
+      },
+      {
+        "q": "¿Puede contar su historia durante el concierto?",
+        "a": "Sí, y suele ser el momento más fuerte de la noche: del Olympia a los tefilín y el regreso a la música."
+      },
+      {
+        "q": "¿Cómo funciona un concierto por Zoom?",
+        "a": "Canta en directo desde Israel; recibes el enlace y lo compartes con tu público, en una sala o en casa."
+      }
+    ],
+    "cta": "Pedir una propuesta"
+  },
+  "events": {
+    "calendar": "Las fechas las actualiza el equipo de Aharon Sitbon.",
+    "gallery": "En el escenario, en imágenes",
+    "watch": "Ver el video"
+  },
+  "contact": {
+    "direct": "Directamente",
+    "whatsapp": "Escribir por WhatsApp",
+    "call": "Llamar",
+    "follow": "Seguirlo",
+    "note": "Lo más sencillo para reservar: WhatsApp."
   }
 }

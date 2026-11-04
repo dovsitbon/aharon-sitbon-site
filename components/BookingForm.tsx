@@ -34,17 +34,17 @@ export function BookingForm() {
 
   const err = (k: keyof Errors) =>
     errors[k] ? (
-      <p id={`e-${k}`} className="mt-2 text-[0.8125rem] text-[#9a3b2a]" role="alert">
+      <p id={`e-${k}`} className="mt-2 text-[0.8125rem] text-[#a8341c]" role="alert">
         {errors[k]}
       </p>
     ) : null;
   const aria = (k: keyof Errors) => ({ "aria-invalid": errors[k] ? true : undefined, "aria-describedby": errors[k] ? `e-${k}` : undefined });
 
   return (
-    <form onSubmit={submit} noValidate className="space-y-10">
+    <form onSubmit={submit} noValidate className="card space-y-9 p-6 md:p-10">
       <fieldset>
         <legend className="label">{b.type}</legend>
-        <div className="mt-4 flex flex-wrap gap-2" id="f-type" tabIndex={-1} {...aria("type")}>
+        <div className="mt-1 flex flex-wrap gap-2" id="f-type" tabIndex={-1} {...aria("type")}>
           {EVENT_TYPES.map((t) => (
             <label key={t} className="chip">
               <input type="radio" name="type" value={t} checked={q.type === t} onChange={() => set("type", t)} className="sr-only" />
@@ -61,7 +61,7 @@ export function BookingForm() {
             {b.date}
           </label>
           <input id="f-date" type="date" className="field" min={isoDay(new Date())} value={q.date} onChange={(e) => set("date", e.target.value)} />
-          {taken && <p className="mt-2 text-[0.8125rem] text-gold-ink">{b.dateTaken}</p>}
+          {taken && <p className="mt-2 text-[0.8125rem] text-terra-deep">{b.dateTaken}</p>}
         </div>
         <div>
           <label htmlFor="f-guests" className="label">
@@ -77,7 +77,7 @@ export function BookingForm() {
         </div>
         <fieldset>
           <legend className="label">{b.country}</legend>
-          <div className="mt-3 flex flex-wrap gap-2">
+          <div className="mt-1 flex flex-wrap gap-2">
             {COUNTRIES.map((c) => (
               <label key={c} className="chip">
                 <input type="radio" name="country" value={c} checked={q.country === c} onChange={() => set("country", c)} className="sr-only" />
@@ -90,7 +90,7 @@ export function BookingForm() {
 
       <fieldset>
         <legend className="label">{b.formula}</legend>
-        <div className="mt-4 flex flex-wrap gap-2">
+        <div className="mt-1 flex flex-wrap gap-2">
           {FORMULAS.map((f) => (
             <label key={f} className="chip">
               <input type="radio" name="formula" value={f} checked={q.formula === f} onChange={() => set("formula", f)} className="sr-only" />
@@ -102,7 +102,7 @@ export function BookingForm() {
 
       <div>
         <label htmlFor="f-budget" className="label">
-          {b.budget} <span className="normal-case tracking-normal opacity-70">({b.optional})</span>
+          {b.budget} <span className="font-normal text-muted">({b.optional})</span>
         </label>
         <input id="f-budget" type="text" className="field" value={q.budget} onChange={(e) => set("budget", e.target.value)} />
       </div>
@@ -124,7 +124,7 @@ export function BookingForm() {
         </div>
         <div>
           <label htmlFor="f-email" className="label">
-            {b.email} <span className="normal-case tracking-normal opacity-70">({b.optional})</span>
+            {b.email} <span className="font-normal text-muted">({b.optional})</span>
           </label>
           <input id="f-email" type="email" dir="ltr" className="field rtl:text-end" autoComplete="email" value={q.email} onChange={(e) => set("email", e.target.value)} {...aria("email")} />
           {err("email")}
@@ -139,7 +139,7 @@ export function BookingForm() {
       </div>
 
       <div className="flex flex-col gap-6 border-t border-line pt-8 sm:flex-row sm:items-center sm:justify-between">
-        <button type="submit" className="btn-solid">
+        <button type="submit" className="btn">
           <WhatsAppIcon className="h-4 w-4" />
           {b.submit}
         </button>

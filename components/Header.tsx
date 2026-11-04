@@ -8,14 +8,16 @@ import { Mark, Wordmark } from "@/components/Logo";
 import { LangSwitch } from "@/components/LangSwitch";
 import { CloseIcon, FacebookIcon, MenuIcon, YouTubeIcon } from "@/components/icons";
 import { useLocale } from "@/components/providers";
+import { href } from "@/lib/routes";
 
 export function Header() {
   const { lang, d } = useLocale();
+  const pathname = usePathname() || `/${lang}`;
   const [scrolled, setScrolled] = useState(false);
   const [menu, setMenu] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 60);
+    const onScroll = () => setScrolled(window.scrollY > 40);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
@@ -32,16 +34,18 @@ export function Header() {
     return () => window.removeEventListener("keydown", onKey);
   }, [menu]);
 
-  const home = `/${lang}`;
-  const onHero = usePathname() === home && !scrolled && !menu;
+  // Sur l'accueil, en haut de page, le header flotte sur la grande photo (texte clair)
+  const onPhoto = pathname === `/${lang}` && !scrolled && !menu;
   const links = [
-    { href: `${home}#story`, label: d.nav.story },
-    { href: `${home}#music`, label: d.nav.music },
-    { href: `${home}#clips`, label: d.nav.clips },
-    { href: `${home}#concerts`, label: d.nav.concerts },
-    { href: `${home}#press`, label: d.nav.press },
-    { href: `${home}#contact`, label: d.nav.contact },
+    { href: href(lang, "story"), label: d.nav.story },
+    { href: href(lang, "music"), label: d.nav.music },
+    { href: href(lang, "videos"), label: d.nav.clips },
+    { href: href(lang, "services"), label: d.nav.services },
+    { href: href(lang, "events"), label: d.nav.events },
+    { href: href(lang, "press"), label: d.nav.press },
+    { href: href(lang, "contact"), label: d.nav.contact },
   ];
+  const isActive = (h: string) => pathname === h || pathname.startsWith(`${h}/`);
   const social = (
     <>
       <a href={site.youtube} target="_blank" rel="noopener noreferrer" className="-m-2 flex h-11 w-11 items-center justify-center transition-opacity hover:opacity-60" aria-label="YouTube">
@@ -56,72 +60,70 @@ export function Header() {
   return (
     <>
       <header
-        className={`fixed inset-x-0 top-0 z-50 text-parchment transition-[background-color,border-color] duration-700 ${
-          onHero ? "border-b border-parchment/15 bg-transparent" : "border-b border-line-dark bg-night/95 backdrop-blur-sm"
+        className={`fixed inset-x-0 top-0 z-50 transition-[background-color,color,box-shadow] duration-500 ${
+          onPhoto ? "bg-transparent text-paper" : "bg-paper/95 text-blue shadow-[0_1px_0_var(--color-line)] backdrop-blur-md"
         }`}
       >
-        <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:start-4 focus:top-4 focus:z-10 focus:bg-parchment focus:px-4 focus:py-2 focus:text-ink">
+        <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:start-4 focus:top-4 focus:z-10 focus:rounded-full focus:bg-paper focus:px-4 focus:py-2 focus:text-ink">
           {d.nav.skip}
         </a>
-        <div className="grid h-16 grid-cols-[1fr_auto_1fr] items-center gap-3 px-4 md:h-[5.25rem] md:px-10">
-          <div className="flex items-center">
-            <button type="button" className="-m-2 flex h-11 w-11 items-center justify-center min-[1280px]:hidden" onClick={() => setMenu(true)} aria-label={d.nav.menu} aria-expanded={menu}>
-              <MenuIcon />
-            </button>
-            <nav className="hidden items-center gap-7 min-[1280px]:flex" aria-label={d.nav.menu}>
-              {links.map((l) => (
-                <Link key={l.href} href={l.href} className="nav-link whitespace-nowrap transition-colors duration-500 hover:text-gold">
-                  {l.label}
-                </Link>
-              ))}
-            </nav>
-          </div>
-
-          <Link href={home} className="flex items-center" aria-label={d.nav.home}>
+        <div className="mx-auto flex h-16 max-w-[1500px] items-center justify-between gap-4 px-4 md:h-20 md:px-8">
+          <Link href={`/${lang}`} className="flex shrink-0 items-center gap-3" aria-label={d.nav.home}>
+            <Mark className={`hidden h-6 w-16 sm:block ${onPhoto ? "text-sand" : "text-terra"}`} />
             <Wordmark />
           </Link>
 
-          <div className="flex items-center justify-end gap-4 md:gap-6">
+          <nav className="hidden items-center gap-1 min-[1180px]:flex" aria-label={d.nav.menu}>
+            {links.map((l) => (
+              <Link
+                key={l.href}
+                href={l.href}
+                aria-current={isActive(l.href) ? "page" : undefined}
+                className={`relative rounded-full px-3 py-2 text-[0.9375rem] font-medium whitespace-nowrap transition-colors rtl:text-[1rem] ${
+                  isActive(l.href) ? (onPhoto ? "bg-paper/15" : "bg-sand-soft text-terra") : onPhoto ? "hover:bg-paper/10" : "hover:text-terra"
+                }`}
+              >
+                {l.label}
+              </Link>
+            ))}
+          </nav>
+
+          <div className="flex items-center gap-3 md:gap-5">
             <LangSwitch lang={lang} label={d.nav.language} className="hidden lg:flex" />
-            <div className="hidden items-center gap-4 lg:flex">{social}</div>
-            <Link
-              href={`${home}#contact`}
-              className={`nav-link flex min-h-10 items-center border px-4 whitespace-nowrap transition-colors duration-500 md:px-5 ${
-                onHero ? "border-parchment/70 hover:border-parchment hover:bg-parchment hover:text-night" : "border-gold bg-gold text-night hover:border-parchment hover:bg-parchment"
-              }`}
-            >
-              <span className="hidden sm:inline">{d.nav.book}</span>
-              <span className="sm:hidden">{d.nav.bookShort}</span>
+            <div className="hidden items-center gap-3 min-[1600px]:flex">{social}</div>
+            <Link href={href(lang, "contact")} className="btn hidden !min-h-11 !px-5 whitespace-nowrap sm:inline-flex">
+              {d.nav.book}
             </Link>
+            <button type="button" className="-m-2 flex h-11 w-11 items-center justify-center min-[1180px]:hidden" onClick={() => setMenu(true)} aria-label={d.nav.menu} aria-expanded={menu}>
+              <MenuIcon />
+            </button>
           </div>
         </div>
       </header>
 
       {menu && (
-        <div className="fade-in fixed inset-0 z-[60] flex flex-col overscroll-contain bg-night text-parchment" role="dialog" aria-modal="true" aria-label={d.nav.menu}>
-          <div className="grid h-16 grid-cols-[1fr_auto_1fr] items-center px-4 md:h-[5.25rem] md:px-10">
-            <button type="button" className="-m-2 flex h-11 w-11 items-center justify-center justify-self-start" onClick={() => setMenu(false)} aria-label={d.nav.close}>
+        <div className="fade-in fixed inset-0 z-[60] flex flex-col overscroll-contain bg-paper text-blue" role="dialog" aria-modal="true" aria-label={d.nav.menu}>
+          <div className="flex h-16 items-center justify-between px-4 md:h-20 md:px-8">
+            <Wordmark />
+            <button type="button" className="-m-2 flex h-11 w-11 items-center justify-center" onClick={() => setMenu(false)} aria-label={d.nav.close}>
               <CloseIcon />
             </button>
-            <Wordmark />
-            <span />
           </div>
-          <nav className="flex flex-1 flex-col items-center justify-center gap-5" aria-label={d.nav.menu}>
-            {links.map((l, i) => (
-              <div key={l.href} className="fade-up" style={{ animationDelay: `${0.06 * i + 0.1}s` }}>
-                <Link href={l.href} onClick={() => setMenu(false)} className="display text-[2.2rem] transition-colors hover:text-gold rtl:text-[2rem]">
+          <nav className="flex flex-1 flex-col justify-center gap-1 px-8" aria-label={d.nav.menu}>
+            {[{ href: `/${lang}`, label: d.nav.home }, ...links].map((l, i) => (
+              <div key={l.href} className="fade-up" style={{ animationDelay: `${0.04 * i + 0.05}s` }}>
+                <Link href={l.href} onClick={() => setMenu(false)} className={`display block py-1.5 text-[2.1rem] ${pathname === l.href ? "!text-terra" : ""}`}>
                   {l.label}
                 </Link>
               </div>
             ))}
-            <div className="fade-in mt-6" style={{ animationDelay: "0.5s" }}>
-              <Link href={`${home}#contact`} onClick={() => setMenu(false)} className="btn-solid">
+            <div className="fade-in mt-8" style={{ animationDelay: "0.4s" }}>
+              <Link href={href(lang, "contact")} onClick={() => setMenu(false)} className="btn">
                 {d.nav.book}
               </Link>
             </div>
-            <Mark className="mt-8 h-6 w-16 text-gold" />
           </nav>
-          <div className="flex items-center justify-between border-t border-line-dark px-6 py-4">
+          <div className="flex items-center justify-between border-t border-line px-6 py-4">
             <LangSwitch lang={lang} label={d.nav.language} />
             <div className="flex items-center gap-5">{social}</div>
           </div>

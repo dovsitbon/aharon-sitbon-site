@@ -2,11 +2,116 @@
   "_lisezmoi": "upcoming : prochains concerts, à remplir avec l'artiste. Format : { \"date\": \"2027-01-15\", \"time\": \"20:30\", \"city\": {\"he\":\"\",\"fr\":\"\",\"en\":\"\",\"es\":\"\"}, \"venue\": \"\", \"country\": \"IL\", \"tickets\": \"https://...\" }. Chaque concert à venir génère aussi un Event schema.org. past : événements passés trouvés dans la presse.",
   "upcoming": [],
   "past": [
-    { "year": "1977", "place": { "he": "פריז", "fr": "Paris", "en": "Paris", "es": "París" }, "text": { "he": "האולימפיה, במופע הפתיחה של הרברט פגאני, ושש שירים על הבמה. באותה שנה: הופעה בטלוויזיה אצל פיליפ בובאר.", "fr": "L'Olympia, en première partie d'Herbert Pagani : six titres sur scène. La même année, un passage télé chez Philippe Bouvard.", "en": "The Olympia, opening for Herbert Pagani with six songs. The same year, a TV appearance on Philippe Bouvard's show.", "es": "El Olympia, como telonero de Herbert Pagani, con seis canciones. Ese mismo año, una aparición en la televisión con Philippe Bouvard." } },
-    { "year": "2019", "place": { "he": "היכל מנורה, תל אביב", "fr": "Heichal Menorah, Tel-Aviv", "en": "Menorah Hall, Tel Aviv", "es": "Heijal Menorá, Tel Aviv" }, "text": { "he": "כנס נשות חב״ד הארצי: בכורה של ״מלך המשיח״ מול אלפים, עם ילדיו, נכדיו ומקהלת פרחי הר נוף.", "fr": "Congrès national des femmes Habad : première de « Melech HaMashiach » devant des milliers de personnes, avec ses enfants, ses petits-enfants et le chœur Pirchei Har Nof.", "en": "The national Chabad women's convention: the premiere of “Melech HaMashiach” before thousands, with his children, grandchildren and the Pirchei Har Nof choir.", "es": "Congreso nacional de mujeres de Jabad: estreno de «Melech HaMashiach» ante miles de personas, con sus hijos, nietos y el coro Pirchei Har Nof." } },
-    { "year": "2020", "place": { "he": "ירושלים", "fr": "Jérusalem", "en": "Jerusalem", "es": "Jerusalén" }, "text": { "he": "ההופעה שבה סיפר לראשונה על הבמה את סיפור חייו.", "fr": "Le concert où il a raconté pour la première fois, sur scène, l'histoire de sa vie.", "en": "The concert where he first told the story of his life on stage.", "es": "El concierto en el que contó por primera vez, en el escenario, la historia de su vida." } },
-    { "year": "2020", "place": { "he": "מופע ״צמאה״ תשפ״א", "fr": "Spectacle Tzama 5781", "en": "Tzama 5781 show", "es": "Espectáculo Tzama 5781" }, "text": { "he": "״ירושלים״ בשידור חי בקול חי מיוזיק, כסלו תשפ״א.", "fr": "« Yerushalayim » en direct sur Kol Chai Music, Kislev 5781.", "en": "“Yerushalayim” broadcast live on Kol Chai Music, Kislev 5781.", "es": "«Yerushalayim» en directo en Kol Chai Music, Kislev 5781." } },
-    { "year": "—", "place": { "he": "מגדל דוד, ירושלים", "fr": "Tour de David, Jérusalem", "en": "Tower of David, Jerusalem", "es": "Torre de David, Jerusalén" }, "text": { "he": "״שהחיינו״ בהופעה חיה בין חומות העיר העתיקה.", "fr": "« Shehecheyanu » en concert, entre les remparts de la Vieille Ville.", "en": "“Shehecheyanu” live, within the walls of the Old City.", "es": "«Shehecheyanu» en directo, entre las murallas de la Ciudad Vieja." } },
-    { "year": "—", "place": { "he": "ישראל · צרפת · זום", "fr": "Israël · France · Zoom", "en": "Israel · France · Zoom", "es": "Israel · Francia · Zoom" }, "text": { "he": "הופעות בקהילות, ברדיו ובזום.", "fr": "Des concerts en communauté, à la radio et sur Zoom.", "en": "Community concerts, radio sessions and Zoom concerts.", "es": "Conciertos en comunidades, en la radio y por Zoom." } }
+    {
+      "year": "1977",
+      "place": {
+        "he": "פריז",
+        "fr": "Paris",
+        "en": "Paris",
+        "es": "París"
+      },
+      "text": {
+        "he": "האולימפיה, במופע הפתיחה של הרברט פגאני, ושש שירים על הבמה. באותה שנה: הופעה בטלוויזיה אצל פיליפ בובאר.",
+        "fr": "L'Olympia, en première partie d'Herbert Pagani : six titres sur scène. La même année, un passage télé chez Philippe Bouvard.",
+        "en": "The Olympia, opening for Herbert Pagani with six songs. The same year, a TV appearance on Philippe Bouvard's show.",
+        "es": "El Olympia, como telonero de Herbert Pagani, con seis canciones. Ese mismo año, una aparición en la televisión con Philippe Bouvard."
+      },
+      "video": "1k-gm2mR9vg"
+    },
+    {
+      "year": "2019",
+      "place": {
+        "he": "היכל מנורה, תל אביב",
+        "fr": "Heichal Menorah, Tel-Aviv",
+        "en": "Menorah Hall, Tel Aviv",
+        "es": "Heijal Menorá, Tel Aviv"
+      },
+      "text": {
+        "he": "כנס נשות חב״ד הארצי: בכורה של ״מלך המשיח״ מול אלפים, עם ילדיו, נכדיו ומקהלת פרחי הר נוף.",
+        "fr": "Congrès national des femmes Habad : première de « Melech HaMashiach » devant des milliers de personnes, avec ses enfants, ses petits-enfants et le chœur Pirchei Har Nof.",
+        "en": "The national Chabad women's convention: the premiere of “Melech HaMashiach” before thousands, with his children, grandchildren and the Pirchei Har Nof choir.",
+        "es": "Congreso nacional de mujeres de Jabad: estreno de «Melech HaMashiach» ante miles de personas, con sus hijos, nietos y el coro Pirchei Har Nof."
+      },
+      "video": "8V6H6uSS3HY"
+    },
+    {
+      "year": "2020",
+      "place": {
+        "he": "ירושלים",
+        "fr": "Jérusalem",
+        "en": "Jerusalem",
+        "es": "Jerusalén"
+      },
+      "text": {
+        "he": "ההופעה שבה סיפר לראשונה על הבמה את סיפור חייו.",
+        "fr": "Le concert où il a raconté pour la première fois, sur scène, l'histoire de sa vie.",
+        "en": "The concert where he first told the story of his life on stage.",
+        "es": "El concierto en el que contó por primera vez, en el escenario, la historia de su vida."
+      },
+      "video": "bH4Fv2dTheE"
+    },
+    {
+      "year": "2020",
+      "video": "GV_SYRu0ylY",
+      "place": {
+        "he": "מול חומות ירושלים",
+        "fr": "Devant les remparts de Jérusalem",
+        "en": "Before the walls of Jerusalem",
+        "es": "Ante las murallas de Jerusalén"
+      },
+      "text": {
+        "he": "הופעה מול חומות העיר העתיקה, שממנה נולד הקליף של ״ירושלים״.",
+        "fr": "Un concert devant les murailles de la Vieille Ville, d'où vient le clip « Yerushalayim ».",
+        "en": "A concert before the walls of the Old City, which gave birth to the “Yerushalayim” video.",
+        "es": "Un concierto ante las murallas de la Ciudad Vieja, de donde nace el videoclip «Yerushalayim»."
+      }
+    },
+    {
+      "year": "2020",
+      "place": {
+        "he": "״צמאה״ תשפ״א, בנייני האומה, ירושלים",
+        "fr": "« Tzama » 5781, Binyanei HaUma, Jérusalem",
+        "en": "“Tzama” 5781, Binyanei HaUma, Jerusalem",
+        "es": "«Tzama» 5781, Binyanei HaUma, Jerusalén"
+      },
+      "text": {
+        "he": "כנס החסידות הגדול, בשידור חי: הוא שר עם בנו דוד סיטבון, באותה תוכנית עם אהרן רזאל, ידידיה מאיר והאחים קיציס.",
+        "fr": "Le grand congrès de la Hassidout, diffusé en direct : il y chante avec son fils David Sitbon, au même programme qu'Aharon Razel, Yedidya Meir et les frères Kitsis.",
+        "en": "The great Chassidut convention, broadcast live: he sings with his son David Sitbon, on the same bill as Aharon Razel, Yedidya Meir and the Kitsis brothers.",
+        "es": "El gran congreso de la Jasidut, en directo: canta con su hijo David Sitbon, en el mismo programa que Aharon Razel, Yedidya Meir y los hermanos Kitsis."
+      },
+      "video": "7LeTYQ4e2sE"
+    },
+    {
+      "year": "2020",
+      "place": {
+        "he": "מגדל דוד, ירושלים",
+        "fr": "Tour de David, Jérusalem",
+        "en": "Tower of David, Jerusalem",
+        "es": "Torre de David, Jerusalén"
+      },
+      "text": {
+        "he": "״שהחיינו״ בהופעה חיה בין חומות העיר העתיקה.",
+        "fr": "« Shehecheyanu » en concert, entre les remparts de la Vieille Ville.",
+        "en": "“Shehecheyanu” live, within the walls of the Old City.",
+        "es": "«Shehecheyanu» en directo, entre las murallas de la Ciudad Vieja."
+      },
+      "video": "l_sfgBg4tT4"
+    },
+    {
+      "year": "—",
+      "place": {
+        "he": "ישראל · צרפת · זום",
+        "fr": "Israël · France · Zoom",
+        "en": "Israel · France · Zoom",
+        "es": "Israel · Francia · Zoom"
+      },
+      "text": {
+        "he": "הופעות בקהילות, ברדיו ובזום.",
+        "fr": "Des concerts en communauté, à la radio et sur Zoom.",
+        "en": "Community concerts, radio sessions and Zoom concerts.",
+        "es": "Conciertos en comunidades, en la radio y por Zoom."
+      }
+    }
   ]
 }

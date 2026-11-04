@@ -13,8 +13,8 @@ Tout ce qui manque pour que le site soit définitif. Chaque point indique où le
 - [ ] La chanson que Michel Sardou lui aurait écrite : à confirmer avant de la mentionner (non publiée pour l'instant)
 
 ## Musique
-- [ ] **Fichiers MP3 (ou WAV) de tous ses titres**, venant de lui ou de ses producteurs → `public/audio/<album>/<titre>.mp3`, puis `audioFile` dans `data/music.json`. Dès qu'un MP3 est là, le bouton « Écouter » lit l'audio au lieu du clip YouTube.
-- [ ] **Accord écrit des producteurs** (Eli Klein, Yitzy Berry, צבעים הפקות) pour le téléchargement gratuit → passer `downloadable` à `true` ; le `.zip` de l'album se prépare tout seul au build
+- [ ] **Fichiers MP3 (ou WAV) de tous ses titres**, venant de lui ou de ses producteurs → à déposer dans `public/music/<album>/` puis `npm run music` (voir README). Dès qu'un MP3 est là, le bouton « Écouter » lit l'audio au lieu du clip YouTube.
+- [ ] **Accord écrit des producteurs** (Eli Klein, Yitzy Berry, צבעים הפקות) pour le téléchargement gratuit → passer `downloadable` à `true` puis `npm run music` ; le `.zip` de l'album se prépare tout seul
 - [ ] **Liste exacte des titres** des deux albums, dans l'ordre, avec **durées et crédits** (composition, paroles, arrangement) → `data/music.json`. Les listes actuelles sont reconstituées d'après la presse.
 - [ ] **Pochettes HD** : « Shehecheyanu » (aucune pochette pour l'instant, une pochette typographique la remplace) et « Higia Zman Geulatchem » (actuellement tirée d'une maquette 3D de la vidéo) → `public/media/albums/`
 - [ ] **Le troisième album** annoncé en 2023 : est-il sorti ? titre, date, titres
@@ -25,6 +25,9 @@ Tout ce qui manque pour que le site soit définitif. Chaque point indique où le
 - [ ] **Photos HD** : sur scène, portraits, en famille, archives des années 1970. Les visuels actuels sont des miniatures de ses clips (1280 × 720 au mieux), recadrées pour enlever les titres.
 - [ ] **Vidéos sources des clips** (fichiers .mp4) pour une boucle silencieuse dans le hero → `public/media/hero/`
 - [ ] **Logo** s'il en a un (sinon on garde le logo typographique créé pour le site, `components/Logo.tsx`)
+
+## David Sitbon
+- [ ] **Accord de David Sitbon** pour le bloc qui lui est consacré (page « Son histoire ») et une photo de lui en HD
 
 ## Concerts et contact
 - [ ] **Prochains concerts** : date, ville, salle, lien billetterie → `data/concerts.json` (génère aussi les données Google « Event »)
