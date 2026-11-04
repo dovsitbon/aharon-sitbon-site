@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "title": "Aharon Sitbon – Chassidic Singer & Composer, Jerusalem | אהרון סיטבון",
+    "description": "Official site of Aharon Sitbon, Chassidic singer and composer in Jerusalem, once Gilbert Sitbon of the French stage. Listen to the albums Shehecheyanu and Higia Zman Geulatchem, Adon Olam and his music videos, and book a concert.",
+    "ogAlt": "Aharon Sitbon playing guitar at night",
+    "legalTitle": "Legal notice – Aharon Sitbon"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "close": "Close menu",
+    "home": "Aharon Sitbon, home",
+    "story": "Story",
+    "music": "Music",
+    "clips": "Videos",
+    "concerts": "Concerts",
+    "press": "Press",
+    "contact": "Contact",
+    "book": "Book a concert",
+    "bookShort": "Book",
+    "language": "Language"
+  },
+  "intro": { "skip": "Skip", "tagline": "THE VOICE OF THE SOUL" },
+  "hero": {
+    "eyebrow": "SINGER · COMPOSER · JERUSALEM",
+    "title": "The voice that returned after 30 years of silence",
+    "listen": "Listen",
+    "book": "Book a concert",
+    "scroll": "Scroll"
+  },
+  "manifesto": {
+    "eyebrow": "From the Olympia to the walls of Jerusalem",
+    "text": "He once sang about love in French, under the name Gilbert. Then he fell silent for thirty years to study. Today the same voice sings in Hebrew, for joy and for faith.",
+    "sign": "Aharon Sitbon"
+  },
+  "cards": {
+    "eyebrow": "In three movements",
+    "items": [
+      { "n": "001", "title": "The story", "text": "Gilbert, Gilles d'Avray, Gilbert Sainroch, then Aharon: a life no one would have dared to script.", "link": "Read his story", "href": "story" },
+      { "n": "002", "title": "The music", "text": "Two albums and more than twenty singles since 2014, all here, song by song.", "link": "Listen", "href": "music" },
+      { "n": "003", "title": "On stage", "text": "Concerts, weddings, farbrengens, community evenings and Zoom concerts, in Israel and in France.", "link": "Book", "href": "contact" }
+    ]
+  },
+  "span": {
+    "eyebrow": "1977 · 2026",
+    "title": "Fifty years, one voice",
+    "text": "In 1977 he appears on French television and sings at the Olympia. Nearly fifty years later he sings before the walls of the Old City. In between: thirty years of silence, and a promise kept.",
+    "then": "Paris, 1977",
+    "now": "Jerusalem, today",
+    "watch": "Watch the 1977 TV archive"
+  },
+  "story": {
+    "eyebrow": "The story",
+    "title": "From Gilbert to Aharon",
+    "intro": "The great turning points of a life in two acts, as the press has told them. The rest he tells best himself, on stage.",
+    "steps": [
+      { "year": "The beginning", "title": "A house full of music", "text": "He grows up in a traditional family of nine children. His older sister sings and plays the oud; one of his brothers will become a drummer for the great names of French song." },
+      { "year": "Marseille · Paris", "title": "The guitar", "text": "The family settles in France, first in Marseille, then Paris. At around seventeen, the guitar takes hold of him for good." },
+      { "year": "The 1970s", "title": "The stage", "text": "A contest won, a first single, tours. He is known as Gilles d'Avray, Gilbert Sainroch or Gilbert Sitbon. His manager, Roland Bismuth, also looks after Yves Duteil and Michel Fugain." },
+      { "year": "1977", "title": "The Olympia", "text": "He appears on Philippe Bouvard's TV show and sings six songs at the Olympia, opening for Herbert Pagani." },
+      { "year": "Around 30", "title": "Tefillin", "text": "In Paris, Chabad Chassidim offer him to put on tefillin. It shakes him deeply. Little by little he leaves the stage, just as he is offered a long touring contract." },
+      { "year": "30 years", "title": "Silence", "text": "He studies Torah and earns his living in other ways. His children, then his grandchildren, have no idea he was ever a singer." },
+      { "year": "Israel", "title": "The old guitar", "text": "Settled in Israel, in Jerusalem, he takes out his old guitar. A melody by his friend Michel Fugain keeps him awake at night, and he sets the words of Adon Olam to it." },
+      { "year": "2014", "title": "Adon Olam", "text": "Producer Yuval Stoppel hears it and releases it as a single. Unsure about a comeback at his age, he opens the Lubavitcher Rebbe's letters and reads that an artist who returns to faith should place his talent in the service of holiness. He has his answer." },
+      { "year": "2016 · 2021", "title": "Two albums", "text": "“Shehecheyanu”, whose proceeds went to the Eshel Tsion charity, then “Higia Zman Geulatchem”, three years in the making with Eli Klein and Yitzy Berry." },
+      { "year": "2022 · 2026", "title": "More songs", "text": "“Or Be'einai”, a melody he was already singing in 1977, “Odeh Hashem Elokai” during the war, “Tefila LeShalom”, then “Niggun Yehudi” for Purim. His mission: to bring joy to the Jewish people." }
+    ]
+  },
+  "music": {
+    "eyebrow": "The music",
+    "title": "Discography",
+    "intro": "Albums, singles and the French archives. Song titles stay in Hebrew, with a translation below.",
+    "albums": "Albums",
+    "singles": "Singles",
+    "archives": "French archives",
+    "archivesText": "The vinyl singles of Gilbert Sitbon, Gilles d'Avray and Gilbert Sainroch.",
+    "tracks": "{n} tracks",
+    "listen": "Listen",
+    "listenTrack": "Listen to “{title}”",
+    "playAlbum": "Play the album",
+    "shuffle": "Shuffle",
+    "download": "Download track",
+    "downloadAll": "Download the whole album (.zip)",
+    "downloadOff": "Free downloads will open with the producers' approval.",
+    "alsoOn": "Also on",
+    "credits": "Credits",
+    "composer": "Music",
+    "lyrics": "Lyrics",
+    "production": "Arrangement & production",
+    "featuring": "With",
+    "liturgy": "Liturgical text",
+    "toConfirm": "to be confirmed",
+    "open": "View album",
+    "close": "Close",
+    "noVideo": "No video yet",
+    "single": "Single",
+    "album": "Album",
+    "producers": "Production"
+  },
+  "player": {
+    "label": "Player",
+    "play": "Play",
+    "pause": "Pause",
+    "next": "Next track",
+    "prev": "Previous track",
+    "shuffle": "Shuffle",
+    "volume": "Volume",
+    "progress": "Progress",
+    "close": "Close player",
+    "video": "Official video on YouTube",
+    "expand": "Show video",
+    "collapse": "Minimise video"
+  },
+  "clips": {
+    "eyebrow": "Videos",
+    "title": "Watch",
+    "intro": "The videos from his YouTube channel, newest first. Each one only loads when you click it.",
+    "filters": { "all": "All", "official": "Official videos", "live": "Live", "interview": "Interviews", "archive": "Archives" },
+    "play": "Play video",
+    "views": "{n} views",
+    "channel": "The full YouTube channel",
+    "more": "Show more"
+  },
+  "concerts": {
+    "eyebrow": "On stage",
+    "title": "Concerts & events",
+    "upcoming": "Upcoming concerts",
+    "none": "New dates will be announced here. Would you like him at your event? Write to us.",
+    "tickets": "Tickets",
+    "past": "Where he has sung",
+    "invite": "Invite him"
+  },
+  "french": {
+    "eyebrow": "The French years",
+    "title": "Before Aharon, there was Gilbert",
+    "text": "In the 1970s he records singles, tours France and is played on the radio. He had stopped listening to those records himself. Here they are, together.",
+    "names": "His stage names",
+    "namesList": ["Gilles d'Avray", "Gilbert Sainroch", "Gilbert Sitbon"],
+    "records": "The singles",
+    "coverSoon": "Sleeve coming soon",
+    "sideA": "Side A",
+    "sideB": "Side B",
+    "lahayeTitle": "“Les Grandes Espérances”",
+    "lahayeText": "One of his songs, covered by Jean-Luc Lahaye on the album “Gloria” in 1984.",
+    "tvTitle": "The 1977 TV interview",
+    "tvText": "A rare archive: the young Gilbert Sitbon, microphone in hand, in a Paris television studio.",
+    "source": "Source: Encyclopédisque"
+  },
+  "family": {
+    "eyebrow": "Family",
+    "title": "Singing with his own",
+    "text": "On stage and in the studio, the music is handed down. He often sings with his son, the Chassidic singer David Sitbon, and sometimes with his grandchildren.",
+    "david": "“Achake Lo”, with his son David Sitbon",
+    "grandson": "“Modeh Ani”, a duet with his grandson",
+    "children": "“Ani Maamin”, surrounded by children"
+  },
+  "press": {
+    "eyebrow": "In the press",
+    "title": "Press",
+    "read": "Read the article"
+  },
+  "voices": {
+    "eyebrow": "Messages from listeners",
+    "title": "What people write to him",
+    "text": "This space will hold real messages from listeners, published with their permission."
+  },
+  "booking": {
+    "eyebrow": "Bookings",
+    "title": "Invite Aharon Sitbon",
+    "intro": "A concert, wedding, bar mitzvah, farbrengen or community evening, in Israel, in France or on Zoom. Fill in a few lines and your request opens in WhatsApp, already written.",
+    "type": "Type of event",
+    "types": { "concert": "Concert", "wedding": "Wedding", "barmitzvah": "Bar mitzvah", "chabad": "Chabad event / farbrengen", "community": "Community evening", "corporate": "Corporate event", "zoom": "Zoom concert", "other": "Other" },
+    "date": "Date",
+    "dateTaken": "That date is already booked. Write to us anyway and we will find a solution.",
+    "city": "City / venue",
+    "country": "Country",
+    "countries": { "IL": "Israel", "FR": "France", "other": "Other" },
+    "guests": "Number of guests",
+    "formula": "Format",
+    "formulas": { "band": "With musicians", "guitar": "Guitar and voice", "david": "With his son David", "zoom": "On Zoom" },
+    "budget": "Approximate budget",
+    "optional": "optional",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Message",
+    "messagePlaceholder": "The venue, the atmosphere, what matters to you…",
+    "submit": "Send on WhatsApp",
+    "note": "No online payment. The message opens in WhatsApp so you can read it before sending.",
+    "call": "Or by phone",
+    "errors": { "type": "Choose a type of event.", "name": "Please enter your name.", "phone": "Please enter a valid phone number.", "email": "This email doesn't look right." },
+    "wa": {
+      "title": "Concert request – Aharon Sitbon",
+      "type": "Event",
+      "date": "Date",
+      "city": "Venue",
+      "country": "Country",
+      "guests": "Guests",
+      "formula": "Format",
+      "budget": "Budget",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "closing": "Thank you!"
+    }
+  },
+  "footer": {
+    "tagline": "Chassidic singer and composer. Jerusalem.",
+    "contact": "Bookings",
+    "explore": "On this site",
+    "listen": "Listen",
+    "rights": "All rights reserved",
+    "photos": "Provisional images taken from his official videos.",
+    "legal": "Legal notice"
+  },
+  "whatsapp": {
+    "float": "Message on WhatsApp",
+    "hello": "Hello, I'm writing from Aharon Sitbon's website."
+  },
+  "legal": {
+    "title": "Legal notice",
+    "back": "Back to home",
+    "body": [
+      "Official website of Aharon Sitbon, singer and composer. Contact: by WhatsApp or the number at the bottom of the page.",
+      "Hosting: Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA.",
+      "Music, texts, photos and videos: all rights reserved to their authors and producers (including Eli Klein, Yitzy Berry and Tzvaim Productions). No reproduction without permission.",
+      "YouTube videos only load when you click them; YouTube may then set its own cookies. The site itself uses no advertising cookies and no audience tracking. The booking form stores nothing: it simply opens a WhatsApp message that you choose to send."
+    ]
+  },
+  "alt": {
+    "guitare-nuit": "Aharon Sitbon playing guitar at night beneath lit-up towers",
+    "micro-nuit": "Aharon Sitbon holding a microphone in the city at night",
+    "portrait-chaine": "Portrait of Aharon Sitbon, white beard and kippah",
+    "regard-jerusalem": "Aharon Sitbon singing, looking up, on a Jerusalem terrace",
+    "guitare-lumiere": "Aharon Sitbon playing guitar in the evening light",
+    "tour-de-david-live": "Aharon Sitbon singing on stage, hand open",
+    "melech-hamashiach-live": "Aharon Sitbon on stage, surrounded by children",
+    "tzama-5781": "Aharon Sitbon alone on stage under the spotlights at the Tzama show",
+    "sur-scene-chapeau": "Aharon Sitbon in a black hat, singing on a large stage",
+    "higia-zman-live": "Aharon Sitbon singing amid a children's choir with raised arms",
+    "studio-micro": "Aharon Sitbon in the studio wearing headphones at the microphone",
+    "studio-gam-ki-elech": "Aharon Sitbon recording in the studio, hand outstretched",
+    "interview-hamevaker": "Aharon Sitbon with his guitar on the set of HaMevaker",
+    "desert-guitare": "Aharon Sitbon playing guitar in the Judean Desert",
+    "kotel-guitare": "Aharon Sitbon playing guitar in front of the Western Wall",
+    "ruelle-guitare": "Aharon Sitbon with his guitar in a Jerusalem stone alley",
+    "kotel-adon-olam": "Aharon Sitbon playing Adon Olam against the stones of the Kotel",
+    "terrasse-jerusalem": "Aharon Sitbon playing guitar above Jerusalem",
+    "higia-zman-geulatchem": "Cover of the album Higia Zman Geulatchem",
+    "portrait-annees-70": "Gilbert Sitbon in the 1970s, black-and-white portrait",
+    "tele-1977": "Gilbert Sitbon singing on French television in 1977",
+    "modeh-ani-petit-fils": "Aharon Sitbon playing guitar on a rock beside his grandson",
+    "achake-lo-david": "Aharon Sitbon and his son David Sitbon in the studio wearing headphones",
+    "ani-maamin-enfants": "Aharon Sitbon playing guitar before a group of children"
+  }
+}

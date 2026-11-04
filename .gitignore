@@ -1,0 +1,19 @@
+/node_modules
+/.next/
+/out/
+/build
+/coverage
+.DS_Store
+*.pem
+npm-debug.log*
+.env*
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# miniatures YouTube brutes (re-téléchargeables) : seules les images classées sont versionnées
+/assets/raw/
+
+# MP3/WAV sources de l'artiste (lourds)
+/assets/audio-src/
+

@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "title": "Aharon Sitbon – cantante y compositor jasídico, Jerusalén | אהרון סיטבון",
+    "description": "Sitio oficial de Aharon Sitbon, cantante y compositor jasídico en Jerusalén, antes Gilbert Sitbon en los escenarios franceses. Escucha los álbumes Shehecheyanu e Higia Zman Geulatchem, Adon Olam y sus videoclips, y reserva un concierto.",
+    "ogAlt": "Aharon Sitbon tocando la guitarra de noche",
+    "legalTitle": "Aviso legal – Aharon Sitbon"
+  },
+  "nav": {
+    "skip": "Ir al contenido",
+    "menu": "Menú",
+    "close": "Cerrar el menú",
+    "home": "Aharon Sitbon, inicio",
+    "story": "Historia",
+    "music": "Música",
+    "clips": "Videos",
+    "concerts": "Conciertos",
+    "press": "Prensa",
+    "contact": "Contacto",
+    "book": "Reservar un concierto",
+    "bookShort": "Reservar",
+    "language": "Idioma"
+  },
+  "intro": { "skip": "Saltar", "tagline": "LA VOZ DEL ALMA" },
+  "hero": {
+    "eyebrow": "CANTANTE · COMPOSITOR · JERUSALÉN",
+    "title": "La voz que volvió tras 30 años de silencio",
+    "listen": "Escuchar",
+    "book": "Reservar un concierto",
+    "scroll": "Desplazar"
+  },
+  "manifesto": {
+    "eyebrow": "Del Olympia a las murallas de Jerusalén",
+    "text": "Antes cantaba al amor en francés, con el nombre de Gilbert. Luego calló treinta años para estudiar. Hoy la misma voz canta en hebreo, al servicio de la alegría y de la fe.",
+    "sign": "Aharon Sitbon"
+  },
+  "cards": {
+    "eyebrow": "En tres tiempos",
+    "items": [
+      { "n": "001", "title": "La historia", "text": "Gilbert, Gilles d'Avray, Gilbert Sainroch y luego Aharon: una vida que nadie se habría atrevido a escribir.", "link": "Leer su historia", "href": "story" },
+      { "n": "002", "title": "La música", "text": "Dos álbumes y más de veinte sencillos desde 2014, todos aquí, canción por canción.", "link": "Escuchar", "href": "music" },
+      { "n": "003", "title": "En el escenario", "text": "Conciertos, bodas, farbrenguen, veladas comunitarias y conciertos por Zoom, en Israel y en Francia.", "link": "Reservar", "href": "contact" }
+    ]
+  },
+  "span": {
+    "eyebrow": "1977 · 2026",
+    "title": "Cincuenta años, una sola voz",
+    "text": "En 1977 aparece en la televisión francesa y canta en el Olympia. Casi cincuenta años después canta ante las murallas de la Ciudad Vieja. En medio: treinta años de silencio y una promesa cumplida.",
+    "then": "París, 1977",
+    "now": "Jerusalén, hoy",
+    "watch": "Ver la entrevista de 1977"
+  },
+  "story": {
+    "eyebrow": "La historia",
+    "title": "De Gilbert a Aharon",
+    "intro": "Las grandes etapas de una vida en dos actos, tal como las ha contado la prensa. El resto lo cuenta mejor él mismo, en el escenario.",
+    "steps": [
+      { "year": "Los orígenes", "title": "Una casa llena de música", "text": "Crece en una familia tradicional de nueve hijos. Su hermana mayor canta acompañándose del laúd; uno de sus hermanos llegará a ser batería de los grandes nombres de la canción francesa." },
+      { "year": "Marsella · París", "title": "La guitarra", "text": "La familia se instala en Francia, primero en Marsella y luego en París. Hacia los diecisiete años, la guitarra ya no lo suelta." },
+      { "year": "Años 70", "title": "El escenario", "text": "Un concurso ganado, un primer disco, giras. Se le conoce como Gilles d'Avray, Gilbert Sainroch o Gilbert Sitbon. Su representante, Roland Bismuth, también lleva a Yves Duteil y a Michel Fugain." },
+      { "year": "1977", "title": "El Olympia", "text": "Aparece en la televisión en el programa de Philippe Bouvard y canta seis canciones en el Olympia, como telonero de Herbert Pagani." },
+      { "year": "Hacia los 30", "title": "Los tefilín", "text": "En París, unos jasidim de Jabad le proponen ponerse los tefilín. El gesto lo conmueve profundamente. Poco a poco deja el escenario, justo cuando le ofrecen un largo contrato de gira." },
+      { "year": "30 años", "title": "El silencio", "text": "Estudia Torá y se gana la vida de otra manera. Sus hijos, y después sus nietos, ni siquiera saben que fue cantante." },
+      { "year": "Israel", "title": "La vieja guitarra", "text": "Ya instalado en Israel, en Jerusalén, saca su vieja guitarra. Una melodía de su amigo Michel Fugain no lo deja dormir, y le pone las palabras de Adon Olam." },
+      { "year": "2014", "title": "Adon Olam", "text": "El productor Yuval Stoppel la escucha y la publica como sencillo. Duda en volver a su edad; en las cartas del Rebe de Lubavitch lee que un artista que vuelve a la fe debe poner su talento al servicio de la santidad. Ahí está su respuesta." },
+      { "year": "2016 · 2021", "title": "Dos álbumes", "text": "«Shehecheyanu», cuyos beneficios fueron para la asociación Eshel Tsion, y luego «Higia Zman Geulatchem», preparado durante tres años con Eli Klein e Yitzy Berry." },
+      { "year": "2022 · 2026", "title": "Más canciones", "text": "«Or Be'einai», una melodía que ya cantaba en 1977, «Odeh Hashem Elokai» durante la guerra, «Tefila LeShalom» y después «Niggun Yehudi» para Purim. Su misión: alegrar al pueblo judío." }
+    ]
+  },
+  "music": {
+    "eyebrow": "La música",
+    "title": "Discografía",
+    "intro": "Los álbumes, los sencillos y los archivos franceses. Los títulos se quedan en hebreo, con la traducción debajo.",
+    "albums": "Álbumes",
+    "singles": "Sencillos",
+    "archives": "Archivos franceses",
+    "archivesText": "Los discos de Gilbert Sitbon, Gilles d'Avray y Gilbert Sainroch.",
+    "tracks": "{n} canciones",
+    "listen": "Escuchar",
+    "listenTrack": "Escuchar «{title}»",
+    "playAlbum": "Escuchar el álbum",
+    "shuffle": "Aleatorio",
+    "download": "Descargar la canción",
+    "downloadAll": "Descargar todo el álbum (.zip)",
+    "downloadOff": "La descarga gratuita se abrirá con el acuerdo de los productores.",
+    "alsoOn": "Escuchar también en",
+    "credits": "Créditos",
+    "composer": "Música",
+    "lyrics": "Letra",
+    "production": "Arreglos y producción",
+    "featuring": "Con",
+    "liturgy": "Texto litúrgico",
+    "toConfirm": "por confirmar",
+    "open": "Ver el álbum",
+    "close": "Cerrar",
+    "noVideo": "Aún sin videoclip",
+    "single": "Sencillo",
+    "album": "Álbum",
+    "producers": "Producción"
+  },
+  "player": {
+    "label": "Reproductor",
+    "play": "Reproducir",
+    "pause": "Pausa",
+    "next": "Siguiente",
+    "prev": "Anterior",
+    "shuffle": "Aleatorio",
+    "volume": "Volumen",
+    "progress": "Progreso",
+    "close": "Cerrar el reproductor",
+    "video": "Videoclip oficial en YouTube",
+    "expand": "Mostrar el video",
+    "collapse": "Reducir el video"
+  },
+  "clips": {
+    "eyebrow": "Videoclips",
+    "title": "Para ver",
+    "intro": "Los videos de su canal de YouTube, del más reciente al más antiguo. Cada uno se carga solo al hacer clic.",
+    "filters": { "all": "Todo", "official": "Videoclips oficiales", "live": "En directo", "interview": "Entrevistas", "archive": "Archivo" },
+    "play": "Ver el video",
+    "views": "{n} visualizaciones",
+    "channel": "Todo el canal de YouTube",
+    "more": "Ver más"
+  },
+  "concerts": {
+    "eyebrow": "En el escenario",
+    "title": "Conciertos y eventos",
+    "upcoming": "Próximos conciertos",
+    "none": "Las próximas fechas se anunciarán aquí. ¿Quieres invitarlo? Escríbenos.",
+    "tickets": "Entradas",
+    "past": "Dónde ha cantado",
+    "invite": "Invitarlo"
+  },
+  "french": {
+    "eyebrow": "Los años franceses",
+    "title": "Antes de Aharon, estaba Gilbert",
+    "text": "En los años 70 graba discos, hace giras por Francia y suena en la radio. Él mismo ya no los escuchaba. Aquí están, reunidos.",
+    "names": "Sus nombres artísticos",
+    "namesList": ["Gilles d'Avray", "Gilbert Sainroch", "Gilbert Sitbon"],
+    "records": "Los sencillos en vinilo",
+    "coverSoon": "Portada próximamente",
+    "sideA": "Cara A",
+    "sideB": "Cara B",
+    "lahayeTitle": "«Les Grandes Espérances»",
+    "lahayeText": "Una de sus canciones, versionada por Jean-Luc Lahaye en el álbum «Gloria» de 1984.",
+    "tvTitle": "La entrevista en televisión de 1977",
+    "tvText": "Un archivo poco común: el joven Gilbert Sitbon, micrófono en mano, en un plató de televisión de París.",
+    "source": "Fuente: Encyclopédisque"
+  },
+  "family": {
+    "eyebrow": "En familia",
+    "title": "Cantar con los suyos",
+    "text": "En el escenario y en el estudio, la música se transmite. Canta a menudo con su hijo, el cantante jasídico David Sitbon, y a veces con sus nietos.",
+    "david": "«Achake Lo», con su hijo David Sitbon",
+    "grandson": "«Modeh Ani», a dúo con su nieto",
+    "children": "«Ani Maamin», rodeado de niños"
+  },
+  "press": {
+    "eyebrow": "Hablan de él",
+    "title": "Prensa",
+    "read": "Leer el artículo"
+  },
+  "voices": {
+    "eyebrow": "Mensajes del público",
+    "title": "Lo que le escriben",
+    "text": "Este espacio recogerá mensajes reales del público, publicados con el permiso de sus autores."
+  },
+  "booking": {
+    "eyebrow": "Reservas",
+    "title": "Invitar a Aharon Sitbon",
+    "intro": "Concierto, boda, bar mitzvá, farbrenguen o velada comunitaria, en Israel, en Francia o por Zoom. Rellena unas líneas y tu solicitud se abre en WhatsApp, ya redactada.",
+    "type": "Tipo de evento",
+    "types": { "concert": "Concierto", "wedding": "Boda", "barmitzvah": "Bar mitzvá", "chabad": "Evento de Jabad / farbrenguen", "community": "Velada comunitaria", "corporate": "Evento de empresa", "zoom": "Concierto por Zoom", "other": "Otro" },
+    "date": "Fecha",
+    "dateTaken": "Esa fecha ya está reservada. Escríbenos de todos modos y buscaremos una solución.",
+    "city": "Ciudad / sala",
+    "country": "País",
+    "countries": { "IL": "Israel", "FR": "Francia", "other": "Otro" },
+    "guests": "Número de personas",
+    "formula": "Formato",
+    "formulas": { "band": "Con músicos", "guitar": "Guitarra y voz", "david": "Con su hijo David", "zoom": "Por Zoom" },
+    "budget": "Presupuesto aproximado",
+    "optional": "opcional",
+    "name": "Nombre",
+    "phone": "Teléfono",
+    "email": "Correo",
+    "message": "Mensaje",
+    "messagePlaceholder": "El lugar, el ambiente, lo que te importa…",
+    "submit": "Enviar por WhatsApp",
+    "note": "Sin pago en línea. El mensaje se abre en WhatsApp y puedes leerlo antes de enviarlo.",
+    "call": "O por teléfono",
+    "errors": { "type": "Elige un tipo de evento.", "name": "Escribe tu nombre.", "phone": "Escribe un número de teléfono válido.", "email": "Este correo no parece válido." },
+    "wa": {
+      "title": "Solicitud de concierto – Aharon Sitbon",
+      "type": "Evento",
+      "date": "Fecha",
+      "city": "Lugar",
+      "country": "País",
+      "guests": "Personas",
+      "formula": "Formato",
+      "budget": "Presupuesto",
+      "name": "Nombre",
+      "phone": "Teléfono",
+      "email": "Correo",
+      "message": "Mensaje",
+      "closing": "¡Gracias!"
+    }
+  },
+  "footer": {
+    "tagline": "Cantante y compositor jasídico. Jerusalén.",
+    "contact": "Reservas",
+    "explore": "En el sitio",
+    "listen": "Escuchar",
+    "rights": "Todos los derechos reservados",
+    "photos": "Imágenes provisionales extraídas de sus videoclips oficiales.",
+    "legal": "Aviso legal"
+  },
+  "whatsapp": {
+    "float": "Escribir por WhatsApp",
+    "hello": "Hola, te escribo desde el sitio de Aharon Sitbon."
+  },
+  "legal": {
+    "title": "Aviso legal",
+    "back": "Volver al inicio",
+    "body": [
+      "Sitio oficial de Aharon Sitbon, cantante y compositor. Contacto: por WhatsApp o en el número que figura al pie de la página.",
+      "Alojamiento: Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, Estados Unidos.",
+      "Música, textos, fotos y videos: todos los derechos reservados a sus autores y productores (entre ellos Eli Klein, Yitzy Berry y Tzvaim Productions). Prohibida su reproducción sin autorización.",
+      "Los videos de YouTube solo se cargan al hacer clic; YouTube puede entonces instalar sus propias cookies. El sitio no usa cookies publicitarias ni medición de audiencia. El formulario de reserva no guarda nada: solo abre un mensaje de WhatsApp que tú decides enviar."
+    ]
+  },
+  "alt": {
+    "guitare-nuit": "Aharon Sitbon toca la guitarra de noche, bajo torres iluminadas",
+    "micro-nuit": "Aharon Sitbon con un micrófono en la ciudad de noche",
+    "portrait-chaine": "Retrato de Aharon Sitbon, barba blanca y kipá",
+    "regard-jerusalem": "Aharon Sitbon canta mirando al cielo en una terraza de Jerusalén",
+    "guitare-lumiere": "Aharon Sitbon toca la guitarra con la luz de la tarde",
+    "tour-de-david-live": "Aharon Sitbon canta en el escenario con la mano abierta",
+    "melech-hamashiach-live": "Aharon Sitbon en el escenario, rodeado de niños",
+    "tzama-5781": "Aharon Sitbon solo en el escenario bajo los focos, en el espectáculo Tzama",
+    "sur-scene-chapeau": "Aharon Sitbon con sombrero negro, cantando en un gran escenario",
+    "higia-zman-live": "Aharon Sitbon canta entre un coro de niños con los brazos en alto",
+    "studio-micro": "Aharon Sitbon en el estudio con auriculares, ante el micrófono",
+    "studio-gam-ki-elech": "Aharon Sitbon graba en el estudio con la mano tendida",
+    "interview-hamevaker": "Aharon Sitbon con su guitarra en el plató de HaMevaker",
+    "desert-guitare": "Aharon Sitbon toca la guitarra en el desierto de Judea",
+    "kotel-guitare": "Aharon Sitbon toca la guitarra ante el Muro Occidental",
+    "ruelle-guitare": "Aharon Sitbon con su guitarra en un callejón de piedra de Jerusalén",
+    "kotel-adon-olam": "Aharon Sitbon toca Adon Olam ante las piedras del Kotel",
+    "terrasse-jerusalem": "Aharon Sitbon toca la guitarra con Jerusalén al fondo",
+    "higia-zman-geulatchem": "Portada del álbum Higia Zman Geulatchem",
+    "portrait-annees-70": "Gilbert Sitbon en los años 70, retrato en blanco y negro",
+    "tele-1977": "Gilbert Sitbon canta en la televisión francesa en 1977",
+    "modeh-ani-petit-fils": "Aharon Sitbon toca la guitarra sentado en una roca junto a su nieto",
+    "achake-lo-david": "Aharon Sitbon y su hijo David Sitbon en el estudio con auriculares",
+    "ani-maamin-enfants": "Aharon Sitbon toca la guitarra ante un grupo de niños"
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "title": "Aharon Sitbon (Gilbert Sitbon) – chanteur juif hassidique à Jérusalem | אהרון סיטבון",
+    "description": "Site officiel d'Aharon Sitbon, chanteur et compositeur hassidique installé à Jérusalem, autrefois Gilbert Sitbon sur les scènes françaises. Écoutez ses albums Shehecheyanu et Higia Zman Geulatchem, Adon Olam, ses clips, et réservez un concert.",
+    "ogAlt": "Aharon Sitbon à la guitare, la nuit",
+    "legalTitle": "Mentions légales – Aharon Sitbon"
+  },
+  "nav": {
+    "skip": "Aller au contenu",
+    "menu": "Menu",
+    "close": "Fermer le menu",
+    "home": "Aharon Sitbon, accueil",
+    "story": "Histoire",
+    "music": "Musique",
+    "clips": "Clips",
+    "concerts": "Concerts",
+    "press": "Presse",
+    "contact": "Contact",
+    "book": "Réserver un concert",
+    "bookShort": "Réserver",
+    "language": "Langue"
+  },
+  "intro": { "skip": "Passer", "tagline": "LA VOIX DE L'ÂME" },
+  "hero": {
+    "eyebrow": "CHANTEUR · COMPOSITEUR · JÉRUSALEM",
+    "title": "La voix revenue après 30 ans de silence",
+    "listen": "Écouter",
+    "book": "Réserver un concert",
+    "scroll": "Défiler"
+  },
+  "manifesto": {
+    "eyebrow": "De l'Olympia aux remparts de Jérusalem",
+    "text": "Hier, il chantait l'amour en français sous le nom de Gilbert. Puis il s'est tu pendant trente ans pour étudier. Aujourd'hui, la même voix chante en hébreu, au service de la joie et de la foi.",
+    "sign": "Aharon Sitbon"
+  },
+  "cards": {
+    "eyebrow": "En trois temps",
+    "items": [
+      { "n": "001", "title": "L'histoire", "text": "Gilbert, Gilles d'Avray, Gilbert Sainroch, puis Aharon : un parcours que personne n'aurait écrit.", "link": "Lire son histoire", "href": "story" },
+      { "n": "002", "title": "La musique", "text": "Deux albums et plus de vingt singles depuis 2014, à écouter ici, titre par titre.", "link": "Écouter", "href": "music" },
+      { "n": "003", "title": "Sur scène", "text": "Concerts, mariages, farbrenguen, soirées de communauté et concerts sur Zoom, en Israël et en France.", "link": "Réserver", "href": "contact" }
+    ]
+  },
+  "span": {
+    "eyebrow": "1977 · 2026",
+    "title": "Cinquante ans, une seule voix",
+    "text": "En 1977, il passe à la télévision française et chante à l'Olympia. Près de cinquante ans plus tard, il chante devant les murailles de la Vieille Ville. Entre les deux : trente ans de silence, et une promesse tenue.",
+    "then": "Paris, 1977",
+    "now": "Jérusalem, aujourd'hui",
+    "watch": "Voir l'archive télé de 1977"
+  },
+  "story": {
+    "eyebrow": "L'histoire",
+    "title": "De Gilbert à Aharon",
+    "intro": "Les grandes étapes d'une vie en deux actes, telles que la presse les a racontées. Le reste, c'est lui qui le raconte le mieux, sur scène.",
+    "steps": [
+      { "year": "Les origines", "title": "Une maison pleine de musique", "text": "Il grandit dans une famille traditionnelle de neuf enfants. Sa grande sœur chante en s'accompagnant au luth ; un de ses frères deviendra batteur pour les grands noms de la chanson française." },
+      { "year": "Marseille · Paris", "title": "La guitare", "text": "La famille s'installe en France, à Marseille puis à Paris. Vers dix-sept ans, la guitare ne le lâche plus." },
+      { "year": "Années 1970", "title": "La scène", "text": "Un concours gagné, un premier 45 tours, des tournées. On le connaît sous les noms de Gilles d'Avray, Gilbert Sainroch ou Gilbert Sitbon. Son impresario, Roland Bismuth, s'occupe aussi d'Yves Duteil et de Michel Fugain." },
+      { "year": "1977", "title": "L'Olympia", "text": "Il passe à la télévision chez Philippe Bouvard et chante six titres à l'Olympia, en première partie d'Herbert Pagani." },
+      { "year": "Vers 30 ans", "title": "Les téfilines", "text": "À Paris, des hassidim de Habad lui proposent de mettre les téfilines. Ce geste le bouleverse. Il quitte peu à peu la scène, au moment même où on lui propose un long contrat de tournée." },
+      { "year": "30 ans", "title": "Le silence", "text": "Il étudie la Torah et gagne sa vie autrement. Ses enfants, puis ses petits-enfants, ne savent même pas qu'il a été chanteur." },
+      { "year": "Israël", "title": "La vieille guitare", "text": "Installé en Israël, à Jérusalem, il ressort sa guitare. Une mélodie de son ami Michel Fugain l'empêche de dormir : il y pose les mots d'Adon Olam." },
+      { "year": "2014", "title": "Adon Olam", "text": "Le producteur Yuval Stoppel l'entend et le sort en single. Il hésite à reprendre à son âge ; dans les lettres du Rabbi de Loubavitch, il lit qu'un artiste revenu à la religion doit mettre son talent au service de la sainteté. Il y voit sa réponse." },
+      { "year": "2016 · 2021", "title": "Deux albums", "text": "« Shehecheyanu », dont les bénéfices vont à l'association Eshel Tsion, puis « Higia Zman Geulatchem », préparé pendant trois ans avec Eli Klein et Yitzy Berry." },
+      { "year": "2022 · 2026", "title": "Toujours plus de chants", "text": "« Or Be'einai », une mélodie qu'il chantait déjà en 1977, « Odeh Hashem Elokai » pendant la guerre, « Tefila LeShalom », puis « Niggun Yehudi » pour Pourim. Sa mission : réjouir le peuple juif." }
+    ]
+  },
+  "music": {
+    "eyebrow": "La musique",
+    "title": "Discographie",
+    "intro": "Les albums, les singles et les archives françaises. Les titres restent en hébreu ; la traduction est en dessous.",
+    "albums": "Albums",
+    "singles": "Singles",
+    "archives": "Archives françaises",
+    "archivesText": "Les 45 tours de Gilbert Sitbon, Gilles d'Avray et Gilbert Sainroch.",
+    "tracks": "{n} titres",
+    "listen": "Écouter",
+    "listenTrack": "Écouter « {title} »",
+    "playAlbum": "Écouter l'album",
+    "shuffle": "Lecture aléatoire",
+    "download": "Télécharger le titre",
+    "downloadAll": "Télécharger tout l'album (.zip)",
+    "downloadOff": "Le téléchargement gratuit sera ouvert avec l'accord des producteurs.",
+    "alsoOn": "Écouter aussi sur",
+    "credits": "Crédits",
+    "composer": "Composition",
+    "lyrics": "Paroles",
+    "production": "Arrangement et production",
+    "featuring": "Avec",
+    "liturgy": "Texte de la liturgie",
+    "toConfirm": "à confirmer",
+    "open": "Voir l'album",
+    "close": "Fermer",
+    "noVideo": "Pas encore de clip",
+    "single": "Single",
+    "album": "Album",
+    "producers": "Production"
+  },
+  "player": {
+    "label": "Lecteur",
+    "play": "Lecture",
+    "pause": "Pause",
+    "next": "Titre suivant",
+    "prev": "Titre précédent",
+    "shuffle": "Aléatoire",
+    "volume": "Volume",
+    "progress": "Progression",
+    "close": "Fermer le lecteur",
+    "video": "Clip officiel sur YouTube",
+    "expand": "Afficher la vidéo",
+    "collapse": "Réduire la vidéo"
+  },
+  "clips": {
+    "eyebrow": "Les clips",
+    "title": "À regarder",
+    "intro": "Les vidéos de sa chaîne YouTube, de la plus récente à la plus ancienne. Elles ne se chargent qu'au clic.",
+    "filters": { "all": "Tout", "official": "Clips officiels", "live": "En live", "interview": "Interviews", "archive": "Archives" },
+    "play": "Lire la vidéo",
+    "views": "{n} vues",
+    "channel": "Toute la chaîne YouTube",
+    "more": "Voir plus"
+  },
+  "concerts": {
+    "eyebrow": "Sur scène",
+    "title": "Concerts et événements",
+    "upcoming": "Prochains concerts",
+    "none": "Les prochaines dates seront annoncées ici. Pour l'inviter chez vous, écrivez-nous.",
+    "tickets": "Billetterie",
+    "past": "Ils l'ont reçu",
+    "invite": "L'inviter"
+  },
+  "french": {
+    "eyebrow": "Les années françaises",
+    "title": "Avant Aharon, il y avait Gilbert",
+    "text": "Dans les années 1970, il enregistre des 45 tours, tourne en France et passe à la radio. Ces disques, il ne les écoutait plus. Les voici rassemblés.",
+    "names": "Ses noms de scène",
+    "namesList": ["Gilles d'Avray", "Gilbert Sainroch", "Gilbert Sitbon"],
+    "records": "Les 45 tours",
+    "coverSoon": "Pochette à venir",
+    "sideA": "Face A",
+    "sideB": "Face B",
+    "lahayeTitle": "« Les Grandes Espérances »",
+    "lahayeText": "Une de ses chansons, reprise par Jean-Luc Lahaye sur l'album « Gloria » en 1984.",
+    "tvTitle": "L'interview télé de 1977",
+    "tvText": "Une archive rare : le jeune Gilbert Sitbon, micro en main, sur un plateau de télévision.",
+    "source": "Références : Encyclopédisque"
+  },
+  "family": {
+    "eyebrow": "En famille",
+    "title": "Chanter avec les siens",
+    "text": "Sur scène comme en studio, la musique se transmet. Il chante souvent avec son fils, le chanteur hassidique David Sitbon, et parfois avec ses petits-enfants.",
+    "david": "« Achake Lo », avec son fils David Sitbon",
+    "grandson": "« Modeh Ani », en duo avec son petit-fils",
+    "children": "« Ani Maamin », entouré d'enfants"
+  },
+  "press": {
+    "eyebrow": "Ils en parlent",
+    "title": "Presse",
+    "read": "Lire l'article"
+  },
+  "voices": {
+    "eyebrow": "Messages du public",
+    "title": "Ce qu'on lui écrit",
+    "text": "Cet espace accueillera de vrais messages du public, publiés avec l'accord de leurs auteurs."
+  },
+  "booking": {
+    "eyebrow": "Réservation",
+    "title": "Inviter Aharon Sitbon",
+    "intro": "Concert, mariage, bar-mitsva, farbrenguen ou soirée de communauté, en Israël, en France ou sur Zoom. Remplissez ces quelques lignes : votre demande part sur WhatsApp, déjà rédigée.",
+    "type": "Type d'événement",
+    "types": { "concert": "Concert", "wedding": "Mariage", "barmitzvah": "Bar-mitsva", "chabad": "Événement Habad / farbrenguen", "community": "Soirée de communauté", "corporate": "Événement d'entreprise", "zoom": "Concert sur Zoom", "other": "Autre" },
+    "date": "Date",
+    "dateTaken": "Cette date est déjà prise. Écrivez-nous quand même, on vous proposera une solution.",
+    "city": "Ville / salle",
+    "country": "Pays",
+    "countries": { "IL": "Israël", "FR": "France", "other": "Autre" },
+    "guests": "Nombre de personnes",
+    "formula": "Formule",
+    "formulas": { "band": "Avec musiciens", "guitar": "Guitare et voix", "david": "Avec son fils David", "zoom": "Sur Zoom" },
+    "budget": "Budget indicatif",
+    "optional": "facultatif",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "email": "Email",
+    "message": "Message",
+    "messagePlaceholder": "Le lieu, l'ambiance, ce qui compte pour vous…",
+    "submit": "Envoyer sur WhatsApp",
+    "note": "Pas de paiement en ligne. Le message s'ouvre dans WhatsApp, vous pouvez le relire avant de l'envoyer.",
+    "call": "Ou par téléphone",
+    "errors": { "type": "Choisissez un type d'événement.", "name": "Indiquez votre nom.", "phone": "Indiquez un numéro de téléphone valide.", "email": "Cet email ne semble pas valide." },
+    "wa": {
+      "title": "Demande de concert – Aharon Sitbon",
+      "type": "Événement",
+      "date": "Date",
+      "city": "Lieu",
+      "country": "Pays",
+      "guests": "Personnes",
+      "formula": "Formule",
+      "budget": "Budget",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "Email",
+      "message": "Message",
+      "closing": "Merci, à bientôt !"
+    }
+  },
+  "footer": {
+    "tagline": "Chanteur et compositeur hassidique. Jérusalem.",
+    "contact": "Réservations",
+    "explore": "Le site",
+    "listen": "Écouter",
+    "rights": "Tous droits réservés",
+    "photos": "Visuels provisoires issus de ses clips officiels.",
+    "legal": "Mentions légales"
+  },
+  "whatsapp": {
+    "float": "Écrire sur WhatsApp",
+    "hello": "Bonjour, je vous écris depuis le site d'Aharon Sitbon."
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "back": "Retour à l'accueil",
+    "body": [
+      "Site officiel d'Aharon Sitbon, chanteur et compositeur. Contact : par WhatsApp ou au numéro indiqué en bas de page.",
+      "Hébergement : Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis.",
+      "Musique, textes, photos et vidéos : tous droits réservés à leurs auteurs et producteurs (notamment Eli Klein, Yitzy Berry et Tzvaim Productions). Aucune reproduction sans autorisation.",
+      "Les vidéos YouTube ne se chargent que lorsque vous cliquez dessus ; YouTube peut alors déposer ses propres cookies. Le site lui-même n'utilise ni cookie publicitaire ni outil de mesure d'audience. Le formulaire de réservation n'enregistre rien : il ouvre seulement un message WhatsApp que vous choisissez d'envoyer."
+    ]
+  },
+  "alt": {
+    "guitare-nuit": "Aharon Sitbon joue de la guitare, la nuit, au pied des tours éclairées",
+    "micro-nuit": "Aharon Sitbon, micro en main, dans la ville la nuit",
+    "portrait-chaine": "Portrait d'Aharon Sitbon, barbe blanche et kippa",
+    "regard-jerusalem": "Aharon Sitbon chante, le regard levé, sur une terrasse de Jérusalem",
+    "guitare-lumiere": "Aharon Sitbon à la guitare dans la lumière du soir",
+    "tour-de-david-live": "Aharon Sitbon chante sur scène, la main ouverte",
+    "melech-hamashiach-live": "Aharon Sitbon sur scène, entouré d'enfants",
+    "tzama-5781": "Aharon Sitbon seul en scène sous les projecteurs, spectacle Tzama",
+    "sur-scene-chapeau": "Aharon Sitbon en chapeau noir, chantant sur une grande scène",
+    "higia-zman-live": "Aharon Sitbon chante au milieu d'un chœur d'enfants qui lèvent les bras",
+    "studio-micro": "Aharon Sitbon au studio, casque sur les oreilles, devant le micro",
+    "studio-gam-ki-elech": "Aharon Sitbon enregistre en studio, la main tendue",
+    "interview-hamevaker": "Aharon Sitbon, guitare à la main, sur le plateau de l'émission HaMevaker",
+    "desert-guitare": "Aharon Sitbon joue de la guitare dans le désert de Judée",
+    "kotel-guitare": "Aharon Sitbon joue de la guitare devant le Mur occidental",
+    "ruelle-guitare": "Aharon Sitbon à la guitare dans une ruelle de pierre de Jérusalem",
+    "kotel-adon-olam": "Aharon Sitbon joue Adon Olam devant les pierres du Kotel",
+    "terrasse-jerusalem": "Aharon Sitbon à la guitare, Jérusalem en contrebas",
+    "higia-zman-geulatchem": "Pochette de l'album Higia Zman Geulatchem",
+    "portrait-annees-70": "Gilbert Sitbon dans les années 1970, portrait en noir et blanc",
+    "tele-1977": "Gilbert Sitbon chante à la télévision française en 1977",
+    "modeh-ani-petit-fils": "Aharon Sitbon à la guitare, assis sur un rocher à côté de son petit-fils",
+    "achake-lo-david": "Aharon Sitbon et son fils David Sitbon au studio, casques sur les oreilles",
+    "ani-maamin-enfants": "Aharon Sitbon à la guitare devant un groupe d'enfants"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "_lisezmoi": "45 tours des années 1970-1980 retrouvés sur Encyclopédisque. cover : pochette scannée fournie par l'artiste (jamais une photo de site de vente), dans public/media/archives-1977/.",
+  "singles": [
+    { "artist": "Gilles d'Avray", "year": "1971", "a": "Petite fille", "b": "Isabelle", "label": "Versailles", "ref": "VER 7257", "credit": "Orchestre d'Hervé Roy", "cover": null },
+    { "artist": "Gilbert Sitbon", "year": "197?", "a": "Il faut rouler cool", "b": null, "label": "Autoproduction", "ref": "DY 726", "credit": null, "cover": null },
+    { "artist": "Gilbert Sainroch", "year": "1978", "a": "L'eau et le feu", "b": "Le fou du roi", "label": "Philips / Phonogram", "ref": "6172 069", "credit": null, "cover": null },
+    { "artist": "Gilbert Sitbon", "year": "1980", "a": "À mi-chemin", "b": "Même tes amours", "label": "RCA", "ref": "PB 8559", "credit": "Arrangements de Christian Gaubert", "cover": null }
+  ]
+}
