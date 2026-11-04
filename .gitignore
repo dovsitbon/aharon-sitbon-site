@@ -17,3 +17,6 @@ next-env.d.ts
 # MP3/WAV sources de l'artiste (lourds)
 /assets/audio-src/
 
+
+.vercel
+.env*
