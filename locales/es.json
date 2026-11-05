@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Aharon Sitbon – cantante y compositor jasídico, Jerusalén | אהרון סיטבון",
-    "description": "Sitio oficial de Aharon Sitbon, cantante y compositor jasídico en Jerusalén, antes Gilbert Sitbon en los escenarios franceses. Escucha los álbumes Shehecheyanu e Higia Zman Geulatchem, Adon Olam y sus videoclips, y reserva un concierto.",
+    "description": "Sitio oficial de Aharon Sitbon, cantante y compositor jasídico en Jerusalén, antes Gilbert Sitbon en los escenarios franceses (Olympia 1977). Su historia, los álbumes Shehecheyanu e Higia Zman Geulatchem, Adon Olam, sus videoclips y conciertos.",
     "ogAlt": "Aharon Sitbon tocando la guitarra de noche",
     "legalTitle": "Aviso legal – Aharon Sitbon"
   },
@@ -16,11 +16,11 @@
     "concerts": "Conciertos",
     "press": "Prensa",
     "contact": "Contacto",
-    "book": "Reservar un concierto",
-    "bookShort": "Reservar",
+    "book": "Escuchar",
+    "bookShort": "Escuchar",
     "language": "Idioma",
-    "services": "Actuaciones",
-    "events": "Eventos"
+    "events": "Conciertos",
+    "today": "Hoy"
   },
   "intro": {
     "skip": "Saltar",
@@ -30,7 +30,7 @@
     "eyebrow": "CANTANTE · COMPOSITOR · JERUSALÉN",
     "title": "La voz que volvió tras 30 años de silencio",
     "listen": "Escuchar",
-    "book": "Reservar un concierto",
+    "book": "Su historia",
     "scroll": "Desplazar"
   },
   "manifesto": {
@@ -58,9 +58,9 @@
       {
         "n": "003",
         "title": "En el escenario",
-        "text": "Conciertos, bodas, farbrenguen, veladas comunitarias y conciertos por Zoom, en Israel y en Francia.",
-        "link": "Reservar",
-        "href": "contact"
+        "text": "Del Olympia en 1977 al Heijal Menorá: los escenarios que ha llenado su voz.",
+        "link": "Sus conciertos",
+        "href": "events"
       }
     ]
   },
@@ -196,7 +196,7 @@
     "upcoming": "Próximos conciertos",
     "none": "Las próximas fechas se anunciarán aquí. ¿Quieres invitarlo? Escríbenos.",
     "tickets": "Entradas",
-    "past": "Dónde ha cantado",
+    "past": "Los escenarios donde ha cantado",
     "invite": "Invitarlo"
   },
   "french": {
@@ -245,62 +245,36 @@
     "text": "Este espacio recogerá mensajes reales del público, publicados con el permiso de sus autores."
   },
   "booking": {
-    "eyebrow": "Reservas",
-    "title": "Invitar a Aharon Sitbon",
-    "intro": "Concierto, boda, bar mitzvá, farbrenguen o velada comunitaria, en Israel, en Francia o por Zoom. Rellena unas líneas y tu solicitud se abre en WhatsApp, ya redactada.",
-    "type": "Tipo de evento",
+    "eyebrow": "Contacto",
+    "title": "Escribirle",
+    "intro": "Unas palabras después de escuchar un canto, una pregunta de prensa: tu mensaje se abre en WhatsApp, ya redactado.",
+    "type": "Tu mensaje trata sobre",
     "types": {
-      "concert": "Concierto",
-      "wedding": "Boda",
-      "barmitzvah": "Bar mitzvá",
-      "chabad": "Evento de Jabad / farbrenguen",
-      "community": "Velada comunitaria",
-      "corporate": "Evento de empresa",
-      "zoom": "Concierto por Zoom",
+      "message": "Unas palabras para él",
+      "press": "Prensa / entrevista",
+      "media": "Radio / televisión",
+      "rights": "Difusión de su música",
       "other": "Otro"
     },
-    "date": "Fecha",
-    "dateTaken": "Esa fecha ya está reservada. Escríbenos de todos modos y buscaremos una solución.",
-    "city": "Ciudad / sala",
-    "country": "País",
-    "countries": {
-      "IL": "Israel",
-      "FR": "Francia",
-      "other": "Otro"
-    },
-    "guests": "Número de personas",
-    "formula": "Formato",
-    "formulas": {
-      "band": "Con músicos",
-      "guitar": "Guitarra y voz",
-      "david": "Con su hijo David",
-      "zoom": "Por Zoom"
-    },
-    "budget": "Presupuesto aproximado",
-    "optional": "opcional",
     "name": "Nombre",
     "phone": "Teléfono",
     "email": "Correo",
+    "optional": "opcional",
     "message": "Mensaje",
-    "messagePlaceholder": "El lugar, el ambiente, lo que te importa…",
+    "messagePlaceholder": "Tu mensaje…",
     "submit": "Enviar por WhatsApp",
-    "note": "Sin pago en línea. El mensaje se abre en WhatsApp y puedes leerlo antes de enviarlo.",
+    "note": "El mensaje se abre en WhatsApp y puedes leerlo antes de enviarlo.",
     "call": "O por teléfono",
     "errors": {
-      "type": "Elige un tipo de evento.",
+      "type": "Elige un asunto.",
       "name": "Escribe tu nombre.",
       "phone": "Escribe un número de teléfono válido.",
-      "email": "Este correo no parece válido."
+      "email": "Este correo no parece válido.",
+      "message": "Escribe unas palabras."
     },
     "wa": {
-      "title": "Solicitud de concierto – Aharon Sitbon",
-      "type": "Evento",
-      "date": "Fecha",
-      "city": "Lugar",
-      "country": "País",
-      "guests": "Personas",
-      "formula": "Formato",
-      "budget": "Presupuesto",
+      "title": "Mensaje – sitio de Aharon Sitbon",
+      "type": "Asunto",
       "name": "Nombre",
       "phone": "Teléfono",
       "email": "Correo",
@@ -310,7 +284,7 @@
   },
   "footer": {
     "tagline": "Cantante y compositor jasídico. Jerusalén.",
-    "contact": "Reservas",
+    "contact": "Contacto",
     "explore": "En el sitio",
     "listen": "Escuchar",
     "rights": "Todos los derechos reservados",
@@ -328,7 +302,7 @@
       "Sitio oficial de Aharon Sitbon, cantante y compositor. Contacto: por WhatsApp o en el número que figura al pie de la página.",
       "Alojamiento: Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, Estados Unidos.",
       "Música, textos, fotos y videos: todos los derechos reservados a sus autores y productores (entre ellos Eli Klein, Yitzy Berry y Tzvaim Productions). Prohibida su reproducción sin autorización.",
-      "Los videos de YouTube solo se cargan al hacer clic; YouTube puede entonces instalar sus propias cookies. El sitio no usa cookies publicitarias ni medición de audiencia. El formulario de reserva no guarda nada: solo abre un mensaje de WhatsApp que tú decides enviar."
+      "Los videos de YouTube solo se cargan al hacer clic; YouTube puede entonces instalar sus propias cookies. El sitio no usa cookies publicitarias ni medición de audiencia. El formulario de contacto no guarda nada: solo abre un mensaje de WhatsApp que tú decides enviar."
     ]
   },
   "alt": {
@@ -376,17 +350,11 @@
       "h1": "Sus <em>videos</em> y conciertos",
       "intro": "Videoclips oficiales, conciertos grabados, entrevistas y archivo, tal como se publican en su canal de YouTube."
     },
-    "services": {
-      "title": "Actuaciones – conciertos, bodas, bar mitzvá, farbrenguen, Zoom",
-      "eyebrow": "Actuaciones",
-      "h1": "Una voz para tus <em>grandes momentos</em>",
-      "intro": "Aharon Sitbon canta en bodas, bar mitzvás, veladas comunitarias, eventos de Jabad y conciertos, en Israel, en Francia y por Zoom."
-    },
     "events": {
-      "title": "Conciertos y eventos",
-      "eyebrow": "Eventos",
+      "title": "Sus conciertos – del Olympia al Heijal Menorá",
+      "eyebrow": "Conciertos",
       "h1": "En el <em>escenario</em>",
-      "intro": "Las próximas fechas y los escenarios donde ya ha cantado: del Olympia en 1977 al Heijal Menorá."
+      "intro": "Del Olympia en 1977 al Heijal Menorá, de la Torre de David al congreso Tzama: los escenarios que ha llenado su voz."
     },
     "press": {
       "title": "Prensa – hablan de Aharon Sitbon",
@@ -395,10 +363,16 @@
       "intro": "Retratos, entrevistas y anuncios de estrenos, en francés, hebreo e inglés."
     },
     "contact": {
-      "title": "Contacto y reserva de conciertos",
+      "title": "Contacto – escribir a Aharon Sitbon",
       "eyebrow": "Contacto",
-      "h1": "Invitar a <em>Aharon Sitbon</em>",
-      "intro": "Una fecha, un lugar, unas palabras sobre tu evento: la solicitud se abre en WhatsApp, ya redactada."
+      "h1": "Escribir a <em>Aharon Sitbon</em>",
+      "intro": "Unas palabras después de escuchar un canto, una solicitud de prensa o de entrevista: tu mensaje se abre en WhatsApp, ya redactado."
+    },
+    "today": {
+      "title": "Hoy – sus nuevos cantos y lo que prepara",
+      "eyebrow": "Hoy",
+      "h1": "Siempre <em>en camino</em>",
+      "intro": "Desde su regreso en 2014 no ha parado: compone, graba, y casi cada año sale un nuevo canto."
     }
   },
   "home": {
@@ -428,124 +402,22 @@
     "storyLink": "Leer su historia",
     "musicTitle": "Los <em>álbumes</em>",
     "musicLink": "Toda la discografía",
-    "servicesTitle": "Viene a cantar <em>para ti</em>",
-    "servicesText": "Bodas, bar mitzvás, farbrenguen, veladas comunitarias, eventos de empresa: con músicos, guitarra y voz, con su hijo David o por Zoom.",
-    "servicesLink": "Ver las actuaciones",
     "videosTitle": "Para <em>ver</em>",
     "videosLink": "Todos los videos",
-    "eventsTitle": "Próximas <em>fechas</em>",
-    "eventsLink": "Todos los eventos",
+    "eventsTitle": "En el <em>escenario</em>",
+    "eventsLink": "Todos sus conciertos",
     "pressTitle": "Hablan de <em>él</em>",
     "pressLink": "Toda la prensa",
-    "ctaTitle": "¿Y si fuera para <em>tu</em> evento?",
-    "ctaText": "Escríbenos la fecha y el lugar, te respondemos por WhatsApp.",
-    "ctaButton": "Reservar un concierto"
-  },
-  "services": {
-    "formulasEyebrow": "Formatos",
-    "formulasTitle": "Cuatro maneras de <em>recibirlo</em>",
-    "formulas": [
-      {
-        "id": "band",
-        "title": "Con músicos",
-        "text": "El concierto completo con su banda: para grandes salas, bodas y veladas en las que se baila.",
-        "ideal": "Bodas, conciertos, grandes eventos"
-      },
-      {
-        "id": "guitar",
-        "title": "Guitarra y voz",
-        "text": "Él y su guitarra, como el primer día. Un momento íntimo en el que también cuenta su historia entre canciones.",
-        "ideal": "Farbrenguen, veladas comunitarias, Shabat"
-      },
-      {
-        "id": "david",
-        "title": "Con su hijo David",
-        "text": "Padre e hijo a dúo en el escenario: «Achake Lo» y los cantos que comparten desde hace años.",
-        "ideal": "Bar mitzvás, fiestas familiares, galas"
-      },
-      {
-        "id": "zoom",
-        "title": "Concierto por Zoom",
-        "text": "Un concierto en directo a distancia, para una comunidad, una escuela o una familia repartida entre países.",
-        "ideal": "Comunidades en el extranjero, escuelas, residencias"
-      }
-    ],
-    "occasionsEyebrow": "Ocasiones",
-    "occasionsTitle": "¿Para qué <em>eventos</em>?",
-    "occasions": [
-      {
-        "title": "Bodas",
-        "text": "La jupá, la entrada de los novios y luego la alegría de la noche."
-      },
-      {
-        "title": "Bar mitzvás",
-        "text": "Un concierto para el gran día, con cantos que todos corean."
-      },
-      {
-        "title": "Eventos de Jabad",
-        "text": "Farbrenguen, congresos, fiestas: su repertorio nació en el mundo de Jabad."
-      },
-      {
-        "title": "Veladas comunitarias",
-        "text": "Sinagogas, centros comunitarios, fiestas de Janucá o de Purim."
-      },
-      {
-        "title": "Eventos de empresa",
-        "text": "Una velada con sentido, con un artista cuya historia emociona a todos."
-      },
-      {
-        "title": "Conciertos",
-        "text": "Salas de espectáculos y festivales, en Israel y en Francia."
-      }
-    ],
-    "stepsEyebrow": "Cómo funciona",
-    "stepsTitle": "En cuatro <em>pasos</em>",
-    "steps": [
-      {
-        "title": "Tu solicitud",
-        "text": "Rellenas el formulario: fecha, lugar, tipo de evento. El mensaje se abre en WhatsApp."
-      },
-      {
-        "title": "Hablamos",
-        "text": "Te llamamos para entender el ambiente, el público y lo que te importa."
-      },
-      {
-        "title": "La propuesta",
-        "text": "Recibes una propuesta a medida: formato, duración, músicos, condiciones."
-      },
-      {
-        "title": "El gran día",
-        "text": "Llega, canta, y el resto de la noche es tuya."
-      }
-    ],
-    "faqEyebrow": "Preguntas frecuentes",
-    "faqTitle": "Bueno <em>saberlo</em>",
-    "faq": [
-      {
-        "q": "¿Cuánto cuesta una actuación?",
-        "a": "Depende del formato, la fecha, el lugar y el número de músicos. Envía tu solicitud y recibirás una propuesta a medida."
-      },
-      {
-        "q": "¿Viaja a Francia?",
-        "a": "Sí. Vive en Israel y también actúa en Francia; solo hay que pedirlo con tiempo para organizar el viaje."
-      },
-      {
-        "q": "¿En qué idiomas canta?",
-        "a": "Sus canciones son en hebreo. Entre canción y canción puede hablar en hebreo o en francés."
-      },
-      {
-        "q": "¿Puede contar su historia durante el concierto?",
-        "a": "Sí, y suele ser el momento más fuerte de la noche: del Olympia a los tefilín y el regreso a la música."
-      },
-      {
-        "q": "¿Cómo funciona un concierto por Zoom?",
-        "a": "Canta en directo desde Israel; recibes el enlace y lo compartes con tu público, en una sala o en casa."
-      }
-    ],
-    "cta": "Pedir una propuesta"
+    "ctaTitle": "¿Te ha <em>emocionado</em> su música?",
+    "ctaText": "Escucha sus álbumes, sigue su canal o escríbele unas palabras.",
+    "ctaButton": "Escuchar su música",
+    "todayTitle": "Hoy <em>sigue cantando</em>",
+    "todayText": "Sigue componiendo, y casi cada año sale un nuevo canto, hecho con Eli Klein e Yitzy Berry, a menudo junto a su hijo David.",
+    "todayLink": "Lo que hace hoy",
+    "eventsText": "El Olympia, el Heijal Menorá ante miles de personas, la Torre de David, el congreso Tzama: una voz que ha llenado salas, ayer y hoy.",
+    "ctaSecondary": "Escribirle"
   },
   "events": {
-    "calendar": "Las fechas las actualiza el equipo de Aharon Sitbon.",
     "gallery": "En el escenario, en imágenes",
     "watch": "Ver el video"
   },
@@ -554,6 +426,65 @@
     "whatsapp": "Escribir por WhatsApp",
     "call": "Llamar",
     "follow": "Seguirlo",
-    "note": "Lo más sencillo para reservar: WhatsApp."
+    "note": "Lo más sencillo: WhatsApp."
+  },
+  "today": {
+    "releasesEyebrow": "Últimos estrenos",
+    "releasesTitle": "Un canto <em>casi cada año</em>",
+    "releases": [
+      {
+        "id": "niggun-yehudi",
+        "date": "Marzo de 2026",
+        "note": "Un canto sobre el milagro de Purim, con un videoclip de Zeevi Heller."
+      },
+      {
+        "id": "tefila-leshalom",
+        "date": "Marzo de 2025",
+        "note": "Una oración por la paz, filmada ante el Kotel."
+      },
+      {
+        "id": "odeh-hashem",
+        "date": "2024",
+        "note": "Un salmo cantado antes de Elul, durante la guerra. Su video más visto: más de 500 000 visualizaciones."
+      },
+      {
+        "id": "ana-hashem",
+        "date": "2024",
+        "note": "Una súplica, en el corazón de meses difíciles."
+      },
+      {
+        "id": "or-beeinai",
+        "date": "Enero de 2023",
+        "note": "Una melodía que ya cantaba en 1977, con nuevos arreglos casi cincuenta años después."
+      },
+      {
+        "id": "yamim-baim",
+        "date": "2022",
+        "note": "Estrenado antes de las fiestas."
+      }
+    ],
+    "howEyebrow": "Su forma de trabajar",
+    "howTitle": "Una música <em>hecha entre varios</em>",
+    "how": [
+      {
+        "title": "Él compone",
+        "text": "La mayoría de las melodías son suyas. Algunas vienen de lejos: «Or Be'einai» es de sus años en París."
+      },
+      {
+        "title": "Con Eli Klein e Yitzy Berry",
+        "text": "El dúo firma la mayoría de las letras, arreglos y producciones, con Tzvaim Productions."
+      },
+      {
+        "title": "En familia",
+        "text": "Su hijo David, cantante jasídico, canta a menudo con él; a veces también sus nietos."
+      }
+    ],
+    "missionEyebrow": "Su misión",
+    "mission": "Alegrar al pueblo judío.",
+    "missionNote": "Así describe COL su misión desde su regreso a la música.",
+    "followEyebrow": "Seguirlo",
+    "followTitle": "No te pierdas <em>nada</em>",
+    "followText": "Los nuevos cantos salen primero en su canal de YouTube.",
+    "subscribers": "unos 3800 suscriptores"
   }
 }

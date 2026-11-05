@@ -7,15 +7,15 @@ Production : https://aharon-sitbon.vercel.app · chaque `git push` sur `main` re
 
 | Adresse | Contenu |
 |---|---|
-| `/he` `/fr` `/en` `/es` | Accueil : hero, repères, histoire en bref, dernière sortie, albums, prestations, clips, événements, presse |
+| `/he` `/fr` `/en` `/es` | Accueil : diaporama de photos, repères, histoire en bref, dernière sortie, albums, aujourd'hui, clips, concerts, presse |
 | `/<langue>/story` | Son histoire : frise, 1977 · 2026, les années françaises, en famille, David Sitbon |
 | `/<langue>/music` | Albums, singles, archives françaises (45 tours) |
 | `/<langue>/music/shehecheyanu` · `/higia-zman-geulatchem` | Fiche album : titres, écoute, crédits, téléchargement (si autorisé) |
 | `/<langue>/videos` | Les 38 vidéos de la chaîne, filtrables (clips, live, interviews, archives) |
-| `/<langue>/services` | Prestations : formules, occasions, étapes, FAQ |
-| `/<langue>/events` | Prochains concerts (`data/concerts.json`), concerts passés, galerie |
+| `/<langue>/today` | Aujourd'hui : ses dernières sorties, sa façon de travailler, sa mission, le suivre |
+| `/<langue>/events` | Concerts passés (Olympia, Heichal Menorah, Tzama…), galerie ; les prochains concerts n'apparaissent que si `data/concerts.json` en contient |
 | `/<langue>/press` | Articles de presse, messages du public |
-| `/<langue>/contact` | Formulaire de réservation (envoi sur WhatsApp) et contacts directs |
+| `/<langue>/contact` | Formulaire de contact (envoi sur WhatsApp, +972 52-512-5282) et contacts directs |
 
 ## Ajouter la musique (MP3) : la marche à suivre
 
@@ -61,6 +61,7 @@ Ne jamais récupérer d'audio depuis YouTube ni depuis des sites de télécharge
 | Dates déjà prises | `data/dates.json` |
 | Presse | `data/press.json` |
 | Liens, téléphone, WhatsApp | `data/site.json` |
+| Diaporama de l'accueil | photos dans `public/media/slides/` (liste SLIDES de `scripts/media.mjs` et de `app/[lang]/page.tsx`) |
 | Vraies photos HD | déposer dans `assets/<catégorie>/`, référencer dans `scripts/media.mjs`, puis `npm run media` |
 
 ## Développement

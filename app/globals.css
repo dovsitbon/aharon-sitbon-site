@@ -596,3 +596,21 @@ html.player-on .wa-float {
 html.player-on body {
   padding-bottom: 4.75rem;
 }
+
+/* Diaporama de l'accueil : zoom très lent sur l'image visible */
+.kenburns {
+  animation: kenburns 9s ease-out both;
+}
+@keyframes kenburns {
+  from {
+    transform: scale(1.08);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .kenburns {
+    animation: none;
+  }
+}

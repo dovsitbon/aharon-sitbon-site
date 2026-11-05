@@ -10,7 +10,7 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | clé | עברית | Français | English | Español |
 |---|---|---|---|---|
 | `title` | אהרון סיטבון – זמר ומלחין חסידי | Aharon Sitbon, chanteur hassidique | Aharon Sitbon (Gilbert Sitbon) – chanteur juif hassidique à Jérusalem | אהרון סיטבון | Aharon Sitbon – Chassidic Singer & Composer, Jerusalem | אהרון סיטבון | Aharon Sitbon – cantante y compositor jasídico, Jerusalén | אהרון סיטבון |
-| `description` | האתר הרשמי של אהרון סיטבון, זמר ומלחין חב״די מירושלים, ז׳ילבר סיטבון מבמות צרפת של שנות ה־70. האזינו לאלבומים ״שהחיינו״ ו״הגיע זמן גאולתכם״, ל״אדון עולם״ ולקליפים, והזמינו הופעה לאירוע שלכם. | Site officiel d'Aharon Sitbon, chanteur et compositeur hassidique installé à Jérusalem, autrefois Gilbert Sitbon sur les scènes françaises. Écoutez ses albums Shehecheyanu et Higia Zman Geulatchem, Adon Olam, ses clips, et réservez un concert. | Official site of Aharon Sitbon, Chassidic singer and composer in Jerusalem, once Gilbert Sitbon of the French stage. Listen to the albums Shehecheyanu and Higia Zman Geulatchem, Adon Olam and his music videos, and book a concert. | Sitio oficial de Aharon Sitbon, cantante y compositor jasídico en Jerusalén, antes Gilbert Sitbon en los escenarios franceses. Escucha los álbumes Shehecheyanu e Higia Zman Geulatchem, Adon Olam y sus videoclips, y reserva un concierto. |
+| `description` | האתר הרשמי של אהרון סיטבון, זמר ומלחין חב״די מירושלים, ז׳ילבר סיטבון מבמות צרפת של שנות ה־70 (האולימפיה, 1977). הסיפור שלו, האלבומים ״שהחיינו״ ו״הגיע זמן גאולתכם״, ״אדון עולם״, הקליפים וההופעות. | Site officiel d'Aharon Sitbon, chanteur et compositeur hassidique installé à Jérusalem, autrefois Gilbert Sitbon sur les scènes françaises (Olympia 1977). Son histoire, ses albums Shehecheyanu et Higia Zman Geulatchem, Adon Olam, ses clips et ses concerts. | Official site of Aharon Sitbon, Chassidic singer and composer in Jerusalem, once Gilbert Sitbon of the French stage (Olympia 1977). His story, the albums Shehecheyanu and Higia Zman Geulatchem, Adon Olam, his videos and concerts. | Sitio oficial de Aharon Sitbon, cantante y compositor jasídico en Jerusalén, antes Gilbert Sitbon en los escenarios franceses (Olympia 1977). Su historia, los álbumes Shehecheyanu e Higia Zman Geulatchem, Adon Olam, sus videoclips y conciertos. |
 | `ogAlt` | אהרון סיטבון מנגן בגיטרה בלילה | Aharon Sitbon à la guitare, la nuit | Aharon Sitbon playing guitar at night | Aharon Sitbon tocando la guitarra de noche |
 | `legalTitle` | מידע משפטי – אהרון סיטבון | Mentions légales – Aharon Sitbon | Legal notice – Aharon Sitbon | Aviso legal – Aharon Sitbon |
 
@@ -28,11 +28,11 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `concerts` | הופעות | Concerts | Concerts | Conciertos |
 | `press` | בתקשורת | Presse | Press | Prensa |
 | `contact` | צור קשר | Contact | Contact | Contacto |
-| `book` | להזמנת הופעה | Réserver un concert | Book a concert | Reservar un concierto |
-| `bookShort` | הזמנה | Réserver | Book | Reservar |
+| `book` | להאזנה | Écouter | Listen | Escuchar |
+| `bookShort` | האזנה | Écouter | Listen | Escuchar |
 | `language` | שפה | Langue | Language | Idioma |
-| `services` | הופעות לאירועים | Prestations | Performances | Actuaciones |
-| `events` | אירועים | Événements | Events | Eventos |
+| `events` | הופעות | Concerts | Concerts | Conciertos |
+| `today` | היום | Aujourd'hui | Today | Hoy |
 
 ## Textes · intro
 
@@ -48,7 +48,7 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `eyebrow` | זמר · מלחין · ירושלים | CHANTEUR · COMPOSITEUR · JÉRUSALEM | SINGER · COMPOSER · JERUSALEM | CANTANTE · COMPOSITOR · JERUSALÉN |
 | `title` | הקול שחזר אחרי 30 שנות שתיקה | La voix revenue après 30 ans de silence | The voice that returned after 30 years of silence | La voz que volvió tras 30 años de silencio |
 | `listen` | להאזנה | Écouter | Listen | Escuchar |
-| `book` | להזמנת הופעה | Réserver un concert | Book a concert | Reservar un concierto |
+| `book` | הסיפור שלו | Son histoire | His story | Su historia |
 | `scroll` | גלילה | Défiler | Scroll | Desplazar |
 
 ## Textes · manifesto
@@ -76,9 +76,9 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `items.1.href` | music | music | music | music |
 | `items.2.n` | 003 | 003 | 003 | 003 |
 | `items.2.title` | על הבמה | Sur scène | On stage | En el escenario |
-| `items.2.text` | הופעות, חתונות, התוועדויות, ערבי קהילה והופעות בזום, בארץ ובצרפת. | Concerts, mariages, farbrenguen, soirées de communauté et concerts sur Zoom, en Israël et en France. | Concerts, weddings, farbrengens, community evenings and Zoom concerts, in Israel and in France. | Conciertos, bodas, farbrenguen, veladas comunitarias y conciertos por Zoom, en Israel y en Francia. |
-| `items.2.link` | להזמנה | Réserver | Book | Reservar |
-| `items.2.href` | contact | contact | contact | contact |
+| `items.2.text` | מהאולימפיה ב־1977 עד היכל מנורה: הבמות שהקול שלו מילא. | De l'Olympia en 1977 au Heichal Menorah : les scènes où sa voix a porté. | From the Olympia in 1977 to Menorah Hall: the stages his voice has filled. | Del Olympia en 1977 al Heijal Menorá: los escenarios que ha llenado su voz. |
+| `items.2.link` | ההופעות שלו | Ses concerts | His concerts | Sus conciertos |
+| `items.2.href` | events | events | events | events |
 
 ## Textes · span
 
@@ -206,7 +206,7 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `upcoming` | ההופעות הקרובות | Prochains concerts | Upcoming concerts | Próximos conciertos |
 | `none` | התאריכים הבאים יפורסמו כאן. רוצים אותו אצלכם? כתבו לנו. | Les prochaines dates seront annoncées ici. Pour l'inviter chez vous, écrivez-nous. | New dates will be announced here. Would you like him at your event? Write to us. | Las próximas fechas se anunciarán aquí. ¿Quieres invitarlo? Escríbenos. |
 | `tickets` | לכרטיסים | Billetterie | Tickets | Entradas |
-| `past` | איפה כבר שר | Ils l'ont reçu | Where he has sung | Dónde ha cantado |
+| `past` | הבמות שעליהן שר | Les scènes où il a chanté | Stages he has sung on | Los escenarios donde ha cantado |
 | `invite` | להזמנה | L'inviter | Invite him | Invitarlo |
 
 ## Textes · french
@@ -266,65 +266,43 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 
 | clé | עברית | Français | English | Español |
 |---|---|---|---|---|
-| `eyebrow` | הזמנת הופעה | Réservation | Bookings | Reservas |
-| `title` | להזמין את אהרון סיטבון | Inviter Aharon Sitbon | Invite Aharon Sitbon | Invitar a Aharon Sitbon |
-| `intro` | הופעה, חתונה, בר מצווה, התוועדות או ערב קהילה, בארץ, בצרפת או בזום. מלאו כמה פרטים וההודעה תיפתח בוואטסאפ, כבר מנוסחת. | Concert, mariage, bar-mitsva, farbrenguen ou soirée de communauté, en Israël, en France ou sur Zoom. Remplissez ces quelques lignes : votre demande part sur WhatsApp, déjà rédigée. | A concert, wedding, bar mitzvah, farbrengen or community evening, in Israel, in France or on Zoom. Fill in a few lines and your request opens in WhatsApp, already written. | Concierto, boda, bar mitzvá, farbrenguen o velada comunitaria, en Israel, en Francia o por Zoom. Rellena unas líneas y tu solicitud se abre en WhatsApp, ya redactada. |
-| `type` | סוג האירוע | Type d'événement | Type of event | Tipo de evento |
-| `types.concert` | הופעה | Concert | Concert | Concierto |
-| `types.wedding` | חתונה | Mariage | Wedding | Boda |
-| `types.barmitzvah` | בר מצווה | Bar-mitsva | Bar mitzvah | Bar mitzvá |
-| `types.chabad` | אירוע חב״ד / התוועדות | Événement Habad / farbrenguen | Chabad event / farbrengen | Evento de Jabad / farbrenguen |
-| `types.community` | ערב קהילה | Soirée de communauté | Community evening | Velada comunitaria |
-| `types.corporate` | אירוע חברה | Événement d'entreprise | Corporate event | Evento de empresa |
-| `types.zoom` | הופעה בזום | Concert sur Zoom | Zoom concert | Concierto por Zoom |
+| `eyebrow` | צור קשר | Contact | Contact | Contacto |
+| `title` | לכתוב לו | Lui écrire | Write to him | Escribirle |
+| `intro` | כמה מילים אחרי שיר, שאלה מהתקשורת: ההודעה נפתחת בוואטסאפ, כבר מנוסחת. | Un mot après avoir écouté un chant, une question de presse : votre message s'ouvre dans WhatsApp, déjà rédigé. | A few words after listening to a song, a press question: your message opens in WhatsApp, already written. | Unas palabras después de escuchar un canto, una pregunta de prensa: tu mensaje se abre en WhatsApp, ya redactado. |
+| `type` | ההודעה בנושא | Votre message concerne | Your message is about | Tu mensaje trata sobre |
+| `types.message` | כמה מילים בשבילו | Un mot pour lui | A word for him | Unas palabras para él |
+| `types.press` | עיתונות / ראיון | Presse / interview | Press / interview | Prensa / entrevista |
+| `types.media` | רדיו / טלוויזיה | Radio / télévision | Radio / TV | Radio / televisión |
+| `types.rights` | השמעת המוזיקה שלו | Diffusion de sa musique | Broadcasting his music | Difusión de su música |
 | `types.other` | אחר | Autre | Other | Otro |
-| `date` | תאריך | Date | Date | Fecha |
-| `dateTaken` | התאריך הזה כבר תפוס. כתבו לנו בכל זאת, נמצא פתרון. | Cette date est déjà prise. Écrivez-nous quand même, on vous proposera une solution. | That date is already booked. Write to us anyway and we will find a solution. | Esa fecha ya está reservada. Escríbenos de todos modos y buscaremos una solución. |
-| `city` | עיר / אולם | Ville / salle | City / venue | Ciudad / sala |
-| `country` | מדינה | Pays | Country | País |
-| `countries.IL` | ישראל | Israël | Israel | Israel |
-| `countries.FR` | צרפת | France | France | Francia |
-| `countries.other` | אחר | Autre | Other | Otro |
-| `guests` | מספר משתתפים | Nombre de personnes | Number of guests | Número de personas |
-| `formula` | מתכונת | Formule | Format | Formato |
-| `formulas.band` | עם נגנים | Avec musiciens | With musicians | Con músicos |
-| `formulas.guitar` | גיטרה ושירה | Guitare et voix | Guitar and voice | Guitarra y voz |
-| `formulas.david` | עם בנו דוד | Avec son fils David | With his son David | Con su hijo David |
-| `formulas.zoom` | בזום | Sur Zoom | On Zoom | Por Zoom |
-| `budget` | תקציב משוער | Budget indicatif | Approximate budget | Presupuesto aproximado |
-| `optional` | לא חובה | facultatif | optional | opcional |
 | `name` | שם | Nom | Name | Nombre |
 | `phone` | טלפון | Téléphone | Phone | Teléfono |
 | `email` | אימייל | Email | Email | Correo |
+| `optional` | לא חובה | facultatif | optional | opcional |
 | `message` | הודעה | Message | Message | Mensaje |
-| `messagePlaceholder` | המקום, האווירה, מה חשוב לכם… | Le lieu, l'ambiance, ce qui compte pour vous… | The venue, the atmosphere, what matters to you… | El lugar, el ambiente, lo que te importa… |
+| `messagePlaceholder` | ההודעה שלכם… | Votre message… | Your message… | Tu mensaje… |
 | `submit` | שליחה בוואטסאפ | Envoyer sur WhatsApp | Send on WhatsApp | Enviar por WhatsApp |
-| `note` | אין תשלום באתר. ההודעה נפתחת בוואטסאפ ואפשר לקרוא אותה לפני השליחה. | Pas de paiement en ligne. Le message s'ouvre dans WhatsApp, vous pouvez le relire avant de l'envoyer. | No online payment. The message opens in WhatsApp so you can read it before sending. | Sin pago en línea. El mensaje se abre en WhatsApp y puedes leerlo antes de enviarlo. |
+| `note` | ההודעה נפתחת בוואטסאפ ואפשר לקרוא אותה לפני השליחה. | Le message s'ouvre dans WhatsApp : vous pouvez le relire avant de l'envoyer. | The message opens in WhatsApp so you can read it before sending. | El mensaje se abre en WhatsApp y puedes leerlo antes de enviarlo. |
 | `call` | או בטלפון | Ou par téléphone | Or by phone | O por teléfono |
-| `errors.type` | בחרו סוג אירוע. | Choisissez un type d'événement. | Choose a type of event. | Elige un tipo de evento. |
+| `errors.type` | בחרו נושא. | Choisissez un objet. | Choose a subject. | Elige un asunto. |
 | `errors.name` | כתבו את שמכם. | Indiquez votre nom. | Please enter your name. | Escribe tu nombre. |
 | `errors.phone` | כתבו מספר טלפון תקין. | Indiquez un numéro de téléphone valide. | Please enter a valid phone number. | Escribe un número de teléfono válido. |
 | `errors.email` | כתובת האימייל לא נראית תקינה. | Cet email ne semble pas valide. | This email doesn't look right. | Este correo no parece válido. |
-| `wa.title` | בקשה להופעה – אהרון סיטבון | Demande de concert – Aharon Sitbon | Concert request – Aharon Sitbon | Solicitud de concierto – Aharon Sitbon |
-| `wa.type` | אירוע | Événement | Event | Evento |
-| `wa.date` | תאריך | Date | Date | Fecha |
-| `wa.city` | מקום | Lieu | Venue | Lugar |
-| `wa.country` | מדינה | Pays | Country | País |
-| `wa.guests` | משתתפים | Personnes | Guests | Personas |
-| `wa.formula` | מתכונת | Formule | Format | Formato |
-| `wa.budget` | תקציב | Budget | Budget | Presupuesto |
+| `errors.message` | כתבו כמה מילים. | Écrivez quelques mots. | Write a few words. | Escribe unas palabras. |
+| `wa.title` | הודעה – האתר של אהרון סיטבון | Message – site d'Aharon Sitbon | Message – Aharon Sitbon website | Mensaje – sitio de Aharon Sitbon |
+| `wa.type` | נושא | Objet | Subject | Asunto |
 | `wa.name` | שם | Nom | Name | Nombre |
 | `wa.phone` | טלפון | Téléphone | Phone | Teléfono |
 | `wa.email` | אימייל | Email | Email | Correo |
 | `wa.message` | הודעה | Message | Message | Mensaje |
-| `wa.closing` | תודה רבה! | Merci, à bientôt ! | Thank you! | ¡Gracias! |
+| `wa.closing` | תודה רבה! | Merci ! | Thank you! | ¡Gracias! |
 
 ## Textes · footer
 
 | clé | עברית | Français | English | Español |
 |---|---|---|---|---|
 | `tagline` | זמר ומלחין חסידי. ירושלים. | Chanteur et compositeur hassidique. Jérusalem. | Chassidic singer and composer. Jerusalem. | Cantante y compositor jasídico. Jerusalén. |
-| `contact` | הזמנות | Réservations | Bookings | Reservas |
+| `contact` | צור קשר | Contact | Contact | Contacto |
 | `explore` | באתר | Le site | On this site | En el sitio |
 | `listen` | להאזנה | Écouter | Listen | Escuchar |
 | `rights` | כל הזכויות שמורות | Tous droits réservés | All rights reserved | Todos los derechos reservados |
@@ -347,7 +325,7 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `body.0` | האתר הרשמי של אהרון סיטבון, זמר ומלחין. ליצירת קשר: בוואטסאפ או במספר שבתחתית העמוד. | Site officiel d'Aharon Sitbon, chanteur et compositeur. Contact : par WhatsApp ou au numéro indiqué en bas de page. | Official website of Aharon Sitbon, singer and composer. Contact: by WhatsApp or the number at the bottom of the page. | Sitio oficial de Aharon Sitbon, cantante y compositor. Contacto: por WhatsApp o en el número que figura al pie de la página. |
 | `body.1` | אחסון: Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, ארה״ב. | Hébergement : Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis. | Hosting: Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA. | Alojamiento: Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, Estados Unidos. |
 | `body.2` | המוזיקה, הטקסטים, התמונות והסרטונים: כל הזכויות שמורות ליוצרים ולמפיקים (ובהם אלי קליין, איצי ברי וצבעים הפקות). אין להעתיק ללא רשות. | Musique, textes, photos et vidéos : tous droits réservés à leurs auteurs et producteurs (notamment Eli Klein, Yitzy Berry et Tzvaim Productions). Aucune reproduction sans autorisation. | Music, texts, photos and videos: all rights reserved to their authors and producers (including Eli Klein, Yitzy Berry and Tzvaim Productions). No reproduction without permission. | Música, textos, fotos y videos: todos los derechos reservados a sus autores y productores (entre ellos Eli Klein, Yitzy Berry y Tzvaim Productions). Prohibida su reproducción sin autorización. |
-| `body.3` | סרטוני היוטיוב נטענים רק כשלוחצים עליהם, ואז יוטיוב עשוי לשמור עוגיות משלו. האתר עצמו לא משתמש בעוגיות פרסום או במדידת קהל. טופס ההזמנה לא שומר שום מידע: הוא רק פותח הודעת וואטסאפ שאתם בוחרים לשלוח. | Les vidéos YouTube ne se chargent que lorsque vous cliquez dessus ; YouTube peut alors déposer ses propres cookies. Le site lui-même n'utilise ni cookie publicitaire ni outil de mesure d'audience. Le formulaire de réservation n'enregistre rien : il ouvre seulement un message WhatsApp que vous choisissez d'envoyer. | YouTube videos only load when you click them; YouTube may then set its own cookies. The site itself uses no advertising cookies and no audience tracking. The booking form stores nothing: it simply opens a WhatsApp message that you choose to send. | Los videos de YouTube solo se cargan al hacer clic; YouTube puede entonces instalar sus propias cookies. El sitio no usa cookies publicitarias ni medición de audiencia. El formulario de reserva no guarda nada: solo abre un mensaje de WhatsApp que tú decides enviar. |
+| `body.3` | סרטוני היוטיוב נטענים רק כשלוחצים עליהם, ואז יוטיוב עשוי לשמור עוגיות משלו. האתר עצמו לא משתמש בעוגיות פרסום או במדידת קהל. טופס יצירת הקשר לא שומר שום מידע: הוא רק פותח הודעת וואטסאפ שאתם בוחרים לשלוח. | Les vidéos YouTube ne se chargent que lorsque vous cliquez dessus ; YouTube peut alors déposer ses propres cookies. Le site lui-même n'utilise ni cookie publicitaire ni outil de mesure d'audience. Le formulaire de contact n'enregistre rien : il ouvre seulement un message WhatsApp que vous choisissez d'envoyer. | YouTube videos only load when you click them; YouTube may then set its own cookies. The site itself uses no advertising cookies and no audience tracking. The contact form stores nothing: it simply opens a WhatsApp message that you choose to send. | Los videos de YouTube solo se cargan al hacer clic; YouTube puede entonces instalar sus propias cookies. El sitio no usa cookies publicitarias ni medición de audiencia. El formulario de contacto no guarda nada: solo abre un mensaje de WhatsApp que tú decides enviar. |
 
 ## Textes · alt
 
@@ -394,22 +372,22 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `videos.eyebrow` | קליפים | Clips | Videos | Videos |
 | `videos.h1` | הקליפים <em>וההופעות</em> | Ses <em>clips</em> et ses concerts | His <em>videos</em> and concerts | Sus <em>videos</em> y conciertos |
 | `videos.intro` | קליפים רשמיים, הופעות מצולמות, ראיונות וארכיון, כפי שהם מתפרסמים בערוץ היוטיוב שלו. | Clips officiels, concerts filmés, interviews et archives, tels qu'ils sont publiés sur sa chaîne YouTube. | Official videos, filmed concerts, interviews and archives, as published on his YouTube channel. | Videoclips oficiales, conciertos grabados, entrevistas y archivo, tal como se publican en su canal de YouTube. |
-| `services.title` | הופעות לאירועים – חתונות, בר מצווה, התוועדויות, זום | זמר להופעות ואירועים | Prestations – concerts, mariages, bar-mitsva, farbrenguen, Zoom | Performances – concerts, weddings, bar mitzvahs, farbrengens, Zoom | Actuaciones – conciertos, bodas, bar mitzvá, farbrenguen, Zoom |
-| `services.eyebrow` | הופעות לאירועים | Prestations | Performances | Actuaciones |
-| `services.h1` | קול לרגעים <em>הגדולים</em> שלכם | Une voix pour vos <em>grands moments</em> | A voice for your <em>great moments</em> | Una voz para tus <em>grandes momentos</em> |
-| `services.intro` | אהרון סיטבון שר בחתונות, בבר מצוות, בערבי קהילה, באירועי חב״ד ובהופעות, בארץ, בצרפת ובזום. | Aharon Sitbon chante pour les mariages, les bar-mitsva, les soirées de communauté, les événements Habad et les concerts, en Israël, en France et sur Zoom. | Aharon Sitbon sings at weddings, bar mitzvahs, community evenings, Chabad events and concerts, in Israel, in France and on Zoom. | Aharon Sitbon canta en bodas, bar mitzvás, veladas comunitarias, eventos de Jabad y conciertos, en Israel, en Francia y por Zoom. |
-| `events.title` | הופעות ואירועים | Concerts et événements | Concerts and events | Conciertos y eventos |
-| `events.eyebrow` | אירועים | Événements | Events | Eventos |
+| `events.title` | ההופעות שלו – מהאולימפיה עד היכל מנורה | Ses concerts – de l'Olympia au Heichal Menorah | His concerts – from the Olympia to Menorah Hall | Sus conciertos – del Olympia al Heijal Menorá |
+| `events.eyebrow` | הופעות | Concerts | Concerts | Conciertos |
 | `events.h1` | על <em>הבמה</em> | Sur <em>scène</em> | On <em>stage</em> | En el <em>escenario</em> |
-| `events.intro` | התאריכים הקרובים, והבמות שכבר שר עליהן: מהאולימפיה ב־1977 עד היכל מנורה. | Les prochaines dates, et les scènes où il a déjà chanté : de l'Olympia en 1977 au Heichal Menorah. | Upcoming dates, and the stages he has already sung on: from the Olympia in 1977 to Menorah Hall. | Las próximas fechas y los escenarios donde ya ha cantado: del Olympia en 1977 al Heijal Menorá. |
+| `events.intro` | מהאולימפיה ב־1977 עד היכל מנורה, ממגדל דוד ועד כנס ״צמאה״: הבמות שהקול שלו מילא. | De l'Olympia en 1977 au Heichal Menorah, de la Tour de David au congrès Tzama : les scènes où sa voix a porté. | From the Olympia in 1977 to Menorah Hall, from the Tower of David to the Tzama convention: the stages his voice has filled. | Del Olympia en 1977 al Heijal Menorá, de la Torre de David al congreso Tzama: los escenarios que ha llenado su voz. |
 | `press.title` | בתקשורת – מה כותבים על אהרון סיטבון | Presse – ils parlent d'Aharon Sitbon | Press – what they say about Aharon Sitbon | Prensa – hablan de Aharon Sitbon |
 | `press.eyebrow` | בתקשורת | Presse | Press | Prensa |
 | `press.h1` | מדברים <em>עליו</em> | Ils en <em>parlent</em> | In the <em>press</em> | Hablan de <em>él</em> |
 | `press.intro` | כתבות, ראיונות והודעות על שירים חדשים, בעברית, בצרפתית ובאנגלית. | Portraits, interviews et annonces de sorties, en français, en hébreu et en anglais. | Portraits, interviews and release news, in French, Hebrew and English. | Retratos, entrevistas y anuncios de estrenos, en francés, hebreo e inglés. |
-| `contact.title` | צור קשר והזמנת הופעה | Contact et réservation d'un concert | Contact and concert bookings | Contacto y reserva de conciertos |
+| `contact.title` | צור קשר – לכתוב לאהרון סיטבון | Contact – écrire à Aharon Sitbon | Contact – write to Aharon Sitbon | Contacto – escribir a Aharon Sitbon |
 | `contact.eyebrow` | צור קשר | Contact | Contact | Contacto |
-| `contact.h1` | להזמין את <em>אהרון סיטבון</em> | Inviter <em>Aharon Sitbon</em> | Invite <em>Aharon Sitbon</em> | Invitar a <em>Aharon Sitbon</em> |
-| `contact.intro` | תאריך, מקום וכמה מילים על האירוע: הבקשה נפתחת בוואטסאפ, כבר מנוסחת. | Une date, un lieu, quelques mots sur votre événement : la demande part sur WhatsApp, déjà rédigée. | A date, a place, a few words about your event: your request opens in WhatsApp, already written. | Una fecha, un lugar, unas palabras sobre tu evento: la solicitud se abre en WhatsApp, ya redactada. |
+| `contact.h1` | לכתוב <em>לאהרון סיטבון</em> | Écrire à <em>Aharon Sitbon</em> | Write to <em>Aharon Sitbon</em> | Escribir a <em>Aharon Sitbon</em> |
+| `contact.intro` | כמה מילים אחרי שהאזנתם לשיר, פנייה מהתקשורת או בקשה לראיון: ההודעה נפתחת בוואטסאפ, כבר מנוסחת. | Un mot après avoir écouté un chant, une demande de presse ou d'interview : votre message part sur WhatsApp, déjà rédigé. | A few words after listening to a song, a press or interview request: your message opens in WhatsApp, already written. | Unas palabras después de escuchar un canto, una solicitud de prensa o de entrevista: tu mensaje se abre en WhatsApp, ya redactado. |
+| `today.title` | היום – השירים החדשים ומה שהוא מכין | Aujourd'hui – ses nouveaux chants et ce qu'il prépare | Today – his new songs and what he's working on | Hoy – sus nuevos cantos y lo que prepara |
+| `today.eyebrow` | היום | Aujourd'hui | Today | Hoy |
+| `today.h1` | עדיין <em>בדרך</em> | Toujours <em>en chemin</em> | Still <em>on the road</em> | Siempre <em>en camino</em> |
+| `today.intro` | מאז שחזר ב־2014 הוא לא עצר: מלחין, מקליט, וכמעט כל שנה יוצא שיר חדש. | Depuis son retour en 2014, il n'a jamais cessé : il compose, il enregistre, et un nouveau chant sort presque chaque année. | Since his return in 2014 he has never stopped: he composes, he records, and a new song comes out almost every year. | Desde su regreso en 2014 no ha parado: compone, graba, y casi cada año sale un nuevo canto. |
 
 ## Textes · home
 
@@ -431,84 +409,25 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `storyLink` | לקרוא את הסיפור | Lire son histoire | Read his story | Leer su historia |
 | `musicTitle` | <em>האלבומים</em> | Les <em>albums</em> | The <em>albums</em> | Los <em>álbumes</em> |
 | `musicLink` | לכל הדיסקוגרפיה | Toute la discographie | Full discography | Toda la discografía |
-| `servicesTitle` | הוא בא לשיר <em>אצלכם</em> | Il vient chanter <em>chez vous</em> | He comes to sing <em>for you</em> | Viene a cantar <em>para ti</em> |
-| `servicesText` | חתונות, בר מצוות, התוועדויות, ערבי קהילה, אירועי חברה: עם נגנים, גיטרה ושירה, עם בנו דוד, או בזום. | Mariages, bar-mitsva, farbrenguen, soirées de communauté, événements d'entreprise : avec musiciens, en guitare-voix, avec son fils David, ou sur Zoom. | Weddings, bar mitzvahs, farbrengens, community evenings, corporate events: with musicians, guitar and voice, with his son David, or on Zoom. | Bodas, bar mitzvás, farbrenguen, veladas comunitarias, eventos de empresa: con músicos, guitarra y voz, con su hijo David o por Zoom. |
-| `servicesLink` | להופעות לאירועים | Voir les prestations | See performances | Ver las actuaciones |
 | `videosTitle` | <em>לצפייה</em> | À <em>regarder</em> | <em>Watch</em> | Para <em>ver</em> |
 | `videosLink` | לכל הקליפים | Tous les clips | All videos | Todos los videos |
-| `eventsTitle` | התאריכים <em>הקרובים</em> | Prochaines <em>dates</em> | Upcoming <em>dates</em> | Próximas <em>fechas</em> |
-| `eventsLink` | לכל האירועים | Tous les événements | All events | Todos los eventos |
+| `eventsTitle` | על <em>הבמה</em> | Sur <em>scène</em> | On <em>stage</em> | En el <em>escenario</em> |
+| `eventsLink` | לכל ההופעות | Tous ses concerts | All his concerts | Todos sus conciertos |
 | `pressTitle` | מדברים <em>עליו</em> | Ils en <em>parlent</em> | In the <em>press</em> | Hablan de <em>él</em> |
 | `pressLink` | לכל הכתבות | Toute la presse | All press | Toda la prensa |
-| `ctaTitle` | ומה אם זה יהיה <em>באירוע שלכם</em>? | Et si c'était pour <em>votre</em> événement ? | What if it were <em>your</em> event? | ¿Y si fuera para <em>tu</em> evento? |
-| `ctaText` | כתבו לנו תאריך ומקום, ונחזור אליכם בוואטסאפ. | Écrivez-nous la date et le lieu, on vous répond sur WhatsApp. | Send us the date and the place, and we'll reply on WhatsApp. | Escríbenos la fecha y el lugar, te respondemos por WhatsApp. |
-| `ctaButton` | להזמנת הופעה | Réserver un concert | Book a concert | Reservar un concierto |
-
-## Textes · services
-
-| clé | עברית | Français | English | Español |
-|---|---|---|---|---|
-| `formulasEyebrow` | המתכונות | Les formules | Formats | Formatos |
-| `formulasTitle` | ארבע דרכים <em>לארח אותו</em> | Quatre façons de le <em>recevoir</em> | Four ways to <em>host him</em> | Cuatro maneras de <em>recibirlo</em> |
-| `formulas.0.id` | band | band | band | band |
-| `formulas.0.title` | עם נגנים | Avec musiciens | With musicians | Con músicos |
-| `formulas.0.text` | ההופעה המלאה עם התזמורת שלו: לאולמות גדולים, לחתונות ולערבים של ריקודים. | Le concert complet, avec son orchestre : pour les grandes salles, les mariages et les soirées où l'on danse. | The full concert with his band: for large halls, weddings and evenings full of dancing. | El concierto completo con su banda: para grandes salas, bodas y veladas en las que se baila. |
-| `formulas.0.ideal` | חתונות, הופעות, אירועים גדולים | Mariages, concerts, grands événements | Weddings, concerts, large events | Bodas, conciertos, grandes eventos |
-| `formulas.1.id` | guitar | guitar | guitar | guitar |
-| `formulas.1.title` | גיטרה ושירה | Guitare et voix | Guitar and voice | Guitarra y voz |
-| `formulas.1.text` | הוא והגיטרה, כמו ביום הראשון. רגע אינטימי שבו הוא גם מספר את הסיפור שלו בין השירים. | Lui et sa guitare, comme au premier jour. Un moment intime où il raconte aussi son histoire entre les chants. | Just him and his guitar, as on the first day. An intimate moment where he also tells his story between songs. | Él y su guitarra, como el primer día. Un momento íntimo en el que también cuenta su historia entre canciones. |
-| `formulas.1.ideal` | התוועדויות, ערבי קהילה, שבת | Farbrenguen, soirées de communauté, Chabbat | Farbrengens, community evenings, Shabbat | Farbrenguen, veladas comunitarias, Shabat |
-| `formulas.2.id` | david | david | david | david |
-| `formulas.2.title` | עם בנו דוד | Avec son fils David | With his son David | Con su hijo David |
-| `formulas.2.text` | האב והבן על הבמה, בדואט: ״אחכה לו״ והשירים שהם שרים יחד כבר שנים. | Le père et le fils sur scène, en duo : « Achake Lo » et les chants qu'ils partagent depuis des années. | Father and son on stage as a duo: “Achake Lo” and the songs they have shared for years. | Padre e hijo a dúo en el escenario: «Achake Lo» y los cantos que comparten desde hace años. |
-| `formulas.2.ideal` | בר מצוות, שמחות משפחתיות, ערבי גאלה | Bar-mitsva, fêtes de famille, galas | Bar mitzvahs, family celebrations, galas | Bar mitzvás, fiestas familiares, galas |
-| `formulas.3.id` | zoom | zoom | zoom | zoom |
-| `formulas.3.title` | הופעה בזום | Concert sur Zoom | Zoom concert | Concierto por Zoom |
-| `formulas.3.text` | הופעה חיה מרחוק, לקהילה, לבית ספר או למשפחה שמפוזרת בין כמה מדינות. | Un concert en direct, à distance, pour une communauté, une école ou une famille dispersée entre plusieurs pays. | A live concert from a distance, for a community, a school or a family spread across countries. | Un concierto en directo a distancia, para una comunidad, una escuela o una familia repartida entre países. |
-| `formulas.3.ideal` | קהילות בחו״ל, בתי ספר, בתי אבות | Communautés à l'étranger, écoles, maisons de retraite | Communities abroad, schools, senior homes | Comunidades en el extranjero, escuelas, residencias |
-| `occasionsEyebrow` | האירועים | Les occasions | Occasions | Ocasiones |
-| `occasionsTitle` | לאילו <em>אירועים</em>? | Pour quels <em>événements</em> ? | For which <em>events</em>? | ¿Para qué <em>eventos</em>? |
-| `occasions.0.title` | חתונות | Mariages | Weddings | Bodas |
-| `occasions.0.text` | החופה, כניסת החתן והכלה, ואחר כך השמחה של כל הערב. | La houppa, l'entrée des mariés, puis la joie de la soirée. | The chuppah, the couple's entrance, then the joy of the evening. | La jupá, la entrada de los novios y luego la alegría de la noche. |
-| `occasions.1.title` | בר מצווה | Bar-mitsva | Bar mitzvahs | Bar mitzvás |
-| `occasions.1.text` | הופעה ליום הגדול, עם שירים שכולם שרים יחד. | Un concert pour le grand jour, en famille, avec les chants qu'on reprend tous ensemble. | A concert for the big day, with songs everyone sings along to. | Un concierto para el gran día, con cantos que todos corean. |
-| `occasions.2.title` | אירועי חב״ד | Événements Habad | Chabad events | Eventos de Jabad |
-| `occasions.2.text` | התוועדויות, כינוסים, חגים: הרפרטואר שלו נולד בעולם של חב״ד. | Farbrenguen, congrès, fêtes du calendrier : son répertoire est né dans le monde de Habad. | Farbrengens, conventions, holidays: his repertoire was born in the Chabad world. | Farbrenguen, congresos, fiestas: su repertorio nació en el mundo de Jabad. |
-| `occasions.3.title` | ערבי קהילה | Soirées de communauté | Community evenings | Veladas comunitarias |
-| `occasions.3.text` | בתי כנסת, מרכזים קהילתיים, מסיבות חנוכה ופורים. | Synagogues, centres communautaires, soirées de Hanoucca ou de Pourim. | Synagogues, community centres, Chanukah or Purim parties. | Sinagogas, centros comunitarios, fiestas de Janucá o de Purim. |
-| `occasions.4.title` | אירועי חברה | Événements d'entreprise | Corporate events | Eventos de empresa |
-| `occasions.4.text` | ערב עם משמעות, עם אמן שהסיפור שלו נוגע בכולם. | Une soirée qui a du sens, avec un artiste dont l'histoire touche tout le monde. | An evening with meaning, with an artist whose story moves everyone. | Una velada con sentido, con un artista cuya historia emociona a todos. |
-| `occasions.5.title` | הופעות | Concerts | Concerts | Conciertos |
-| `occasions.5.text` | אולמות ופסטיבלים, בארץ ובצרפת. | Salles de spectacle et festivals, en Israël et en France. | Concert halls and festivals, in Israel and in France. | Salas de espectáculos y festivales, en Israel y en Francia. |
-| `stepsEyebrow` | איך זה עובד | Comment ça se passe | How it works | Cómo funciona |
-| `stepsTitle` | בארבעה <em>שלבים</em> | En quatre <em>étapes</em> | In four <em>steps</em> | En cuatro <em>pasos</em> |
-| `steps.0.title` | הבקשה שלכם | Votre demande | Your request | Tu solicitud |
-| `steps.0.text` | ממלאים את הטופס: תאריך, מקום, סוג האירוע. ההודעה נפתחת בוואטסאפ. | Vous remplissez le formulaire : date, lieu, type d'événement. Le message part sur WhatsApp. | Fill in the form: date, place, type of event. The message opens in WhatsApp. | Rellenas el formulario: fecha, lugar, tipo de evento. El mensaje se abre en WhatsApp. |
-| `steps.1.title` | מדברים | On en parle | We talk | Hablamos |
-| `steps.1.text` | חוזרים אליכם כדי להבין את האווירה, את הקהל ומה חשוב לכם. | On vous rappelle pour comprendre l'ambiance, le public et ce qui compte pour vous. | We call you back to understand the atmosphere, the audience and what matters to you. | Te llamamos para entender el ambiente, el público y lo que te importa. |
-| `steps.2.title` | ההצעה | La proposition | The proposal | La propuesta |
-| `steps.2.text` | מקבלים הצעה מותאמת: מתכונת, משך, נגנים ותנאים. | Vous recevez une proposition adaptée : formule, durée, musiciens, conditions. | You receive a tailored proposal: format, length, musicians, terms. | Recibes una propuesta a medida: formato, duración, músicos, condiciones. |
-| `steps.3.title` | ביום האירוע | Le jour J | The day itself | El gran día |
-| `steps.3.text` | הוא מגיע, הוא שר, וכל השאר שלכם. | Il arrive, il chante, et le reste vous appartient. | He arrives, he sings, and the rest of the evening is yours. | Llega, canta, y el resto de la noche es tuya. |
-| `faqEyebrow` | שאלות נפוצות | Questions fréquentes | FAQ | Preguntas frecuentes |
-| `faqTitle` | טוב <em>לדעת</em> | Bon à <em>savoir</em> | Good to <em>know</em> | Bueno <em>saberlo</em> |
-| `faq.0.q` | כמה עולה הופעה? | Combien coûte une prestation ? | How much does a performance cost? | ¿Cuánto cuesta una actuación? |
-| `faq.0.a` | זה תלוי במתכונת, בתאריך, במקום ובמספר הנגנים. שלחו בקשה ותקבלו הצעה מותאמת. | Cela dépend de la formule, de la date, du lieu et du nombre de musiciens. Envoyez votre demande : la proposition est faite sur mesure. | It depends on the format, the date, the venue and the number of musicians. Send your request and you'll receive a tailored proposal. | Depende del formato, la fecha, el lugar y el número de músicos. Envía tu solicitud y recibirás una propuesta a medida. |
-| `faq.1.q` | הוא מופיע גם בצרפת? | Se déplace-t-il en France ? | Does he travel to France? | ¿Viaja a Francia? |
-| `faq.1.a` | כן. הוא גר בארץ ומופיע גם בצרפת; רק כדאי לפנות מספיק זמן מראש כדי לארגן את הנסיעה. | Oui. Il vit en Israël et chante aussi en France ; prévoyez simplement la demande assez tôt pour organiser le voyage. | Yes. He lives in Israel and also performs in France; just send your request early enough to organise the trip. | Sí. Vive en Israel y también actúa en Francia; solo hay que pedirlo con tiempo para organizar el viaje. |
-| `faq.2.q` | באיזו שפה הוא שר? | Dans quelles langues chante-t-il ? | Which languages does he sing in? | ¿En qué idiomas canta? |
-| `faq.2.a` | השירים בעברית. בין השירים הוא יכול לדבר בעברית או בצרפתית. | Ses chants sont en hébreu. Entre les morceaux, il peut parler en hébreu ou en français, sa langue maternelle de scène. | His songs are in Hebrew. Between songs he can speak Hebrew or French. | Sus canciones son en hebreo. Entre canción y canción puede hablar en hebreo o en francés. |
-| `faq.3.q` | הוא יכול לספר את הסיפור שלו בהופעה? | Peut-il raconter son histoire pendant le concert ? | Can he tell his story during the concert? | ¿Puede contar su historia durante el concierto? |
-| `faq.3.a` | כן, ולרוב זה הרגע החזק של הערב: מהאולימפיה לתפילין, ואז החזרה למוזיקה. | Oui, c'est souvent le moment le plus fort de la soirée : de l'Olympia aux téfilines, puis le retour à la musique. | Yes, and it is often the strongest moment of the evening: from the Olympia to tefillin, then the return to music. | Sí, y suele ser el momento más fuerte de la noche: del Olympia a los tefilín y el regreso a la música. |
-| `faq.4.q` | איך עובדת הופעה בזום? | Comment fonctionne un concert sur Zoom ? | How does a Zoom concert work? | ¿Cómo funciona un concierto por Zoom? |
-| `faq.4.a` | הוא שר בשידור חי מהארץ; אתם מקבלים קישור ומשדרים אותו לקהל שלכם, באולם או בבית. | Il chante en direct depuis Israël ; vous recevez le lien et le diffusez à votre public, dans une salle ou à la maison. | He sings live from Israel; you receive the link and share it with your audience, in a hall or at home. | Canta en directo desde Israel; recibes el enlace y lo compartes con tu público, en una sala o en casa. |
-| `cta` | לבקשת הצעה | Demander une proposition | Request a proposal | Pedir una propuesta |
+| `ctaTitle` | המוזיקה שלו <em>נגעה בכם</em>? | Sa musique vous a <em>touché</em> ? | Has his music <em>touched</em> you? | ¿Te ha <em>emocionado</em> su música? |
+| `ctaText` | האזינו לאלבומים, עקבו אחרי הערוץ, או כתבו לו כמה מילים. | Écoutez ses albums, suivez sa chaîne, ou écrivez-lui un mot. | Listen to his albums, follow his channel, or send him a few words. | Escucha sus álbumes, sigue su canal o escríbele unas palabras. |
+| `ctaButton` | להאזנה למוזיקה | Écouter sa musique | Listen to his music | Escuchar su música |
+| `todayTitle` | היום, הוא <em>עדיין שר</em> | Aujourd'hui, il <em>chante encore</em> | Today, he <em>still sings</em> | Hoy <em>sigue cantando</em> |
+| `todayText` | הוא ממשיך להלחין, וכמעט כל שנה יוצא שיר חדש, עם אלי קליין ואיצי ברי, ולא פעם יחד עם בנו דוד. | Il compose toujours, et un nouveau chant sort presque chaque année, réalisé avec Eli Klein et Yitzy Berry, souvent en famille avec son fils David. | He keeps composing, and a new song comes out almost every year, made with Eli Klein and Yitzy Berry, often with his son David. | Sigue componiendo, y casi cada año sale un nuevo canto, hecho con Eli Klein e Yitzy Berry, a menudo junto a su hijo David. |
+| `todayLink` | מה הוא עושה היום | Ce qu'il fait aujourd'hui | What he's doing today | Lo que hace hoy |
+| `eventsText` | האולימפיה, היכל מנורה מול אלפים, מגדל דוד, כנס ״צמאה״: קול שמילא אולמות, אז והיום. | L'Olympia, le Heichal Menorah devant des milliers de personnes, la Tour de David, le congrès Tzama : une voix qui a rempli des salles, hier comme aujourd'hui. | The Olympia, Menorah Hall before thousands, the Tower of David, the Tzama convention: a voice that has filled halls, then and now. | El Olympia, el Heijal Menorá ante miles de personas, la Torre de David, el congreso Tzama: una voz que ha llenado salas, ayer y hoy. |
+| `ctaSecondary` | לכתוב לו | Lui écrire | Write to him | Escribirle |
 
 ## Textes · events
 
 | clé | עברית | Français | English | Español |
 |---|---|---|---|---|
-| `calendar` | התאריכים מתעדכנים על ידי הצוות של אהרון סיטבון. | Les dates sont mises à jour par l'équipe d'Aharon Sitbon. | Dates are updated by Aharon Sitbon's team. | Las fechas las actualiza el equipo de Aharon Sitbon. |
 | `gallery` | על הבמה, בתמונות | Sur scène, en images | On stage, in pictures | En el escenario, en imágenes |
 | `watch` | לצפייה | Voir la vidéo | Watch | Ver el video |
 
@@ -520,7 +439,47 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `whatsapp` | לכתוב בוואטסאפ | Écrire sur WhatsApp | Message on WhatsApp | Escribir por WhatsApp |
 | `call` | להתקשר | Appeler | Call | Llamar |
 | `follow` | לעקוב | Le suivre | Follow him | Seguirlo |
-| `note` | הדרך הכי פשוטה להזמין: וואטסאפ. | Le plus simple pour une réservation : WhatsApp. | The easiest way to book: WhatsApp. | Lo más sencillo para reservar: WhatsApp. |
+| `note` | הדרך הכי פשוטה: וואטסאפ. | Le plus simple : WhatsApp. | The easiest way: WhatsApp. | Lo más sencillo: WhatsApp. |
+
+## Textes · today
+
+| clé | עברית | Français | English | Español |
+|---|---|---|---|---|
+| `releasesEyebrow` | השירים האחרונים | Les dernières sorties | Latest releases | Últimos estrenos |
+| `releasesTitle` | שיר חדש, <em>כמעט כל שנה</em> | Un chant, <em>presque chaque année</em> | A song <em>almost every year</em> | Un canto <em>casi cada año</em> |
+| `releases.0.id` | niggun-yehudi | niggun-yehudi | niggun-yehudi | niggun-yehudi |
+| `releases.0.date` | מרץ 2026 | Mars 2026 | March 2026 | Marzo de 2026 |
+| `releases.0.note` | שיר על נס פורים, עם קליף של זאבי הלר. | Un chant sur le miracle de Pourim, avec un clip de Zeevi Heller. | A song about the miracle of Purim, with a video by Zeevi Heller. | Un canto sobre el milagro de Purim, con un videoclip de Zeevi Heller. |
+| `releases.1.id` | tefila-leshalom | tefila-leshalom | tefila-leshalom | tefila-leshalom |
+| `releases.1.date` | מרץ 2025 | Mars 2025 | March 2025 | Marzo de 2025 |
+| `releases.1.note` | תפילה לשלום, שצולמה מול הכותל. | Une prière pour la paix, filmée devant le Kotel. | A prayer for peace, filmed at the Kotel. | Una oración por la paz, filmada ante el Kotel. |
+| `releases.2.id` | odeh-hashem | odeh-hashem | odeh-hashem | odeh-hashem |
+| `releases.2.date` | 2024 | 2024 | 2024 | 2024 |
+| `releases.2.note` | מזמור תהלים לקראת אלול, בימי המלחמה. הסרטון הנצפה ביותר שלו: יותר מ־500,000 צפיות. | Un psaume chanté avant Elloul, pendant la guerre. Sa vidéo la plus vue : plus de 500 000 vues. | A psalm sung ahead of Elul, during the war. His most watched video: over 500,000 views. | Un salmo cantado antes de Elul, durante la guerra. Su video más visto: más de 500 000 visualizaciones. |
+| `releases.3.id` | ana-hashem | ana-hashem | ana-hashem | ana-hashem |
+| `releases.3.date` | 2024 | 2024 | 2024 | 2024 |
+| `releases.3.note` | תחינה, בלב חודשים קשים. | Une supplication, au cœur des mois difficiles. | A plea, in the heart of difficult months. | Una súplica, en el corazón de meses difíciles. |
+| `releases.4.id` | or-beeinai | or-beeinai | or-beeinai | or-beeinai |
+| `releases.4.date` | ינואר 2023 | Janvier 2023 | January 2023 | Enero de 2023 |
+| `releases.4.note` | לחן ששר כבר ב־1977, בעיבוד חדש כמעט חמישים שנה אחר כך. | Une mélodie qu'il chantait déjà en 1977, réarrangée près de cinquante ans plus tard. | A melody he was already singing in 1977, newly arranged almost fifty years later. | Una melodía que ya cantaba en 1977, con nuevos arreglos casi cincuenta años después. |
+| `releases.5.id` | yamim-baim | yamim-baim | yamim-baim | yamim-baim |
+| `releases.5.date` | 2022 | 2022 | 2022 | 2022 |
+| `releases.5.note` | יצא לקראת החגים. | Sorti à l'approche des fêtes. | Released ahead of the High Holidays. | Estrenado antes de las fiestas. |
+| `howEyebrow` | איך הוא עובד | Sa façon de travailler | How he works | Su forma de trabajar |
+| `howTitle` | מוזיקה <em>שעושים יחד</em> | Une musique <em>faite à plusieurs</em> | Music <em>made together</em> | Una música <em>hecha entre varios</em> |
+| `how.0.title` | הוא מלחין | Il compose | He composes | Él compone |
+| `how.0.text` | רוב הלחנים שלו. חלקם מגיעים מרחוק: ״אור בעיני״ נולד בשנים שלו בפריז. | La plupart des mélodies sont de lui. Certaines viennent de loin : « Or Be'einai » date de ses années parisiennes. | Most of the melodies are his. Some go back a long way: “Or Be'einai” dates from his Paris years. | La mayoría de las melodías son suyas. Algunas vienen de lejos: «Or Be'einai» es de sus años en París. |
+| `how.1.title` | עם אלי קליין ואיצי ברי | Avec Eli Klein et Yitzy Berry | With Eli Klein and Yitzy Berry | Con Eli Klein e Yitzy Berry |
+| `how.1.text` | הצמד חתום על רוב המילים, העיבודים וההפקות, יחד עם צבעים הפקות. | Le duo signe la plupart des textes, des arrangements et des productions, avec צבעים הפקות (Tzvaim Productions). | The duo writes most of the lyrics, arrangements and productions, with Tzvaim Productions. | El dúo firma la mayoría de las letras, arreglos y producciones, con Tzvaim Productions. |
+| `how.2.title` | במשפחה | En famille | With family | En familia |
+| `how.2.text` | בנו דוד, זמר חסידי, שר איתו הרבה; לפעמים גם הנכדים. | Son fils David, chanteur hassidique, chante souvent avec lui ; ses petits-enfants aussi, parfois. | His son David, a Chassidic singer, often sings with him; sometimes his grandchildren too. | Su hijo David, cantante jasídico, canta a menudo con él; a veces también sus nietos. |
+| `missionEyebrow` | השליחות שלו | Sa mission | His mission | Su misión |
+| `mission` | לשמח את עם ישראל. | Réjouir le peuple juif. | To bring joy to the Jewish people. | Alegrar al pueblo judío. |
+| `missionNote` | כך מתאר COL את השליחות שלו מאז שחזר למוזיקה. | C'est ainsi que COL décrit sa mission depuis son retour à la musique. | That is how COL describes his mission since his return to music. | Así describe COL su misión desde su regreso a la música. |
+| `followEyebrow` | לעקוב | Le suivre | Follow him | Seguirlo |
+| `followTitle` | לא לפספס <em>אף שיר</em> | Ne rien <em>manquer</em> | Don't miss <em>a thing</em> | No te pierdas <em>nada</em> |
+| `followText` | השירים החדשים יוצאים קודם כול בערוץ היוטיוב שלו. | Les nouveaux chants sortent d'abord sur sa chaîne YouTube. | New songs come out first on his YouTube channel. | Los nuevos cantos salen primero en su canal de YouTube. |
+| `subscribers` | כ־3,800 מנויים | environ 3 800 abonnés | about 3,800 subscribers | unos 3800 suscriptores |
 
 ## Discographie
 

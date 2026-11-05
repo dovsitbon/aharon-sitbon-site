@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Aharon Sitbon (Gilbert Sitbon) – chanteur juif hassidique à Jérusalem | אהרון סיטבון",
-    "description": "Site officiel d'Aharon Sitbon, chanteur et compositeur hassidique installé à Jérusalem, autrefois Gilbert Sitbon sur les scènes françaises. Écoutez ses albums Shehecheyanu et Higia Zman Geulatchem, Adon Olam, ses clips, et réservez un concert.",
+    "description": "Site officiel d'Aharon Sitbon, chanteur et compositeur hassidique installé à Jérusalem, autrefois Gilbert Sitbon sur les scènes françaises (Olympia 1977). Son histoire, ses albums Shehecheyanu et Higia Zman Geulatchem, Adon Olam, ses clips et ses concerts.",
     "ogAlt": "Aharon Sitbon à la guitare, la nuit",
     "legalTitle": "Mentions légales – Aharon Sitbon"
   },
@@ -16,11 +16,11 @@
     "concerts": "Concerts",
     "press": "Presse",
     "contact": "Contact",
-    "book": "Réserver un concert",
-    "bookShort": "Réserver",
+    "book": "Écouter",
+    "bookShort": "Écouter",
     "language": "Langue",
-    "services": "Prestations",
-    "events": "Événements"
+    "events": "Concerts",
+    "today": "Aujourd'hui"
   },
   "intro": {
     "skip": "Passer",
@@ -30,7 +30,7 @@
     "eyebrow": "CHANTEUR · COMPOSITEUR · JÉRUSALEM",
     "title": "La voix revenue après 30 ans de silence",
     "listen": "Écouter",
-    "book": "Réserver un concert",
+    "book": "Son histoire",
     "scroll": "Défiler"
   },
   "manifesto": {
@@ -58,9 +58,9 @@
       {
         "n": "003",
         "title": "Sur scène",
-        "text": "Concerts, mariages, farbrenguen, soirées de communauté et concerts sur Zoom, en Israël et en France.",
-        "link": "Réserver",
-        "href": "contact"
+        "text": "De l'Olympia en 1977 au Heichal Menorah : les scènes où sa voix a porté.",
+        "link": "Ses concerts",
+        "href": "events"
       }
     ]
   },
@@ -196,7 +196,7 @@
     "upcoming": "Prochains concerts",
     "none": "Les prochaines dates seront annoncées ici. Pour l'inviter chez vous, écrivez-nous.",
     "tickets": "Billetterie",
-    "past": "Ils l'ont reçu",
+    "past": "Les scènes où il a chanté",
     "invite": "L'inviter"
   },
   "french": {
@@ -245,72 +245,46 @@
     "text": "Cet espace accueillera de vrais messages du public, publiés avec l'accord de leurs auteurs."
   },
   "booking": {
-    "eyebrow": "Réservation",
-    "title": "Inviter Aharon Sitbon",
-    "intro": "Concert, mariage, bar-mitsva, farbrenguen ou soirée de communauté, en Israël, en France ou sur Zoom. Remplissez ces quelques lignes : votre demande part sur WhatsApp, déjà rédigée.",
-    "type": "Type d'événement",
+    "eyebrow": "Contact",
+    "title": "Lui écrire",
+    "intro": "Un mot après avoir écouté un chant, une question de presse : votre message s'ouvre dans WhatsApp, déjà rédigé.",
+    "type": "Votre message concerne",
     "types": {
-      "concert": "Concert",
-      "wedding": "Mariage",
-      "barmitzvah": "Bar-mitsva",
-      "chabad": "Événement Habad / farbrenguen",
-      "community": "Soirée de communauté",
-      "corporate": "Événement d'entreprise",
-      "zoom": "Concert sur Zoom",
+      "message": "Un mot pour lui",
+      "press": "Presse / interview",
+      "media": "Radio / télévision",
+      "rights": "Diffusion de sa musique",
       "other": "Autre"
     },
-    "date": "Date",
-    "dateTaken": "Cette date est déjà prise. Écrivez-nous quand même, on vous proposera une solution.",
-    "city": "Ville / salle",
-    "country": "Pays",
-    "countries": {
-      "IL": "Israël",
-      "FR": "France",
-      "other": "Autre"
-    },
-    "guests": "Nombre de personnes",
-    "formula": "Formule",
-    "formulas": {
-      "band": "Avec musiciens",
-      "guitar": "Guitare et voix",
-      "david": "Avec son fils David",
-      "zoom": "Sur Zoom"
-    },
-    "budget": "Budget indicatif",
-    "optional": "facultatif",
     "name": "Nom",
     "phone": "Téléphone",
     "email": "Email",
+    "optional": "facultatif",
     "message": "Message",
-    "messagePlaceholder": "Le lieu, l'ambiance, ce qui compte pour vous…",
+    "messagePlaceholder": "Votre message…",
     "submit": "Envoyer sur WhatsApp",
-    "note": "Pas de paiement en ligne. Le message s'ouvre dans WhatsApp, vous pouvez le relire avant de l'envoyer.",
+    "note": "Le message s'ouvre dans WhatsApp : vous pouvez le relire avant de l'envoyer.",
     "call": "Ou par téléphone",
     "errors": {
-      "type": "Choisissez un type d'événement.",
+      "type": "Choisissez un objet.",
       "name": "Indiquez votre nom.",
       "phone": "Indiquez un numéro de téléphone valide.",
-      "email": "Cet email ne semble pas valide."
+      "email": "Cet email ne semble pas valide.",
+      "message": "Écrivez quelques mots."
     },
     "wa": {
-      "title": "Demande de concert – Aharon Sitbon",
-      "type": "Événement",
-      "date": "Date",
-      "city": "Lieu",
-      "country": "Pays",
-      "guests": "Personnes",
-      "formula": "Formule",
-      "budget": "Budget",
+      "title": "Message – site d'Aharon Sitbon",
+      "type": "Objet",
       "name": "Nom",
       "phone": "Téléphone",
       "email": "Email",
       "message": "Message",
-      "closing": "Merci, à bientôt !"
+      "closing": "Merci !"
     }
   },
   "footer": {
     "tagline": "Chanteur et compositeur hassidique. Jérusalem.",
-    "contact": "Réservations",
+    "contact": "Contact",
     "explore": "Le site",
     "listen": "Écouter",
     "rights": "Tous droits réservés",
@@ -328,7 +302,7 @@
       "Site officiel d'Aharon Sitbon, chanteur et compositeur. Contact : par WhatsApp ou au numéro indiqué en bas de page.",
       "Hébergement : Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis.",
       "Musique, textes, photos et vidéos : tous droits réservés à leurs auteurs et producteurs (notamment Eli Klein, Yitzy Berry et Tzvaim Productions). Aucune reproduction sans autorisation.",
-      "Les vidéos YouTube ne se chargent que lorsque vous cliquez dessus ; YouTube peut alors déposer ses propres cookies. Le site lui-même n'utilise ni cookie publicitaire ni outil de mesure d'audience. Le formulaire de réservation n'enregistre rien : il ouvre seulement un message WhatsApp que vous choisissez d'envoyer."
+      "Les vidéos YouTube ne se chargent que lorsque vous cliquez dessus ; YouTube peut alors déposer ses propres cookies. Le site lui-même n'utilise ni cookie publicitaire ni outil de mesure d'audience. Le formulaire de contact n'enregistre rien : il ouvre seulement un message WhatsApp que vous choisissez d'envoyer."
     ]
   },
   "alt": {
@@ -376,17 +350,11 @@
       "h1": "Ses <em>clips</em> et ses concerts",
       "intro": "Clips officiels, concerts filmés, interviews et archives, tels qu'ils sont publiés sur sa chaîne YouTube."
     },
-    "services": {
-      "title": "Prestations – concerts, mariages, bar-mitsva, farbrenguen, Zoom",
-      "eyebrow": "Prestations",
-      "h1": "Une voix pour vos <em>grands moments</em>",
-      "intro": "Aharon Sitbon chante pour les mariages, les bar-mitsva, les soirées de communauté, les événements Habad et les concerts, en Israël, en France et sur Zoom."
-    },
     "events": {
-      "title": "Concerts et événements",
-      "eyebrow": "Événements",
+      "title": "Ses concerts – de l'Olympia au Heichal Menorah",
+      "eyebrow": "Concerts",
       "h1": "Sur <em>scène</em>",
-      "intro": "Les prochaines dates, et les scènes où il a déjà chanté : de l'Olympia en 1977 au Heichal Menorah."
+      "intro": "De l'Olympia en 1977 au Heichal Menorah, de la Tour de David au congrès Tzama : les scènes où sa voix a porté."
     },
     "press": {
       "title": "Presse – ils parlent d'Aharon Sitbon",
@@ -395,10 +363,16 @@
       "intro": "Portraits, interviews et annonces de sorties, en français, en hébreu et en anglais."
     },
     "contact": {
-      "title": "Contact et réservation d'un concert",
+      "title": "Contact – écrire à Aharon Sitbon",
       "eyebrow": "Contact",
-      "h1": "Inviter <em>Aharon Sitbon</em>",
-      "intro": "Une date, un lieu, quelques mots sur votre événement : la demande part sur WhatsApp, déjà rédigée."
+      "h1": "Écrire à <em>Aharon Sitbon</em>",
+      "intro": "Un mot après avoir écouté un chant, une demande de presse ou d'interview : votre message part sur WhatsApp, déjà rédigé."
+    },
+    "today": {
+      "title": "Aujourd'hui – ses nouveaux chants et ce qu'il prépare",
+      "eyebrow": "Aujourd'hui",
+      "h1": "Toujours <em>en chemin</em>",
+      "intro": "Depuis son retour en 2014, il n'a jamais cessé : il compose, il enregistre, et un nouveau chant sort presque chaque année."
     }
   },
   "home": {
@@ -428,124 +402,22 @@
     "storyLink": "Lire son histoire",
     "musicTitle": "Les <em>albums</em>",
     "musicLink": "Toute la discographie",
-    "servicesTitle": "Il vient chanter <em>chez vous</em>",
-    "servicesText": "Mariages, bar-mitsva, farbrenguen, soirées de communauté, événements d'entreprise : avec musiciens, en guitare-voix, avec son fils David, ou sur Zoom.",
-    "servicesLink": "Voir les prestations",
     "videosTitle": "À <em>regarder</em>",
     "videosLink": "Tous les clips",
-    "eventsTitle": "Prochaines <em>dates</em>",
-    "eventsLink": "Tous les événements",
+    "eventsTitle": "Sur <em>scène</em>",
+    "eventsLink": "Tous ses concerts",
     "pressTitle": "Ils en <em>parlent</em>",
     "pressLink": "Toute la presse",
-    "ctaTitle": "Et si c'était pour <em>votre</em> événement ?",
-    "ctaText": "Écrivez-nous la date et le lieu, on vous répond sur WhatsApp.",
-    "ctaButton": "Réserver un concert"
-  },
-  "services": {
-    "formulasEyebrow": "Les formules",
-    "formulasTitle": "Quatre façons de le <em>recevoir</em>",
-    "formulas": [
-      {
-        "id": "band",
-        "title": "Avec musiciens",
-        "text": "Le concert complet, avec son orchestre : pour les grandes salles, les mariages et les soirées où l'on danse.",
-        "ideal": "Mariages, concerts, grands événements"
-      },
-      {
-        "id": "guitar",
-        "title": "Guitare et voix",
-        "text": "Lui et sa guitare, comme au premier jour. Un moment intime où il raconte aussi son histoire entre les chants.",
-        "ideal": "Farbrenguen, soirées de communauté, Chabbat"
-      },
-      {
-        "id": "david",
-        "title": "Avec son fils David",
-        "text": "Le père et le fils sur scène, en duo : « Achake Lo » et les chants qu'ils partagent depuis des années.",
-        "ideal": "Bar-mitsva, fêtes de famille, galas"
-      },
-      {
-        "id": "zoom",
-        "title": "Concert sur Zoom",
-        "text": "Un concert en direct, à distance, pour une communauté, une école ou une famille dispersée entre plusieurs pays.",
-        "ideal": "Communautés à l'étranger, écoles, maisons de retraite"
-      }
-    ],
-    "occasionsEyebrow": "Les occasions",
-    "occasionsTitle": "Pour quels <em>événements</em> ?",
-    "occasions": [
-      {
-        "title": "Mariages",
-        "text": "La houppa, l'entrée des mariés, puis la joie de la soirée."
-      },
-      {
-        "title": "Bar-mitsva",
-        "text": "Un concert pour le grand jour, en famille, avec les chants qu'on reprend tous ensemble."
-      },
-      {
-        "title": "Événements Habad",
-        "text": "Farbrenguen, congrès, fêtes du calendrier : son répertoire est né dans le monde de Habad."
-      },
-      {
-        "title": "Soirées de communauté",
-        "text": "Synagogues, centres communautaires, soirées de Hanoucca ou de Pourim."
-      },
-      {
-        "title": "Événements d'entreprise",
-        "text": "Une soirée qui a du sens, avec un artiste dont l'histoire touche tout le monde."
-      },
-      {
-        "title": "Concerts",
-        "text": "Salles de spectacle et festivals, en Israël et en France."
-      }
-    ],
-    "stepsEyebrow": "Comment ça se passe",
-    "stepsTitle": "En quatre <em>étapes</em>",
-    "steps": [
-      {
-        "title": "Votre demande",
-        "text": "Vous remplissez le formulaire : date, lieu, type d'événement. Le message part sur WhatsApp."
-      },
-      {
-        "title": "On en parle",
-        "text": "On vous rappelle pour comprendre l'ambiance, le public et ce qui compte pour vous."
-      },
-      {
-        "title": "La proposition",
-        "text": "Vous recevez une proposition adaptée : formule, durée, musiciens, conditions."
-      },
-      {
-        "title": "Le jour J",
-        "text": "Il arrive, il chante, et le reste vous appartient."
-      }
-    ],
-    "faqEyebrow": "Questions fréquentes",
-    "faqTitle": "Bon à <em>savoir</em>",
-    "faq": [
-      {
-        "q": "Combien coûte une prestation ?",
-        "a": "Cela dépend de la formule, de la date, du lieu et du nombre de musiciens. Envoyez votre demande : la proposition est faite sur mesure."
-      },
-      {
-        "q": "Se déplace-t-il en France ?",
-        "a": "Oui. Il vit en Israël et chante aussi en France ; prévoyez simplement la demande assez tôt pour organiser le voyage."
-      },
-      {
-        "q": "Dans quelles langues chante-t-il ?",
-        "a": "Ses chants sont en hébreu. Entre les morceaux, il peut parler en hébreu ou en français, sa langue maternelle de scène."
-      },
-      {
-        "q": "Peut-il raconter son histoire pendant le concert ?",
-        "a": "Oui, c'est souvent le moment le plus fort de la soirée : de l'Olympia aux téfilines, puis le retour à la musique."
-      },
-      {
-        "q": "Comment fonctionne un concert sur Zoom ?",
-        "a": "Il chante en direct depuis Israël ; vous recevez le lien et le diffusez à votre public, dans une salle ou à la maison."
-      }
-    ],
-    "cta": "Demander une proposition"
+    "ctaTitle": "Sa musique vous a <em>touché</em> ?",
+    "ctaText": "Écoutez ses albums, suivez sa chaîne, ou écrivez-lui un mot.",
+    "ctaButton": "Écouter sa musique",
+    "todayTitle": "Aujourd'hui, il <em>chante encore</em>",
+    "todayText": "Il compose toujours, et un nouveau chant sort presque chaque année, réalisé avec Eli Klein et Yitzy Berry, souvent en famille avec son fils David.",
+    "todayLink": "Ce qu'il fait aujourd'hui",
+    "eventsText": "L'Olympia, le Heichal Menorah devant des milliers de personnes, la Tour de David, le congrès Tzama : une voix qui a rempli des salles, hier comme aujourd'hui.",
+    "ctaSecondary": "Lui écrire"
   },
   "events": {
-    "calendar": "Les dates sont mises à jour par l'équipe d'Aharon Sitbon.",
     "gallery": "Sur scène, en images",
     "watch": "Voir la vidéo"
   },
@@ -554,6 +426,65 @@
     "whatsapp": "Écrire sur WhatsApp",
     "call": "Appeler",
     "follow": "Le suivre",
-    "note": "Le plus simple pour une réservation : WhatsApp."
+    "note": "Le plus simple : WhatsApp."
+  },
+  "today": {
+    "releasesEyebrow": "Les dernières sorties",
+    "releasesTitle": "Un chant, <em>presque chaque année</em>",
+    "releases": [
+      {
+        "id": "niggun-yehudi",
+        "date": "Mars 2026",
+        "note": "Un chant sur le miracle de Pourim, avec un clip de Zeevi Heller."
+      },
+      {
+        "id": "tefila-leshalom",
+        "date": "Mars 2025",
+        "note": "Une prière pour la paix, filmée devant le Kotel."
+      },
+      {
+        "id": "odeh-hashem",
+        "date": "2024",
+        "note": "Un psaume chanté avant Elloul, pendant la guerre. Sa vidéo la plus vue : plus de 500 000 vues."
+      },
+      {
+        "id": "ana-hashem",
+        "date": "2024",
+        "note": "Une supplication, au cœur des mois difficiles."
+      },
+      {
+        "id": "or-beeinai",
+        "date": "Janvier 2023",
+        "note": "Une mélodie qu'il chantait déjà en 1977, réarrangée près de cinquante ans plus tard."
+      },
+      {
+        "id": "yamim-baim",
+        "date": "2022",
+        "note": "Sorti à l'approche des fêtes."
+      }
+    ],
+    "howEyebrow": "Sa façon de travailler",
+    "howTitle": "Une musique <em>faite à plusieurs</em>",
+    "how": [
+      {
+        "title": "Il compose",
+        "text": "La plupart des mélodies sont de lui. Certaines viennent de loin : « Or Be'einai » date de ses années parisiennes."
+      },
+      {
+        "title": "Avec Eli Klein et Yitzy Berry",
+        "text": "Le duo signe la plupart des textes, des arrangements et des productions, avec צבעים הפקות (Tzvaim Productions)."
+      },
+      {
+        "title": "En famille",
+        "text": "Son fils David, chanteur hassidique, chante souvent avec lui ; ses petits-enfants aussi, parfois."
+      }
+    ],
+    "missionEyebrow": "Sa mission",
+    "mission": "Réjouir le peuple juif.",
+    "missionNote": "C'est ainsi que COL décrit sa mission depuis son retour à la musique.",
+    "followEyebrow": "Le suivre",
+    "followTitle": "Ne rien <em>manquer</em>",
+    "followText": "Les nouveaux chants sortent d'abord sur sa chaîne YouTube.",
+    "subscribers": "environ 3 800 abonnés"
   }
 }

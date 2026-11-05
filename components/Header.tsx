@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import site from "@/data/site.json";
 import { Mark, Wordmark } from "@/components/Logo";
 import { LangSwitch } from "@/components/LangSwitch";
+import { ListenButton } from "@/components/ListenButton";
 import { CloseIcon, FacebookIcon, MenuIcon, YouTubeIcon } from "@/components/icons";
 import { useLocale } from "@/components/providers";
 import { href } from "@/lib/routes";
@@ -40,7 +41,7 @@ export function Header() {
     { href: href(lang, "story"), label: d.nav.story },
     { href: href(lang, "music"), label: d.nav.music },
     { href: href(lang, "videos"), label: d.nav.clips },
-    { href: href(lang, "services"), label: d.nav.services },
+    { href: href(lang, "today"), label: d.nav.today },
     { href: href(lang, "events"), label: d.nav.events },
     { href: href(lang, "press"), label: d.nav.press },
     { href: href(lang, "contact"), label: d.nav.contact },
@@ -91,9 +92,7 @@ export function Header() {
           <div className="flex items-center gap-3 md:gap-5">
             <LangSwitch lang={lang} label={d.nav.language} className="hidden lg:flex" />
             <div className="hidden items-center gap-3 min-[1600px]:flex">{social}</div>
-            <Link href={href(lang, "contact")} className="btn hidden !min-h-11 !px-5 whitespace-nowrap sm:inline-flex">
-              {d.nav.book}
-            </Link>
+            <ListenButton label={d.nav.book} className="btn hidden !min-h-11 !px-5 whitespace-nowrap sm:inline-flex" />
             <button type="button" className="-m-2 flex h-11 w-11 items-center justify-center min-[1180px]:hidden" onClick={() => setMenu(true)} aria-label={d.nav.menu} aria-expanded={menu}>
               <MenuIcon />
             </button>
@@ -118,9 +117,7 @@ export function Header() {
               </div>
             ))}
             <div className="fade-in mt-8" style={{ animationDelay: "0.4s" }}>
-              <Link href={href(lang, "contact")} onClick={() => setMenu(false)} className="btn">
-                {d.nav.book}
-              </Link>
+              <ListenButton label={d.home.ctaButton} />
             </div>
           </nav>
           <div className="flex items-center justify-between border-t border-line px-6 py-4">

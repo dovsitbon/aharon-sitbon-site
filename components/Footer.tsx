@@ -2,6 +2,7 @@ import Link from "next/link";
 import site from "@/data/site.json";
 import { AppleMusicIcon, FacebookIcon, PhoneIcon, WhatsAppIcon, YouTubeIcon } from "@/components/icons";
 import { LogoFull, SkylineRule } from "@/components/Logo";
+import { ListenButton } from "@/components/ListenButton";
 import type { Dict, Locale } from "@/lib/i18n";
 import { waLink } from "@/lib/booking";
 import { href } from "@/lib/routes";
@@ -12,7 +13,7 @@ export function Footer({ lang, d }: { lang: Locale; d: Dict }) {
     { href: href(lang, "story"), label: d.nav.story },
     { href: href(lang, "music"), label: d.nav.music },
     { href: href(lang, "videos"), label: d.nav.clips },
-    { href: href(lang, "services"), label: d.nav.services },
+    { href: href(lang, "today"), label: d.nav.today },
     { href: href(lang, "events"), label: d.nav.events },
     { href: href(lang, "press"), label: d.nav.press },
     { href: href(lang, "contact"), label: d.nav.contact },
@@ -23,12 +24,15 @@ export function Footer({ lang, d }: { lang: Locale; d: Dict }) {
       {/* Bandeau d'appel avant le pied de page */}
       <div className="relative mx-auto flex max-w-[1320px] flex-col items-start justify-between gap-8 border-b border-line-blue px-5 pt-20 pb-16 md:flex-row md:items-end md:px-10">
         <div>
-          <p className="eyebrow">{d.booking.eyebrow}</p>
-          <p className="display mt-5 max-w-2xl text-[clamp(2rem,4.4vw,3.4rem)]" dangerouslySetInnerHTML={{ __html: d.home.ctaTitle }} />
+          <p className="display max-w-2xl text-[clamp(2rem,4.4vw,3.4rem)]" dangerouslySetInnerHTML={{ __html: d.home.ctaTitle }} />
+          <p className="lead mt-4">{d.home.ctaText}</p>
         </div>
-        <Link href={href(lang, "contact")} className="btn shrink-0">
-          {d.home.ctaButton}
-        </Link>
+        <div className="flex shrink-0 flex-wrap gap-3">
+          <ListenButton label={d.home.ctaButton} />
+          <Link href={href(lang, "contact")} className="btn-ghost text-paper">
+            {d.home.ctaSecondary}
+          </Link>
+        </div>
       </div>
 
       <SkylineRule className="pointer-events-none absolute inset-x-0 bottom-0 h-32 w-full text-sand/10" />

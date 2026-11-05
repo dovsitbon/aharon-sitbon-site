@@ -11,9 +11,22 @@ import { thumb, trackById } from "@/lib/music";
 import { Reveal } from "@/components/Reveal";
 import { SectionHead } from "@/components/PageHero";
 import { ListenButton } from "@/components/ListenButton";
+import { HeroSlides } from "@/components/HeroSlides";
 import { AlbumCards } from "@/components/Discography";
 import { Clips } from "@/components/Clips";
 import { ArrowIcon } from "@/components/icons";
+
+// Diaporama de l'accueil : [nom dans public/media/slides, cadrage]
+const SLIDES: [string, string][] = [
+  ["kotel-guitare", "40% 30%"],
+  ["guitare-nuit", "62% 30%"],
+  ["desert-guitare", "50% 30%"],
+  ["tour-de-david-live", "55% 25%"],
+  ["terrasse-jerusalem", "50% 30%"],
+  ["higia-zman-live", "40% 30%"],
+  ["micro-nuit", "55% 30%"],
+  ["studio-micro", "60% 30%"],
+];
 
 export default async function Home({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;
@@ -29,11 +42,9 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
 
       {/* Hero plein écran */}
       <section className="on-photo relative flex min-h-[100svh] items-end overflow-hidden bg-blue-deep" aria-labelledby="hero-title">
-        {/* Emplacement : boucle vidéo silencieuse (public/media/hero/boucle.mp4) dès que l'artiste fournit les sources */}
-        <div className="drift absolute inset-0">
-          <Image src={M("scene", "kotel-guitare")} alt={altOf(d, M("scene", "kotel-guitare"))} fill priority sizes="100vw" className="object-cover object-[30%_30%] md:object-[50%_30%]" />
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-t from-blue-deep/95 via-blue-deep/35 to-blue-deep/25" aria-hidden="true" />
+        {/* Diaporama : ses plus belles photos (provisoires, issues de ses clips) — à remplacer par des photos HD dans public/media/slides/ */}
+        <HeroSlides label={d.hero.eyebrow} slides={SLIDES.map(([name, position]) => ({ src: M("slides", name), alt: altOf(d, M("slides", name)), position }))} />
+        <div className="absolute inset-0 bg-gradient-to-t from-blue-deep/95 via-blue-deep/40 to-blue-deep/20" aria-hidden="true" />
         <div className="relative mx-auto w-full max-w-[1320px] px-5 pt-36 pb-20 md:px-10 md:pb-24">
           <p className="eyebrow rise" style={{ animationDelay: "0.2s" }}>
             {d.hero.eyebrow}
@@ -46,7 +57,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           </p>
           <div className="rise mt-10 flex flex-wrap items-center gap-3" style={{ animationDelay: "0.65s" }}>
             <ListenButton label={d.hero.listen} className="btn" />
-            <Link href={href(lang, "contact")} className="btn-ghost text-paper">
+            <Link href={href(lang, "story")} className="btn-ghost text-paper">
               {d.hero.book}
             </Link>
           </div>
@@ -118,27 +129,35 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         </div>
       </section>
 
-      {/* Prestations */}
-      <section className="bg-sand-soft px-5 py-24 md:px-10 md:py-32" aria-labelledby="h-services">
+      {/* Aujourd'hui */}
+      <section className="bg-sand-soft px-5 py-24 md:px-10 md:py-32" aria-labelledby="h-today">
         <div className="mx-auto grid max-w-[1320px] items-center gap-14 md:grid-cols-[1fr_1.1fr] md:gap-20">
           <Reveal>
-            <SectionHead id="h-services" eyebrow={d.pages.services.eyebrow} title={h.servicesTitle} intro={h.servicesText} />
-            <ul className="mt-8 grid gap-3 sm:grid-cols-2">
-              {d.services.formulas.map((f) => (
-                <li key={f.id} className="card flex items-center gap-3 px-5 py-4">
-                  <span className="h-2 w-2 shrink-0 rounded-full bg-terra" aria-hidden="true" />
-                  <span className="font-medium text-blue">{f.title}</span>
-                </li>
-              ))}
+            <SectionHead id="h-today" eyebrow={d.pages.today.eyebrow} title={h.todayTitle} intro={h.todayText} />
+            <ul className="mt-8 space-y-3">
+              {d.today.releases.slice(0, 3).map((r) => {
+                const t = trackById[r.id];
+                return (
+                  <li key={r.id} className="card flex items-center gap-4 px-5 py-4">
+                    <span className="num w-24 shrink-0 text-[0.9rem] text-terra">{r.date}</span>
+                    <span className="min-w-0">
+                      <span className="block font-[family-name:var(--font-frank)] text-[1.15rem] text-blue" lang="he" dir="rtl">
+                        {t.he}
+                      </span>
+                      <span className="block truncate text-[0.875rem] text-muted">{lang === "he" ? t.latin : t.tr[lang]}</span>
+                    </span>
+                  </li>
+                );
+              })}
             </ul>
-            <Link href={href(lang, "services")} className="btn mt-9">
-              {h.servicesLink}
+            <Link href={href(lang, "today")} className="btn mt-9">
+              {h.todayLink}
             </Link>
           </Reveal>
           <Reveal delay={0.1} className="grid grid-cols-2 gap-4">
-            <Photo src={M("scene", "higia-zman-live")} d={d} sizes="(min-width: 768px) 25vw, 90vw" className="col-span-2 aspect-[16/10] rounded-[1.25rem]" />
+            <Photo src={M("scene", "studio-micro")} d={d} sizes="(min-width: 768px) 25vw, 90vw" className="col-span-2 aspect-[16/10] rounded-[1.25rem]" />
             <Photo src={M("famille", "achake-lo-david")} d={d} sizes="(min-width: 768px) 13vw, 45vw" className="aspect-square rounded-[1.25rem]" />
-            <Photo src={M("scene", "tour-de-david-live")} d={d} sizes="(min-width: 768px) 13vw, 45vw" className="aspect-square rounded-[1.25rem]" />
+            <Photo src={M("famille", "modeh-ani-petit-fils")} d={d} sizes="(min-width: 768px) 13vw, 45vw" className="aspect-square rounded-[1.25rem]" />
           </Reveal>
         </div>
       </section>
@@ -161,7 +180,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         <div className="mx-auto grid max-w-[1320px] gap-14 md:grid-cols-[1fr_1.4fr] md:gap-20">
           <Reveal>
             <SectionHead id="h-events" eyebrow={d.pages.events.eyebrow} title={h.eventsTitle} />
-            {concerts.upcoming.length === 0 && <p className="lead mt-6">{d.concerts.none}</p>}
+            <p className="lead mt-6">{h.eventsText}</p>
             <Link href={href(lang, "events")} className="link-arrow mt-8">
               {h.eventsLink} <ArrowIcon />
             </Link>

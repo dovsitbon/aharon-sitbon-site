@@ -7,7 +7,7 @@ import { waLink } from "@/lib/booking";
 import { M, Photo } from "@/lib/ui";
 import { PageHero } from "@/components/PageHero";
 import { Reveal } from "@/components/Reveal";
-import { BookingForm } from "@/components/BookingForm";
+import { ContactForm } from "@/components/ContactForm";
 import { AppleMusicIcon, FacebookIcon, PhoneIcon, WhatsAppIcon, YouTubeIcon } from "@/components/icons";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/contact">): Promise<Metadata> {
@@ -32,7 +32,7 @@ export default async function Contact({ params }: PageProps<"/[lang]/contact">) 
       <section className="px-5 py-20 md:px-10 md:py-28">
         <div className="mx-auto grid max-w-[1320px] gap-10 lg:grid-cols-[minmax(0,8fr)_minmax(0,4fr)] lg:gap-14">
           <Reveal>
-            <BookingForm />
+            <ContactForm />
           </Reveal>
           <Reveal delay={0.1} className="space-y-6">
             <div className="card p-6">

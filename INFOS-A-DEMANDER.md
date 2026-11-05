@@ -30,10 +30,11 @@ Tout ce qui manque pour que le site soit définitif. Chaque point indique où le
 - [ ] **Accord de David Sitbon** pour le bloc qui lui est consacré (page « Son histoire ») et une photo de lui en HD
 
 ## Concerts et contact
+_Pour le moment, il ne cherche pas de nouvelles prestations : le site met en avant son histoire, sa musique et ses concerts passés._
 - [ ] **Prochains concerts** : date, ville, salle, lien billetterie → `data/concerts.json` (génère aussi les données Google « Event »)
 - [ ] **Dates déjà prises** (facultatif) → `data/dates.json`
-- [ ] **Le bon numéro de réservation** : le site utilise celui de sa chaîne YouTube, 03-960-7242 (wa.me/97239607242). Ce numéro reçoit-il bien WhatsApp ? Sinon, son numéro personnel. → `data/site.json`
-- [ ] Fourchettes de prix / formules (avec musiciens, guitare et voix, avec David, sur Zoom) si on veut les afficher
+- [x] Numéro de contact : +972 52-512-5282 (donné le 2026-11-05) → `data/site.json`
+- [ ] S'il reprend un jour les concerts : prévenir, on rouvrira une page « Prestations » (les prochains concerts s'affichent déjà automatiquement depuis `data/concerts.json`)
 
 ## Public
 - [ ] **Vrais messages du public**, avec l'accord de leurs auteurs (nom ou initiales, ville) → section « Messages du public ». Aucun avis n'a été inventé.

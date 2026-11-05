@@ -82,6 +82,29 @@ for (const c of clips) {
   await prepare(`raw/${f}`, "clips", c.id, width < 600 ? LB : undefined, 960);
 }
 
+// Diaporama de l'accueil : les plus belles photos de scène, agrandies en 1920 px (Lanczos) avec une légère accentuation.
+// Les clips d'origine ne dépassent pas 720p : à remplacer par les vraies photos HD de l'artiste dès que possible.
+const SLIDES = [
+  ["scene/kotel-guitare", "kotel-guitare"],
+  ["hero/guitare-nuit", "guitare-nuit"],
+  ["scene/desert-guitare", "desert-guitare"],
+  ["scene/tour-de-david-live", "tour-de-david-live"],
+  ["scene/terrasse-jerusalem", "terrasse-jerusalem"],
+  ["scene/higia-zman-live", "higia-zman-live"],
+  ["hero/micro-nuit", "micro-nuit"],
+  ["scene/studio-micro", "studio-micro"],
+];
+await mkdir(path.join(ROOT, "public/media/slides"), { recursive: true });
+for (const [src, name] of SLIDES) {
+  const info = await sharp(path.join(ROOT, "assets", `${src}.jpg`))
+    .resize({ width: 1920, kernel: "lanczos3" })
+    .sharpen({ sigma: 0.8, m1: 0.6, m2: 1.2 })
+    .modulate({ saturation: 1.04 })
+    .jpeg({ quality: 88, mozjpeg: true })
+    .toFile(path.join(ROOT, "public/media/slides", `${name}.jpg`));
+  sizes[`/media/slides/${name}.jpg`] = [info.width, info.height];
+}
+
 // Image de partage (Open Graph) 1200 × 630 : guitare, la nuit
 await sharp(path.join(ROOT, "assets", raw("12_TIetzheEf_U")))
   .resize(1200, 630, { fit: "cover", position: "right" })

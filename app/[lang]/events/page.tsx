@@ -1,10 +1,8 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import concerts from "@/data/concerts.json";
 import { getDict, isLocale, type Locale } from "@/lib/i18n";
 import { pageMetadata } from "@/lib/seo";
-import { href } from "@/lib/routes";
 import { formatDay } from "@/lib/booking";
 import { M, Photo } from "@/lib/ui";
 import { PageHero, SectionHead } from "@/components/PageHero";
@@ -34,20 +32,14 @@ export default async function Events({ params }: PageProps<"/[lang]/events">) {
     <>
       <PageHero lang={lang} d={d} eyebrow={p.eyebrow} h1={p.h1} intro={p.intro} image={M("scene", "tzama-5781")} />
 
-      {/* Prochains concerts */}
-      <section className="px-5 py-24 md:px-10 md:py-28" aria-labelledby="upcoming">
+      {/* Prochains concerts : affichés seulement si data/concerts.json en contient */}
+      {upcoming.length > 0 && (
+        <section className="px-5 py-24 md:px-10 md:py-28" aria-labelledby="upcoming">
         <div className="mx-auto max-w-[1100px]">
           <Reveal>
-            <SectionHead id="upcoming" eyebrow={d.concerts.eyebrow} title={d.home.eventsTitle} />
+            <SectionHead id="upcoming" eyebrow={d.concerts.eyebrow} title={d.concerts.upcoming} />
           </Reveal>
-          {upcoming.length === 0 ? (
-            <Reveal className="card mt-10 flex flex-col items-start gap-6 p-8 md:flex-row md:items-center md:justify-between md:p-10">
-              <p className="lead max-w-xl">{d.concerts.none}</p>
-              <Link href={href(lang, "contact")} className="btn shrink-0">
-                {d.concerts.invite}
-              </Link>
-            </Reveal>
-          ) : (
+          {(
             <ul className="card mt-10 divide-y divide-line">
               {upcoming.map((c) => (
                 <li key={c.date + c.venue} className="flex flex-wrap items-center gap-6 px-6 py-6 md:px-8">
@@ -71,15 +63,15 @@ export default async function Events({ params }: PageProps<"/[lang]/events">) {
               ))}
             </ul>
           )}
-          <p className="mt-4 text-[0.875rem] text-muted">{d.events.calendar}</p>
         </div>
       </section>
+      )}
 
       {/* Ils l'ont reçu */}
       <section className="bg-sand-soft px-5 py-24 md:px-10 md:py-28" aria-labelledby="past">
         <div className="mx-auto max-w-[1100px]">
           <Reveal>
-            <SectionHead id="past" eyebrow={d.concerts.eyebrow} title={d.concerts.past} />
+            <SectionHead id="past" eyebrow={d.concerts.eyebrow} title={d.concerts.past} intro={d.home.eventsText} />
           </Reveal>
           <ul className="mt-12 space-y-4">
             {past.map((e, i) => (
