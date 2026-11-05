@@ -6,6 +6,8 @@ import { getDict, isLocale } from "@/lib/i18n";
 import { pageMetadata } from "@/lib/seo";
 import { M, Photo } from "@/lib/ui";
 import { thumb, trackById } from "@/lib/music";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbLd } from "@/lib/jsonld";
 import { PageHero, SectionHead } from "@/components/PageHero";
 import { Reveal } from "@/components/Reveal";
 import { ListenButton } from "@/components/ListenButton";
@@ -16,7 +18,7 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/today">): 
   const { lang } = await params;
   if (!isLocale(lang)) return {};
   const d = getDict(lang);
-  return pageMetadata(lang, "/today", d.pages.today.title, d.pages.today.intro);
+  return pageMetadata(lang, "/today", d.pages.today.title, d.pages.today.desc, "/og/today.jpg");
 }
 
 export default async function Today({ params }: PageProps<"/[lang]/today">) {
@@ -29,6 +31,7 @@ export default async function Today({ params }: PageProps<"/[lang]/today">) {
 
   return (
     <>
+      <JsonLd data={breadcrumbLd(lang, d, [[d.nav.today, `/${lang}/today`]])} />
       <PageHero lang={lang} d={d} eyebrow={p.eyebrow} h1={p.h1} intro={p.intro} image={M("scene", "desert-guitare")} position="55% 30%">
         <ListenButton label={d.hero.listen} />
       </PageHero>

@@ -5,6 +5,8 @@ import { getDict, isLocale, type Locale } from "@/lib/i18n";
 import { pageMetadata } from "@/lib/seo";
 import { formatDay } from "@/lib/booking";
 import { M, Photo } from "@/lib/ui";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbLd } from "@/lib/jsonld";
 import { PageHero, SectionHead } from "@/components/PageHero";
 import { Reveal } from "@/components/Reveal";
 import { WatchButton } from "@/components/Clips";
@@ -13,7 +15,7 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/events">):
   const { lang } = await params;
   if (!isLocale(lang)) return {};
   const d = getDict(lang);
-  return pageMetadata(lang, "/events", d.pages.events.title, d.pages.events.intro);
+  return pageMetadata(lang, "/events", d.pages.events.title, d.pages.events.desc, "/og/events.jpg");
 }
 
 type Upcoming = { date: string; time?: string; city: Record<Locale, string>; venue: string; country: string; tickets?: string };
@@ -30,6 +32,7 @@ export default async function Events({ params }: PageProps<"/[lang]/events">) {
 
   return (
     <>
+      <JsonLd data={breadcrumbLd(lang, d, [[d.nav.events, `/${lang}/events`]])} />
       <PageHero lang={lang} d={d} eyebrow={p.eyebrow} h1={p.h1} intro={p.intro} image={M("scene", "tzama-5781")} />
 
       {/* Prochains concerts : affichés seulement si data/concerts.json en contient */}

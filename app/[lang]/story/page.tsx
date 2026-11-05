@@ -7,6 +7,8 @@ import { altOf, getDict, isLocale } from "@/lib/i18n";
 import { pageMetadata } from "@/lib/seo";
 import { href } from "@/lib/routes";
 import { M, Photo } from "@/lib/ui";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbLd, profileLd } from "@/lib/jsonld";
 import { PageHero, SectionHead } from "@/components/PageHero";
 import { Reveal } from "@/components/Reveal";
 import { WatchButton } from "@/components/Clips";
@@ -15,7 +17,7 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/story">): 
   const { lang } = await params;
   if (!isLocale(lang)) return {};
   const d = getDict(lang);
-  return pageMetadata(lang, "/story", d.pages.story.title, d.pages.story.intro);
+  return pageMetadata(lang, "/story", d.pages.story.title, d.pages.story.desc, "/og/story.jpg");
 }
 
 // Photo associée à certaines étapes de la frise
@@ -36,6 +38,7 @@ export default async function Story({ params }: PageProps<"/[lang]/story">) {
 
   return (
     <>
+      <JsonLd data={[breadcrumbLd(lang, d, [[d.nav.story, `/${lang}/story`]]), profileLd(lang, d)]} />
       <PageHero lang={lang} d={d} eyebrow={p.eyebrow} h1={p.h1} intro={p.intro} image={M("portrait", "regard-jerusalem")} />
 
       {/* Frise */}

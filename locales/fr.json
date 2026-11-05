@@ -1,9 +1,10 @@
 {
   "meta": {
-    "title": "Aharon Sitbon (Gilbert Sitbon) – chanteur juif hassidique à Jérusalem | אהרון סיטבון",
-    "description": "Site officiel d'Aharon Sitbon, chanteur et compositeur hassidique installé à Jérusalem, autrefois Gilbert Sitbon sur les scènes françaises (Olympia 1977). Son histoire, ses albums Shehecheyanu et Higia Zman Geulatchem, Adon Olam, ses clips et ses concerts.",
+    "title": "Aharon Sitbon – chanteur juif hassidique, ex-Gilbert Sitbon",
+    "description": "Aharon Sitbon, chanteur juif hassidique à Jérusalem, autrefois Gilbert Sitbon (Olympia 1977) : son histoire, Adon Olam, les albums Shehecheyanu et Higia Zman Geulatchem.",
     "ogAlt": "Aharon Sitbon à la guitare, la nuit",
-    "legalTitle": "Mentions légales – Aharon Sitbon"
+    "legalTitle": "Mentions légales – Aharon Sitbon",
+    "albumDesc": "Album de musique hassidique d'Aharon Sitbon"
   },
   "nav": {
     "skip": "Aller au contenu",
@@ -336,43 +337,50 @@
       "title": "Son histoire – de Gilbert Sitbon à Aharon Sitbon",
       "eyebrow": "Son histoire",
       "h1": "De l'Olympia aux <em>remparts</em> de Jérusalem",
-      "intro": "Chanteur de variété dans la France des années 1970, puis trente ans de silence et d'étude, et le retour à la musique à près de 70 ans."
+      "intro": "Chanteur de variété dans la France des années 1970, puis trente ans de silence et d'étude, et le retour à la musique à près de 70 ans.",
+      "desc": "L'histoire d'Aharon Sitbon, chanteur juif français en Israël : Gilbert Sitbon à l'Olympia en 1977, trente ans de silence et d'étude, puis Adon Olam en 2014."
     },
     "music": {
-      "title": "Albums et singles – Shehecheyanu, Higia Zman Geulatchem, Adon Olam",
+      "title": "Albums et singles : Shehecheyanu, Adon Olam",
       "eyebrow": "Discographie",
       "h1": "Toute sa <em>musique</em>",
-      "intro": "Deux albums, plus de vingt singles et les 45 tours de ses années françaises. Cliquez sur un titre pour l'écouter."
+      "intro": "Deux albums, plus de vingt singles et les 45 tours de ses années françaises. Cliquez sur un titre pour l'écouter.",
+      "desc": "Écoutez Aharon Sitbon : les albums Shehecheyanu (2016) et Higia Zman Geulatchem (2021), Adon Olam et plus de vingt singles de musique hassidique."
     },
     "videos": {
       "title": "Clips et concerts filmés",
       "eyebrow": "Clips",
       "h1": "Ses <em>clips</em> et ses concerts",
-      "intro": "Clips officiels, concerts filmés, interviews et archives, tels qu'ils sont publiés sur sa chaîne YouTube."
+      "intro": "Clips officiels, concerts filmés, interviews et archives, tels qu'ils sont publiés sur sa chaîne YouTube.",
+      "desc": "Les clips d'Aharon Sitbon : Odeh Hashem Elokai, Ein Li Milim, Yerushalayim, ses concerts filmés, ses interviews et l'archive télé de 1977."
     },
     "events": {
-      "title": "Ses concerts – de l'Olympia au Heichal Menorah",
+      "title": "Ses concerts, de l'Olympia au Heichal Menorah",
       "eyebrow": "Concerts",
       "h1": "Sur <em>scène</em>",
-      "intro": "De l'Olympia en 1977 au Heichal Menorah, de la Tour de David au congrès Tzama : les scènes où sa voix a porté."
+      "intro": "De l'Olympia en 1977 au Heichal Menorah, de la Tour de David au congrès Tzama : les scènes où sa voix a porté.",
+      "desc": "Les concerts d'Aharon Sitbon : l'Olympia en 1977, le Heichal Menorah devant des milliers de personnes, le congrès Tzama, la Tour de David à Jérusalem."
     },
     "press": {
-      "title": "Presse – ils parlent d'Aharon Sitbon",
+      "title": "Presse",
       "eyebrow": "Presse",
       "h1": "Ils en <em>parlent</em>",
-      "intro": "Portraits, interviews et annonces de sorties, en français, en hébreu et en anglais."
+      "intro": "Portraits, interviews et annonces de sorties, en français, en hébreu et en anglais.",
+      "desc": "La presse parle d'Aharon Sitbon, chanteur hassidique revenu à la musique après 30 ans : Alliance, Torah-Box, Israel National News, COL, Hidabroot."
     },
     "contact": {
-      "title": "Contact – écrire à Aharon Sitbon",
+      "title": "Contact",
       "eyebrow": "Contact",
       "h1": "Écrire à <em>Aharon Sitbon</em>",
-      "intro": "Un mot après avoir écouté un chant, une demande de presse ou d'interview : votre message part sur WhatsApp, déjà rédigé."
+      "intro": "Un mot après avoir écouté un chant, une demande de presse ou d'interview : votre message part sur WhatsApp, déjà rédigé.",
+      "desc": "Contacter Aharon Sitbon, chanteur et compositeur hassidique à Jérusalem : WhatsApp ou téléphone au +972 52-512-5282, pour le public, la presse et la radio."
     },
     "today": {
-      "title": "Aujourd'hui – ses nouveaux chants et ce qu'il prépare",
+      "title": "Aujourd'hui : ses nouveaux chants",
       "eyebrow": "Aujourd'hui",
       "h1": "Toujours <em>en chemin</em>",
-      "intro": "Depuis son retour en 2014, il n'a jamais cessé : il compose, il enregistre, et un nouveau chant sort presque chaque année."
+      "intro": "Depuis son retour en 2014, il n'a jamais cessé : il compose, il enregistre, et un nouveau chant sort presque chaque année.",
+      "desc": "Ce que fait Aharon Sitbon aujourd'hui : Niggun Yehudi (2026), Tefila LeShalom (2025), son travail avec Eli Klein, Yitzy Berry et son fils David."
     }
   },
   "home": {

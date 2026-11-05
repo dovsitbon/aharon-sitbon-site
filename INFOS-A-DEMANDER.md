@@ -39,5 +39,10 @@ _Pour le moment, il ne cherche pas de nouvelles prestations : le site met en ava
 ## Public
 - [ ] **Vrais messages du public**, avec l'accord de leurs auteurs (nom ou initiales, ville) → section « Messages du public ». Aucun avis n'a été inventé.
 
+## Référencement Google
+- [ ] **Google Search Console** : ajouter le site (idéalement avec son futur nom de domaine), puis soumettre https://aharon-sitbon.vercel.app/sitemap.xml
+- [ ] Fiche **Google Knowledge Panel** : une fois le site indexé, revendiquer le panneau « Aharon Sitbon » depuis son compte Google
+- [ ] Ajouter le lien du site dans la description de sa **chaîne YouTube** et sur sa page **Facebook** (les liens depuis ses comptes officiels aident Google à relier le site à lui)
+
 ## Nom de domaine
 - [ ] Un domaine à son nom (par ex. aharonsitbon.com / .co.il) : à acheter puis brancher sur Vercel, et mettre à jour `url` dans `data/site.json`

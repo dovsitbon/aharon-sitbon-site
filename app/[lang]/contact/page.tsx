@@ -5,6 +5,8 @@ import { getDict, isLocale } from "@/lib/i18n";
 import { pageMetadata } from "@/lib/seo";
 import { waLink } from "@/lib/booking";
 import { M, Photo } from "@/lib/ui";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbLd, contactLd } from "@/lib/jsonld";
 import { PageHero } from "@/components/PageHero";
 import { Reveal } from "@/components/Reveal";
 import { ContactForm } from "@/components/ContactForm";
@@ -14,7 +16,7 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/contact">)
   const { lang } = await params;
   if (!isLocale(lang)) return {};
   const d = getDict(lang);
-  return pageMetadata(lang, "/contact", d.pages.contact.title, d.pages.contact.intro);
+  return pageMetadata(lang, "/contact", d.pages.contact.title, d.pages.contact.desc, "/og/contact.jpg");
 }
 
 export default async function Contact({ params }: PageProps<"/[lang]/contact">) {
@@ -27,6 +29,7 @@ export default async function Contact({ params }: PageProps<"/[lang]/contact">) 
 
   return (
     <>
+      <JsonLd data={[breadcrumbLd(lang, d, [[d.nav.contact, `/${lang}/contact`]]), contactLd(lang, d)]} />
       <PageHero lang={lang} d={d} eyebrow={p.eyebrow} h1={p.h1} intro={p.intro} image={M("scene", "kotel-adon-olam")} />
 
       <section className="px-5 py-20 md:px-10 md:py-28">

@@ -105,6 +105,34 @@ for (const [src, name] of SLIDES) {
   sizes[`/media/slides/${name}.jpg`] = [info.width, info.height];
 }
 
+// Images de partage (Open Graph) 1200 × 630, une par page
+const OG = {
+  story: ["scene/ruelle-guitare.jpg", "centre"],
+  music: ["scene/studio-micro.jpg", "right"],
+  videos: ["scene/tzama-5781.jpg", "centre"],
+  today: ["scene/desert-guitare.jpg", "centre"],
+  events: ["scene/higia-zman-live.jpg", "top"],
+  press: ["scene/interview-hamevaker.jpg", "centre"],
+  contact: ["scene/kotel-adon-olam.jpg", "top"],
+  "album-shehecheyanu": ["scene/kotel-guitare.jpg", "left"],
+};
+await mkdir(path.join(ROOT, "public/og"), { recursive: true });
+for (const [name, [src, position]] of Object.entries(OG)) {
+  await sharp(path.join(ROOT, "assets", src))
+    .resize(1200, 630, { fit: "cover", position, kernel: "lanczos3" })
+    .sharpen({ sigma: 0.6 })
+    .jpeg({ quality: 82, mozjpeg: true })
+    .toFile(path.join(ROOT, "public/og", `${name}.jpg`));
+}
+// Album « Higia Zman Geulatchem » : la pochette centrée sur fond bleu tekhelet
+const cover = await sharp(path.join(ROOT, "assets/albums/higia-zman-geulatchem.jpg")).resize(560, 560).toBuffer();
+await sharp({ create: { width: 1200, height: 630, channels: 3, background: "#143553" } })
+  .composite([{ input: cover, top: 35, left: 320 }])
+  .jpeg({ quality: 84, mozjpeg: true })
+  .toFile(path.join(ROOT, "public/og/album-higia-zman-geulatchem.jpg"));
+// Icône Apple (écran d'accueil) à partir du favicon
+await sharp(path.join(ROOT, "app/icon.svg"), { density: 400 }).resize(180, 180).png().toFile(path.join(ROOT, "app/apple-icon.png"));
+
 // Image de partage (Open Graph) 1200 × 630 : guitare, la nuit
 await sharp(path.join(ROOT, "assets", raw("12_TIetzheEf_U")))
   .resize(1200, 630, { fit: "cover", position: "right" })

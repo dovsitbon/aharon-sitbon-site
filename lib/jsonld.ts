@@ -12,7 +12,8 @@ function recording(t: Track, lang: Locale) {
     alternateName: lang === "he" ? t.latin : [t.latin, t.tr[lang]],
     byArtist: { "@id": `${site.url}/#artist` },
     ...(t.duration ? { duration: `PT${t.duration.split(":")[0]}M${t.duration.split(":")[1]}S` } : {}),
-    ...(t.youtubeId ? { url: `https://www.youtube.com/watch?v=${t.youtubeId}`, video: { "@type": "VideoObject", name: `${t.he} – ${t.latin}`, embedUrl: `https://www.youtube-nocookie.com/embed/${t.youtubeId}`, thumbnailUrl: `${site.url}/media/clips/${t.youtubeId}.jpg`, uploadDate: `${t.year}-01-01` } } : {}),
+    ...(t.youtubeId ? { url: `https://www.youtube.com/watch?v=${t.youtubeId}`, image: `${site.url}/media/clips/${t.youtubeId}.jpg` } : {}),
+    ...(t.composer ? { recordingOf: { "@type": "MusicComposition", name: t.he, composer: { "@type": "Person", name: t.composer.replace(/ \(.*\)$/, "") } } } : {}),
     copyrightYear: t.year,
   };
 }
@@ -38,6 +39,8 @@ export function jsonLd(lang: Locale, d: Dict) {
         name: "Aharon Sitbon",
         alternateName: ["אהרון סיטבון", "אהרן סיטבון", "Gilbert Sitbon", "Aaron Sitbon", "Gilles d'Avray", "Gilbert Sainroch"],
         jobTitle: d.footer.tagline,
+        telephone: site.phoneIntl,
+        nationality: { "@type": "Country", name: "Israel" },
         description: d.meta.description,
         image: `${site.url}/media/portrait/portrait-chaine.jpg`,
         homeLocation: { "@type": "City", name: "Jerusalem" },
@@ -82,5 +85,73 @@ export function jsonLd(lang: Locale, d: Dict) {
         ...(c.tickets ? { offers: { "@type": "Offer", url: c.tickets } } : {}),
       })),
     ],
+  };
+}
+
+const nameOf = (lang: Locale) => (lang === "he" ? "אהרון סיטבון" : "Aharon Sitbon");
+
+/** Fil d'Ariane (BreadcrumbList) d'une page intérieure */
+export function breadcrumbLd(lang: Locale, d: Dict, items: [string, string][]) {
+  const all: [string, string][] = [[d.nav.home, `/${lang}`], ...items];
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: all.map(([name, path], i) => ({ "@type": "ListItem", position: i + 1, name, item: `${site.url}${path}` })),
+  };
+}
+
+/** Page d'un album : MusicAlbum complet avec ses titres */
+export function albumLd(lang: Locale, id: string) {
+  const a = albums.find((x) => x.id === id)!;
+  return {
+    "@context": "https://schema.org",
+    "@type": "MusicAlbum",
+    name: a.he,
+    alternateName: lang === "he" ? a.latin : [a.latin, a.tr[lang]],
+    url: `${site.url}/${lang}/music/${a.id}`,
+    byArtist: { "@type": "MusicGroup", name: "Aharon Sitbon", alternateName: ["אהרון סיטבון", "Gilbert Sitbon"], url: `${site.url}/${lang}`, sameAs },
+    datePublished: String(a.year),
+    albumProductionType: "https://schema.org/StudioAlbum",
+    genre: ["Chassidic music", "Jewish music"],
+    numTracks: a.tracks.length,
+    image: `${site.url}${a.cover ?? "/og/album-" + a.id + ".jpg"}`,
+    sameAs: [a.appleMusic, a.spotify].filter(Boolean),
+    track: { "@type": "ItemList", numberOfItems: a.tracks.length, itemListElement: albumTracks(a).map((t, i) => ({ "@type": "ListItem", position: i + 1, item: recording(t, lang) })) },
+  };
+}
+
+/** Page Albums : la discographie sous forme de liste */
+export function discographyLd(lang: Locale) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `${nameOf(lang)} – discography`,
+    itemListElement: [
+      ...albums.map((a, i) => ({ "@type": "ListItem", position: i + 1, url: `${site.url}/${lang}/music/${a.id}`, name: `${a.he} – ${a.latin} (${a.year})` })),
+      ...singles.map((t, i) => ({ "@type": "ListItem", position: albums.length + i + 1, item: recording(t, lang) })),
+    ],
+  };
+}
+
+/** Page Son histoire : profil de l'artiste */
+export function profileLd(lang: Locale, d: Dict) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    url: `${site.url}/${lang}/story`,
+    inLanguage: lang,
+    mainEntity: { "@id": `${site.url}/#person`, "@type": "Person", name: "Aharon Sitbon", alternateName: ["אהרון סיטבון", "Gilbert Sitbon", "Gilles d'Avray", "Gilbert Sainroch"], description: d.pages.story.desc, sameAs },
+  };
+}
+
+/** Page Contact */
+export function contactLd(lang: Locale, d: Dict) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    url: `${site.url}/${lang}/contact`,
+    inLanguage: lang,
+    description: d.pages.contact.desc,
+    mainEntity: { "@type": "Person", name: "Aharon Sitbon", telephone: site.phoneIntl, contactPoint: { "@type": "ContactPoint", telephone: site.phoneIntl, contactType: "customer support", availableLanguage: ["he", "fr", "en"] } },
   };
 }

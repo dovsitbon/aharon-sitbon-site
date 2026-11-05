@@ -5,6 +5,8 @@ import { getDict, isLocale } from "@/lib/i18n";
 import { pageMetadata } from "@/lib/seo";
 import { formatDay } from "@/lib/booking";
 import { M } from "@/lib/ui";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbLd } from "@/lib/jsonld";
 import { PageHero, SectionHead } from "@/components/PageHero";
 import { Reveal } from "@/components/Reveal";
 import { ArrowIcon } from "@/components/icons";
@@ -13,7 +15,7 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/press">): 
   const { lang } = await params;
   if (!isLocale(lang)) return {};
   const d = getDict(lang);
-  return pageMetadata(lang, "/press", d.pages.press.title, d.pages.press.intro);
+  return pageMetadata(lang, "/press", d.pages.press.title, d.pages.press.desc, "/og/press.jpg");
 }
 
 export default async function Press({ params }: PageProps<"/[lang]/press">) {
@@ -26,6 +28,7 @@ export default async function Press({ params }: PageProps<"/[lang]/press">) {
 
   return (
     <>
+      <JsonLd data={breadcrumbLd(lang, d, [[d.nav.press, `/${lang}/press`]])} />
       <PageHero lang={lang} d={d} eyebrow={p.eyebrow} h1={p.h1} intro={p.intro} image={M("scene", "interview-hamevaker")} position="35% 50%" />
 
       <section className="px-5 py-24 md:px-10 md:py-28">
