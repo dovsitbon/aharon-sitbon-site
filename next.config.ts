@@ -5,7 +5,10 @@ const nextConfig: NextConfig = {
   experimental: { inlineCss: true },
   // L'ancienne page « Prestations » est remplacée par « Aujourd'hui » (il ne cherche pas de prestations pour le moment)
   async redirects() {
-    return [{ source: "/:lang(he|fr|en|es)/services", destination: "/:lang/today", permanent: true }];
+    return [
+      { source: "/:lang(he|fr|en|es)/services", destination: "/:lang/today", permanent: true },
+      { source: "/:lang(he|fr|en|es)/guest", destination: "/:lang/contact#moment", permanent: false },
+    ];
   },
   images: {
     formats: ["image/avif", "image/webp"],

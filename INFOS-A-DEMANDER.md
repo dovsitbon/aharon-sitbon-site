@@ -30,8 +30,8 @@ Tout ce qui manque pour que le site soit définitif. Chaque point indique où le
 - [ ] **Accord de David Sitbon** pour le bloc qui lui est consacré (page « Son histoire ») et une photo de lui en HD
 
 ## Concerts et contact
-_Il ne cherche pas de soirées d'ambiance. Une page discrète « Un moment avec lui » (/guest) propose des apparitions en complément : houppa, moment de soirée, galas, duo avec David._
-- [ ] Valider le texte de la page /guest (formats, ton) et dire s'il y a des conditions (déplacements, délais, tarifs à ne pas afficher)
+_Il ne cherche pas de soirées d'ambiance. La page Contact propose, dans une section « Un moment avec lui » (/contact#moment), des apparitions en complément : houppa, moment de soirée, galas, duo avec David._
+- [ ] Valider le texte de la section « Un moment avec lui » de la page Contact (formats, ton) et dire s'il y a des conditions (déplacements, délais, tarifs à ne pas afficher)
 - [ ] **Prochains concerts** : date, ville, salle, lien billetterie → `data/concerts.json` (génère aussi les données Google « Event »)
 - [ ] **Dates déjà prises** (facultatif) → `data/dates.json`
 - [x] Numéro de contact : +972 52-512-5282 (donné le 2026-11-05) → `data/site.json`

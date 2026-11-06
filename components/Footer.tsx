@@ -95,9 +95,6 @@ export function Footer({ lang, d }: { lang: Locale; d: Dict }) {
         </p>
         <p className="flex flex-wrap gap-x-6 gap-y-1">
           <span>{d.footer.photos}</span>
-          <Link href={href(lang, "guest")} className="underline-offset-4 hover:text-paper hover:underline">
-            {d.nav.guest}
-          </Link>
           <Link href={href(lang, "mentions-legales")} className="underline-offset-4 hover:text-paper hover:underline">
             {d.footer.legal}
           </Link>

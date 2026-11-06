@@ -10,9 +10,6 @@ import { breadcrumbLd } from "@/lib/jsonld";
 import { PageHero, SectionHead } from "@/components/PageHero";
 import { Reveal } from "@/components/Reveal";
 import { WatchButton } from "@/components/Clips";
-import Link from "next/link";
-import { href } from "@/lib/routes";
-import { ArrowIcon } from "@/components/icons";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/events">): Promise<Metadata> {
   const { lang } = await params;
@@ -108,16 +105,6 @@ export default async function Events({ params }: PageProps<"/[lang]/events">) {
             ))}
           </ul>
         </div>
-      </section>
-
-      {/* Lien discret vers « Un moment avec lui » */}
-      <section className="px-5 pb-20 md:px-10">
-        <Link href={href(lang, "guest")} className="group mx-auto flex max-w-[1100px] flex-wrap items-center justify-between gap-4 border-t border-line pt-8 text-muted transition-colors hover:text-blue">
-          <span>{d.guest.teaser}</span>
-          <span className="link-arrow">
-            {d.guest.teaserLink} <ArrowIcon />
-          </span>
-        </Link>
       </section>
     </>
   );
