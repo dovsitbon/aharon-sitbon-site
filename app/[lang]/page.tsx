@@ -138,13 +138,19 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
               {d.today.releases.slice(0, 3).map((r) => {
                 const t = trackById[r.id];
                 return (
-                  <li key={r.id} className="card flex items-center gap-4 px-5 py-4">
-                    <span className="num w-24 shrink-0 text-[0.9rem] text-terra">{r.date}</span>
+                  <li key={r.id} className="card flex items-center gap-4 p-3 pe-5">
+                    <span className="relative h-16 w-28 shrink-0 overflow-hidden rounded-[0.75rem] bg-sand">
+                      {t.youtubeId && <Image src={thumb(t.youtubeId)} alt="" fill sizes="112px" className="object-cover" />}
+                    </span>
+                    <span className="num hidden w-24 shrink-0 text-[0.9rem] text-terra sm:block">{r.date}</span>
                     <span className="min-w-0">
                       <span className="block font-[family-name:var(--font-frank)] text-[1.15rem] text-blue" lang="he" dir="rtl">
                         {t.he}
                       </span>
-                      <span className="block truncate text-[0.875rem] text-muted">{lang === "he" ? t.latin : t.tr[lang]}</span>
+                      <span className="block truncate text-[0.875rem] text-muted">
+                        <span className="text-terra sm:hidden">{r.date} · </span>
+                        {lang === "he" ? t.latin : t.tr[lang]}
+                      </span>
                     </span>
                   </li>
                 );

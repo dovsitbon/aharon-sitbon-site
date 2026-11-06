@@ -4,7 +4,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useRef, use
 import Image from "next/image";
 import { useLocale } from "@/components/providers";
 import { CloseIcon, NextIcon, PauseIcon, PlayIcon, PrevIcon, ShuffleIcon, VolumeIcon } from "@/components/icons";
-import { playable, thumb, trOf, type Track } from "@/lib/music";
+import { playable, trackImage, trOf, type Track } from "@/lib/music";
 
 /**
  * Lecteur persistant (monté dans le layout : il continue quand on change de section ou de page).
@@ -175,7 +175,7 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
       title: `${current.he} · ${current.latin}`,
       artist: "Aharon Sitbon · אהרון סיטבון",
       album: current.album ?? "Single",
-      artwork: current.youtubeId ? [{ src: thumb(current.youtubeId), sizes: "960x540", type: "image/jpeg" }] : [],
+      artwork: trackImage(current) ? [{ src: trackImage(current)!.src, sizes: trackImage(current)!.square ? "1500x1500" : "1280x720", type: "image/jpeg" }] : [],
     });
     navigator.mediaSession.setActionHandler("play", toggle);
     navigator.mediaSession.setActionHandler("pause", toggle);
@@ -231,8 +231,8 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
           )}
           <div className="mx-auto flex max-w-[1400px] items-center gap-3 px-3 py-2.5 md:gap-6 md:px-6">
             <div className="flex min-w-0 flex-1 items-center gap-3 md:flex-none md:basis-72">
-              {current.youtubeId && (
-                <Image src={thumb(current.youtubeId)} alt="" width={96} height={54} className="hidden h-11 w-11 shrink-0 rounded-md object-cover sm:block" style={{ objectPosition: `${current.focal ?? 60}% 30%` }} />
+              {trackImage(current) && (
+                <Image src={trackImage(current)!.src} alt="" width={96} height={96} className="hidden h-11 w-11 shrink-0 rounded-md object-cover sm:block" style={{ objectPosition: `${current.focal ?? 60}% 30%` }} />
               )}
               <div className="min-w-0">
                 <p className="truncate font-[family-name:var(--font-frank)] text-[1.05rem] leading-tight" lang="he" dir="rtl">

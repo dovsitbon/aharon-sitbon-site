@@ -1,25 +1,44 @@
 {
-  "_lisezmoi": "Toute la musique du site. Un objet par titre. duration au format m:ss (null = à confirmer). audioFile : chemin dans public/audio/ (null tant que l'artiste n'a pas fourni le MP3). downloadable reste false tant que Eli Klein, Yitzy Berry et Tzvaim Productions n'ont pas donné leur accord écrit. Crédits null = à confirmer avec l'artiste. Listes d'albums reconstituées d'après la presse : à vérifier sur Apple Music et avec lui.",
+  "_lisezmoi": "Toute la musique du site. Un objet par titre. duration au format m:ss (null = à confirmer). audioFile : chemin dans public/audio/ (null tant que l'artiste n'a pas fourni le MP3). downloadable reste false tant que Eli Klein, Yitzy Berry et Tzvaim Productions n'ont pas donné leur accord écrit. Crédits null = à confirmer avec l'artiste. Listes et durées des albums : Apple Music (vérifiées le 2026-11-06). Durées des singles : durée du clip officiel YouTube. Pochettes des albums : Apple Music (1500 et 3000 px). « Yerushalayim » figure sur les deux albums.",
   "albums": [
     {
       "id": "shehecheyanu",
       "he": "שהחיינו",
       "latin": "Shehecheyanu",
-      "tr": { "fr": "Qui nous a fait vivre", "en": "Who Has Kept Us Alive", "es": "Que nos ha dado vida" },
+      "tr": {
+        "fr": "Qui nous a fait vivre",
+        "en": "Who Has Kept Us Alive",
+        "es": "Que nos ha dado vida"
+      },
       "year": 2016,
-      "cover": null,
+      "cover": "/media/albums/shehecheyanu.jpg",
       "coverClip": "omm07ocRjxI",
-      "producers": "Eli Klein & Yitzy Berry · צבעים הפקות",
+      "producers": "Aharon Sitbon",
       "appleMusic": "https://music.apple.com/us/album/%D7%A9%D7%94%D7%97%D7%99%D7%99%D7%A0%D7%95/1128881799",
       "spotify": null,
       "zip": null,
-      "tracks": ["shehecheyanu", "yerushalayim", "horeni-hashem", "lo-ira-ra", "achake-lo", "shomer-israel", "ani-maamin", "adon-olam", "ein-kelokeinu", "gam-ki-elech"]
+      "tracks": [
+        "ani-maamin",
+        "boi-kala",
+        "horeni-hashem",
+        "shehecheyanu",
+        "ein-kelokeinu",
+        "lo-ira-ra",
+        "adon-olam",
+        "yerushalayim",
+        "shomer-israel",
+        "achake-lo"
+      ]
     },
     {
       "id": "higia-zman-geulatchem",
       "he": "הגיע זמן גאולתכם",
       "latin": "Higia Zman Geulatchem",
-      "tr": { "fr": "Le temps de votre délivrance est venu", "en": "The Time of Your Redemption Has Come", "es": "Ha llegado el tiempo de vuestra redención" },
+      "tr": {
+        "fr": "Le temps de votre délivrance est venu",
+        "en": "The Time of Your Redemption Has Come",
+        "es": "Ha llegado el tiempo de vuestra redención"
+      },
       "year": 2021,
       "cover": "/media/albums/higia-zman-geulatchem.jpg",
       "coverClip": "kmLBUAEwrLI",
@@ -27,40 +46,604 @@
       "appleMusic": "https://music.apple.com/us/album/%D7%94%D7%92%D7%99%D7%A2-%D7%96%D7%9E%D7%9F-%D7%92%D7%90%D7%95%D7%9C%D7%AA%D7%9B%D7%9D/1581985491",
       "spotify": null,
       "zip": null,
-      "tracks": ["sheyavo-kvar", "ten-shalom", "melech-hamashiach", "im-lo-achshav", "libi-homa-lecha", "vehariokti", "kol-zman", "ein-li-milim", "kol-haneshama", "higia-zman"]
+      "tracks": [
+        "higia-zman",
+        "sheyavo-kvar",
+        "kol-haneshama",
+        "ein-li-milim",
+        "kol-zman",
+        "vehariokti",
+        "libi-homa-lecha",
+        "im-lo-achshav",
+        "melech-hamashiach",
+        "modeh-ani",
+        "yerushalayim",
+        "ten-shalom"
+      ]
     }
   ],
   "tracks": [
-    { "id": "shehecheyanu", "he": "שהחיינו", "latin": "Shehecheyanu", "tr": { "fr": "Qui nous a fait vivre", "en": "Who Has Kept Us Alive", "es": "Que nos ha dado vida" }, "album": "shehecheyanu", "year": 2016, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "6qX2yE2EYkY", "audioFile": null, "downloadable": false },
-    { "id": "yerushalayim", "he": "ירושלים", "latin": "Yerushalayim", "tr": { "fr": "Jérusalem", "en": "Jerusalem", "es": "Jerusalén" }, "album": "shehecheyanu", "year": 2016, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "GV_SYRu0ylY", "audioFile": null, "downloadable": false },
-    { "id": "horeni-hashem", "he": "הורני ה'", "latin": "Horeni Hashem", "tr": { "fr": "Enseigne-moi, Hachem", "en": "Teach Me, Hashem", "es": "Enséñame, Hashem" }, "album": "shehecheyanu", "year": 2016, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "3ryPJH8kgdA", "audioFile": null, "downloadable": false },
-    { "id": "lo-ira-ra", "he": "לא אירא רע", "latin": "Lo Ira Ra", "tr": { "fr": "Je ne crains aucun mal", "en": "I Will Fear No Evil", "es": "No temeré mal alguno" }, "album": "shehecheyanu", "year": 2016, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": null, "audioFile": null, "downloadable": false },
-    { "id": "achake-lo", "he": "אחכה לו", "latin": "Achake Lo", "tr": { "fr": "Je L'attendrai", "en": "I Will Wait for Him", "es": "Lo esperaré" }, "album": "shehecheyanu", "year": 2016, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "featuring": "David Sitbon", "youtubeId": "29VD_iylD44", "audioFile": null, "downloadable": false },
-    { "id": "shomer-israel", "he": "שומר ישראל", "latin": "Shomer Israel", "tr": { "fr": "Le Gardien d'Israël", "en": "Guardian of Israel", "es": "Guardián de Israel" }, "album": "shehecheyanu", "year": 2015, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": null, "youtubeId": "qqUSp6ySse8", "audioFile": null, "downloadable": false },
-    { "id": "ani-maamin", "he": "אני מאמין", "latin": "Ani Maamin", "tr": { "fr": "Je crois", "en": "I Believe", "es": "Yo creo" }, "album": "shehecheyanu", "year": 2014, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": null, "youtubeId": "oXid2ifaAmI", "audioFile": null, "downloadable": false },
-    { "id": "adon-olam", "he": "אדון עולם", "latin": "Adon Olam", "tr": { "fr": "Maître du monde", "en": "Master of the World", "es": "Señor del mundo" }, "album": "shehecheyanu", "year": 2014, "duration": null, "composer": "Michel Fugain (à confirmer)", "lyrics": null, "production": "Yuval Stoppel", "youtubeId": "S1BnZXBVEMY", "audioFile": null, "downloadable": false },
-    { "id": "ein-kelokeinu", "he": "אין כאלוקינו", "latin": "Ein Kelokeinu", "tr": { "fr": "Nul n'est comme notre D.ieu", "en": "There Is None Like Our G-d", "es": "No hay como nuestro D-os" }, "album": "shehecheyanu", "year": 2016, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "hv8LJTLSqTg", "audioFile": null, "downloadable": false },
-    { "id": "gam-ki-elech", "he": "גם כי אלך", "latin": "Gam Ki Elech", "tr": { "fr": "Même si je marche", "en": "Though I Walk", "es": "Aunque camine" }, "album": "shehecheyanu", "year": 2016, "duration": "4:26", "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "ajWbyr3iZTk", "audioFile": null, "downloadable": false },
-
-    { "id": "sheyavo-kvar", "he": "שיבוא כבר", "latin": "Sheyavo Kvar", "tr": { "fr": "Qu'il vienne enfin", "en": "Let Him Come Now", "es": "Que venga ya" }, "album": "higia-zman-geulatchem", "year": 2021, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "Lrmd4Iylbrk", "audioFile": null, "downloadable": false },
-    { "id": "ten-shalom", "he": "תן שלום", "latin": "Ten Shalom", "tr": { "fr": "Donne la paix", "en": "Grant Peace", "es": "Danos la paz" }, "album": "higia-zman-geulatchem", "year": 2020, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "L63XHDIIE_U", "audioFile": null, "downloadable": false },
-    { "id": "melech-hamashiach", "he": "מלך המשיח", "latin": "Melech HaMashiach", "tr": { "fr": "Le Roi Machia'h", "en": "King Moshiach", "es": "El Rey Mashíaj" }, "album": "higia-zman-geulatchem", "year": 2019, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "p4rW6d7ezv0", "audioFile": null, "downloadable": false },
-    { "id": "im-lo-achshav", "he": "אם לא עכשיו אימתי", "latin": "Im Lo Achshav Ematai", "tr": { "fr": "Si ce n'est maintenant, quand ?", "en": "If Not Now, When?", "es": "Si no es ahora, ¿cuándo?" }, "album": "higia-zman-geulatchem", "year": 2021, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "TYlFt7rxUtI", "audioFile": null, "downloadable": false },
-    { "id": "libi-homa-lecha", "he": "ליבי הומה לך", "latin": "Libi Homa Lecha", "tr": { "fr": "Mon cœur soupire vers Toi", "en": "My Heart Longs for You", "es": "Mi corazón anhela por Ti" }, "album": "higia-zman-geulatchem", "year": 2021, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "rKtVIh0bDCk", "audioFile": null, "downloadable": false },
-    { "id": "vehariokti", "he": "והריקותי לכם ברכה", "latin": "Vehariokti Lachem Bracha", "tr": { "fr": "Je répandrai sur vous la bénédiction", "en": "I Will Pour Out a Blessing", "es": "Derramaré sobre vosotros bendición" }, "album": "higia-zman-geulatchem", "year": 2021, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "Q9KAISXAeIc", "audioFile": null, "downloadable": false },
-    { "id": "kol-zman", "he": "כל זמן שהנשמה בקרבי", "latin": "Kol Zman Shehaneshama Bekirbi", "tr": { "fr": "Tant que l'âme est en moi", "en": "As Long as the Soul Is Within Me", "es": "Mientras el alma esté en mí" }, "album": "higia-zman-geulatchem", "year": 2021, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "TIetzheEf_U", "audioFile": null, "downloadable": false },
-    { "id": "ein-li-milim", "he": "אין לי מילים", "latin": "Ein Li Milim", "tr": { "fr": "Je n'ai pas de mots", "en": "I Have No Words", "es": "No tengo palabras" }, "album": "higia-zman-geulatchem", "year": 2021, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "u9GYNf6_lyA", "audioFile": null, "downloadable": false },
-    { "id": "kol-haneshama", "he": "כל הנשמה", "latin": "Kol HaNeshama", "tr": { "fr": "Que toute âme", "en": "Let Every Soul", "es": "Que toda alma" }, "album": "higia-zman-geulatchem", "year": 2021, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": null, "audioFile": null, "downloadable": false },
-    { "id": "higia-zman", "he": "הגיע זמן גאולתכם", "latin": "Higia Zman Geulatchem", "tr": { "fr": "Le temps de votre délivrance est venu", "en": "The Time of Your Redemption Has Come", "es": "Ha llegado el tiempo de vuestra redención" }, "album": "higia-zman-geulatchem", "year": 2021, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "ORAejqu-GIE", "audioFile": null, "downloadable": false },
-
-    { "id": "modeh-ani", "he": "מודה אני", "latin": "Modeh Ani", "tr": { "fr": "Je Te rends grâce", "en": "I Give Thanks", "es": "Te doy gracias" }, "album": null, "year": 2019, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": null, "featuring": "נכדו · son petit-fils", "youtubeId": "w67jhBVqoz0", "audioFile": null, "downloadable": false, "focal": 35 },
-    { "id": "yamim-baim", "he": "ימים באים", "latin": "Yamim Baim", "tr": { "fr": "Des jours viennent", "en": "Days Are Coming", "es": "Vienen días" }, "album": null, "year": 2022, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "itS7_nb7XaQ", "audioFile": null, "downloadable": false, "focal": 72 },
-    { "id": "or-beeinai", "he": "אור בעיני", "latin": "Or Be'einai", "tr": { "fr": "Lumière dans mes yeux", "en": "Light in My Eyes", "es": "Luz en mis ojos" }, "album": null, "year": 2023, "duration": null, "composer": "Aharon Sitbon (1977)", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "kjGJBjnMwoA", "audioFile": null, "downloadable": false, "focal": 74 },
-    { "id": "shir-hadash", "he": "שיר חדש", "latin": "Shir Hadash", "tr": { "fr": "Un chant nouveau", "en": "A New Song", "es": "Un canto nuevo" }, "album": null, "year": 2023, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "H9RztmVYBDM", "audioFile": null, "downloadable": false, "focal": 70 },
-    { "id": "ana-hashem", "he": "אנא ה'", "latin": "Ana Hashem", "tr": { "fr": "De grâce, Hachem", "en": "Please, Hashem", "es": "Por favor, Hashem" }, "album": null, "year": 2024, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "TxQLvZXCiKQ", "audioFile": null, "downloadable": false, "focal": 50 },
-    { "id": "av-harachaman", "he": "אב הרחמן", "latin": "Av HaRachaman", "tr": { "fr": "Père de miséricorde", "en": "Merciful Father", "es": "Padre misericordioso" }, "album": null, "year": 2024, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "1fmuQAA5ULo", "audioFile": null, "downloadable": false, "focal": 50 },
-    { "id": "odeh-hashem", "he": "אודך ה' אלוקי", "latin": "Odeh Hashem Elokai", "tr": { "fr": "Je Te loue, Hachem mon D.ieu", "en": "I Will Praise You, Hashem My G-d", "es": "Te alabaré, Hashem mi D-os" }, "album": null, "year": 2024, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "PwIypRRTH_w", "audioFile": null, "downloadable": false, "focal": 82 },
-    { "id": "tefila-leshalom", "he": "תפילה לשלום", "latin": "Tefila LeShalom", "tr": { "fr": "Prière pour la paix", "en": "A Prayer for Peace", "es": "Oración por la paz" }, "album": null, "year": 2025, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": "Eli Klein & Yitzy Berry", "youtubeId": "HnF3VoesPY0", "audioFile": null, "downloadable": false, "focal": 22 },
-    { "id": "niggun-yehudi", "he": "ניגון יהודי", "latin": "Niggun Yehudi", "tr": { "fr": "Un niggoun juif", "en": "A Jewish Niggun", "es": "Un nigún judío" }, "album": null, "year": 2026, "duration": null, "composer": "Aharon Sitbon", "lyrics": null, "production": null, "youtubeId": "RB68H4UySCo", "audioFile": null, "downloadable": false, "focal": 40 }
+    {
+      "id": "shehecheyanu",
+      "he": "שהחיינו",
+      "latin": "Shehecheyanu",
+      "tr": {
+        "fr": "Qui nous a fait vivre",
+        "en": "Who Has Kept Us Alive",
+        "es": "Que nos ha dado vida"
+      },
+      "album": "shehecheyanu",
+      "year": 2016,
+      "duration": "4:22",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": null,
+      "youtubeId": "6qX2yE2EYkY",
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "yerushalayim",
+      "he": "ירושלים",
+      "latin": "Yerushalayim",
+      "tr": {
+        "fr": "Jérusalem",
+        "en": "Jerusalem",
+        "es": "Jerusalén"
+      },
+      "album": "shehecheyanu",
+      "year": 2016,
+      "duration": "4:40",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": null,
+      "youtubeId": "GV_SYRu0ylY",
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "boi-kala",
+      "he": "בואי כלה",
+      "latin": "Boi Kala",
+      "tr": {
+        "fr": "Viens, la fiancée",
+        "en": "Come, O Bride",
+        "es": "Ven, novia"
+      },
+      "album": "shehecheyanu",
+      "year": 2016,
+      "duration": "3:57",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": null,
+      "youtubeId": null,
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "horeni-hashem",
+      "he": "הורני ה'",
+      "latin": "Horeni Hashem",
+      "tr": {
+        "fr": "Enseigne-moi, Hachem",
+        "en": "Teach Me, Hashem",
+        "es": "Enséñame, Hashem"
+      },
+      "album": "shehecheyanu",
+      "year": 2016,
+      "duration": "4:29",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": null,
+      "youtubeId": "3ryPJH8kgdA",
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "lo-ira-ra",
+      "he": "לא אירא רע",
+      "latin": "Lo Ira Ra",
+      "tr": {
+        "fr": "Je ne crains aucun mal",
+        "en": "I Will Fear No Evil",
+        "es": "No temeré mal alguno"
+      },
+      "album": "shehecheyanu",
+      "year": 2016,
+      "duration": "4:26",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": null,
+      "youtubeId": null,
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "achake-lo",
+      "he": "אחכה לו",
+      "latin": "Achake Lo",
+      "tr": {
+        "fr": "Je L'attendrai",
+        "en": "I Will Wait for Him",
+        "es": "Lo esperaré"
+      },
+      "album": "shehecheyanu",
+      "year": 2016,
+      "duration": "4:24",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": null,
+      "featuring": "David Sitbon",
+      "youtubeId": "29VD_iylD44",
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "shomer-israel",
+      "he": "שומר ישראל",
+      "latin": "Shomer Israel",
+      "tr": {
+        "fr": "Le Gardien d'Israël",
+        "en": "Guardian of Israel",
+        "es": "Guardián de Israel"
+      },
+      "album": "shehecheyanu",
+      "year": 2015,
+      "duration": "4:12",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": null,
+      "youtubeId": "qqUSp6ySse8",
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "ani-maamin",
+      "he": "אני מאמין",
+      "latin": "Ani Maamin",
+      "tr": {
+        "fr": "Je crois",
+        "en": "I Believe",
+        "es": "Yo creo"
+      },
+      "album": "shehecheyanu",
+      "year": 2014,
+      "duration": "3:33",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": null,
+      "youtubeId": "oXid2ifaAmI",
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "adon-olam",
+      "he": "אדון עולם",
+      "latin": "Adon Olam",
+      "tr": {
+        "fr": "Maître du monde",
+        "en": "Master of the World",
+        "es": "Señor del mundo"
+      },
+      "album": "shehecheyanu",
+      "year": 2014,
+      "duration": "4:08",
+      "composer": "Michel Fugain (à confirmer)",
+      "lyrics": null,
+      "production": "Yuval Stoppel",
+      "youtubeId": "S1BnZXBVEMY",
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "ein-kelokeinu",
+      "he": "אין כאלוקינו",
+      "latin": "Ein Kelokeinu",
+      "tr": {
+        "fr": "Nul n'est comme notre D.ieu",
+        "en": "There Is None Like Our G-d",
+        "es": "No hay como nuestro D-os"
+      },
+      "album": "shehecheyanu",
+      "year": 2016,
+      "duration": "4:47",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": null,
+      "youtubeId": "hv8LJTLSqTg",
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "gam-ki-elech",
+      "he": "גם כי אלך",
+      "latin": "Gam Ki Elech",
+      "tr": {
+        "fr": "Même si je marche",
+        "en": "Though I Walk",
+        "es": "Aunque camine"
+      },
+      "album": null,
+      "year": 2016,
+      "duration": "4:26",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": "Eli Klein & Yitzy Berry",
+      "youtubeId": "ajWbyr3iZTk",
+      "audioFile": null,
+      "downloadable": false,
+      "focal": 60
+    },
+    {
+      "id": "sheyavo-kvar",
+      "he": "שיבוא כבר",
+      "latin": "Sheyavo Kvar",
+      "tr": {
+        "fr": "Qu'il vienne enfin",
+        "en": "Let Him Come Now",
+        "es": "Que venga ya"
+      },
+      "album": "higia-zman-geulatchem",
+      "year": 2021,
+      "duration": "3:54",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": "Eli Klein & Yitzy Berry",
+      "youtubeId": "Lrmd4Iylbrk",
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "ten-shalom",
+      "he": "תן שלום",
+      "latin": "Ten Shalom",
+      "tr": {
+        "fr": "Donne la paix",
+        "en": "Grant Peace",
+        "es": "Danos la paz"
+      },
+      "album": "higia-zman-geulatchem",
+      "year": 2020,
+      "duration": "3:52",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": "Eli Klein & Yitzy Berry",
+      "youtubeId": "L63XHDIIE_U",
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "melech-hamashiach",
+      "he": "מלך המשיח",
+      "latin": "Melech HaMashiach",
+      "tr": {
+        "fr": "Le Roi Machia'h",
+        "en": "King Moshiach",
+        "es": "El Rey Mashíaj"
+      },
+      "album": "higia-zman-geulatchem",
+      "year": 2019,
+      "duration": "3:41",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": "Eli Klein & Yitzy Berry",
+      "youtubeId": "p4rW6d7ezv0",
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "im-lo-achshav",
+      "he": "אם לא עכשיו אימתי",
+      "latin": "Im Lo Achshav Ematai",
+      "tr": {
+        "fr": "Si ce n'est maintenant, quand ?",
+        "en": "If Not Now, When?",
+        "es": "Si no es ahora, ¿cuándo?"
+      },
+      "album": "higia-zman-geulatchem",
+      "year": 2021,
+      "duration": "3:38",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": "Eli Klein & Yitzy Berry",
+      "youtubeId": "TYlFt7rxUtI",
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "libi-homa-lecha",
+      "he": "ליבי הומה לך",
+      "latin": "Libi Homa Lecha",
+      "tr": {
+        "fr": "Mon cœur soupire vers Toi",
+        "en": "My Heart Longs for You",
+        "es": "Mi corazón anhela por Ti"
+      },
+      "album": "higia-zman-geulatchem",
+      "year": 2021,
+      "duration": "4:22",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": "Eli Klein & Yitzy Berry",
+      "youtubeId": "rKtVIh0bDCk",
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "vehariokti",
+      "he": "והריקותי לכם ברכה",
+      "latin": "Vehariokti Lachem Bracha",
+      "tr": {
+        "fr": "Je répandrai sur vous la bénédiction",
+        "en": "I Will Pour Out a Blessing",
+        "es": "Derramaré sobre vosotros bendición"
+      },
+      "album": "higia-zman-geulatchem",
+      "year": 2021,
+      "duration": "3:08",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": "Eli Klein & Yitzy Berry",
+      "youtubeId": "Q9KAISXAeIc",
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "kol-zman",
+      "he": "כל זמן שהנשמה בקרבי",
+      "latin": "Kol Zman Shehaneshama Bekirbi",
+      "tr": {
+        "fr": "Tant que l'âme est en moi",
+        "en": "As Long as the Soul Is Within Me",
+        "es": "Mientras el alma esté en mí"
+      },
+      "album": "higia-zman-geulatchem",
+      "year": 2021,
+      "duration": "3:58",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": "Eli Klein & Yitzy Berry",
+      "youtubeId": "TIetzheEf_U",
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "ein-li-milim",
+      "he": "אין לי מילים",
+      "latin": "Ein Li Milim",
+      "tr": {
+        "fr": "Je n'ai pas de mots",
+        "en": "I Have No Words",
+        "es": "No tengo palabras"
+      },
+      "album": "higia-zman-geulatchem",
+      "year": 2021,
+      "duration": "4:01",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": "Eli Klein & Yitzy Berry",
+      "youtubeId": "u9GYNf6_lyA",
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "kol-haneshama",
+      "he": "כל הנשמה",
+      "latin": "Kol HaNeshama",
+      "tr": {
+        "fr": "Que toute âme",
+        "en": "Let Every Soul",
+        "es": "Que toda alma"
+      },
+      "album": "higia-zman-geulatchem",
+      "year": 2021,
+      "duration": "3:21",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": "Eli Klein & Yitzy Berry",
+      "youtubeId": null,
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "higia-zman",
+      "he": "הגיע זמן גאולתכם",
+      "latin": "Higia Zman Geulatchem",
+      "tr": {
+        "fr": "Le temps de votre délivrance est venu",
+        "en": "The Time of Your Redemption Has Come",
+        "es": "Ha llegado el tiempo de vuestra redención"
+      },
+      "album": "higia-zman-geulatchem",
+      "year": 2021,
+      "duration": "3:39",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": "Eli Klein & Yitzy Berry",
+      "youtubeId": "ORAejqu-GIE",
+      "audioFile": null,
+      "downloadable": false
+    },
+    {
+      "id": "modeh-ani",
+      "he": "מודה אני לך",
+      "latin": "Modeh Ani Lecha",
+      "tr": {
+        "fr": "Je Te rends grâce",
+        "en": "I Give Thanks",
+        "es": "Te doy gracias"
+      },
+      "album": "higia-zman-geulatchem",
+      "year": 2021,
+      "duration": "4:16",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": null,
+      "featuring": "נכדו · son petit-fils",
+      "youtubeId": "w67jhBVqoz0",
+      "audioFile": null,
+      "downloadable": false,
+      "focal": 35
+    },
+    {
+      "id": "yamim-baim",
+      "he": "ימים באים",
+      "latin": "Yamim Baim",
+      "tr": {
+        "fr": "Des jours viennent",
+        "en": "Days Are Coming",
+        "es": "Vienen días"
+      },
+      "album": null,
+      "year": 2022,
+      "duration": "3:50",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": "Eli Klein & Yitzy Berry",
+      "youtubeId": "itS7_nb7XaQ",
+      "audioFile": null,
+      "downloadable": false,
+      "focal": 72
+    },
+    {
+      "id": "or-beeinai",
+      "he": "אור בעיני",
+      "latin": "Or Be'einai",
+      "tr": {
+        "fr": "Lumière dans mes yeux",
+        "en": "Light in My Eyes",
+        "es": "Luz en mis ojos"
+      },
+      "album": null,
+      "year": 2023,
+      "duration": "4:21",
+      "composer": "Aharon Sitbon (1977)",
+      "lyrics": null,
+      "production": "Eli Klein & Yitzy Berry",
+      "youtubeId": "kjGJBjnMwoA",
+      "audioFile": null,
+      "downloadable": false,
+      "focal": 74
+    },
+    {
+      "id": "shir-hadash",
+      "he": "שיר חדש",
+      "latin": "Shir Hadash",
+      "tr": {
+        "fr": "Un chant nouveau",
+        "en": "A New Song",
+        "es": "Un canto nuevo"
+      },
+      "album": null,
+      "year": 2023,
+      "duration": "4:03",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": "Eli Klein & Yitzy Berry",
+      "youtubeId": "H9RztmVYBDM",
+      "audioFile": null,
+      "downloadable": false,
+      "focal": 70
+    },
+    {
+      "id": "ana-hashem",
+      "he": "אנא ה'",
+      "latin": "Ana Hashem",
+      "tr": {
+        "fr": "De grâce, Hachem",
+        "en": "Please, Hashem",
+        "es": "Por favor, Hashem"
+      },
+      "album": null,
+      "year": 2023,
+      "duration": "3:53",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": "Eli Klein & Yitzy Berry",
+      "youtubeId": "TxQLvZXCiKQ",
+      "audioFile": null,
+      "downloadable": false,
+      "focal": 50
+    },
+    {
+      "id": "av-harachaman",
+      "he": "אב הרחמן",
+      "latin": "Av HaRachaman",
+      "tr": {
+        "fr": "Père de miséricorde",
+        "en": "Merciful Father",
+        "es": "Padre misericordioso"
+      },
+      "album": null,
+      "year": 2024,
+      "duration": "3:59",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": "Eli Klein & Yitzy Berry",
+      "youtubeId": "1fmuQAA5ULo",
+      "audioFile": null,
+      "downloadable": false,
+      "focal": 50
+    },
+    {
+      "id": "odeh-hashem",
+      "he": "אודך ה' אלוקי",
+      "latin": "Odeh Hashem Elokai",
+      "tr": {
+        "fr": "Je Te loue, Hachem mon D.ieu",
+        "en": "I Will Praise You, Hashem My G-d",
+        "es": "Te alabaré, Hashem mi D-os"
+      },
+      "album": null,
+      "year": 2024,
+      "duration": "3:52",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": "Eli Klein & Yitzy Berry",
+      "youtubeId": "PwIypRRTH_w",
+      "audioFile": null,
+      "downloadable": false,
+      "focal": 82
+    },
+    {
+      "id": "tefila-leshalom",
+      "he": "תפילה לשלום",
+      "latin": "Tefila LeShalom",
+      "tr": {
+        "fr": "Prière pour la paix",
+        "en": "A Prayer for Peace",
+        "es": "Oración por la paz"
+      },
+      "album": null,
+      "year": 2025,
+      "duration": "4:04",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": "Eli Klein & Yitzy Berry",
+      "youtubeId": "HnF3VoesPY0",
+      "audioFile": null,
+      "downloadable": false,
+      "focal": 22
+    },
+    {
+      "id": "niggun-yehudi",
+      "he": "ניגון יהודי",
+      "latin": "Niggun Yehudi",
+      "tr": {
+        "fr": "Un niggoun juif",
+        "en": "A Jewish Niggun",
+        "es": "Un nigún judío"
+      },
+      "album": null,
+      "year": 2026,
+      "duration": "4:04",
+      "composer": "Aharon Sitbon",
+      "lyrics": null,
+      "production": null,
+      "youtubeId": "RB68H4UySCo",
+      "audioFile": null,
+      "downloadable": false,
+      "focal": 40
+    }
   ]
 }

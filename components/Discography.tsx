@@ -184,6 +184,9 @@ export function Tracklist({ album }: { album: Album }) {
             <li key={t.id} className={isCurrent ? "bg-sand-soft" : ""}>
               <div className="flex items-center gap-4 px-4 py-4 md:px-6">
                 <span className="num w-6 shrink-0 text-[0.9rem] text-muted">{String(i + 1).padStart(2, "0")}</span>
+                <span className="relative hidden h-12 w-12 shrink-0 overflow-hidden rounded-lg bg-sand sm:block">
+                  <Image src={t.youtubeId ? thumb(t.youtubeId) : album.cover ?? ""} alt="" fill sizes="48px" className="object-cover" style={{ objectPosition: `${t.focal ?? 60}% 35%` }} />
+                </span>
                 <button
                   type="button"
                   disabled={!playable(t)}

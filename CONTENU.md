@@ -535,20 +535,20 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 ### שהחיינו – Shehecheyanu (2016)
 
 Qui nous a fait vivre · Who Has Kept Us Alive · Que nos ha dado vida
-Production : Eli Klein & Yitzy Berry · צבעים הפקות · Apple Music : https://music.apple.com/us/album/%D7%A9%D7%94%D7%97%D7%99%D7%99%D7%A0%D7%95/1128881799 · Spotify : à trouver
+Production : Aharon Sitbon · Apple Music : https://music.apple.com/us/album/%D7%A9%D7%94%D7%97%D7%99%D7%99%D7%A0%D7%95/1128881799 · Spotify : à trouver
 
 | # | עברית | Translittération | FR | EN | ES | Année | Durée | Composition | Production | YouTube | MP3 | Téléchargeable |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | שהחיינו | Shehecheyanu | Qui nous a fait vivre | Who Has Kept Us Alive | Que nos ha dado vida | 2016 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/6qX2yE2EYkY) | à fournir | non |
-| 2 | ירושלים | Yerushalayim | Jérusalem | Jerusalem | Jerusalén | 2016 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/GV_SYRu0ylY) | à fournir | non |
-| 3 | הורני ה' | Horeni Hashem | Enseigne-moi, Hachem | Teach Me, Hashem | Enséñame, Hashem | 2016 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/3ryPJH8kgdA) | à fournir | non |
-| 4 | לא אירא רע | Lo Ira Ra | Je ne crains aucun mal | I Will Fear No Evil | No temeré mal alguno | 2016 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | — | à fournir | non |
-| 5 | אחכה לו | Achake Lo | Je L'attendrai | I Will Wait for Him | Lo esperaré | 2016 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/29VD_iylD44) | à fournir | non |
-| 6 | שומר ישראל | Shomer Israel | Le Gardien d'Israël | Guardian of Israel | Guardián de Israel | 2015 | ? | Aharon Sitbon | ? | [clip](https://youtu.be/qqUSp6ySse8) | à fournir | non |
-| 7 | אני מאמין | Ani Maamin | Je crois | I Believe | Yo creo | 2014 | ? | Aharon Sitbon | ? | [clip](https://youtu.be/oXid2ifaAmI) | à fournir | non |
-| 8 | אדון עולם | Adon Olam | Maître du monde | Master of the World | Señor del mundo | 2014 | ? | Michel Fugain (à confirmer) | Yuval Stoppel | [clip](https://youtu.be/S1BnZXBVEMY) | à fournir | non |
-| 9 | אין כאלוקינו | Ein Kelokeinu | Nul n'est comme notre D.ieu | There Is None Like Our G-d | No hay como nuestro D-os | 2016 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/hv8LJTLSqTg) | à fournir | non |
-| 10 | גם כי אלך | Gam Ki Elech | Même si je marche | Though I Walk | Aunque camine | 2016 | 4:26 | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/ajWbyr3iZTk) | à fournir | non |
+| 1 | אני מאמין | Ani Maamin | Je crois | I Believe | Yo creo | 2014 | 3:33 | Aharon Sitbon | ? | [clip](https://youtu.be/oXid2ifaAmI) | à fournir | non |
+| 2 | בואי כלה | Boi Kala | Viens, la fiancée | Come, O Bride | Ven, novia | 2016 | 3:57 | Aharon Sitbon | ? | — | à fournir | non |
+| 3 | הורני ה' | Horeni Hashem | Enseigne-moi, Hachem | Teach Me, Hashem | Enséñame, Hashem | 2016 | 4:29 | Aharon Sitbon | ? | [clip](https://youtu.be/3ryPJH8kgdA) | à fournir | non |
+| 4 | שהחיינו | Shehecheyanu | Qui nous a fait vivre | Who Has Kept Us Alive | Que nos ha dado vida | 2016 | 4:22 | Aharon Sitbon | ? | [clip](https://youtu.be/6qX2yE2EYkY) | à fournir | non |
+| 5 | אין כאלוקינו | Ein Kelokeinu | Nul n'est comme notre D.ieu | There Is None Like Our G-d | No hay como nuestro D-os | 2016 | 4:47 | Aharon Sitbon | ? | [clip](https://youtu.be/hv8LJTLSqTg) | à fournir | non |
+| 6 | לא אירא רע | Lo Ira Ra | Je ne crains aucun mal | I Will Fear No Evil | No temeré mal alguno | 2016 | 4:26 | Aharon Sitbon | ? | — | à fournir | non |
+| 7 | אדון עולם | Adon Olam | Maître du monde | Master of the World | Señor del mundo | 2014 | 4:08 | Michel Fugain (à confirmer) | Yuval Stoppel | [clip](https://youtu.be/S1BnZXBVEMY) | à fournir | non |
+| 8 | ירושלים | Yerushalayim | Jérusalem | Jerusalem | Jerusalén | 2016 | 4:40 | Aharon Sitbon | ? | [clip](https://youtu.be/GV_SYRu0ylY) | à fournir | non |
+| 9 | שומר ישראל | Shomer Israel | Le Gardien d'Israël | Guardian of Israel | Guardián de Israel | 2015 | 4:12 | Aharon Sitbon | ? | [clip](https://youtu.be/qqUSp6ySse8) | à fournir | non |
+| 10 | אחכה לו | Achake Lo | Je L'attendrai | I Will Wait for Him | Lo esperaré | 2016 | 4:24 | Aharon Sitbon | ? | [clip](https://youtu.be/29VD_iylD44) | à fournir | non |
 
 ### הגיע זמן גאולתכם – Higia Zman Geulatchem (2021)
 
@@ -557,30 +557,32 @@ Production : Eli Klein & Yitzy Berry · צבעים הפקות · Apple Music : h
 
 | # | עברית | Translittération | FR | EN | ES | Année | Durée | Composition | Production | YouTube | MP3 | Téléchargeable |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | שיבוא כבר | Sheyavo Kvar | Qu'il vienne enfin | Let Him Come Now | Que venga ya | 2021 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/Lrmd4Iylbrk) | à fournir | non |
-| 2 | תן שלום | Ten Shalom | Donne la paix | Grant Peace | Danos la paz | 2020 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/L63XHDIIE_U) | à fournir | non |
-| 3 | מלך המשיח | Melech HaMashiach | Le Roi Machia'h | King Moshiach | El Rey Mashíaj | 2019 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/p4rW6d7ezv0) | à fournir | non |
-| 4 | אם לא עכשיו אימתי | Im Lo Achshav Ematai | Si ce n'est maintenant, quand ? | If Not Now, When? | Si no es ahora, ¿cuándo? | 2021 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/TYlFt7rxUtI) | à fournir | non |
-| 5 | ליבי הומה לך | Libi Homa Lecha | Mon cœur soupire vers Toi | My Heart Longs for You | Mi corazón anhela por Ti | 2021 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/rKtVIh0bDCk) | à fournir | non |
-| 6 | והריקותי לכם ברכה | Vehariokti Lachem Bracha | Je répandrai sur vous la bénédiction | I Will Pour Out a Blessing | Derramaré sobre vosotros bendición | 2021 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/Q9KAISXAeIc) | à fournir | non |
-| 7 | כל זמן שהנשמה בקרבי | Kol Zman Shehaneshama Bekirbi | Tant que l'âme est en moi | As Long as the Soul Is Within Me | Mientras el alma esté en mí | 2021 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/TIetzheEf_U) | à fournir | non |
-| 8 | אין לי מילים | Ein Li Milim | Je n'ai pas de mots | I Have No Words | No tengo palabras | 2021 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/u9GYNf6_lyA) | à fournir | non |
-| 9 | כל הנשמה | Kol HaNeshama | Que toute âme | Let Every Soul | Que toda alma | 2021 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | — | à fournir | non |
-| 10 | הגיע זמן גאולתכם | Higia Zman Geulatchem | Le temps de votre délivrance est venu | The Time of Your Redemption Has Come | Ha llegado el tiempo de vuestra redención | 2021 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/ORAejqu-GIE) | à fournir | non |
+| 1 | הגיע זמן גאולתכם | Higia Zman Geulatchem | Le temps de votre délivrance est venu | The Time of Your Redemption Has Come | Ha llegado el tiempo de vuestra redención | 2021 | 3:39 | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/ORAejqu-GIE) | à fournir | non |
+| 2 | שיבוא כבר | Sheyavo Kvar | Qu'il vienne enfin | Let Him Come Now | Que venga ya | 2021 | 3:54 | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/Lrmd4Iylbrk) | à fournir | non |
+| 3 | כל הנשמה | Kol HaNeshama | Que toute âme | Let Every Soul | Que toda alma | 2021 | 3:21 | Aharon Sitbon | Eli Klein & Yitzy Berry | — | à fournir | non |
+| 4 | אין לי מילים | Ein Li Milim | Je n'ai pas de mots | I Have No Words | No tengo palabras | 2021 | 4:01 | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/u9GYNf6_lyA) | à fournir | non |
+| 5 | כל זמן שהנשמה בקרבי | Kol Zman Shehaneshama Bekirbi | Tant que l'âme est en moi | As Long as the Soul Is Within Me | Mientras el alma esté en mí | 2021 | 3:58 | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/TIetzheEf_U) | à fournir | non |
+| 6 | והריקותי לכם ברכה | Vehariokti Lachem Bracha | Je répandrai sur vous la bénédiction | I Will Pour Out a Blessing | Derramaré sobre vosotros bendición | 2021 | 3:08 | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/Q9KAISXAeIc) | à fournir | non |
+| 7 | ליבי הומה לך | Libi Homa Lecha | Mon cœur soupire vers Toi | My Heart Longs for You | Mi corazón anhela por Ti | 2021 | 4:22 | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/rKtVIh0bDCk) | à fournir | non |
+| 8 | אם לא עכשיו אימתי | Im Lo Achshav Ematai | Si ce n'est maintenant, quand ? | If Not Now, When? | Si no es ahora, ¿cuándo? | 2021 | 3:38 | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/TYlFt7rxUtI) | à fournir | non |
+| 9 | מלך המשיח | Melech HaMashiach | Le Roi Machia'h | King Moshiach | El Rey Mashíaj | 2019 | 3:41 | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/p4rW6d7ezv0) | à fournir | non |
+| 10 | מודה אני לך | Modeh Ani Lecha | Je Te rends grâce | I Give Thanks | Te doy gracias | 2021 | 4:16 | Aharon Sitbon | ? | [clip](https://youtu.be/w67jhBVqoz0) | à fournir | non |
+| 11 | ירושלים | Yerushalayim | Jérusalem | Jerusalem | Jerusalén | 2016 | 4:40 | Aharon Sitbon | ? | [clip](https://youtu.be/GV_SYRu0ylY) | à fournir | non |
+| 12 | תן שלום | Ten Shalom | Donne la paix | Grant Peace | Danos la paz | 2020 | 3:52 | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/L63XHDIIE_U) | à fournir | non |
 
 ### Singles
 
 | # | עברית | Translittération | FR | EN | ES | Année | Durée | Composition | Production | YouTube | MP3 | Téléchargeable |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | ניגון יהודי | Niggun Yehudi | Un niggoun juif | A Jewish Niggun | Un nigún judío | 2026 | ? | Aharon Sitbon | ? | [clip](https://youtu.be/RB68H4UySCo) | à fournir | non |
-| 2 | תפילה לשלום | Tefila LeShalom | Prière pour la paix | A Prayer for Peace | Oración por la paz | 2025 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/HnF3VoesPY0) | à fournir | non |
-| 3 | אנא ה' | Ana Hashem | De grâce, Hachem | Please, Hashem | Por favor, Hashem | 2024 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/TxQLvZXCiKQ) | à fournir | non |
-| 4 | אב הרחמן | Av HaRachaman | Père de miséricorde | Merciful Father | Padre misericordioso | 2024 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/1fmuQAA5ULo) | à fournir | non |
-| 5 | אודך ה' אלוקי | Odeh Hashem Elokai | Je Te loue, Hachem mon D.ieu | I Will Praise You, Hashem My G-d | Te alabaré, Hashem mi D-os | 2024 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/PwIypRRTH_w) | à fournir | non |
-| 6 | אור בעיני | Or Be'einai | Lumière dans mes yeux | Light in My Eyes | Luz en mis ojos | 2023 | ? | Aharon Sitbon (1977) | Eli Klein & Yitzy Berry | [clip](https://youtu.be/kjGJBjnMwoA) | à fournir | non |
-| 7 | שיר חדש | Shir Hadash | Un chant nouveau | A New Song | Un canto nuevo | 2023 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/H9RztmVYBDM) | à fournir | non |
-| 8 | ימים באים | Yamim Baim | Des jours viennent | Days Are Coming | Vienen días | 2022 | ? | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/itS7_nb7XaQ) | à fournir | non |
-| 9 | מודה אני | Modeh Ani | Je Te rends grâce | I Give Thanks | Te doy gracias | 2019 | ? | Aharon Sitbon | ? | [clip](https://youtu.be/w67jhBVqoz0) | à fournir | non |
+| 1 | ניגון יהודי | Niggun Yehudi | Un niggoun juif | A Jewish Niggun | Un nigún judío | 2026 | 4:04 | Aharon Sitbon | ? | [clip](https://youtu.be/RB68H4UySCo) | à fournir | non |
+| 2 | תפילה לשלום | Tefila LeShalom | Prière pour la paix | A Prayer for Peace | Oración por la paz | 2025 | 4:04 | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/HnF3VoesPY0) | à fournir | non |
+| 3 | אב הרחמן | Av HaRachaman | Père de miséricorde | Merciful Father | Padre misericordioso | 2024 | 3:59 | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/1fmuQAA5ULo) | à fournir | non |
+| 4 | אודך ה' אלוקי | Odeh Hashem Elokai | Je Te loue, Hachem mon D.ieu | I Will Praise You, Hashem My G-d | Te alabaré, Hashem mi D-os | 2024 | 3:52 | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/PwIypRRTH_w) | à fournir | non |
+| 5 | אור בעיני | Or Be'einai | Lumière dans mes yeux | Light in My Eyes | Luz en mis ojos | 2023 | 4:21 | Aharon Sitbon (1977) | Eli Klein & Yitzy Berry | [clip](https://youtu.be/kjGJBjnMwoA) | à fournir | non |
+| 6 | שיר חדש | Shir Hadash | Un chant nouveau | A New Song | Un canto nuevo | 2023 | 4:03 | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/H9RztmVYBDM) | à fournir | non |
+| 7 | אנא ה' | Ana Hashem | De grâce, Hachem | Please, Hashem | Por favor, Hashem | 2023 | 3:53 | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/TxQLvZXCiKQ) | à fournir | non |
+| 8 | ימים באים | Yamim Baim | Des jours viennent | Days Are Coming | Vienen días | 2022 | 3:50 | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/itS7_nb7XaQ) | à fournir | non |
+| 9 | גם כי אלך | Gam Ki Elech | Même si je marche | Though I Walk | Aunque camine | 2016 | 4:26 | Aharon Sitbon | Eli Klein & Yitzy Berry | [clip](https://youtu.be/ajWbyr3iZTk) | à fournir | non |
 
 ### Archives françaises (45 tours)
 
@@ -622,7 +624,7 @@ Production : Eli Klein & Yitzy Berry · צבעים הפקות · Apple Music : h
 | 25 | [bH4Fv2dTheE](https://youtu.be/bH4Fv2dTheE) | live | Il raconte sa vie sur scène |  |
 | 26 | [Lrmd4Iylbrk](https://youtu.be/Lrmd4Iylbrk) | official | שיבוא כבר – Sheyavo Kvar |  |
 | 27 | [2v5zUsiY1Vs](https://youtu.be/2v5zUsiY1Vs) | live | הגיע זמן גאולתכם – Higia Zman Geulatchem |  |
-| 28 | [w67jhBVqoz0](https://youtu.be/w67jhBVqoz0) | official | מודה אני – Modeh Ani | En duo avec son petit-fils |
+| 28 | [w67jhBVqoz0](https://youtu.be/w67jhBVqoz0) | official | מודה אני לך – Modeh Ani Lecha | En duo avec son petit-fils |
 | 29 | [p4rW6d7ezv0](https://youtu.be/p4rW6d7ezv0) | official | מלך המשיח – Melech HaMashiach |  |
 | 30 | [6qX2yE2EYkY](https://youtu.be/6qX2yE2EYkY) | official | שהחיינו – Shehecheyanu |  |
 | 31 | [qqUSp6ySse8](https://youtu.be/qqUSp6ySse8) | official | שומר ישראל – Shomer Israel | Avec les soldats de Tsahal |

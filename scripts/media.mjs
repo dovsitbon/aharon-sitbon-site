@@ -40,8 +40,9 @@ const PICKS = [
   [raw("34_S1BnZXBVEMY"), "scene", "kotel-adon-olam", { left: 0.4 }],
   [raw("33_GV_SYRu0ylY"), "scene", "terrasse-jerusalem", { left: 0.03, right: 0.975, top: 0.03, bottom: 0.76 }],
 
-  // Pochette « Higia Zman Geulatchem » photographiée en maquette 3D : provisoire, à remplacer par le fichier HD
-  [raw("13_kmLBUAEwrLI"), "albums", "higia-zman-geulatchem", { left: 0.19, right: 0.64, top: 0.08, bottom: 0.88 }],
+  // Pochettes officielles des albums (Apple Music, 1500 et 3000 px) téléchargées dans assets/albums-hd/
+  ["albums-hd/shehecheyanu.jpg", "albums", "shehecheyanu"],
+  ["albums-hd/higia-zman-geulatchem.jpg", "albums", "higia-zman-geulatchem"],
 
   [raw("15_UepVKsxy04o"), "archives-1977", "portrait-annees-70", LB],
   [raw("38_1k-gm2mR9vg"), "archives-1977", "tele-1977", { left: 0.18, right: 0.6, top: 0.18, bottom: 0.82 }],
@@ -53,7 +54,7 @@ const PICKS = [
 
 const sizes = {};
 async function prepare(src, cat, name, crop, max) {
-  const file = path.join(ROOT, "assets", src);
+  const file = path.join(ROOT, "assets", src.endsWith(".jpg") ? src : src);
   await mkdir(path.join(ROOT, "assets", cat), { recursive: true });
   await mkdir(path.join(ROOT, "public/media", cat), { recursive: true });
   let pipe = sharp(file).rotate();
@@ -79,7 +80,7 @@ for (const c of clips) {
   const f = files.find((x) => x.endsWith(`_${c.id}.jpg`));
   if (!f) continue;
   const { width } = await sharp(path.join(ROOT, "assets/raw", f)).metadata();
-  await prepare(`raw/${f}`, "clips", c.id, width < 600 ? LB : undefined, 960);
+  await prepare(`raw/${f}`, "clips", c.id, width < 600 ? LB : undefined, 1280);
 }
 
 // Diaporama de l'accueil : les plus belles photos de scène, agrandies en 1920 px (Lanczos) avec une légère accentuation.
@@ -114,7 +115,6 @@ const OG = {
   events: ["scene/higia-zman-live.jpg", "top"],
   press: ["scene/interview-hamevaker.jpg", "centre"],
   contact: ["scene/kotel-adon-olam.jpg", "top"],
-  "album-shehecheyanu": ["scene/kotel-guitare.jpg", "left"],
 };
 await mkdir(path.join(ROOT, "public/og"), { recursive: true });
 for (const [name, [src, position]] of Object.entries(OG)) {
@@ -124,12 +124,14 @@ for (const [name, [src, position]] of Object.entries(OG)) {
     .jpeg({ quality: 82, mozjpeg: true })
     .toFile(path.join(ROOT, "public/og", `${name}.jpg`));
 }
-// Album « Higia Zman Geulatchem » : la pochette centrée sur fond bleu tekhelet
-const cover = await sharp(path.join(ROOT, "assets/albums/higia-zman-geulatchem.jpg")).resize(560, 560).toBuffer();
-await sharp({ create: { width: 1200, height: 630, channels: 3, background: "#143553" } })
-  .composite([{ input: cover, top: 35, left: 320 }])
-  .jpeg({ quality: 84, mozjpeg: true })
-  .toFile(path.join(ROOT, "public/og/album-higia-zman-geulatchem.jpg"));
+// Albums : la pochette officielle centrée sur fond bleu tekhelet
+for (const id of ["shehecheyanu", "higia-zman-geulatchem"]) {
+  const cover = await sharp(path.join(ROOT, `assets/albums-hd/${id}.jpg`)).resize(560, 560, { kernel: "lanczos3" }).toBuffer();
+  await sharp({ create: { width: 1200, height: 630, channels: 3, background: "#143553" } })
+    .composite([{ input: cover, top: 35, left: 320 }])
+    .jpeg({ quality: 86, mozjpeg: true })
+    .toFile(path.join(ROOT, `public/og/album-${id}.jpg`));
+}
 // Icône Apple (écran d'accueil) à partir du favicon
 await sharp(path.join(ROOT, "app/icon.svg"), { density: 400 }).resize(180, 180).png().toFile(path.join(ROOT, "app/apple-icon.png"));
 

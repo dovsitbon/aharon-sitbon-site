@@ -58,3 +58,11 @@ export const trOf = (t: { tr: Tr; latin: string }, lang: Locale) => (lang === "h
 export const playable = (t: Track) => Boolean(t.audioFile || t.youtubeId);
 
 export const thumb = (youtubeId: string) => `/media/clips/${youtubeId}.jpg`;
+
+/** Visuel d'un titre : la pochette officielle de son album s'il en a une, sinon la miniature de son clip */
+export function trackImage(t: Track): { src: string; square: boolean } | null {
+  const album = t.album ? albums.find((a) => a.id === t.album) : null;
+  if (album?.cover) return { src: album.cover, square: true };
+  if (t.youtubeId) return { src: thumb(t.youtubeId), square: false };
+  return null;
+}

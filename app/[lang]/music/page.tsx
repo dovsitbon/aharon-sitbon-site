@@ -12,6 +12,7 @@ import { Reveal } from "@/components/Reveal";
 import { ListenButton } from "@/components/ListenButton";
 import { AlbumCards, ArchivesGrid, SinglesGrid } from "@/components/Discography";
 import { ArrowIcon } from "@/components/icons";
+import { singles } from "@/lib/music";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/music">): Promise<Metadata> {
   const { lang } = await params;
@@ -44,7 +45,7 @@ export default async function Music({ params }: PageProps<"/[lang]/music">) {
       <section className="bg-sand-soft px-5 py-24 md:px-10 md:py-28" aria-labelledby="singles">
         <div className="mx-auto max-w-[1320px]">
           <Reveal className="mb-12">
-            <SectionHead id="singles" eyebrow={d.music.singles} title={`${d.music.singles} <em>2019 · 2026</em>`} />
+            <SectionHead id="singles" eyebrow={d.music.singles} title={`${d.music.singles} <em>${Math.min(...singles.map((t) => t.year))} · ${Math.max(...singles.map((t) => t.year))}</em>`} />
           </Reveal>
           <SinglesGrid />
         </div>

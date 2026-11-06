@@ -15,8 +15,10 @@ Tout ce qui manque pour que le site soit définitif. Chaque point indique où le
 ## Musique
 - [ ] **Fichiers MP3 (ou WAV) de tous ses titres**, venant de lui ou de ses producteurs → à déposer dans `public/music/<album>/` puis `npm run music` (voir README). Dès qu'un MP3 est là, le bouton « Écouter » lit l'audio au lieu du clip YouTube.
 - [ ] **Accord écrit des producteurs** (Eli Klein, Yitzy Berry, צבעים הפקות) pour le téléchargement gratuit → passer `downloadable` à `true` puis `npm run music` ; le `.zip` de l'album se prépare tout seul
-- [ ] **Liste exacte des titres** des deux albums, dans l'ordre, avec **durées et crédits** (composition, paroles, arrangement) → `data/music.json`. Les listes actuelles sont reconstituées d'après la presse.
-- [ ] **Pochettes HD** : « Shehecheyanu » (aucune pochette pour l'instant, une pochette typographique la remplace) et « Higia Zman Geulatchem » (actuellement tirée d'une maquette 3D de la vidéo) → `public/media/albums/`
+- [x] Listes des titres et durées des deux albums : reprises d'Apple Music (2026-11-06). « Shehecheyanu » contient « Boi Kala » ; « Gam Ki Elech » n'y figure pas (classé en single, année à confirmer). « Modeh Ani Lecha » et « Yerushalayim » sont sur « Higia Zman Geulatchem ».
+- [ ] **Crédits** de chaque titre (composition, paroles, arrangement). La pochette de « Shehecheyanu » indique « הפקה: אהרון סיטבון » (production : Aharon Sitbon) et non Eli Klein / Yitzy Berry : à confirmer.
+- [x] Pochettes officielles des deux albums récupérées sur Apple Music (1500 et 3000 px)
+- [ ] Pochettes des **singles** en haute définition : sur le site, ce sont les miniatures YouTube (1280 × 720 au mieux, 480 × 360 pour certaines)
 - [ ] **Le troisième album** annoncé en 2023 : est-il sorti ? titre, date, titres
 - [ ] **Ses 45 tours des années 1970** : pochettes scannées (pas de photos de sites de vente), titres complets, autres disques éventuels → `data/archives.json`
 - [ ] Liens **Spotify** (artiste et albums), **Instagram**, et les **4 autres liens** affichés sur sa chaîne YouTube → `data/site.json`
