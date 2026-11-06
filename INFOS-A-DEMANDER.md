@@ -3,7 +3,7 @@
 Tout ce qui manque pour que le site soit définitif. Chaque point indique où le mettre une fois reçu.
 
 ## Son histoire
-- [ ] **Date et lieu de naissance** : Tunisie (portrait d'Alliance, 2016) ou France (autres articles) ? → `locales/*.json`, `story.steps[0]`
+- [ ] **Date et lieu de naissance** : Wikipédia en hébreu indique le 1er janvier 1947 à Tunis (et Chabadpedia : 1947). À confirmer avec lui avant de l'écrire sur le site. → `locales/*.json`, `story.steps[0]`
 - [ ] **Ville où il vit** aujourd'hui (Jérusalem selon Mostly Music et Torah-Box) et **année d'installation en Israël** (2012 selon Hidabroot ?)
 - [ ] **Son histoire racontée par lui** (quelques paragraphes, ou un enregistrement) : on réécrira la frise avec ses mots
 - [ ] **Ce qu'il accepte qu'on publie sur sa famille** : son fils David Sitbon (déjà cité), ses petits-enfants (aucun nom n'est affiché sans accord de la famille)
@@ -30,7 +30,8 @@ Tout ce qui manque pour que le site soit définitif. Chaque point indique où le
 - [ ] **Accord de David Sitbon** pour le bloc qui lui est consacré (page « Son histoire ») et une photo de lui en HD
 
 ## Concerts et contact
-_Pour le moment, il ne cherche pas de nouvelles prestations : le site met en avant son histoire, sa musique et ses concerts passés._
+_Il ne cherche pas de soirées d'ambiance. Une page discrète « Un moment avec lui » (/guest) propose des apparitions en complément : houppa, moment de soirée, galas, duo avec David._
+- [ ] Valider le texte de la page /guest (formats, ton) et dire s'il y a des conditions (déplacements, délais, tarifs à ne pas afficher)
 - [ ] **Prochains concerts** : date, ville, salle, lien billetterie → `data/concerts.json` (génère aussi les données Google « Event »)
 - [ ] **Dates déjà prises** (facultatif) → `data/dates.json`
 - [x] Numéro de contact : +972 52-512-5282 (donné le 2026-11-05) → `data/site.json`

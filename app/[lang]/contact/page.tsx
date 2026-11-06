@@ -10,7 +10,9 @@ import { breadcrumbLd, contactLd } from "@/lib/jsonld";
 import { PageHero } from "@/components/PageHero";
 import { Reveal } from "@/components/Reveal";
 import { ContactForm } from "@/components/ContactForm";
-import { AppleMusicIcon, FacebookIcon, PhoneIcon, WhatsAppIcon, YouTubeIcon } from "@/components/icons";
+import Link from "next/link";
+import { href } from "@/lib/routes";
+import { AppleMusicIcon, ArrowIcon, FacebookIcon, PhoneIcon, WhatsAppIcon, YouTubeIcon } from "@/components/icons";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/contact">): Promise<Metadata> {
   const { lang } = await params;
@@ -85,6 +87,13 @@ export default async function Contact({ params }: PageProps<"/[lang]/contact">) 
                 </li>
               </ul>
             </div>
+            <Link href={href(lang, "guest")} className="card group block p-6 transition-colors hover:border-terra/50">
+              <p className="eyebrow plain">{d.pages.guest.eyebrow}</p>
+              <p className="mt-3 leading-relaxed text-muted">{d.guest.teaser}</p>
+              <span className="link-arrow mt-3">
+                {d.guest.teaserLink} <ArrowIcon />
+              </span>
+            </Link>
             <Photo src={M("famille", "modeh-ani-petit-fils")} d={d} sizes="(min-width: 1024px) 28vw, 92vw" className="hidden aspect-[4/3] rounded-[1.25rem] lg:block" />
           </Reveal>
         </div>

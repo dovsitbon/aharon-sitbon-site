@@ -21,7 +21,8 @@
     "bookShort": "Escuchar",
     "language": "Idioma",
     "events": "Conciertos",
-    "today": "Hoy"
+    "today": "Hoy",
+    "guest": "Invitarlo para un momento"
   },
   "intro": {
     "skip": "Saltar",
@@ -381,6 +382,13 @@
       "h1": "Siempre <em>en camino</em>",
       "intro": "Desde su regreso en 2014 no ha parado: compone, graba, y casi cada año sale un nuevo canto.",
       "desc": "Lo que hace hoy Aharon Sitbon: Niggun Yehudi (2026), Tefila LeShalom (2025), su trabajo con Eli Klein e Yitzy Berry y los dúos con su hijo David."
+    },
+    "guest": {
+      "title": "Invitarlo para un momento: jupá, gala, boda",
+      "desc": "Aharon Sitbon puede venir a cantar un momento especial en una boda, una jupá o una gala, junto a tu orquesta: una o dos canciones, su historia, mucha emoción.",
+      "eyebrow": "Un momento con él",
+      "h1": "Un momento de <em>emoción</em>, no una noche de animación",
+      "intro": "Aharon Sitbon no anima fiestas: viene para una o dos canciones y regala un momento que no se olvida. Bajo la jupá, en medio de una gala o cuando la sala se calma al final de la noche."
     }
   },
   "home": {
@@ -494,5 +502,53 @@
     "followTitle": "No te pierdas <em>nada</em>",
     "followText": "Los nuevos cantos salen primero en su canal de YouTube.",
     "subscribers": "unos 3800 suscriptores"
+  },
+  "guest": {
+    "note": "No sustituye a tu orquesta ni a tu DJ: interviene como complemento, en un momento concreto del evento.",
+    "formatsEyebrow": "Los momentos",
+    "formatsTitle": "Donde <em>encaja</em>",
+    "formats": [
+      {
+        "title": "Bajo la jupá",
+        "text": "Un canto durante la jupá, como «Shehecheyanu»: unos minutos de recogimiento, su voz y su guitarra."
+      },
+      {
+        "title": "Un momento de la noche",
+        "text": "Entre dos bailes o al final de la noche, cuando la sala se calma: dos o tres cantos tranquilos y emotivos."
+      },
+      {
+        "title": "Galas y cenas",
+        "text": "Asociaciones, galas, cenas comunitarias: cuenta en pocas palabras su camino, del Olympia a los tefilín, y luego canta."
+      },
+      {
+        "title": "Con su hijo David",
+        "text": "David Sitbon, cantante de bodas, anima la noche; su padre se le une para un dúo, durante una canción."
+      }
+    ],
+    "stepsTitle": "Cómo funciona",
+    "steps": [
+      "Describes el momento que imaginas, la fecha y el lugar.",
+      "Te llamamos para ver si es posible y qué conviene más.",
+      "El día del evento, llega para su momento, de acuerdo con tu orquesta."
+    ],
+    "form": {
+      "title": "Proponer un momento",
+      "type": "El momento",
+      "types": {
+        "chuppah": "Jupá",
+        "evening": "Momento de la noche",
+        "gala": "Gala / cena",
+        "community": "Comunidad / farbrenguen",
+        "other": "Otro"
+      },
+      "date": "Fecha",
+      "city": "Ciudad / sala",
+      "submit": "Enviar por WhatsApp",
+      "waTitle": "Solicitud de momento – Aharon Sitbon",
+      "waDate": "Fecha",
+      "waCity": "Lugar"
+    },
+    "teaser": "Boda, jupá, gala: también puede venir a cantar un momento, como complemento.",
+    "teaserLink": "Saber más"
   }
 }

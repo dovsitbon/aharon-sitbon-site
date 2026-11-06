@@ -34,6 +34,7 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `language` | שפה | Langue | Language | Idioma |
 | `events` | הופעות | Concerts | Concerts | Conciertos |
 | `today` | היום | Aujourd'hui | Today | Hoy |
+| `guest` | להזמין אותו לרגע מיוחד | L'inviter pour un moment | Invite him for a moment | Invitarlo para un momento |
 
 ## Textes · intro
 
@@ -396,6 +397,11 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `today.h1` | עדיין <em>בדרך</em> | Toujours <em>en chemin</em> | Still <em>on the road</em> | Siempre <em>en camino</em> |
 | `today.intro` | מאז שחזר ב־2014 הוא לא עצר: מלחין, מקליט, וכמעט כל שנה יוצא שיר חדש. | Depuis son retour en 2014, il n'a jamais cessé : il compose, il enregistre, et un nouveau chant sort presque chaque année. | Since his return in 2014 he has never stopped: he composes, he records, and a new song comes out almost every year. | Desde su regreso en 2014 no ha parado: compone, graba, y casi cada año sale un nuevo canto. |
 | `today.desc` | מה עושה היום אהרון סיטבון, זמר חב״די ומלחין: ״ניגון יהודי״ (2026), ״תפילה לשלום״ (2025), העבודה עם אלי קליין ואיצי ברי והדואטים עם בנו דוד. | Ce que fait Aharon Sitbon aujourd'hui : Niggun Yehudi (2026), Tefila LeShalom (2025), son travail avec Eli Klein, Yitzy Berry et son fils David. | What Aharon Sitbon is doing today: Niggun Yehudi (2026), Tefila LeShalom (2025), his work with Eli Klein and Yitzy Berry, and duets with his son David. | Lo que hace hoy Aharon Sitbon: Niggun Yehudi (2026), Tefila LeShalom (2025), su trabajo con Eli Klein e Yitzy Berry y los dúos con su hijo David. |
+| `guest.title` | רגע מיוחד באירוע – שירה בחופה, בגאלה ובחתונה | L'inviter pour un moment : houppa, gala, mariage | Invite him for a moment: chuppah, gala, wedding | Invitarlo para un momento: jupá, gala, boda |
+| `guest.desc` | אהרון סיטבון יכול להגיע לשיר רגע מיוחד בחתונה, בחופה או בערב גאלה, בנוסף לתזמורת שלכם: שיר או שניים, הסיפור שלו, והרבה רגש. | Aharon Sitbon peut venir chanter un moment fort lors d'un mariage, d'une houppa ou d'un gala, en complément de votre orchestre : un ou deux chants, son histoire, l'émotion. | Aharon Sitbon can come and sing a special moment at a wedding, a chuppah or a gala, alongside your band: one or two songs, his story, and a lot of emotion. | Aharon Sitbon puede venir a cantar un momento especial en una boda, una jupá o una gala, junto a tu orquesta: una o dos canciones, su historia, mucha emoción. |
+| `guest.eyebrow` | רגע איתו | Un moment avec lui | A moment with him | Un momento con él |
+| `guest.h1` | רגע של <em>רגש</em>, לא ערב של הקפצה | Un moment d'<em>émotion</em>, pas une soirée d'ambiance | A moment of <em>emotion</em>, not a party set | Un momento de <em>emoción</em>, no una noche de animación |
+| `guest.intro` | אהרון סיטבון לא מקפיץ אירועים: הוא מגיע לשיר אחד או שניים ונותן רגע שלא שוכחים. מתחת לחופה, באמצע ערב גאלה, או כשהאולם נרגע בסוף הערב. | Aharon Sitbon n'anime pas les soirées : il vient, le temps d'un ou deux chants, offrir un moment qu'on n'oublie pas. Sous la houppa, au cœur d'un gala, ou quand la salle se pose en fin de soirée. | Aharon Sitbon is not a party singer: he comes for one or two songs and gives a moment people remember. Under the chuppah, in the middle of a gala, or when the room settles at the end of the evening. | Aharon Sitbon no anima fiestas: viene para una o dos canciones y regala un momento que no se olvida. Bajo la jupá, en medio de una gala o cuando la sala se calma al final de la noche. |
 
 ## Textes · home
 
@@ -488,6 +494,41 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `followTitle` | לא לפספס <em>אף שיר</em> | Ne rien <em>manquer</em> | Don't miss <em>a thing</em> | No te pierdas <em>nada</em> |
 | `followText` | השירים החדשים יוצאים קודם כול בערוץ היוטיוב שלו. | Les nouveaux chants sortent d'abord sur sa chaîne YouTube. | New songs come out first on his YouTube channel. | Los nuevos cantos salen primero en su canal de YouTube. |
 | `subscribers` | כ־3,800 מנויים | environ 3 800 abonnés | about 3,800 subscribers | unos 3800 suscriptores |
+
+## Textes · guest
+
+| clé | עברית | Français | English | Español |
+|---|---|---|---|---|
+| `note` | הוא לא מחליף את התזמורת או את הדי־ג׳יי: הוא מגיע בנוסף, לרגע מסוים באירוע. | Il ne remplace pas votre orchestre ni votre DJ : il intervient en complément, pour un moment précis de l'événement. | He doesn't replace your band or DJ: he joins alongside them, for one specific moment of the event. | No sustituye a tu orquesta ni a tu DJ: interviene como complemento, en un momento concreto del evento. |
+| `formatsEyebrow` | הרגעים | Les moments | The moments | Los momentos |
+| `formatsTitle` | איפה הוא <em>משתלב</em> | Où il <em>trouve sa place</em> | Where he <em>fits in</em> | Donde <em>encaja</em> |
+| `formats.0.title` | בחופה | Sous la houppa | Under the chuppah | Bajo la jupá |
+| `formats.0.text` | שיר בזמן החופה, כמו ״שהחיינו״: כמה דקות של התרגשות, הקול והגיטרה. | Un chant pendant la houppa, comme « Shehecheyanu » : quelques minutes de recueillement, la voix et la guitare. | A song during the chuppah, such as “Shehecheyanu”: a few quiet minutes, his voice and his guitar. | Un canto durante la jupá, como «Shehecheyanu»: unos minutos de recogimiento, su voz y su guitarra. |
+| `formats.1.title` | רגע באמצע הערב | Un moment dans la soirée | A moment in the evening | Un momento de la noche |
+| `formats.1.text` | בין הריקודים או בסוף הערב, כשהאולם נרגע: שניים־שלושה שירים שקטים ומרגשים. | Entre deux danses ou en fin de soirée, quand la salle se pose : deux ou trois chants calmes et émouvants. | Between dances or at the end of the evening, when the room settles: two or three calm, moving songs. | Entre dos bailes o al final de la noche, cuando la sala se calma: dos o tres cantos tranquilos y emotivos. |
+| `formats.2.title` | ערבי גאלה וארוחות | Galas et dîners | Galas and dinners | Galas y cenas |
+| `formats.2.text` | עמותות, ערבי גאלה, ארוחות קהילתיות: הוא מספר בכמה מילים את הדרך שלו, מהאולימפיה לתפילין, ואז שר. | Associations, soirées de gala, dîners de communauté : il raconte en quelques mots son parcours, de l'Olympia aux téfilines, puis il chante. | Charities, gala evenings, community dinners: he tells his journey in a few words, from the Olympia to tefillin, then sings. | Asociaciones, galas, cenas comunitarias: cuenta en pocas palabras su camino, del Olympia a los tefilín, y luego canta. |
+| `formats.3.title` | עם בנו דוד | Avec son fils David | With his son David | Con su hijo David |
+| `formats.3.text` | דוד סיטבון, זמר חתונות, מוביל את הערב; האבא מצטרף אליו לדואט, לשיר אחד. | David Sitbon, chanteur de mariages, assure l'ambiance de la soirée ; son père le rejoint pour un duo, le temps d'un chant. | David Sitbon, a wedding singer, leads the evening; his father joins him for a duet, for one song. | David Sitbon, cantante de bodas, anima la noche; su padre se le une para un dúo, durante una canción. |
+| `stepsTitle` | איך זה עובד | Comment ça se passe | How it works | Cómo funciona |
+| `steps.0` | מתארים את הרגע שאתם מדמיינים, את התאריך ואת המקום. | Vous décrivez le moment que vous imaginez, la date et le lieu. | Describe the moment you have in mind, the date and the place. | Describes el momento que imaginas, la fecha y el lugar. |
+| `steps.1` | חוזרים אליכם לבדוק אם זה אפשרי ומה הכי מתאים. | On vous rappelle pour voir si c'est possible et ce qui convient le mieux. | We call you back to see whether it's possible and what suits best. | Te llamamos para ver si es posible y qué conviene más. |
+| `steps.2` | ביום האירוע הוא מגיע לרגע שלו, בתיאום עם התזמורת. | Le jour venu, il arrive pour son moment, en accord avec votre orchestre. | On the day, he arrives for his moment, in agreement with your band. | El día del evento, llega para su momento, de acuerdo con tu orquesta. |
+| `form.title` | להציע רגע | Proposer un moment | Suggest a moment | Proponer un momento |
+| `form.type` | הרגע | Le moment | The moment | El momento |
+| `form.types.chuppah` | חופה | Houppa | Chuppah | Jupá |
+| `form.types.evening` | רגע בערב | Moment de soirée | Evening moment | Momento de la noche |
+| `form.types.gala` | גאלה / ארוחה | Gala / dîner | Gala / dinner | Gala / cena |
+| `form.types.community` | קהילה / התוועדות | Communauté / farbrenguen | Community / farbrengen | Comunidad / farbrenguen |
+| `form.types.other` | אחר | Autre | Other | Otro |
+| `form.date` | תאריך | Date | Date | Fecha |
+| `form.city` | עיר / אולם | Ville / salle | City / venue | Ciudad / sala |
+| `form.submit` | שליחה בוואטסאפ | Envoyer sur WhatsApp | Send on WhatsApp | Enviar por WhatsApp |
+| `form.waTitle` | בקשה לרגע מיוחד – אהרון סיטבון | Demande de moment – Aharon Sitbon | Moment request – Aharon Sitbon | Solicitud de momento – Aharon Sitbon |
+| `form.waDate` | תאריך | Date | Date | Fecha |
+| `form.waCity` | מקום | Lieu | Place | Lugar |
+| `teaser` | חתונה, חופה, ערב גאלה: הוא יכול גם להגיע לשיר רגע אחד, בנוסף לתזמורת. | Mariage, houppa, gala : il peut aussi venir chanter un moment, en complément. | Wedding, chuppah, gala: he can also come and sing for a moment, alongside your band. | Boda, jupá, gala: también puede venir a cantar un momento, como complemento. |
+| `teaserLink` | לפרטים | En savoir plus | Learn more | Saber más |
 
 ## Discographie
 

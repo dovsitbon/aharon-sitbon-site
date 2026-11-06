@@ -21,7 +21,8 @@
     "bookShort": "Écouter",
     "language": "Langue",
     "events": "Concerts",
-    "today": "Aujourd'hui"
+    "today": "Aujourd'hui",
+    "guest": "L'inviter pour un moment"
   },
   "intro": {
     "skip": "Passer",
@@ -381,6 +382,13 @@
       "h1": "Toujours <em>en chemin</em>",
       "intro": "Depuis son retour en 2014, il n'a jamais cessé : il compose, il enregistre, et un nouveau chant sort presque chaque année.",
       "desc": "Ce que fait Aharon Sitbon aujourd'hui : Niggun Yehudi (2026), Tefila LeShalom (2025), son travail avec Eli Klein, Yitzy Berry et son fils David."
+    },
+    "guest": {
+      "title": "L'inviter pour un moment : houppa, gala, mariage",
+      "desc": "Aharon Sitbon peut venir chanter un moment fort lors d'un mariage, d'une houppa ou d'un gala, en complément de votre orchestre : un ou deux chants, son histoire, l'émotion.",
+      "eyebrow": "Un moment avec lui",
+      "h1": "Un moment d'<em>émotion</em>, pas une soirée d'ambiance",
+      "intro": "Aharon Sitbon n'anime pas les soirées : il vient, le temps d'un ou deux chants, offrir un moment qu'on n'oublie pas. Sous la houppa, au cœur d'un gala, ou quand la salle se pose en fin de soirée."
     }
   },
   "home": {
@@ -494,5 +502,53 @@
     "followTitle": "Ne rien <em>manquer</em>",
     "followText": "Les nouveaux chants sortent d'abord sur sa chaîne YouTube.",
     "subscribers": "environ 3 800 abonnés"
+  },
+  "guest": {
+    "note": "Il ne remplace pas votre orchestre ni votre DJ : il intervient en complément, pour un moment précis de l'événement.",
+    "formatsEyebrow": "Les moments",
+    "formatsTitle": "Où il <em>trouve sa place</em>",
+    "formats": [
+      {
+        "title": "Sous la houppa",
+        "text": "Un chant pendant la houppa, comme « Shehecheyanu » : quelques minutes de recueillement, la voix et la guitare."
+      },
+      {
+        "title": "Un moment dans la soirée",
+        "text": "Entre deux danses ou en fin de soirée, quand la salle se pose : deux ou trois chants calmes et émouvants."
+      },
+      {
+        "title": "Galas et dîners",
+        "text": "Associations, soirées de gala, dîners de communauté : il raconte en quelques mots son parcours, de l'Olympia aux téfilines, puis il chante."
+      },
+      {
+        "title": "Avec son fils David",
+        "text": "David Sitbon, chanteur de mariages, assure l'ambiance de la soirée ; son père le rejoint pour un duo, le temps d'un chant."
+      }
+    ],
+    "stepsTitle": "Comment ça se passe",
+    "steps": [
+      "Vous décrivez le moment que vous imaginez, la date et le lieu.",
+      "On vous rappelle pour voir si c'est possible et ce qui convient le mieux.",
+      "Le jour venu, il arrive pour son moment, en accord avec votre orchestre."
+    ],
+    "form": {
+      "title": "Proposer un moment",
+      "type": "Le moment",
+      "types": {
+        "chuppah": "Houppa",
+        "evening": "Moment de soirée",
+        "gala": "Gala / dîner",
+        "community": "Communauté / farbrenguen",
+        "other": "Autre"
+      },
+      "date": "Date",
+      "city": "Ville / salle",
+      "submit": "Envoyer sur WhatsApp",
+      "waTitle": "Demande de moment – Aharon Sitbon",
+      "waDate": "Date",
+      "waCity": "Lieu"
+    },
+    "teaser": "Mariage, houppa, gala : il peut aussi venir chanter un moment, en complément.",
+    "teaserLink": "En savoir plus"
   }
 }
