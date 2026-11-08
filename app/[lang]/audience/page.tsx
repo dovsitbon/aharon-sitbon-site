@@ -14,6 +14,7 @@ import { PageHero, SectionHead } from "@/components/PageHero";
 import { Reveal } from "@/components/Reveal";
 import { MessageCard, messages, videoOf, ytUrl } from "@/components/Audience";
 import { ArrowIcon } from "@/components/icons";
+import { WatchButton } from "@/components/Clips";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/audience">): Promise<Metadata> {
   const { lang } = await params;
@@ -46,7 +47,9 @@ export default async function Audience({ params }: PageProps<"/[lang]/audience">
         <ul className="mx-auto grid max-w-[1320px] grid-cols-2 md:grid-cols-4">
           {a.stats.map((s, i) => (
             <Reveal as="li" key={s.t} delay={i * 0.08} className={`py-10 md:py-12 ${i % 2 ? "ps-6" : "pe-6"} ${i > 0 ? "md:border-s md:border-line md:ps-8" : ""}`}>
-              <p className="num text-[clamp(2rem,3.6vw,3rem)] leading-none text-blue">{s.n}</p>
+              <p className="num text-[clamp(2rem,3.6vw,3rem)] leading-none text-blue">
+                <bdi>{s.n}</bdi>
+              </p>
               <p className="mt-3 text-[0.9375rem] leading-snug text-muted">{s.t}</p>
             </Reveal>
           ))}
@@ -99,9 +102,7 @@ export default async function Audience({ params }: PageProps<"/[lang]/audience">
             </footer>
           </blockquote>
           <p className="lead mt-6 max-w-2xl">{a.requestOutro}</p>
-          <Link href={`${href(lang, "videos")}#spanish`} className="btn mt-8">
-            {a.requestButton}
-          </Link>
+          <WatchButton id="Pi8NCkgmL8I" title="Rey Mesías · Melech HaMashiach" label={a.requestButton} className="btn mt-8" />
         </Reveal>
       </section>
 

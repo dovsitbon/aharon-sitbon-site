@@ -186,8 +186,7 @@
       "official": "Videoclips oficiales",
       "live": "En directo",
       "interview": "Entrevistas",
-      "archive": "Archivo",
-      "spanish": "En español"
+      "archive": "Archivo"
     },
     "play": "Ver el video",
     "views": "{n} visualizaciones",
@@ -625,7 +624,10 @@
     "stageLink": "Todos sus conciertos",
     "footnote": "Mensajes públicos dejados bajo sus videos de YouTube, copiados tal cual (ortografía corregida) y traducidos para esta página. ¿Es usted autor de un mensaje y desea que se retire?",
     "footnoteLink": "Escríbanos.",
-    "homeButton": "Lo que dice el público",
-    "allMessages": "Todos los mensajes del público"
+    "teaser": {
+      "views": "6 M+ visualizaciones en YouTube",
+      "messages": "Mensajes de todo el mundo",
+      "link": "Ver lo que dice el público"
+    }
   }
 }

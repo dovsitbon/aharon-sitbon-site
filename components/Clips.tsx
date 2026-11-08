@@ -10,7 +10,7 @@ import { fill } from "@/lib/i18n";
 import { intlLocale, type Locale } from "@/lib/locales";
 import { clips, thumb, trackById, type Clip } from "@/lib/music";
 
-const KINDS = ["all", "spanish", "official", "live", "interview", "archive"] as const;
+const KINDS = ["all", "official", "live", "interview", "archive"] as const;
 type Kind = (typeof KINDS)[number];
 const STEP = 12;
 
@@ -63,14 +63,7 @@ export function Clips({ limit, filters = true }: { limit?: number; filters?: boo
   const [kind, setKind] = useState<Kind>("all");
   const [shown, setShown] = useState(limit ?? STEP);
   const [open, setOpen] = useState<Clip | null>(null);
-  const list = kind === "all" ? clips : kind === "spanish" ? clips.filter((c) => c.spanish) : clips.filter((c) => c.kind === kind);
-
-  // Lien direct vers un filtre : /videos#spanish
-  useEffect(() => {
-    const h = window.location.hash.slice(1) as Kind;
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- l'ancre n'est connue que dans le navigateur
-    if (filters && (KINDS as readonly string[]).includes(h)) setKind(h);
-  }, [filters]);
+  const list = kind === "all" ? clips : clips.filter((c) => c.kind === kind);
   const nf = new Intl.NumberFormat(intlLocale[lang], { notation: "compact", maximumFractionDigits: 0 });
 
   const play = (c: Clip) => {
@@ -116,7 +109,7 @@ export function Clips({ limit, filters = true }: { limit?: number; filters?: boo
                   <span className={`text-[1.15rem] leading-snug text-blue ${t && !c.title ? "font-[family-name:var(--font-frank)]" : ""}`} lang={t && !c.title ? "he" : undefined} dir={t && !c.title && lang !== "he" ? "rtl" : undefined}>
                     {t && !c.title ? t.he : title}
                   </span>
-                  <span className="eyebrow plain shrink-0 !text-[0.6875rem]">{c.spanish ? d.clips.filters.spanish : d.clips.filters[c.kind]}</span>
+                  <span className="eyebrow plain shrink-0 !text-[0.6875rem]">{d.clips.filters[c.kind]}</span>
                 </span>
                 {(sub || c.note || c.views) && (
                   <span className="mt-1 block text-[0.875rem] text-muted">

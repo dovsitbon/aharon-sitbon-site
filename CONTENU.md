@@ -195,7 +195,6 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `filters.live` | הופעות חיות | En live | Live | En directo |
 | `filters.interview` | ראיונות | Interviews | Interviews | Entrevistas |
 | `filters.archive` | ארכיון | Archives | Archives | Archivo |
-| `filters.spanish` | בספרדית | En espagnol | In Spanish | En español |
 | `play` | לצפייה בסרטון | Lire la vidéo | Play video | Ver el video |
 | `views` | {n} צפיות | {n} vues | {n} views | {n} visualizaciones |
 | `channel` | לערוץ היוטיוב המלא | Toute la chaîne YouTube | The full YouTube channel | Todo el canal de YouTube |
@@ -592,8 +591,9 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `stageLink` | לכל ההופעות | Tous ses concerts | All his concerts | Todos sus conciertos |
 | `footnote` | הודעות פומביות שנכתבו מתחת לסרטוני היוטיוב שלו, הועתקו כפי שהן (עם תיקוני כתיב) ותורגמו לעמוד הזה. כתבתם הודעה ואתם רוצים שנסיר אותה? | Messages publics laissés sous ses vidéos YouTube, recopiés tels quels (orthographe corrigée) et traduits pour cette page. Vous êtes l'auteur d'un message et souhaitez qu'il soit retiré ? | Public comments left under his YouTube videos, copied as written (spelling corrected) and translated for this page. Are you the author of a message and would like it removed? | Mensajes públicos dejados bajo sus videos de YouTube, copiados tal cual (ortografía corregida) y traducidos para esta página. ¿Es usted autor de un mensaje y desea que se retire? |
 | `footnoteLink` | כתבו לנו. | Écrivez-nous. | Write to us. | Escríbanos. |
-| `homeButton` | מה הקהל אומר | Ce que le public en dit | What listeners say | Lo que dice el público |
-| `allMessages` | לכל ההודעות של הקהל | Tous les messages du public | All messages from listeners | Todos los mensajes del público |
+| `teaser.views` | יותר מ־6 מיליון צפיות ביוטיוב | 6 M+ vues sur YouTube | 6M+ views on YouTube | 6 M+ visualizaciones en YouTube |
+| `teaser.messages` | הודעות מכל העולם | Des messages du monde entier | Messages from all over the world | Mensajes de todo el mundo |
+| `teaser.link` | למה שהקהל כותב | Voir les avis du public | See what listeners say | Ver lo que dice el público |
 
 ## Discographie
 

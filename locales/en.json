@@ -186,8 +186,7 @@
       "official": "Official videos",
       "live": "Live",
       "interview": "Interviews",
-      "archive": "Archives",
-      "spanish": "In Spanish"
+      "archive": "Archives"
     },
     "play": "Play video",
     "views": "{n} views",
@@ -625,7 +624,10 @@
     "stageLink": "All his concerts",
     "footnote": "Public comments left under his YouTube videos, copied as written (spelling corrected) and translated for this page. Are you the author of a message and would like it removed?",
     "footnoteLink": "Write to us.",
-    "homeButton": "What listeners say",
-    "allMessages": "All messages from listeners"
+    "teaser": {
+      "views": "6M+ views on YouTube",
+      "messages": "Messages from all over the world",
+      "link": "See what listeners say"
+    }
   }
 }

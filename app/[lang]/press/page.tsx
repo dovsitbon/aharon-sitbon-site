@@ -10,9 +10,6 @@ import { breadcrumbLd } from "@/lib/jsonld";
 import { PageHero, SectionHead } from "@/components/PageHero";
 import { Reveal } from "@/components/Reveal";
 import { ArrowIcon } from "@/components/icons";
-import Link from "next/link";
-import { href } from "@/lib/routes";
-import { MessageCard, messages } from "@/components/Audience";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/press">): Promise<Metadata> {
   const { lang } = await params;
@@ -60,23 +57,14 @@ export default async function Press({ params }: PageProps<"/[lang]/press">) {
         </ul>
       </section>
 
-      {/* Mots du public : trois vrais messages YouTube (page « Son public ») */}
+      {/* Messages du public — À REMPLIR avec de vrais messages, avec leur accord. Aucun avis inventé. */}
       <section className="bg-sand-soft px-5 py-24 md:px-10 md:py-28" aria-labelledby="voices">
-        <div className="mx-auto max-w-[1320px]">
-          <Reveal>
-            <SectionHead id="voices" eyebrow={d.voices.eyebrow} title={d.audience.wallTitle} />
-          </Reveal>
-          <div className="mt-12 grid grid-cols-1 items-start gap-6 lg:grid-cols-3">
-            {messages
-              .filter((m) => [4, 8, 12].includes(m.n))
-              .map((m) => (
-                <MessageCard key={m.n} m={m} lang={lang} d={d} />
-              ))}
-          </div>
-          <Link href={href(lang, "audience")} className="link-arrow mt-10">
-            {d.audience.allMessages} <ArrowIcon />
-          </Link>
-        </div>
+        <Reveal className="mx-auto max-w-3xl text-center">
+          <span className="font-[family-name:var(--font-playfair)] text-[5rem] leading-none text-terra/40" aria-hidden="true">
+            “
+          </span>
+          <SectionHead id="voices" eyebrow={d.voices.eyebrow} title={d.voices.title} intro={d.voices.text} center />
+        </Reveal>
       </section>
     </>
   );

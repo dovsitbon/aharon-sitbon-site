@@ -69,11 +69,25 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         <ul className="mx-auto grid max-w-[1320px] grid-cols-2 md:grid-cols-4">
           {h.facts.map((f, i) => (
             <Reveal as="li" key={f.n} delay={i * 0.08} className={`py-10 md:py-14 ${i % 2 ? "ps-6" : "pe-6"} ${i > 0 ? "md:border-s md:border-line md:ps-8" : ""}`}>
-              <p className="num text-[clamp(2.2rem,4vw,3.2rem)] leading-none text-blue">{f.n}</p>
+              <p className="num text-[clamp(2.2rem,4vw,3.2rem)] leading-none text-blue">
+                <span dir="ltr">{f.n}</span>
+              </p>
               <p className="mt-3 text-[0.9375rem] leading-snug text-muted">{f.t}</p>
             </Reveal>
           ))}
         </ul>
+      </section>
+
+      {/* Petit accès discret à la page des avis du public */}
+      <section className="px-5 pt-8 md:px-10" aria-label={d.nav.audience}>
+        <Link href={href(lang, "audience")} className="group mx-auto flex max-w-[1320px] flex-wrap items-center gap-x-4 gap-y-2 rounded-full border border-line bg-white px-5 py-3 text-[0.9375rem] transition-colors hover:border-terra/50">
+          <span className="font-medium text-blue">{d.audience.teaser.views}</span>
+          <span className="text-line" aria-hidden="true">|</span>
+          <span className="text-muted">{d.audience.teaser.messages}</span>
+          <span className="link-arrow ms-auto">
+            {d.audience.teaser.link} <ArrowIcon />
+          </span>
+        </Link>
       </section>
 
       {/* Son histoire */}
@@ -131,12 +145,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
             </h2>
             <p className="mt-1 text-haze">{h.spanish.subtitle}</p>
             <p className="lead mt-5">{h.spanish.text}</p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <WatchButton id="Pi8NCkgmL8I" title={`${h.spanish.title} – ${h.spanish.subtitle}`} label={h.spanish.button} className="btn" />
-              <Link href={href(lang, "audience")} className="btn-ghost text-paper">
-                {d.audience.homeButton}
-              </Link>
-            </div>
+            <WatchButton id="Pi8NCkgmL8I" title={`${h.spanish.title} – ${h.spanish.subtitle}`} label={h.spanish.button} className="btn mt-8" />
           </div>
         </Reveal>
       </section>
