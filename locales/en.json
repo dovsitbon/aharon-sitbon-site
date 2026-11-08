@@ -118,7 +118,7 @@
       {
         "year": "2014",
         "title": "Adon Olam",
-        "text": "Producer Youval Stoupel hears it and releases it as a single. Unsure about a comeback at his age, he opens the Lubavitcher Rebbe's letters and reads that an artist who returns to faith should place his talent in the service of holiness. He has his answer."
+        "text": "Producer Youval Stoupel hears it and releases it as a single. Unsure about a comeback at his age, he opens the Lubavitcher Rebbe's letters and reads that an artist who returns to faith should place his talent in the service of holiness. He has his answer. Since then he has released three songs a year on average."
       },
       {
         "year": "2016 · 2021",
@@ -380,7 +380,7 @@
       "title": "Today: his new songs",
       "eyebrow": "Today",
       "h1": "Still <em>on the road</em>",
-      "intro": "Since his return in 2014 he has never stopped: he composes, he records, and a new song comes out almost every year.",
+      "intro": "Since his return in 2014 he has never stopped: he composes, he records, and releases three songs a year on average.",
       "desc": "What Aharon Sitbon is doing today: Niggun Yehudi (2026), Tefila LeShalom (2025), his work with Eli Klein and Yitzy Berry, and duets with his son David."
     },
     "guest": {
@@ -435,7 +435,7 @@
     "ctaText": "Listen to his albums, follow his channel, or send him a few words.",
     "ctaButton": "Listen to his music",
     "todayTitle": "Today, he <em>still sings</em>",
-    "todayText": "He keeps composing, and a new song comes out almost every year, made with Eli Klein and Yitzy Berry, often with his son David.",
+    "todayText": "He keeps composing, and releases three songs a year on average, made with Eli Klein and Yitzy Berry, often with his son David.",
     "todayLink": "What he's doing today",
     "eventsText": "The Olympia, Menorah Hall before thousands, the Tower of David, the Tzama convention: a voice that has filled halls, then and now.",
     "ctaSecondary": "Write to him",
@@ -460,7 +460,7 @@
   },
   "today": {
     "releasesEyebrow": "Latest releases",
-    "releasesTitle": "A song <em>almost every year</em>",
+    "releasesTitle": "Three songs <em>a year</em>, on average",
     "releases": [
       {
         "id": "niggun-yehudi",

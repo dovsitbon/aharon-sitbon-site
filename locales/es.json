@@ -118,7 +118,7 @@
       {
         "year": "2014",
         "title": "Adon Olam",
-        "text": "El productor Youval Stoupel la escucha y la publica como sencillo. Duda en volver a su edad; en las cartas del Rebe de Lubavitch lee que un artista que vuelve a la fe debe poner su talento al servicio de la santidad. Ahí está su respuesta."
+        "text": "El productor Youval Stoupel la escucha y la publica como sencillo. Duda en volver a su edad; en las cartas del Rebe de Lubavitch lee que un artista que vuelve a la fe debe poner su talento al servicio de la santidad. Ahí está su respuesta. Desde entonces publica una media de tres cantos al año."
       },
       {
         "year": "2016 · 2021",
@@ -380,7 +380,7 @@
       "title": "Hoy: sus nuevos cantos",
       "eyebrow": "Hoy",
       "h1": "Siempre <em>en camino</em>",
-      "intro": "Desde su regreso en 2014 no ha parado: compone, graba, y casi cada año sale un nuevo canto.",
+      "intro": "Desde su regreso en 2014 no ha parado: compone, graba, y publica una media de tres cantos al año.",
       "desc": "Lo que hace hoy Aharon Sitbon: Niggun Yehudi (2026), Tefila LeShalom (2025), su trabajo con Eli Klein e Yitzy Berry y los dúos con su hijo David."
     },
     "guest": {
@@ -435,7 +435,7 @@
     "ctaText": "Escucha sus álbumes, sigue su canal o escríbele unas palabras.",
     "ctaButton": "Escuchar su música",
     "todayTitle": "Hoy <em>sigue cantando</em>",
-    "todayText": "Sigue componiendo, y casi cada año sale un nuevo canto, hecho con Eli Klein e Yitzy Berry, a menudo junto a su hijo David.",
+    "todayText": "Sigue componiendo, y publica una media de tres cantos al año, hecho con Eli Klein e Yitzy Berry, a menudo junto a su hijo David.",
     "todayLink": "Lo que hace hoy",
     "eventsText": "El Olympia, el Heijal Menorá ante miles de personas, la Torre de David, el congreso Tzama: una voz que ha llenado salas, ayer y hoy.",
     "ctaSecondary": "Escribirle",
@@ -460,7 +460,7 @@
   },
   "today": {
     "releasesEyebrow": "Últimos estrenos",
-    "releasesTitle": "Un canto <em>casi cada año</em>",
+    "releasesTitle": "Tres cantos <em>al año</em>, de media",
     "releases": [
       {
         "id": "niggun-yehudi",

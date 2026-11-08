@@ -118,7 +118,7 @@
       {
         "year": "2014",
         "title": "Adon Olam",
-        "text": "Le producteur Youval Stoupel l'entend et le sort en single. Il hésite à reprendre à son âge ; dans les lettres du Rabbi de Loubavitch, il lit qu'un artiste revenu à la religion doit mettre son talent au service de la sainteté. Il y voit sa réponse."
+        "text": "Le producteur Youval Stoupel l'entend et le sort en single. Il hésite à reprendre à son âge ; dans les lettres du Rabbi de Loubavitch, il lit qu'un artiste revenu à la religion doit mettre son talent au service de la sainteté. Il y voit sa réponse. Depuis, il sort en moyenne trois chants par an."
       },
       {
         "year": "2016 · 2021",
@@ -380,7 +380,7 @@
       "title": "Aujourd'hui : ses nouveaux chants",
       "eyebrow": "Aujourd'hui",
       "h1": "Toujours <em>en chemin</em>",
-      "intro": "Depuis son retour en 2014, il n'a jamais cessé : il compose, il enregistre, et un nouveau chant sort presque chaque année.",
+      "intro": "Depuis son retour en 2014, il n'a jamais cessé : il compose, il enregistre, et il sort en moyenne trois chants par an.",
       "desc": "Ce que fait Aharon Sitbon aujourd'hui : Niggun Yehudi (2026), Tefila LeShalom (2025), son travail avec Eli Klein, Yitzy Berry et son fils David."
     },
     "guest": {
@@ -435,7 +435,7 @@
     "ctaText": "Écoutez ses albums, suivez sa chaîne, ou écrivez-lui un mot.",
     "ctaButton": "Écouter sa musique",
     "todayTitle": "Aujourd'hui, il <em>chante encore</em>",
-    "todayText": "Il compose toujours, et un nouveau chant sort presque chaque année, réalisé avec Eli Klein et Yitzy Berry, souvent en famille avec son fils David.",
+    "todayText": "Il compose toujours et sort en moyenne trois chants par an, réalisé avec Eli Klein et Yitzy Berry, souvent en famille avec son fils David.",
     "todayLink": "Ce qu'il fait aujourd'hui",
     "eventsText": "L'Olympia, le Heichal Menorah devant des milliers de personnes, la Tour de David, le congrès Tzama : une voix qui a rempli des salles, hier comme aujourd'hui.",
     "ctaSecondary": "Lui écrire",
@@ -460,7 +460,7 @@
   },
   "today": {
     "releasesEyebrow": "Les dernières sorties",
-    "releasesTitle": "Un chant, <em>presque chaque année</em>",
+    "releasesTitle": "Trois chants <em>par an</em>, en moyenne",
     "releases": [
       {
         "id": "niggun-yehudi",
