@@ -68,7 +68,7 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `eyebrow` | בשלוש תחנות | En trois temps | In three movements | En tres tiempos |
 | `items.0.n` | 001 | 001 | 001 | 001 |
 | `items.0.title` | הסיפור | L'histoire | The story | La historia |
-| `items.0.text` | ז׳ילבר, ז׳יל ד׳אבריי, ז׳ילבר סנרוש, ואז אהרון: סיפור חיים שאף אחד לא היה מעז לכתוב. | Gilbert, Gilles d'Avray, Gilbert Sainroch, puis Aharon : un parcours que personne n'aurait écrit. | Gilbert, Gilles d'Avray, Gilbert Sainroch, then Aharon: a life no one would have dared to script. | Gilbert, Gilles d'Avray, Gilbert Sainroch y luego Aharon: una vida que nadie se habría atrevido a escribir. |
+| `items.0.text` | ז׳ילבר מאטיס, ז׳ילבר סיטבון, ואז אהרון: סיפור חיים שאף אחד לא היה מעז לכתוב. | Gilbert Mathis, Gilbert Sitbon, puis Aharon : un parcours que personne n'aurait écrit. | Gilbert Mathis, Gilbert Sitbon, then Aharon: a life no one would have dared to script. | Gilbert Mathis, Gilbert Sitbon y luego Aharon: una vida que nadie se habría atrevido a escribir. |
 | `items.0.link` | לקרוא את הסיפור | Lire son histoire | Read his story | Leer su historia |
 | `items.0.href` | story | story | story | story |
 | `items.1.n` | 002 | 002 | 002 | 002 |
@@ -102,13 +102,13 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `intro` | התחנות הגדולות של חיים בשתי מערכות, כפי שסופרו בעיתונות. את השאר הוא מספר הכי טוב בעצמו, על הבמה. | Les grandes étapes d'une vie en deux actes, telles que la presse les a racontées. Le reste, c'est lui qui le raconte le mieux, sur scène. | The great turning points of a life in two acts, as the press has told them. The rest he tells best himself, on stage. | Las grandes etapas de una vida en dos actos, tal como las ha contado la prensa. El resto lo cuenta mejor él mismo, en el escenario. |
 | `steps.0.year` | השורשים | Les origines | The beginning | Los orígenes |
 | `steps.0.title` | בית מלא מוזיקה | Une maison pleine de musique | A house full of music | Una casa llena de música |
-| `steps.0.text` | הוא גדל במשפחה מסורתית בת תשעה ילדים. אחותו הגדולה שרה ומנגנת בעוד, ואחד מאחיו יהיה מתופף של גדולי הזמר הצרפתי. | Il grandit dans une famille traditionnelle de neuf enfants. Sa grande sœur chante en s'accompagnant au luth ; un de ses frères deviendra batteur pour les grands noms de la chanson française. | He grows up in a traditional family of nine children. His older sister sings and plays the oud; one of his brothers will become a drummer for the great names of French song. | Crece en una familia tradicional de nueve hijos. Su hermana mayor canta acompañándose del laúd; uno de sus hermanos llegará a ser batería de los grandes nombres de la canción francesa. |
+| `steps.0.text` | הוא גדל במשפחה מסורתית בת שמונה ילדים. אחותו הגדולה שרה ומנגנת בעוד, ואחד מאחיו יהיה מתופף של גדולי הזמר הצרפתי. | Il grandit dans une famille traditionnelle de huit enfants. Sa grande sœur chante en s'accompagnant au luth ; un de ses frères deviendra batteur pour les grands noms de la chanson française. | He grows up in a traditional family of eight children. His older sister sings and plays the oud; one of his brothers will become a drummer for the great names of French song. | Crece en una familia tradicional de ocho hijos. Su hermana mayor canta acompañándose del laúd; uno de sus hermanos llegará a ser batería de los grandes nombres de la canción francesa. |
 | `steps.1.year` | מרסיי · פריז | Marseille · Paris | Marseille · Paris | Marsella · París |
 | `steps.1.title` | הגיטרה | La guitare | The guitar | La guitarra |
 | `steps.1.text` | המשפחה עוברת לצרפת, למרסיי ואחר כך לפריז. בסביבות גיל שבע־עשרה הגיטרה כבר לא עוזבת אותו. | La famille s'installe en France, à Marseille puis à Paris. Vers dix-sept ans, la guitare ne le lâche plus. | The family settles in France, first in Marseille, then Paris. At around seventeen, the guitar takes hold of him for good. | La familia se instala en Francia, primero en Marsella y luego en París. Hacia los diecisiete años, la guitarra ya no lo suelta. |
 | `steps.2.year` | שנות ה־70 | Années 1970 | The 1970s | Años 70 |
 | `steps.2.title` | הבמה | La scène | The stage | El escenario |
-| `steps.2.text` | תחרות שזכה בה, תקליט ראשון, סיבובי הופעות. מכירים אותו בשמות ז׳יל ד׳אבריי, ז׳ילבר סנרוש וז׳ילבר סיטבון. האמרגן שלו, רולאן ביסמוט, מייצג גם את איב דוטיי ומישל פוגן. | Un concours gagné, un premier 45 tours, des tournées. On le connaît sous les noms de Gilles d'Avray, Gilbert Sainroch ou Gilbert Sitbon. Son impresario, Roland Bismuth, s'occupe aussi d'Yves Duteil et de Michel Fugain. | A contest won, a first single, tours. He is known as Gilles d'Avray, Gilbert Sainroch or Gilbert Sitbon. His manager, Roland Bismuth, also looks after Yves Duteil and Michel Fugain. | Un concurso ganado, un primer disco, giras. Se le conoce como Gilles d'Avray, Gilbert Sainroch o Gilbert Sitbon. Su representante, Roland Bismuth, también lleva a Yves Duteil y a Michel Fugain. |
+| `steps.2.text` | תחרות שזכה בה, תקליט ראשון, סיבובי הופעות. מכירים אותו בשם ז׳ילבר מאטיס, ואחר כך ז׳ילבר סיטבון. האמרגנית שלו, רולאנד ביסמוט, מייצגת גם את איב דוטיי ומישל פוגן. | Un concours gagné, un premier 45 tours, des tournées. On le connaît sous le nom de Gilbert Mathis, puis de Gilbert Sitbon. Son agent, Rolande Bismuth, s'occupe aussi d'Yves Duteil et de Michel Fugain. | A contest won, a first single, tours. He is known as Gilbert Mathis, and later as Gilbert Sitbon. His agent, Rolande Bismuth, also looks after Yves Duteil and Michel Fugain. | Un concurso ganado, un primer disco, giras. Se le conoce como Gilbert Mathis y, más tarde, como Gilbert Sitbon. Su representante, Rolande Bismuth, también lleva a Yves Duteil y a Michel Fugain. |
 | `steps.3.year` | 1977 | 1977 | 1977 | 1977 |
 | `steps.3.title` | האולימפיה | L'Olympia | The Olympia | El Olympia |
 | `steps.3.text` | הוא מתארח בטלוויזיה אצל פיליפ בובאר ושר שישה שירים באולימפיה, בפתיחה להופעה של הרברט פגאני. | Il passe à la télévision chez Philippe Bouvard et chante six titres à l'Olympia, en première partie d'Herbert Pagani. | He appears on Philippe Bouvard's TV show and sings six songs at the Olympia, opening for Herbert Pagani. | Aparece en la televisión en el programa de Philippe Bouvard y canta seis canciones en el Olympia, como telonero de Herbert Pagani. |
@@ -123,7 +123,7 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `steps.6.text` | אחרי שעלה לארץ והשתקע בירושלים, הוא מוציא את הגיטרה הישנה. מנגינה של חברו מישל פוגן לא נותנת לו לישון, והוא מלביש עליה את המילים של ״אדון עולם״. | Installé en Israël, à Jérusalem, il ressort sa guitare. Une mélodie de son ami Michel Fugain l'empêche de dormir : il y pose les mots d'Adon Olam. | Settled in Israel, in Jerusalem, he takes out his old guitar. A melody by his friend Michel Fugain keeps him awake at night, and he sets the words of Adon Olam to it. | Ya instalado en Israel, en Jerusalén, saca su vieja guitarra. Una melodía de su amigo Michel Fugain no lo deja dormir, y le pone las palabras de Adon Olam. |
 | `steps.7.year` | 2014 | 2014 | 2014 | 2014 |
 | `steps.7.title` | אדון עולם | Adon Olam | Adon Olam | Adon Olam |
-| `steps.7.text` | המפיק יובל שטופל שומע ומוציא את השיר כסינגל. הוא מתלבט אם לחזור בגילו, ובאגרות הקודש של הרבי מליובאוויטש הוא קורא שאמן שחזר בתשובה צריך להעמיד את כישרונו לשירות הקדושה. זו התשובה שלו. | Le producteur Yuval Stoppel l'entend et le sort en single. Il hésite à reprendre à son âge ; dans les lettres du Rabbi de Loubavitch, il lit qu'un artiste revenu à la religion doit mettre son talent au service de la sainteté. Il y voit sa réponse. | Producer Yuval Stoppel hears it and releases it as a single. Unsure about a comeback at his age, he opens the Lubavitcher Rebbe's letters and reads that an artist who returns to faith should place his talent in the service of holiness. He has his answer. | El productor Yuval Stoppel la escucha y la publica como sencillo. Duda en volver a su edad; en las cartas del Rebe de Lubavitch lee que un artista que vuelve a la fe debe poner su talento al servicio de la santidad. Ahí está su respuesta. |
+| `steps.7.text` | המפיק יובל סטופל שומע ומוציא את השיר כסינגל. הוא מתלבט אם לחזור בגילו, ובאגרות הקודש של הרבי מליובאוויטש הוא קורא שאמן שחזר בתשובה צריך להעמיד את כישרונו לשירות הקדושה. זו התשובה שלו. | Le producteur Youval Stoupel l'entend et le sort en single. Il hésite à reprendre à son âge ; dans les lettres du Rabbi de Loubavitch, il lit qu'un artiste revenu à la religion doit mettre son talent au service de la sainteté. Il y voit sa réponse. | Producer Youval Stoupel hears it and releases it as a single. Unsure about a comeback at his age, he opens the Lubavitcher Rebbe's letters and reads that an artist who returns to faith should place his talent in the service of holiness. He has his answer. | El productor Youval Stoupel la escucha y la publica como sencillo. Duda en volver a su edad; en las cartas del Rebe de Lubavitch lee que un artista que vuelve a la fe debe poner su talento al servicio de la santidad. Ahí está su respuesta. |
 | `steps.8.year` | 2016 · 2021 | 2016 · 2021 | 2016 · 2021 | 2016 · 2021 |
 | `steps.8.title` | שני אלבומים | Deux albums | Two albums | Dos álbumes |
 | `steps.8.text` | ״שהחיינו״, שכל הכנסותיו הוקדשו לעמותת אשל ציון, ו״הגיע זמן גאולתכם״, שהוכן במשך שלוש שנים עם אלי קליין ואיצי ברי. | « Shehecheyanu », dont les bénéfices vont à l'association Eshel Tsion, puis « Higia Zman Geulatchem », préparé pendant trois ans avec Eli Klein et Yitzy Berry. | “Shehecheyanu”, whose proceeds went to the Eshel Tsion charity, then “Higia Zman Geulatchem”, three years in the making with Eli Klein and Yitzy Berry. | «Shehecheyanu», cuyos beneficios fueron para la asociación Eshel Tsion, y luego «Higia Zman Geulatchem», preparado durante tres años con Eli Klein e Yitzy Berry. |
@@ -141,7 +141,7 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `albums` | אלבומים | Albums | Albums | Álbumes |
 | `singles` | סינגלים | Singles | Singles | Sencillos |
 | `archives` | הארכיון הצרפתי | Archives françaises | French archives | Archivos franceses |
-| `archivesText` | התקליטים של ז׳ילבר סיטבון, ז׳יל ד׳אבריי וז׳ילבר סנרוש. | Les 45 tours de Gilbert Sitbon, Gilles d'Avray et Gilbert Sainroch. | The vinyl singles of Gilbert Sitbon, Gilles d'Avray and Gilbert Sainroch. | Los discos de Gilbert Sitbon, Gilles d'Avray y Gilbert Sainroch. |
+| `archivesText` | התקליטים של ז׳ילבר סיטבון. | Les 45 tours de Gilbert Sitbon. | The vinyl singles of Gilbert Sitbon. | Los discos de Gilbert Sitbon. |
 | `tracks` | {n} שירים | {n} titres | {n} tracks | {n} canciones |
 | `listen` | להאזנה | Écouter | Listen | Escuchar |
 | `listenTrack` | להאזנה ל״{title}״ | Écouter « {title} » | Listen to “{title}” | Escuchar «{title}» |
@@ -219,9 +219,8 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `title` | לפני אהרון, היה ז׳ילבר | Avant Aharon, il y avait Gilbert | Before Aharon, there was Gilbert | Antes de Aharon, estaba Gilbert |
 | `text` | בשנות ה־70 הוא מקליט תקליטים, מופיע ברחבי צרפת ומושמע ברדיו. הוא עצמו כבר לא הקשיב להם. הנה הם, יחד. | Dans les années 1970, il enregistre des 45 tours, tourne en France et passe à la radio. Ces disques, il ne les écoutait plus. Les voici rassemblés. | In the 1970s he records singles, tours France and is played on the radio. He had stopped listening to those records himself. Here they are, together. | En los años 70 graba discos, hace giras por Francia y suena en la radio. Él mismo ya no los escuchaba. Aquí están, reunidos. |
 | `names` | שמות הבמה שלו | Ses noms de scène | His stage names | Sus nombres artísticos |
-| `namesList.0` | Gilles d'Avray | Gilles d'Avray | Gilles d'Avray | Gilles d'Avray |
-| `namesList.1` | Gilbert Sainroch | Gilbert Sainroch | Gilbert Sainroch | Gilbert Sainroch |
-| `namesList.2` | Gilbert Sitbon | Gilbert Sitbon | Gilbert Sitbon | Gilbert Sitbon |
+| `namesList.0` | Gilbert Mathis | Gilbert Mathis | Gilbert Mathis | Gilbert Mathis |
+| `namesList.1` | Gilbert Sitbon | Gilbert Sitbon | Gilbert Sitbon | Gilbert Sitbon |
 | `records` | התקליטים | Les 45 tours | The singles | Los sencillos en vinilo |
 | `coverSoon` | העטיפה בקרוב | Pochette à venir | Sleeve coming soon | Portada próximamente |
 | `sideA` | צד א׳ | Face A | Side A | Cara A |
@@ -401,7 +400,7 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `guest.desc` | אהרון סיטבון יכול להגיע לשיר רגע מיוחד בחתונה, בחופה או בערב גאלה, בנוסף לתזמורת שלכם: שיר או שניים, הסיפור שלו, והרבה רגש. | Aharon Sitbon peut venir chanter un moment fort lors d'un mariage, d'une houppa ou d'un gala, en complément de votre orchestre : un ou deux chants, son histoire, l'émotion. | Aharon Sitbon can come and sing a special moment at a wedding, a chuppah or a gala, alongside your band: one or two songs, his story, and a lot of emotion. | Aharon Sitbon puede venir a cantar un momento especial en una boda, una jupá o una gala, junto a tu orquesta: una o dos canciones, su historia, mucha emoción. |
 | `guest.eyebrow` | רגע איתו | Un moment avec lui | A moment with him | Un momento con él |
 | `guest.h1` | רגע של <em>רגש</em>, לא ערב של הקפצה | Un moment d'<em>émotion</em>, pas une soirée d'ambiance | A moment of <em>emotion</em>, not a party set | Un momento de <em>emoción</em>, no una noche de animación |
-| `guest.intro` | אהרון סיטבון לא מקפיץ אירועים: הוא מגיע לשיר אחד או שניים ונותן רגע שלא שוכחים. מתחת לחופה, באמצע ערב גאלה, או כשהאולם נרגע בסוף הערב. | Aharon Sitbon n'anime pas les soirées : il vient, le temps d'un ou deux chants, offrir un moment qu'on n'oublie pas. Sous la houppa, au cœur d'un gala, ou quand la salle se pose en fin de soirée. | Aharon Sitbon is not a party singer: he comes for one or two songs and gives a moment people remember. Under the chuppah, in the middle of a gala, or when the room settles at the end of the evening. | Aharon Sitbon no anima fiestas: viene para una o dos canciones y regala un momento que no se olvida. Bajo la jupá, en medio de una gala o cuando la sala se calma al final de la noche. |
+| `guest.intro` | אהרון סיטבון לא מקפיץ אירועים: הוא מגיע לכמה שירים ונותן רגע שלא שוכחים. מתחת לחופה, באמצע ערב גאלה, או כשהאולם נרגע בסוף הערב. | Aharon Sitbon n'anime pas les soirées : il vient, le temps de quelques chansons, offrir un moment qu'on n'oublie pas. Sous la houppa, au cœur d'un gala, ou quand la salle se pose en fin de soirée. | Aharon Sitbon is not a party singer: he comes for a few songs and gives a moment people remember. Under the chuppah, in the middle of a gala, or when the room settles at the end of the evening. | Aharon Sitbon no anima fiestas: viene para algunas canciones y regala un momento que no se olvida. Bajo la jupá, en medio de una gala o cuando la sala se calma al final de la noche. |
 
 ## Textes · home
 
@@ -413,8 +412,8 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `facts.1.t` | שנות שתיקה ולימוד | ans de silence et d'étude | years of silence and study | años de silencio y estudio |
 | `facts.2.n` | 2 | 2 | 2 | 2 |
 | `facts.2.t` | אלבומים ויותר מעשרים סינגלים | albums et plus de vingt singles | albums and over twenty singles | álbumes y más de veinte sencillos |
-| `facts.3.n` | 510,000 | 510 000 | 510,000 | 510 000 |
-| `facts.3.t` | צפיות ב״אודך ה׳ אלוקי״ | vues pour « Odeh Hashem Elokai » | views for “Odeh Hashem Elokai” | visualizaciones de «Odeh Hashem Elokai» |
+| `facts.3.n` | ≈ 5M | ≈ 5 M | ≈ 5M | ≈ 5 M |
+| `facts.3.t` | כ־5 מיליון צפיות ברחבי העולם | vues dans le monde, toutes chansons confondues | views worldwide, all songs | de visualizaciones en el mundo |
 | `latestEyebrow` | השיר החדש · 2026 | Dernière sortie · 2026 | Latest release · 2026 | Último estreno · 2026 |
 | `latestText` | שיר על נס פורים, שיצא במרץ 2026, עם קליף של זאבי הלר. | Un chant sur le miracle de Pourim, sorti en mars 2026, avec un clip réalisé par Zeevi Heller. | A song about the miracle of Purim, released in March 2026, with a video by Zeevi Heller. | Un canto sobre el milagro de Purim, estrenado en marzo de 2026, con un videoclip de Zeevi Heller. |
 | `latestListen` | להאזנה לסינגל | Écouter le single | Listen to the single | Escuchar el sencillo |
@@ -429,7 +428,7 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `eventsLink` | לכל ההופעות | Tous ses concerts | All his concerts | Todos sus conciertos |
 | `pressTitle` | מדברים <em>עליו</em> | Ils en <em>parlent</em> | In the <em>press</em> | Hablan de <em>él</em> |
 | `pressLink` | לכל הכתבות | Toute la presse | All press | Toda la prensa |
-| `ctaTitle` | המוזיקה שלו <em>נגעה בכם</em>? | Sa musique vous a <em>touché</em> ? | Has his music <em>touched</em> you? | ¿Te ha <em>emocionado</em> su música? |
+| `ctaTitle` | המוזיקה שלו <em>נגעה בכם</em>? | Sa musique vous a-t-elle <em>touché</em> ? | Has his music <em>touched</em> you? | ¿Te ha <em>emocionado</em> su música? |
 | `ctaText` | האזינו לאלבומים, עקבו אחרי הערוץ, או כתבו לו כמה מילים. | Écoutez ses albums, suivez sa chaîne, ou écrivez-lui un mot. | Listen to his albums, follow his channel, or send him a few words. | Escucha sus álbumes, sigue su canal o escríbele unas palabras. |
 | `ctaButton` | להאזנה למוזיקה | Écouter sa musique | Listen to his music | Escuchar su música |
 | `todayTitle` | היום, הוא <em>עדיין שר</em> | Aujourd'hui, il <em>chante encore</em> | Today, he <em>still sings</em> | Hoy <em>sigue cantando</em> |
@@ -437,6 +436,11 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `todayLink` | מה הוא עושה היום | Ce qu'il fait aujourd'hui | What he's doing today | Lo que hace hoy |
 | `eventsText` | האולימפיה, היכל מנורה מול אלפים, מגדל דוד, כנס ״צמאה״: קול שמילא אולמות, אז והיום. | L'Olympia, le Heichal Menorah devant des milliers de personnes, la Tour de David, le congrès Tzama : une voix qui a rempli des salles, hier comme aujourd'hui. | The Olympia, Menorah Hall before thousands, the Tower of David, the Tzama convention: a voice that has filled halls, then and now. | El Olympia, el Heijal Menorá ante miles de personas, la Torre de David, el congreso Tzama: una voz que ha llenado salas, ayer y hoy. |
 | `ctaSecondary` | לכתוב לו | Lui écrire | Write to him | Escribirle |
+| `spanish.eyebrow` | בספרדית | En espagnol | In Spanish | En español |
+| `spanish.title` | Rey Mesías | Rey Mesías | Rey Mesías | Rey Mesías |
+| `spanish.subtitle` | מלך המשיח | Melech HaMashiach · מלך המשיח | Melech HaMashiach · מלך המשיח | Melech HaMashiach · מלך המשיח |
+| `spanish.text` | עם תרגום לספרדית, ״מלך המשיח״ הגיע עד אמריקה הלטינית: יותר מ־2.2 מיליון צפיות ויותר מ־1,000 תגובות ביוטיוב. בסך הכול, השירים שלו צברו כמעט 5 מיליון צפיות ברחבי העולם. | Avec sa traduction en espagnol, « Melech HaMashiach » a fait le tour de l'Amérique latine : plus de 2,2 millions de vues et plus de 1 000 commentaires sur YouTube. Au total, ses chansons cumulent près de 5 millions de vues dans le monde. | With its Spanish translation, “Melech HaMashiach” has travelled all over Latin America: more than 2.2 million views and over 1,000 comments on YouTube. In total, his songs have reached nearly 5 million views worldwide. | Con su traducción al español, «Melech HaMashiach» ha recorrido toda América Latina: más de 2,2 millones de visualizaciones y más de 1000 comentarios en YouTube. En total, sus canciones suman casi 5 millones de visualizaciones en el mundo. |
+| `spanish.button` | לצפייה בסרטון | Voir la vidéo | Watch the video | Ver el video |
 
 ## Textes · events
 
@@ -469,7 +473,7 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `releases.1.note` | תפילה לשלום, שצולמה מול הכותל. | Une prière pour la paix, filmée devant le Kotel. | A prayer for peace, filmed at the Kotel. | Una oración por la paz, filmada ante el Kotel. |
 | `releases.2.id` | odeh-hashem | odeh-hashem | odeh-hashem | odeh-hashem |
 | `releases.2.date` | 2024 | 2024 | 2024 | 2024 |
-| `releases.2.note` | מזמור תהלים לקראת אלול, בימי המלחמה. הסרטון הנצפה ביותר שלו: יותר מ־500,000 צפיות. | Un psaume chanté avant Elloul, pendant la guerre. Sa vidéo la plus vue : plus de 500 000 vues. | A psalm sung ahead of Elul, during the war. His most watched video: over 500,000 views. | Un salmo cantado antes de Elul, durante la guerra. Su video más visto: más de 500 000 visualizaciones. |
+| `releases.2.note` | מזמור תהלים לקראת אלול, בימי המלחמה. הסרטון הנצפה ביותר בערוץ שלו: יותר מ־500,000 צפיות. | Un psaume chanté avant Elloul, pendant la guerre. La plus vue de sa chaîne : plus de 500 000 vues. | A psalm sung ahead of Elul, during the war. The most watched on his channel: over 500,000 views. | Un salmo cantado antes de Elul, durante la guerra. El más visto de su canal: más de 500 000 visualizaciones. |
 | `releases.3.id` | ana-hashem | ana-hashem | ana-hashem | ana-hashem |
 | `releases.3.date` | 2024 | 2024 | 2024 | 2024 |
 | `releases.3.note` | תחינה, בלב חודשים קשים. | Une supplication, au cœur des mois difficiles. | A plea, in the heart of difficult months. | Una súplica, en el corazón de meses difíciles. |
@@ -530,6 +534,14 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `teaser` | חתונה, חופה, ערב גאלה: הוא יכול גם להגיע לשיר רגע אחד, בנוסף לתזמורת. | Mariage, houppa, gala : il peut aussi venir chanter un moment, en complément. | Wedding, chuppah, gala: he can also come and sing for a moment, alongside your band. | Boda, jupá, gala: también puede venir a cantar un momento, como complemento. |
 | `teaserLink` | לפרטים | En savoir plus | Learn more | Saber más |
 
+## Textes · langBanner
+
+| clé | עברית | Français | English | Español |
+|---|---|---|---|---|
+| `text` |  | Ce site existe en français. | This site is available in English. | Este sitio está disponible en español. |
+| `button` |  | Voir en français | View in English | Ver en español |
+| `close` | סגירה | Fermer | Close | Cerrar |
+
 ## Discographie
 
 ### שהחיינו – Shehecheyanu (2016)
@@ -545,7 +557,7 @@ Production : Aharon Sitbon · Apple Music : https://music.apple.com/us/album/%D7
 | 4 | שהחיינו | Shehecheyanu | Qui nous a fait vivre | Who Has Kept Us Alive | Que nos ha dado vida | 2016 | 4:22 | Aharon Sitbon | ? | [clip](https://youtu.be/6qX2yE2EYkY) | à fournir | non |
 | 5 | אין כאלוקינו | Ein Kelokeinu | Nul n'est comme notre D.ieu | There Is None Like Our G-d | No hay como nuestro D-os | 2016 | 4:47 | Aharon Sitbon | ? | [clip](https://youtu.be/hv8LJTLSqTg) | à fournir | non |
 | 6 | לא אירא רע | Lo Ira Ra | Je ne crains aucun mal | I Will Fear No Evil | No temeré mal alguno | 2016 | 4:26 | Aharon Sitbon | ? | — | à fournir | non |
-| 7 | אדון עולם | Adon Olam | Maître du monde | Master of the World | Señor del mundo | 2014 | 4:08 | Michel Fugain (à confirmer) | Yuval Stoppel | [clip](https://youtu.be/S1BnZXBVEMY) | à fournir | non |
+| 7 | אדון עולם | Adon Olam | Maître du monde | Master of the World | Señor del mundo | 2014 | 4:08 | Michel Fugain (à confirmer) | Youval Stoupel | [clip](https://youtu.be/S1BnZXBVEMY) | à fournir | non |
 | 8 | ירושלים | Yerushalayim | Jérusalem | Jerusalem | Jerusalén | 2016 | 4:40 | Aharon Sitbon | ? | [clip](https://youtu.be/GV_SYRu0ylY) | à fournir | non |
 | 9 | שומר ישראל | Shomer Israel | Le Gardien d'Israël | Guardian of Israel | Guardián de Israel | 2015 | 4:12 | Aharon Sitbon | ? | [clip](https://youtu.be/qqUSp6ySse8) | à fournir | non |
 | 10 | אחכה לו | Achake Lo | Je L'attendrai | I Will Wait for Him | Lo esperaré | 2016 | 4:24 | Aharon Sitbon | ? | [clip](https://youtu.be/29VD_iylD44) | à fournir | non |
@@ -588,53 +600,52 @@ Production : Eli Klein & Yitzy Berry · צבעים הפקות · Apple Music : h
 
 | Année | Artiste | Face A | Face B | Label | Réf. | Crédit |
 |---|---|---|---|---|---|---|
-| 1971 | Gilles d'Avray | Petite fille | Isabelle | Versailles | VER 7257 | Orchestre d'Hervé Roy |
 | 197? | Gilbert Sitbon | Il faut rouler cool | — | Autoproduction | DY 726 |  |
-| 1978 | Gilbert Sainroch | L'eau et le feu | Le fou du roi | Philips / Phonogram | 6172 069 |  |
 | 1980 | Gilbert Sitbon | À mi-chemin | Même tes amours | RCA | PB 8559 | Arrangements de Christian Gaubert |
 
-## Clips (38 vidéos de la chaîne)
+## Clips (39 vidéos de la chaîne)
 
 | # | ID | Catégorie | Titre | Note (FR) |
 |---|---|---|---|---|
-| 1 | [RB68H4UySCo](https://youtu.be/RB68H4UySCo) | official | ניגון יהודי – Niggun Yehudi | Clip réalisé en IA par Zeevi Heller |
-| 2 | [HnF3VoesPY0](https://youtu.be/HnF3VoesPY0) | official | תפילה לשלום – Tefila LeShalom |  |
-| 3 | [PwIypRRTH_w](https://youtu.be/PwIypRRTH_w) | official | אודך ה' אלוקי – Odeh Hashem Elokai |  |
-| 4 | [1fmuQAA5ULo](https://youtu.be/1fmuQAA5ULo) | official | אב הרחמן – Av HaRachaman |  |
-| 5 | [TxQLvZXCiKQ](https://youtu.be/TxQLvZXCiKQ) | official | אנא ה' – Ana Hashem |  |
-| 6 | [H9RztmVYBDM](https://youtu.be/H9RztmVYBDM) | official | שיר חדש – Shir Hadash |  |
-| 7 | [kjGJBjnMwoA](https://youtu.be/kjGJBjnMwoA) | official | אור בעיני – Or Be'einai |  |
-| 8 | [itS7_nb7XaQ](https://youtu.be/itS7_nb7XaQ) | official | ימים באים – Yamim Baim |  |
-| 9 | [rKtVIh0bDCk](https://youtu.be/rKtVIh0bDCk) | official | ליבי הומה לך – Libi Homa Lecha |  |
-| 10 | [TYlFt7rxUtI](https://youtu.be/TYlFt7rxUtI) | official | אם לא עכשיו אימתי – Im Lo Achshav Ematai |  |
-| 11 | [MKTaVf_SHEw](https://youtu.be/MKTaVf_SHEw) | interview | « HaMevaker » sur Kikar HaShabbat | Avec Eli Klein et Yitzy Berry · 18 min |
-| 12 | [TIetzheEf_U](https://youtu.be/TIetzheEf_U) | official | כל זמן שהנשמה בקרבי – Kol Zman Shehaneshama Bekirbi | Clip avec paroles |
-| 13 | [kmLBUAEwrLI](https://youtu.be/kmLBUAEwrLI) | interview | Higia Zman Geulatchem : présentation de l'album | 9 min |
-| 14 | [Q9KAISXAeIc](https://youtu.be/Q9KAISXAeIc) | official | והריקותי לכם ברכה – Vehariokti Lachem Bracha |  |
-| 15 | [UepVKsxy04o](https://youtu.be/UepVKsxy04o) | archive | Sa vie comme vous ne l'avez jamais vue | 1 min |
-| 16 | [8V6H6uSS3HY](https://youtu.be/8V6H6uSS3HY) | live | מלך המשיח – Melech HaMashiach | Sous-titré en espagnol |
-| 17 | [u9GYNf6_lyA](https://youtu.be/u9GYNf6_lyA) | official | אין לי מילים – Ein Li Milim |  |
-| 18 | [m3LhuFUDZqk](https://youtu.be/m3LhuFUDZqk) | live | ירושלים – Yerushalayim | Spectacle Tzama 5781 |
-| 19 | [3ryPJH8kgdA](https://youtu.be/3ryPJH8kgdA) | official | הורני ה' – Horeni Hashem |  |
-| 20 | [l_sfgBg4tT4](https://youtu.be/l_sfgBg4tT4) | live | שהחיינו – Shehecheyanu | En concert à la Tour de David |
-| 21 | [hv8LJTLSqTg](https://youtu.be/hv8LJTLSqTg) | official | אין כאלוקינו – Ein Kelokeinu |  |
-| 22 | [maKhjjGhSdU](https://youtu.be/maKhjjGhSdU) | live | ירושלים – Yerushalayim | Version spéciale |
-| 23 | [29VD_iylD44](https://youtu.be/29VD_iylD44) | official | אחכה לו – Achake Lo | Avec David Sitbon |
-| 24 | [L63XHDIIE_U](https://youtu.be/L63XHDIIE_U) | official | תן שלום – Ten Shalom |  |
-| 25 | [bH4Fv2dTheE](https://youtu.be/bH4Fv2dTheE) | live | Il raconte sa vie sur scène |  |
-| 26 | [Lrmd4Iylbrk](https://youtu.be/Lrmd4Iylbrk) | official | שיבוא כבר – Sheyavo Kvar |  |
-| 27 | [2v5zUsiY1Vs](https://youtu.be/2v5zUsiY1Vs) | live | הגיע זמן גאולתכם – Higia Zman Geulatchem |  |
-| 28 | [w67jhBVqoz0](https://youtu.be/w67jhBVqoz0) | official | מודה אני לך – Modeh Ani Lecha | En duo avec son petit-fils |
-| 29 | [p4rW6d7ezv0](https://youtu.be/p4rW6d7ezv0) | official | מלך המשיח – Melech HaMashiach |  |
-| 30 | [6qX2yE2EYkY](https://youtu.be/6qX2yE2EYkY) | official | שהחיינו – Shehecheyanu |  |
-| 31 | [qqUSp6ySse8](https://youtu.be/qqUSp6ySse8) | official | שומר ישראל – Shomer Israel | Avec les soldats de Tsahal |
-| 32 | [oXid2ifaAmI](https://youtu.be/oXid2ifaAmI) | official | אני מאמין – Ani Maamin |  |
-| 33 | [GV_SYRu0ylY](https://youtu.be/GV_SYRu0ylY) | official | ירושלים – Yerushalayim |  |
-| 34 | [S1BnZXBVEMY](https://youtu.be/S1BnZXBVEMY) | official | אדון עולם – Adon Olam |  |
-| 35 | [ajWbyr3iZTk](https://youtu.be/ajWbyr3iZTk) | official | גם כי אלך – Gam Ki Elech |  |
-| 36 | [ORAejqu-GIE](https://youtu.be/ORAejqu-GIE) | official | הגיע זמן גאולתכם – Higia Zman Geulatchem |  |
-| 37 | [omm07ocRjxI](https://youtu.be/omm07ocRjxI) | official | L'album Shehecheyanu |  |
-| 38 | [1k-gm2mR9vg](https://youtu.be/1k-gm2mR9vg) | archive | Interview à la télévision, 1977 |  |
+| 1 | [Pi8NCkgmL8I](https://youtu.be/Pi8NCkgmL8I) | official | Rey Mesías · Melech HaMashiach | Avec traduction espagnole · chaîne Muzika Laneshama |
+| 2 | [RB68H4UySCo](https://youtu.be/RB68H4UySCo) | official | ניגון יהודי – Niggun Yehudi | Clip réalisé en IA par Zeevi Heller |
+| 3 | [HnF3VoesPY0](https://youtu.be/HnF3VoesPY0) | official | תפילה לשלום – Tefila LeShalom |  |
+| 4 | [PwIypRRTH_w](https://youtu.be/PwIypRRTH_w) | official | אודך ה' אלוקי – Odeh Hashem Elokai |  |
+| 5 | [1fmuQAA5ULo](https://youtu.be/1fmuQAA5ULo) | official | אב הרחמן – Av HaRachaman |  |
+| 6 | [TxQLvZXCiKQ](https://youtu.be/TxQLvZXCiKQ) | official | אנא ה' – Ana Hashem |  |
+| 7 | [H9RztmVYBDM](https://youtu.be/H9RztmVYBDM) | official | שיר חדש – Shir Hadash |  |
+| 8 | [kjGJBjnMwoA](https://youtu.be/kjGJBjnMwoA) | official | אור בעיני – Or Be'einai |  |
+| 9 | [itS7_nb7XaQ](https://youtu.be/itS7_nb7XaQ) | official | ימים באים – Yamim Baim |  |
+| 10 | [rKtVIh0bDCk](https://youtu.be/rKtVIh0bDCk) | official | ליבי הומה לך – Libi Homa Lecha |  |
+| 11 | [TYlFt7rxUtI](https://youtu.be/TYlFt7rxUtI) | official | אם לא עכשיו אימתי – Im Lo Achshav Ematai |  |
+| 12 | [MKTaVf_SHEw](https://youtu.be/MKTaVf_SHEw) | interview | « HaMevaker » sur Kikar HaShabbat | Avec Eli Klein et Yitzy Berry · 18 min |
+| 13 | [TIetzheEf_U](https://youtu.be/TIetzheEf_U) | official | כל זמן שהנשמה בקרבי – Kol Zman Shehaneshama Bekirbi | Clip avec paroles |
+| 14 | [kmLBUAEwrLI](https://youtu.be/kmLBUAEwrLI) | interview | Higia Zman Geulatchem : présentation de l'album | 9 min |
+| 15 | [Q9KAISXAeIc](https://youtu.be/Q9KAISXAeIc) | official | והריקותי לכם ברכה – Vehariokti Lachem Bracha |  |
+| 16 | [UepVKsxy04o](https://youtu.be/UepVKsxy04o) | archive | Sa vie comme vous ne l'avez jamais vue | 1 min |
+| 17 | [8V6H6uSS3HY](https://youtu.be/8V6H6uSS3HY) | live | מלך המשיח – Melech HaMashiach | Sous-titré en espagnol |
+| 18 | [u9GYNf6_lyA](https://youtu.be/u9GYNf6_lyA) | official | אין לי מילים – Ein Li Milim |  |
+| 19 | [m3LhuFUDZqk](https://youtu.be/m3LhuFUDZqk) | live | ירושלים – Yerushalayim | Spectacle Tzama 5781 |
+| 20 | [3ryPJH8kgdA](https://youtu.be/3ryPJH8kgdA) | official | הורני ה' – Horeni Hashem |  |
+| 21 | [l_sfgBg4tT4](https://youtu.be/l_sfgBg4tT4) | live | שהחיינו – Shehecheyanu | En concert à la Tour de David |
+| 22 | [hv8LJTLSqTg](https://youtu.be/hv8LJTLSqTg) | official | אין כאלוקינו – Ein Kelokeinu |  |
+| 23 | [maKhjjGhSdU](https://youtu.be/maKhjjGhSdU) | live | ירושלים – Yerushalayim | Version spéciale |
+| 24 | [29VD_iylD44](https://youtu.be/29VD_iylD44) | official | אחכה לו – Achake Lo | Avec David Sitbon |
+| 25 | [L63XHDIIE_U](https://youtu.be/L63XHDIIE_U) | official | תן שלום – Ten Shalom |  |
+| 26 | [bH4Fv2dTheE](https://youtu.be/bH4Fv2dTheE) | live | Il raconte sa vie sur scène |  |
+| 27 | [Lrmd4Iylbrk](https://youtu.be/Lrmd4Iylbrk) | official | שיבוא כבר – Sheyavo Kvar |  |
+| 28 | [2v5zUsiY1Vs](https://youtu.be/2v5zUsiY1Vs) | live | הגיע זמן גאולתכם – Higia Zman Geulatchem |  |
+| 29 | [w67jhBVqoz0](https://youtu.be/w67jhBVqoz0) | official | מודה אני לך – Modeh Ani Lecha | En duo avec son petit-fils |
+| 30 | [p4rW6d7ezv0](https://youtu.be/p4rW6d7ezv0) | official | מלך המשיח – Melech HaMashiach |  |
+| 31 | [6qX2yE2EYkY](https://youtu.be/6qX2yE2EYkY) | official | שהחיינו – Shehecheyanu |  |
+| 32 | [qqUSp6ySse8](https://youtu.be/qqUSp6ySse8) | official | שומר ישראל – Shomer Israel | Avec les soldats de Tsahal |
+| 33 | [oXid2ifaAmI](https://youtu.be/oXid2ifaAmI) | official | אני מאמין – Ani Maamin |  |
+| 34 | [GV_SYRu0ylY](https://youtu.be/GV_SYRu0ylY) | official | ירושלים – Yerushalayim |  |
+| 35 | [S1BnZXBVEMY](https://youtu.be/S1BnZXBVEMY) | official | אדון עולם – Adon Olam |  |
+| 36 | [ajWbyr3iZTk](https://youtu.be/ajWbyr3iZTk) | official | גם כי אלך – Gam Ki Elech |  |
+| 37 | [ORAejqu-GIE](https://youtu.be/ORAejqu-GIE) | official | הגיע זמן גאולתכם – Higia Zman Geulatchem |  |
+| 38 | [omm07ocRjxI](https://youtu.be/omm07ocRjxI) | official | L'album Shehecheyanu |  |
+| 39 | [1k-gm2mR9vg](https://youtu.be/1k-gm2mR9vg) | archive | Interview à la télévision, 1977 |  |
 
 ## Concerts passés
 

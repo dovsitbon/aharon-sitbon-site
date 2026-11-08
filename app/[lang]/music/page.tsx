@@ -54,7 +54,7 @@ export default async function Music({ params }: PageProps<"/[lang]/music">) {
       <section className="px-5 py-24 md:px-10 md:py-28" aria-labelledby="archives">
         <div className="mx-auto max-w-[1320px]">
           <Reveal className="mb-12 flex flex-wrap items-end justify-between gap-6">
-            <SectionHead id="archives" eyebrow={d.music.archives} title={`${d.music.archives} <em>1971 · 1980</em>`} intro={d.music.archivesText} />
+            <SectionHead id="archives" eyebrow={d.music.archives} title={`${d.music.archives} <em>1970 · 1980</em>`} intro={d.music.archivesText} />
             <Link href={`${href(lang, "story")}#french`} className="link-arrow">
               {d.french.eyebrow} <ArrowIcon />
             </Link>

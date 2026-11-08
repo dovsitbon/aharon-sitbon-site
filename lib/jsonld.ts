@@ -37,7 +37,7 @@ export function jsonLd(lang: Locale, d: Dict) {
         "@type": "Person",
         "@id": `${site.url}/#person`,
         name: "Aharon Sitbon",
-        alternateName: ["אהרון סיטבון", "אהרן סיטבון", "Gilbert Sitbon", "Aaron Sitbon", "Gilles d'Avray", "Gilbert Sainroch"],
+        alternateName: ["אהרון סיטבון", "Gilbert Mathis", "Gilbert Sitbon"],
         jobTitle: d.footer.tagline,
         telephone: site.phoneIntl,
         nationality: { "@type": "Country", name: "Israel" },
@@ -140,7 +140,7 @@ export function profileLd(lang: Locale, d: Dict) {
     "@type": "ProfilePage",
     url: `${site.url}/${lang}/story`,
     inLanguage: lang,
-    mainEntity: { "@id": `${site.url}/#person`, "@type": "Person", name: "Aharon Sitbon", alternateName: ["אהרון סיטבון", "Gilbert Sitbon", "Gilles d'Avray", "Gilbert Sainroch"], description: d.pages.story.desc, sameAs },
+    mainEntity: { "@id": `${site.url}/#person`, "@type": "Person", name: "Aharon Sitbon", alternateName: ["אהרון סיטבון", "Gilbert Mathis", "Gilbert Sitbon"], description: d.pages.story.desc, sameAs },
   };
 }
 

@@ -3,7 +3,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import Image from "next/image";
 import { useLocale } from "@/components/providers";
-import { CloseIcon, NextIcon, PauseIcon, PlayIcon, PrevIcon, ShuffleIcon, VolumeIcon } from "@/components/icons";
+import { CloseIcon, CollapseIcon, ExpandIcon, NextIcon, PauseIcon, PlayIcon, PrevIcon, ShuffleIcon, VolumeIcon } from "@/components/icons";
 import { playable, trackImage, trOf, type Track } from "@/lib/music";
 
 /**
@@ -47,6 +47,8 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
   const [duration, setDuration] = useState(0);
   const [volume, setVolume] = useState(80);
   const [isShuffle, setShuffle] = useState(false);
+  // Vidéo YouTube réduite en vignette (la musique continue) : d'office sur mobile, et dès qu'on fait défiler la page
+  const [mini, setMini] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
   const frameRef = useRef<HTMLIFrameElement>(null);
 
@@ -183,6 +185,19 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
     navigator.mediaSession.setActionHandler("previoustrack", prev);
   }, [current, toggle, next, prev]);
 
+  const videoOpen = mode === "video" && Boolean(current?.youtubeId);
+  useEffect(() => {
+    if (!videoOpen) return;
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- taille d'écran connue seulement dans le navigateur
+    setMini(window.innerWidth < 768);
+    const start = window.scrollY;
+    const onScroll = () => {
+      if (Math.abs(window.scrollY - start) > 120) setMini(true);
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [videoOpen, current?.id]);
+
   // Le bouton WhatsApp remonte au-dessus du lecteur
   useEffect(() => {
     document.documentElement.classList.toggle("player-on", Boolean(current));
@@ -213,9 +228,25 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
       {current && (
         <section aria-label={d.player.label} className="fade-up fixed inset-x-0 bottom-0 z-40 bg-blue-deep/97 text-paper shadow-[0_-10px_40px_-20px_rgba(20,53,83,0.5)] backdrop-blur-md">
           {mode === "video" && current.youtubeId && (
-            <div className="absolute start-3 bottom-full mb-3 w-[min(22rem,calc(100vw-6rem))] overflow-hidden bg-black shadow-[0_20px_50px_-20px_rgba(0,0,0,0.8)] rounded-xl ring-1 ring-sand/40 md:start-6">
-              <div className="flex items-center justify-between gap-2 bg-blue-deep px-3 py-1.5">
-                <span className="truncate text-[0.75rem] text-haze">{d.player.video}</span>
+            <div
+              className={`absolute start-3 bottom-full mb-3 overflow-hidden rounded-xl bg-black shadow-[0_20px_50px_-20px_rgba(0,0,0,0.8)] ring-1 ring-sand/40 transition-[width] duration-500 md:start-6 ${
+                mini ? "w-52" : "w-[min(22rem,calc(100vw-6rem))]"
+              }`}
+            >
+              <div className="flex items-center justify-between gap-1 bg-blue-deep px-1.5 py-1">
+                <button
+                  type="button"
+                  onClick={() => setMini(!mini)}
+                  aria-expanded={!mini}
+                  className="flex min-h-9 items-center gap-1.5 rounded-full px-2.5 text-[0.8125rem] font-medium text-paper transition-colors hover:bg-paper/15"
+                >
+                  {mini ? <ExpandIcon /> : <CollapseIcon />}
+                  {mini ? d.player.expand : d.player.collapse}
+                </button>
+                <button type="button" onClick={close} aria-label={d.player.close} className="flex min-h-9 items-center gap-1.5 rounded-full px-2.5 text-[0.8125rem] font-medium text-paper transition-colors hover:bg-paper/15">
+                  <CloseIcon className="h-4 w-4" />
+                  <span className={mini ? "sr-only" : ""}>{d.player.close}</span>
+                </button>
               </div>
               <iframe
                 key={current.id}
@@ -279,8 +310,9 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
               <input type="range" className="range w-20" min={0} max={100} value={volume} onChange={(e) => setVolume(Number(e.target.value))} aria-label={d.player.volume} style={{ "--p": `${volume}%` } as React.CSSProperties} />
             </div>
 
-            <button type="button" onClick={close} aria-label={d.player.close} className="flex h-10 w-10 shrink-0 items-center justify-center text-haze transition-colors hover:text-paper">
-              <CloseIcon className="h-4 w-4" />
+            <button type="button" onClick={close} aria-label={d.player.close} className="flex min-h-10 min-w-10 shrink-0 items-center justify-center gap-2 rounded-full px-2 text-paper/90 transition-colors hover:bg-paper/10 hover:text-paper md:px-3">
+              <CloseIcon className="h-5 w-5" />
+              <span className="hidden text-[0.875rem] font-medium md:inline">{d.player.close}</span>
             </button>
           </div>
           <div className="h-px bg-line-blue lg:hidden" aria-hidden="true">

@@ -13,7 +13,7 @@ import { SectionHead } from "@/components/PageHero";
 import { ListenButton } from "@/components/ListenButton";
 import { HeroSlides } from "@/components/HeroSlides";
 import { AlbumCards } from "@/components/Discography";
-import { Clips } from "@/components/Clips";
+import { Clips, WatchButton } from "@/components/Clips";
 import { ArrowIcon } from "@/components/icons";
 
 // Diaporama de l'accueil : [nom dans public/media/slides, cadrage]
@@ -112,6 +112,26 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
             </p>
             <p className="lead mt-5">{h.latestText}</p>
             <ListenButton trackId={latest.id} label={h.latestListen} className="btn mt-8" />
+          </div>
+        </Reveal>
+      </section>
+
+      {/* En espagnol : « Rey Mesías » (Melech HaMashiach), plus de 2,2 millions de vues */}
+      <section className="mt-6 px-5 md:px-10" aria-labelledby="h-spanish">
+        <Reveal className="dark grain mx-auto grid max-w-[1320px] items-center gap-10 overflow-hidden rounded-[2rem] p-6 md:grid-cols-[1fr_1.1fr] md:p-12">
+          <div className="md:order-2">
+            <div className="relative aspect-video overflow-hidden rounded-[1.25rem]">
+              <Image src={thumb("Pi8NCkgmL8I")} alt="" fill sizes="(min-width: 768px) 45vw, 90vw" className="object-cover" />
+            </div>
+          </div>
+          <div>
+            <p className="eyebrow">{h.spanish.eyebrow}</p>
+            <h2 id="h-spanish" className="mt-5 font-[family-name:var(--font-playfair)] text-[clamp(2.4rem,5vw,3.6rem)] leading-tight italic" lang="es" dir="ltr">
+              {h.spanish.title}
+            </h2>
+            <p className="mt-1 text-haze">{h.spanish.subtitle}</p>
+            <p className="lead mt-5">{h.spanish.text}</p>
+            <WatchButton id="Pi8NCkgmL8I" title={`${h.spanish.title} – ${h.spanish.subtitle}`} label={h.spanish.button} className="btn mt-8" />
           </div>
         </Reveal>
       </section>

@@ -46,7 +46,7 @@
       {
         "n": "001",
         "title": "La historia",
-        "text": "Gilbert, Gilles d'Avray, Gilbert Sainroch y luego Aharon: una vida que nadie se habría atrevido a escribir.",
+        "text": "Gilbert Mathis, Gilbert Sitbon y luego Aharon: una vida que nadie se habría atrevido a escribir.",
         "link": "Leer su historia",
         "href": "story"
       },
@@ -82,7 +82,7 @@
       {
         "year": "Los orígenes",
         "title": "Una casa llena de música",
-        "text": "Crece en una familia tradicional de nueve hijos. Su hermana mayor canta acompañándose del laúd; uno de sus hermanos llegará a ser batería de los grandes nombres de la canción francesa."
+        "text": "Crece en una familia tradicional de ocho hijos. Su hermana mayor canta acompañándose del laúd; uno de sus hermanos llegará a ser batería de los grandes nombres de la canción francesa."
       },
       {
         "year": "Marsella · París",
@@ -92,7 +92,7 @@
       {
         "year": "Años 70",
         "title": "El escenario",
-        "text": "Un concurso ganado, un primer disco, giras. Se le conoce como Gilles d'Avray, Gilbert Sainroch o Gilbert Sitbon. Su representante, Roland Bismuth, también lleva a Yves Duteil y a Michel Fugain."
+        "text": "Un concurso ganado, un primer disco, giras. Se le conoce como Gilbert Mathis y, más tarde, como Gilbert Sitbon. Su representante, Rolande Bismuth, también lleva a Yves Duteil y a Michel Fugain."
       },
       {
         "year": "1977",
@@ -117,7 +117,7 @@
       {
         "year": "2014",
         "title": "Adon Olam",
-        "text": "El productor Yuval Stoppel la escucha y la publica como sencillo. Duda en volver a su edad; en las cartas del Rebe de Lubavitch lee que un artista que vuelve a la fe debe poner su talento al servicio de la santidad. Ahí está su respuesta."
+        "text": "El productor Youval Stoupel la escucha y la publica como sencillo. Duda en volver a su edad; en las cartas del Rebe de Lubavitch lee que un artista que vuelve a la fe debe poner su talento al servicio de la santidad. Ahí está su respuesta."
       },
       {
         "year": "2016 · 2021",
@@ -138,7 +138,7 @@
     "albums": "Álbumes",
     "singles": "Sencillos",
     "archives": "Archivos franceses",
-    "archivesText": "Los discos de Gilbert Sitbon, Gilles d'Avray y Gilbert Sainroch.",
+    "archivesText": "Los discos de Gilbert Sitbon.",
     "tracks": "{n} canciones",
     "listen": "Escuchar",
     "listenTrack": "Escuchar «{title}»",
@@ -207,8 +207,7 @@
     "text": "En los años 70 graba discos, hace giras por Francia y suena en la radio. Él mismo ya no los escuchaba. Aquí están, reunidos.",
     "names": "Sus nombres artísticos",
     "namesList": [
-      "Gilles d'Avray",
-      "Gilbert Sainroch",
+      "Gilbert Mathis",
       "Gilbert Sitbon"
     ],
     "records": "Los sencillos en vinilo",
@@ -388,7 +387,7 @@
       "desc": "Aharon Sitbon puede venir a cantar un momento especial en una boda, una jupá o una gala, junto a tu orquesta: una o dos canciones, su historia, mucha emoción.",
       "eyebrow": "Un momento con él",
       "h1": "Un momento de <em>emoción</em>, no una noche de animación",
-      "intro": "Aharon Sitbon no anima fiestas: viene para una o dos canciones y regala un momento que no se olvida. Bajo la jupá, en medio de una gala o cuando la sala se calma al final de la noche."
+      "intro": "Aharon Sitbon no anima fiestas: viene para algunas canciones y regala un momento que no se olvida. Bajo la jupá, en medio de una gala o cuando la sala se calma al final de la noche."
     }
   },
   "home": {
@@ -406,8 +405,8 @@
         "t": "álbumes y más de veinte sencillos"
       },
       {
-        "n": "510 000",
-        "t": "visualizaciones de «Odeh Hashem Elokai»"
+        "n": "≈ 5 M",
+        "t": "de visualizaciones en el mundo"
       }
     ],
     "latestEyebrow": "Último estreno · 2026",
@@ -431,7 +430,14 @@
     "todayText": "Sigue componiendo, y casi cada año sale un nuevo canto, hecho con Eli Klein e Yitzy Berry, a menudo junto a su hijo David.",
     "todayLink": "Lo que hace hoy",
     "eventsText": "El Olympia, el Heijal Menorá ante miles de personas, la Torre de David, el congreso Tzama: una voz que ha llenado salas, ayer y hoy.",
-    "ctaSecondary": "Escribirle"
+    "ctaSecondary": "Escribirle",
+    "spanish": {
+      "eyebrow": "En español",
+      "title": "Rey Mesías",
+      "subtitle": "Melech HaMashiach · מלך המשיח",
+      "text": "Con su traducción al español, «Melech HaMashiach» ha recorrido toda América Latina: más de 2,2 millones de visualizaciones y más de 1000 comentarios en YouTube. En total, sus canciones suman casi 5 millones de visualizaciones en el mundo.",
+      "button": "Ver el video"
+    }
   },
   "events": {
     "gallery": "En el escenario, en imágenes",
@@ -461,7 +467,7 @@
       {
         "id": "odeh-hashem",
         "date": "2024",
-        "note": "Un salmo cantado antes de Elul, durante la guerra. Su video más visto: más de 500 000 visualizaciones."
+        "note": "Un salmo cantado antes de Elul, durante la guerra. El más visto de su canal: más de 500 000 visualizaciones."
       },
       {
         "id": "ana-hashem",
@@ -550,5 +556,10 @@
     },
     "teaser": "Boda, jupá, gala: también puede venir a cantar un momento, como complemento.",
     "teaserLink": "Saber más"
+  },
+  "langBanner": {
+    "text": "Este sitio está disponible en español.",
+    "button": "Ver en español",
+    "close": "Cerrar"
   }
 }

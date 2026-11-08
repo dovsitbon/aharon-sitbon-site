@@ -103,7 +103,7 @@ export default async function Contact({ params }: PageProps<"/[lang]/contact">) 
               {d.guest.note}
             </p>
           </Reveal>
-          <div className="mt-12 grid gap-10 lg:grid-cols-[1fr_1.3fr] lg:gap-14">
+          <div className="mt-12 grid grid-cols-1 gap-10 lg:grid-cols-[1fr_1.3fr] lg:gap-14">
             <Reveal>
               <ul className="grid gap-4">
                 {d.guest.formats.map((f, i) => (

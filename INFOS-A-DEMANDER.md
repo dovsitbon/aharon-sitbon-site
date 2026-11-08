@@ -9,7 +9,7 @@ Tout ce qui manque pour que le site soit définitif. Chaque point indique où le
 - [ ] **Ce qu'il accepte qu'on publie sur sa famille** : son fils David Sitbon (déjà cité), ses petits-enfants (aucun nom n'est affiché sans accord de la famille)
 - [ ] **La mélodie d'Adon Olam** : est-elle bien de Michel Fugain (les articles écrivent « Fogan » ou « Fogen ») ?
 - [ ] **Premier 45 tours** : chez Barclay (Alliance) ou chez Versailles (Encyclopédisque, 1971) ?
-- [ ] Le nom de scène « Gilbert Mathis » cité par Alliance : vrai ou erreur ?
+- [x] Noms de scène confirmés par l'artiste : Gilbert Mathis, puis Gilbert Sitbon
 - [ ] La chanson que Michel Sardou lui aurait écrite : à confirmer avant de la mentionner (non publiée pour l'instant)
 
 ## Musique

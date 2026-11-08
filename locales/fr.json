@@ -46,7 +46,7 @@
       {
         "n": "001",
         "title": "L'histoire",
-        "text": "Gilbert, Gilles d'Avray, Gilbert Sainroch, puis Aharon : un parcours que personne n'aurait écrit.",
+        "text": "Gilbert Mathis, Gilbert Sitbon, puis Aharon : un parcours que personne n'aurait écrit.",
         "link": "Lire son histoire",
         "href": "story"
       },
@@ -82,7 +82,7 @@
       {
         "year": "Les origines",
         "title": "Une maison pleine de musique",
-        "text": "Il grandit dans une famille traditionnelle de neuf enfants. Sa grande sœur chante en s'accompagnant au luth ; un de ses frères deviendra batteur pour les grands noms de la chanson française."
+        "text": "Il grandit dans une famille traditionnelle de huit enfants. Sa grande sœur chante en s'accompagnant au luth ; un de ses frères deviendra batteur pour les grands noms de la chanson française."
       },
       {
         "year": "Marseille · Paris",
@@ -92,7 +92,7 @@
       {
         "year": "Années 1970",
         "title": "La scène",
-        "text": "Un concours gagné, un premier 45 tours, des tournées. On le connaît sous les noms de Gilles d'Avray, Gilbert Sainroch ou Gilbert Sitbon. Son impresario, Roland Bismuth, s'occupe aussi d'Yves Duteil et de Michel Fugain."
+        "text": "Un concours gagné, un premier 45 tours, des tournées. On le connaît sous le nom de Gilbert Mathis, puis de Gilbert Sitbon. Son agent, Rolande Bismuth, s'occupe aussi d'Yves Duteil et de Michel Fugain."
       },
       {
         "year": "1977",
@@ -117,7 +117,7 @@
       {
         "year": "2014",
         "title": "Adon Olam",
-        "text": "Le producteur Yuval Stoppel l'entend et le sort en single. Il hésite à reprendre à son âge ; dans les lettres du Rabbi de Loubavitch, il lit qu'un artiste revenu à la religion doit mettre son talent au service de la sainteté. Il y voit sa réponse."
+        "text": "Le producteur Youval Stoupel l'entend et le sort en single. Il hésite à reprendre à son âge ; dans les lettres du Rabbi de Loubavitch, il lit qu'un artiste revenu à la religion doit mettre son talent au service de la sainteté. Il y voit sa réponse."
       },
       {
         "year": "2016 · 2021",
@@ -138,7 +138,7 @@
     "albums": "Albums",
     "singles": "Singles",
     "archives": "Archives françaises",
-    "archivesText": "Les 45 tours de Gilbert Sitbon, Gilles d'Avray et Gilbert Sainroch.",
+    "archivesText": "Les 45 tours de Gilbert Sitbon.",
     "tracks": "{n} titres",
     "listen": "Écouter",
     "listenTrack": "Écouter « {title} »",
@@ -207,8 +207,7 @@
     "text": "Dans les années 1970, il enregistre des 45 tours, tourne en France et passe à la radio. Ces disques, il ne les écoutait plus. Les voici rassemblés.",
     "names": "Ses noms de scène",
     "namesList": [
-      "Gilles d'Avray",
-      "Gilbert Sainroch",
+      "Gilbert Mathis",
       "Gilbert Sitbon"
     ],
     "records": "Les 45 tours",
@@ -388,7 +387,7 @@
       "desc": "Aharon Sitbon peut venir chanter un moment fort lors d'un mariage, d'une houppa ou d'un gala, en complément de votre orchestre : un ou deux chants, son histoire, l'émotion.",
       "eyebrow": "Un moment avec lui",
       "h1": "Un moment d'<em>émotion</em>, pas une soirée d'ambiance",
-      "intro": "Aharon Sitbon n'anime pas les soirées : il vient, le temps d'un ou deux chants, offrir un moment qu'on n'oublie pas. Sous la houppa, au cœur d'un gala, ou quand la salle se pose en fin de soirée."
+      "intro": "Aharon Sitbon n'anime pas les soirées : il vient, le temps de quelques chansons, offrir un moment qu'on n'oublie pas. Sous la houppa, au cœur d'un gala, ou quand la salle se pose en fin de soirée."
     }
   },
   "home": {
@@ -406,8 +405,8 @@
         "t": "albums et plus de vingt singles"
       },
       {
-        "n": "510 000",
-        "t": "vues pour « Odeh Hashem Elokai »"
+        "n": "≈ 5 M",
+        "t": "vues dans le monde, toutes chansons confondues"
       }
     ],
     "latestEyebrow": "Dernière sortie · 2026",
@@ -424,14 +423,21 @@
     "eventsLink": "Tous ses concerts",
     "pressTitle": "Ils en <em>parlent</em>",
     "pressLink": "Toute la presse",
-    "ctaTitle": "Sa musique vous a <em>touché</em> ?",
+    "ctaTitle": "Sa musique vous a-t-elle <em>touché</em> ?",
     "ctaText": "Écoutez ses albums, suivez sa chaîne, ou écrivez-lui un mot.",
     "ctaButton": "Écouter sa musique",
     "todayTitle": "Aujourd'hui, il <em>chante encore</em>",
     "todayText": "Il compose toujours, et un nouveau chant sort presque chaque année, réalisé avec Eli Klein et Yitzy Berry, souvent en famille avec son fils David.",
     "todayLink": "Ce qu'il fait aujourd'hui",
     "eventsText": "L'Olympia, le Heichal Menorah devant des milliers de personnes, la Tour de David, le congrès Tzama : une voix qui a rempli des salles, hier comme aujourd'hui.",
-    "ctaSecondary": "Lui écrire"
+    "ctaSecondary": "Lui écrire",
+    "spanish": {
+      "eyebrow": "En espagnol",
+      "title": "Rey Mesías",
+      "subtitle": "Melech HaMashiach · מלך המשיח",
+      "text": "Avec sa traduction en espagnol, « Melech HaMashiach » a fait le tour de l'Amérique latine : plus de 2,2 millions de vues et plus de 1 000 commentaires sur YouTube. Au total, ses chansons cumulent près de 5 millions de vues dans le monde.",
+      "button": "Voir la vidéo"
+    }
   },
   "events": {
     "gallery": "Sur scène, en images",
@@ -461,7 +467,7 @@
       {
         "id": "odeh-hashem",
         "date": "2024",
-        "note": "Un psaume chanté avant Elloul, pendant la guerre. Sa vidéo la plus vue : plus de 500 000 vues."
+        "note": "Un psaume chanté avant Elloul, pendant la guerre. La plus vue de sa chaîne : plus de 500 000 vues."
       },
       {
         "id": "ana-hashem",
@@ -550,5 +556,10 @@
     },
     "teaser": "Mariage, houppa, gala : il peut aussi venir chanter un moment, en complément.",
     "teaserLink": "En savoir plus"
+  },
+  "langBanner": {
+    "text": "Ce site existe en français.",
+    "button": "Voir en français",
+    "close": "Fermer"
   }
 }

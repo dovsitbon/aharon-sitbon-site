@@ -7,6 +7,7 @@ import { dirOf, getDict, isLocale, locales, ogLocale } from "@/lib/i18n";
 import { Providers } from "@/components/providers";
 import { PlayerProvider } from "@/components/Player";
 import { Header } from "@/components/Header";
+import { LangBanner } from "@/components/LangBanner";
 import { Footer } from "@/components/Footer";
 import { Intro } from "@/components/Intro";
 import { SmoothScroll } from "@/components/SmoothScroll";
@@ -80,6 +81,8 @@ export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Prom
     formatDetection: { telephone: false },
     authors: [{ name: "Aharon Sitbon" }],
     robots: { index: true, follow: true, "max-image-preview": "large" },
+    // Bloque la traduction automatique (Chrome, Edge, Google Traduction) : le site a ses propres versions
+    other: { google: "notranslate" },
   };
 }
 
@@ -99,7 +102,7 @@ export default async function LangLayout({ children, params }: LayoutProps<"/[la
   const d = getDict(lang);
 
   return (
-    <html lang={lang} dir={dirOf(lang)} className={`${playfair.variable} ${inter.variable} ${assistant.variable} ${frank.variable}`} suppressHydrationWarning>
+    <html lang={lang} dir={dirOf(lang)} translate="no" className={`notranslate ${playfair.variable} ${inter.variable} ${assistant.variable} ${frank.variable}`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: introScript }} />
       </head>
@@ -108,6 +111,7 @@ export default async function LangLayout({ children, params }: LayoutProps<"/[la
           <PlayerProvider>
             <Intro skipLabel={d.intro.skip} tagline={d.intro.tagline} />
             <SmoothScroll />
+            <LangBanner />
             <Header />
             <main id="main">{children}</main>
             <Footer lang={lang} d={d} />

@@ -46,7 +46,7 @@
       {
         "n": "001",
         "title": "The story",
-        "text": "Gilbert, Gilles d'Avray, Gilbert Sainroch, then Aharon: a life no one would have dared to script.",
+        "text": "Gilbert Mathis, Gilbert Sitbon, then Aharon: a life no one would have dared to script.",
         "link": "Read his story",
         "href": "story"
       },
@@ -82,7 +82,7 @@
       {
         "year": "The beginning",
         "title": "A house full of music",
-        "text": "He grows up in a traditional family of nine children. His older sister sings and plays the oud; one of his brothers will become a drummer for the great names of French song."
+        "text": "He grows up in a traditional family of eight children. His older sister sings and plays the oud; one of his brothers will become a drummer for the great names of French song."
       },
       {
         "year": "Marseille · Paris",
@@ -92,7 +92,7 @@
       {
         "year": "The 1970s",
         "title": "The stage",
-        "text": "A contest won, a first single, tours. He is known as Gilles d'Avray, Gilbert Sainroch or Gilbert Sitbon. His manager, Roland Bismuth, also looks after Yves Duteil and Michel Fugain."
+        "text": "A contest won, a first single, tours. He is known as Gilbert Mathis, and later as Gilbert Sitbon. His agent, Rolande Bismuth, also looks after Yves Duteil and Michel Fugain."
       },
       {
         "year": "1977",
@@ -117,7 +117,7 @@
       {
         "year": "2014",
         "title": "Adon Olam",
-        "text": "Producer Yuval Stoppel hears it and releases it as a single. Unsure about a comeback at his age, he opens the Lubavitcher Rebbe's letters and reads that an artist who returns to faith should place his talent in the service of holiness. He has his answer."
+        "text": "Producer Youval Stoupel hears it and releases it as a single. Unsure about a comeback at his age, he opens the Lubavitcher Rebbe's letters and reads that an artist who returns to faith should place his talent in the service of holiness. He has his answer."
       },
       {
         "year": "2016 · 2021",
@@ -138,7 +138,7 @@
     "albums": "Albums",
     "singles": "Singles",
     "archives": "French archives",
-    "archivesText": "The vinyl singles of Gilbert Sitbon, Gilles d'Avray and Gilbert Sainroch.",
+    "archivesText": "The vinyl singles of Gilbert Sitbon.",
     "tracks": "{n} tracks",
     "listen": "Listen",
     "listenTrack": "Listen to “{title}”",
@@ -207,8 +207,7 @@
     "text": "In the 1970s he records singles, tours France and is played on the radio. He had stopped listening to those records himself. Here they are, together.",
     "names": "His stage names",
     "namesList": [
-      "Gilles d'Avray",
-      "Gilbert Sainroch",
+      "Gilbert Mathis",
       "Gilbert Sitbon"
     ],
     "records": "The singles",
@@ -388,7 +387,7 @@
       "desc": "Aharon Sitbon can come and sing a special moment at a wedding, a chuppah or a gala, alongside your band: one or two songs, his story, and a lot of emotion.",
       "eyebrow": "A moment with him",
       "h1": "A moment of <em>emotion</em>, not a party set",
-      "intro": "Aharon Sitbon is not a party singer: he comes for one or two songs and gives a moment people remember. Under the chuppah, in the middle of a gala, or when the room settles at the end of the evening."
+      "intro": "Aharon Sitbon is not a party singer: he comes for a few songs and gives a moment people remember. Under the chuppah, in the middle of a gala, or when the room settles at the end of the evening."
     }
   },
   "home": {
@@ -406,8 +405,8 @@
         "t": "albums and over twenty singles"
       },
       {
-        "n": "510,000",
-        "t": "views for “Odeh Hashem Elokai”"
+        "n": "≈ 5M",
+        "t": "views worldwide, all songs"
       }
     ],
     "latestEyebrow": "Latest release · 2026",
@@ -431,7 +430,14 @@
     "todayText": "He keeps composing, and a new song comes out almost every year, made with Eli Klein and Yitzy Berry, often with his son David.",
     "todayLink": "What he's doing today",
     "eventsText": "The Olympia, Menorah Hall before thousands, the Tower of David, the Tzama convention: a voice that has filled halls, then and now.",
-    "ctaSecondary": "Write to him"
+    "ctaSecondary": "Write to him",
+    "spanish": {
+      "eyebrow": "In Spanish",
+      "title": "Rey Mesías",
+      "subtitle": "Melech HaMashiach · מלך המשיח",
+      "text": "With its Spanish translation, “Melech HaMashiach” has travelled all over Latin America: more than 2.2 million views and over 1,000 comments on YouTube. In total, his songs have reached nearly 5 million views worldwide.",
+      "button": "Watch the video"
+    }
   },
   "events": {
     "gallery": "On stage, in pictures",
@@ -461,7 +467,7 @@
       {
         "id": "odeh-hashem",
         "date": "2024",
-        "note": "A psalm sung ahead of Elul, during the war. His most watched video: over 500,000 views."
+        "note": "A psalm sung ahead of Elul, during the war. The most watched on his channel: over 500,000 views."
       },
       {
         "id": "ana-hashem",
@@ -550,5 +556,10 @@
     },
     "teaser": "Wedding, chuppah, gala: he can also come and sing for a moment, alongside your band.",
     "teaserLink": "Learn more"
+  },
+  "langBanner": {
+    "text": "This site is available in English.",
+    "button": "View in English",
+    "close": "Close"
   }
 }

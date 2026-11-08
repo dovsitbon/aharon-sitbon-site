@@ -122,7 +122,7 @@ export function SinglesGrid({ limit }: { limit?: number }) {
 export function ArchivesGrid() {
   const { d } = useLocale();
   return (
-    <ul className="grid grid-cols-2 gap-x-5 gap-y-10 lg:grid-cols-4 lg:gap-x-7">
+    <ul className="grid max-w-3xl grid-cols-2 gap-x-5 gap-y-10 lg:gap-x-7">
       {archives.singles.map((s, i) => (
         <Reveal as="li" key={s.ref} delay={(i % 4) * 0.07}>
           <div className="group">

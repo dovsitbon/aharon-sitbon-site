@@ -75,7 +75,7 @@ export default async function AlbumPage({
             <span aria-current="page">{a.latin}</span>
           </nav>
 
-          <div className="mt-10 grid gap-12 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-16">
+          <div className="mt-10 grid grid-cols-1 gap-12 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-16">
             <div>
               <div className="relative aspect-square overflow-hidden rounded-[1.5rem] shadow-[0_40px_80px_-40px_rgba(31,78,121,0.5)]">
                 <AlbumCover

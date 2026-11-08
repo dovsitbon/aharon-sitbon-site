@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import site from "@/data/site.json";
 import { Mark, Wordmark } from "@/components/Logo";
-import { LangSwitch } from "@/components/LangSwitch";
+import { GlobeIcon, LangSwitch } from "@/components/LangSwitch";
 import { ListenButton } from "@/components/ListenButton";
 import { CloseIcon, FacebookIcon, MenuIcon, YouTubeIcon } from "@/components/icons";
 import { useLocale } from "@/components/providers";
@@ -90,7 +90,7 @@ export function Header() {
           </nav>
 
           <div className="flex items-center gap-3 md:gap-5">
-            <LangSwitch lang={lang} label={d.nav.language} className="hidden lg:flex" />
+            <LangSwitch lang={lang} label={d.nav.language} className="hidden sm:flex" />
             <div className="hidden items-center gap-3 min-[1600px]:flex">{social}</div>
             <ListenButton label={d.nav.book} className="btn hidden !min-h-11 !px-5 whitespace-nowrap sm:inline-flex" />
             <button type="button" className="-m-2 flex h-11 w-11 items-center justify-center min-[1180px]:hidden" onClick={() => setMenu(true)} aria-label={d.nav.menu} aria-expanded={menu}>
@@ -108,10 +108,17 @@ export function Header() {
               <CloseIcon />
             </button>
           </div>
-          <nav className="flex flex-1 flex-col justify-center gap-1 px-8" aria-label={d.nav.menu}>
+          <div className="border-b border-line px-6 py-4">
+            <p className="mb-3 flex items-center gap-2 text-[0.875rem] font-medium text-muted">
+              <GlobeIcon className="h-4 w-4" />
+              {d.nav.language}
+            </p>
+            <LangSwitch lang={lang} label={d.nav.language} variant="menu" />
+          </div>
+          <nav className="flex flex-1 flex-col justify-center gap-1 overflow-y-auto px-8 py-4" aria-label={d.nav.menu}>
             {[{ href: `/${lang}`, label: d.nav.home }, ...links].map((l, i) => (
               <div key={l.href} className="fade-up" style={{ animationDelay: `${0.04 * i + 0.05}s` }}>
-                <Link href={l.href} onClick={() => setMenu(false)} className={`display block py-1.5 text-[2.1rem] ${pathname === l.href ? "!text-terra" : ""}`}>
+                <Link href={l.href} onClick={() => setMenu(false)} className={`display block py-1 text-[1.9rem] ${pathname === l.href ? "!text-terra" : ""}`}>
                   {l.label}
                 </Link>
               </div>
@@ -120,8 +127,7 @@ export function Header() {
               <ListenButton label={d.home.ctaButton} />
             </div>
           </nav>
-          <div className="flex items-center justify-between border-t border-line px-6 py-4">
-            <LangSwitch lang={lang} label={d.nav.language} />
+          <div className="flex items-center justify-center border-t border-line px-6 py-4">
             <div className="flex items-center gap-5">{social}</div>
           </div>
         </div>

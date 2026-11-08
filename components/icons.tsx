@@ -119,3 +119,15 @@ export const AppleMusicIcon = ({ className = "h-[18px] w-[18px]" }: P) => (
     <circle cx="16.8" cy="15.3" r="2.3" />
   </svg>
 );
+
+export const CollapseIcon = ({ className = "h-4 w-4" }: P) => (
+  <svg viewBox="0 0 24 24" className={className} {...base} strokeWidth={1.6}>
+    <path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5" />
+  </svg>
+);
+
+export const ExpandIcon = ({ className = "h-4 w-4" }: P) => (
+  <svg viewBox="0 0 24 24" className={className} {...base} strokeWidth={1.6}>
+    <path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" />
+  </svg>
+);
