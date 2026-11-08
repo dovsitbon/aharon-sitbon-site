@@ -116,7 +116,7 @@ export function Header() {
             <LangSwitch lang={lang} label={d.nav.language} variant="menu" />
           </div>
           <nav className="flex flex-1 flex-col justify-center gap-1 overflow-y-auto px-8 py-4" aria-label={d.nav.menu}>
-            {[{ href: `/${lang}`, label: d.nav.home }, ...links].map((l, i) => (
+            {[{ href: `/${lang}`, label: d.nav.home }, ...links.slice(0, -1), { href: href(lang, "audience"), label: d.nav.audience }, ...links.slice(-1)].map((l, i) => (
               <div key={l.href} className="fade-up" style={{ animationDelay: `${0.04 * i + 0.05}s` }}>
                 <Link href={l.href} onClick={() => setMenu(false)} className={`display block py-1 text-[1.9rem] ${pathname === l.href ? "!text-terra" : ""}`}>
                   {l.label}

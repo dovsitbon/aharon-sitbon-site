@@ -131,7 +131,12 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
             </h2>
             <p className="mt-1 text-haze">{h.spanish.subtitle}</p>
             <p className="lead mt-5">{h.spanish.text}</p>
-            <WatchButton id="Pi8NCkgmL8I" title={`${h.spanish.title} – ${h.spanish.subtitle}`} label={h.spanish.button} className="btn mt-8" />
+            <div className="mt-8 flex flex-wrap gap-3">
+              <WatchButton id="Pi8NCkgmL8I" title={`${h.spanish.title} – ${h.spanish.subtitle}`} label={h.spanish.button} className="btn" />
+              <Link href={href(lang, "audience")} className="btn-ghost text-paper">
+                {d.audience.homeButton}
+              </Link>
+            </div>
           </div>
         </Reveal>
       </section>

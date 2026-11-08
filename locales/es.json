@@ -22,7 +22,8 @@
     "language": "Idioma",
     "events": "Conciertos",
     "today": "Hoy",
-    "guest": "Invitarlo para un momento"
+    "guest": "Invitarlo para un momento",
+    "audience": "Su público"
   },
   "intro": {
     "skip": "Saltar",
@@ -185,7 +186,8 @@
       "official": "Videoclips oficiales",
       "live": "En directo",
       "interview": "Entrevistas",
-      "archive": "Archivo"
+      "archive": "Archivo",
+      "spanish": "En español"
     },
     "play": "Ver el video",
     "views": "{n} visualizaciones",
@@ -388,6 +390,13 @@
       "eyebrow": "Un momento con él",
       "h1": "Un momento de <em>emoción</em>, no una noche de animación",
       "intro": "Aharon Sitbon no anima fiestas: viene para algunas canciones y regala un momento que no se olvida. Bajo la jupá, en medio de una gala o cuando la sala se calma al final de la noche."
+    },
+    "audience": {
+      "title": "Su público – mensajes de todo el mundo",
+      "desc": "Lo que el público escribe a Aharon Sitbon bajo sus videos: mensajes de Israel, Francia y América Latina, y más de 6 millones de visualizaciones en YouTube.",
+      "eyebrow": "Su público",
+      "h1": "Palabras de <em>todo el mundo</em>",
+      "intro": "En hebreo, francés, inglés, español, portugués e incluso ruso, los mensajes no dejan de llegar bajo sus videos. De México a Chile, de Francia a Israel, desconocidos le escriben lo que su voz despertó en ellos. Aquí hay algunos, copiados tal cual de YouTube."
     }
   },
   "home": {
@@ -561,5 +570,62 @@
     "text": "Este sitio está disponible en español.",
     "button": "Ver en español",
     "close": "Cerrar"
+  },
+  "audience": {
+    "stats": [
+      {
+        "n": "6 M+",
+        "t": "visualizaciones en YouTube"
+      },
+      {
+        "n": "16",
+        "t": "videos con más de 100 000 visualizaciones"
+      },
+      {
+        "n": "2,2 M",
+        "t": "visualizaciones de «Rey Mesías»"
+      },
+      {
+        "n": "11 países",
+        "t": "citados en los mensajes del público"
+      }
+    ],
+    "countries": [
+      "Israel",
+      "Francia",
+      "México",
+      "Honduras",
+      "Costa Rica",
+      "Venezuela",
+      "Colombia",
+      "Perú",
+      "Chile",
+      "Argentina",
+      "Brasil"
+    ],
+    "wallEyebrow": "Mensajes del público",
+    "wallTitle": "Lo que su voz <em>despertó en ellos</em>",
+    "translation": "Traducción",
+    "source": "YouTube",
+    "langs": {
+      "he": "Hebreo",
+      "fr": "Francés",
+      "en": "Inglés",
+      "es": "Español",
+      "pt": "Portugués",
+      "ru": "Ruso"
+    },
+    "requestTitle": "Traducido a pedido del público",
+    "requestIntro": "Sus versiones en español nacieron de una petición. Bajo «Ein Li Milim», el canal Muzika Laneshama le escribió:",
+    "requestOutro": "Hoy estas versiones suman casi 3 millones de visualizaciones. Y desde Perú hasta Argentina le piden subtitular otras, incluso al portugués.",
+    "requestButton": "Escuchar las versiones en español",
+    "pressTitle": "Hablaron de él",
+    "pressLink": "Ver la prensa",
+    "stageTitle": "En el escenario",
+    "stageLink": "Todos sus conciertos",
+    "footnote": "Mensajes públicos dejados bajo sus videos de YouTube, copiados tal cual (ortografía corregida) y traducidos para esta página. ¿Es usted autor de un mensaje y desea que se retire?",
+    "footnoteLink": "Escríbanos.",
+    "homeButton": "Lo que dice el público",
+    "allMessages": "Todos los mensajes del público"
   }
 }

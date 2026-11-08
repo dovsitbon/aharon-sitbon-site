@@ -42,6 +42,8 @@ export type Clip = {
   views?: number;
   title?: Record<Locale, string>;
   note?: Record<Locale, string>;
+  /** Version sous-titrée / traduite en espagnol */
+  spanish?: boolean;
 };
 
 export const tracks = music.tracks as Track[];

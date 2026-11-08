@@ -35,6 +35,7 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `events` | הופעות | Concerts | Concerts | Conciertos |
 | `today` | היום | Aujourd'hui | Today | Hoy |
 | `guest` | להזמין אותו לרגע מיוחד | L'inviter pour un moment | Invite him for a moment | Invitarlo para un momento |
+| `audience` | הקהל שלו | Son public | His audience | Su público |
 
 ## Textes · intro
 
@@ -194,6 +195,7 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `filters.live` | הופעות חיות | En live | Live | En directo |
 | `filters.interview` | ראיונות | Interviews | Interviews | Entrevistas |
 | `filters.archive` | ארכיון | Archives | Archives | Archivo |
+| `filters.spanish` | בספרדית | En espagnol | In Spanish | En español |
 | `play` | לצפייה בסרטון | Lire la vidéo | Play video | Ver el video |
 | `views` | {n} צפיות | {n} vues | {n} views | {n} visualizaciones |
 | `channel` | לערוץ היוטיוב המלא | Toute la chaîne YouTube | The full YouTube channel | Todo el canal de YouTube |
@@ -401,6 +403,11 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `guest.eyebrow` | רגע איתו | Un moment avec lui | A moment with him | Un momento con él |
 | `guest.h1` | רגע של <em>רגש</em>, לא ערב של הקפצה | Un moment d'<em>émotion</em>, pas une soirée d'ambiance | A moment of <em>emotion</em>, not a party set | Un momento de <em>emoción</em>, no una noche de animación |
 | `guest.intro` | אהרון סיטבון לא מקפיץ אירועים: הוא מגיע לכמה שירים ונותן רגע שלא שוכחים. מתחת לחופה, באמצע ערב גאלה, או כשהאולם נרגע בסוף הערב. | Aharon Sitbon n'anime pas les soirées : il vient, le temps de quelques chansons, offrir un moment qu'on n'oublie pas. Sous la houppa, au cœur d'un gala, ou quand la salle se pose en fin de soirée. | Aharon Sitbon is not a party singer: he comes for a few songs and gives a moment people remember. Under the chuppah, in the middle of a gala, or when the room settles at the end of the evening. | Aharon Sitbon no anima fiestas: viene para algunas canciones y regala un momento que no se olvida. Bajo la jupá, en medio de una gala o cuando la sala se calma al final de la noche. |
+| `audience.title` | הקהל שלו – הודעות מכל העולם | Son public – des messages du monde entier | His audience – messages from all over the world | Su público – mensajes de todo el mundo |
+| `audience.desc` | מה כותב הקהל לאהרון סיטבון מתחת לסרטונים שלו: הודעות מישראל, מצרפת ומאמריקה הלטינית, ויותר מ־6 מיליון צפיות ביוטיוב. | Ce que le public écrit à Aharon Sitbon sous ses vidéos : des messages venus d'Israël, de France et d'Amérique latine, et plus de 6 millions de vues sur YouTube. | What listeners write to Aharon Sitbon under his videos: messages from Israel, France and Latin America, and more than 6 million views on YouTube. | Lo que el público escribe a Aharon Sitbon bajo sus videos: mensajes de Israel, Francia y América Latina, y más de 6 millones de visualizaciones en YouTube. |
+| `audience.eyebrow` | הקהל שלו | Son public | His audience | Su público |
+| `audience.h1` | מילים <em>מכל העולם</em> | Des mots venus <em>du monde entier</em> | Words from <em>all over the world</em> | Palabras de <em>todo el mundo</em> |
+| `audience.intro` | בעברית, בצרפתית, באנגלית, בספרדית, בפורטוגזית ואפילו ברוסית: מתחת לסרטונים שלו ההודעות לא מפסיקות להגיע. ממקסיקו ועד צ׳ילה, מצרפת ועד ישראל, אנשים שלא מכירים אותו כותבים לו מה הקול שלו עשה להם. הנה כמה מהן, כפי שנכתבו ביוטיוב. | En hébreu, en français, en anglais, en espagnol, en portugais, et même en russe : sous ses vidéos, les messages affluent. Du Mexique au Chili, de la France à Israël, des inconnus lui écrivent ce que sa voix leur a fait. En voici quelques-uns, recopiés tels quels depuis YouTube. | In Hebrew, French, English, Spanish, Portuguese and even Russian, messages keep pouring in under his videos. From Mexico to Chile, from France to Israel, strangers write to tell him what his voice did for them. Here are a few, copied as written on YouTube. | En hebreo, francés, inglés, español, portugués e incluso ruso, los mensajes no dejan de llegar bajo sus videos. De México a Chile, de Francia a Israel, desconocidos le escriben lo que su voz despertó en ellos. Aquí hay algunos, copiados tal cual de YouTube. |
 
 ## Textes · home
 
@@ -541,6 +548,52 @@ Les textes viennent de locales/*.json et les données de data/*.json : corriger 
 | `text` |  | Ce site existe en français. | This site is available in English. | Este sitio está disponible en español. |
 | `button` |  | Voir en français | View in English | Ver en español |
 | `close` | סגירה | Fermer | Close | Cerrar |
+
+## Textes · audience
+
+| clé | עברית | Français | English | Español |
+|---|---|---|---|---|
+| `stats.0.n` | 6M+ | 6 M+ | 6M+ | 6 M+ |
+| `stats.0.t` | צפיות ביוטיוב | vues sur YouTube | views on YouTube | visualizaciones en YouTube |
+| `stats.1.n` | 16 | 16 | 16 | 16 |
+| `stats.1.t` | סרטונים עם יותר מ־100,000 צפיות | vidéos à plus de 100 000 vues | videos with over 100,000 views | videos con más de 100 000 visualizaciones |
+| `stats.2.n` | 2.2M | 2,2 M | 2.2M | 2,2 M |
+| `stats.2.t` | צפיות ב״Rey Mesías״ | vues pour « Rey Mesías » | views for “Rey Mesías” | visualizaciones de «Rey Mesías» |
+| `stats.3.n` | 11 מדינות | 11 pays | 11 countries | 11 países |
+| `stats.3.t` | שמוזכרות בהודעות של הקהל | cités dans les messages du public | mentioned in messages from listeners | citados en los mensajes del público |
+| `countries.0` | ישראל | Israël | Israel | Israel |
+| `countries.1` | צרפת | France | France | Francia |
+| `countries.2` | מקסיקו | Mexique | Mexico | México |
+| `countries.3` | הונדורס | Honduras | Honduras | Honduras |
+| `countries.4` | קוסטה ריקה | Costa Rica | Costa Rica | Costa Rica |
+| `countries.5` | ונצואלה | Venezuela | Venezuela | Venezuela |
+| `countries.6` | קולומביה | Colombie | Colombia | Colombia |
+| `countries.7` | פרו | Pérou | Peru | Perú |
+| `countries.8` | צ׳ילה | Chili | Chile | Chile |
+| `countries.9` | ארגנטינה | Argentine | Argentina | Argentina |
+| `countries.10` | ברזיל | Brésil | Brazil | Brasil |
+| `wallEyebrow` | הודעות מהקהל | Messages du public | Messages from listeners | Mensajes del público |
+| `wallTitle` | מה הקול שלו <em>עשה להם</em> | Ce que sa voix <em>leur a fait</em> | What his voice <em>did for them</em> | Lo que su voz <em>despertó en ellos</em> |
+| `translation` | תרגום | Traduction | Translation | Traducción |
+| `source` | YouTube | YouTube | YouTube | YouTube |
+| `langs.he` | עברית | Hébreu | Hebrew | Hebreo |
+| `langs.fr` | צרפתית | Français | French | Francés |
+| `langs.en` | אנגלית | Anglais | English | Inglés |
+| `langs.es` | ספרדית | Espagnol | Spanish | Español |
+| `langs.pt` | פורטוגזית | Portugais | Portuguese | Portugués |
+| `langs.ru` | רוסית | Russe | Russian | Ruso |
+| `requestTitle` | תורגם לבקשת הקהל | Traduit à la demande du public | Translated at the audience's request | Traducido a pedido del público |
+| `requestIntro` | הגרסאות שלו בספרדית נולדו מבקשה. מתחת ל״אין לי מילים״ כתב לו הערוץ Muzika Laneshama: | Ses versions en espagnol sont nées d'une demande. Sous « Ein Li Milim », la chaîne Muzika Laneshama lui écrit : | His Spanish versions began with a request. Under “Ein Li Milim”, the Muzika Laneshama channel wrote to him: | Sus versiones en español nacieron de una petición. Bajo «Ein Li Milim», el canal Muzika Laneshama le escribió: |
+| `requestOutro` | היום הגרסאות האלה צברו כמעט 3 מיליון צפיות. ומפרו ועד ארגנטינה מבקשים ממנו להוסיף כתוביות לשירים נוספים, ואפילו בפורטוגזית. | Aujourd'hui, ces versions cumulent près de 3 millions de vues. Et du Pérou à l'Argentine, on lui demande d'en sous-titrer d'autres, jusqu'en portugais. | Today these versions have nearly 3 million views. And from Peru to Argentina, people ask him to subtitle more, even in Portuguese. | Hoy estas versiones suman casi 3 millones de visualizaciones. Y desde Perú hasta Argentina le piden subtitular otras, incluso al portugués. |
+| `requestButton` | להאזנה לגרסאות בספרדית | Écouter les versions en espagnol | Listen to the Spanish versions | Escuchar las versiones en español |
+| `pressTitle` | כתבו עליו | Ils ont parlé de lui | They wrote about him | Hablaron de él |
+| `pressLink` | לכל הכתבות | Voir la presse | See the press | Ver la prensa |
+| `stageTitle` | על הבמה | Sur scène | On stage | En el escenario |
+| `stageLink` | לכל ההופעות | Tous ses concerts | All his concerts | Todos sus conciertos |
+| `footnote` | הודעות פומביות שנכתבו מתחת לסרטוני היוטיוב שלו, הועתקו כפי שהן (עם תיקוני כתיב) ותורגמו לעמוד הזה. כתבתם הודעה ואתם רוצים שנסיר אותה? | Messages publics laissés sous ses vidéos YouTube, recopiés tels quels (orthographe corrigée) et traduits pour cette page. Vous êtes l'auteur d'un message et souhaitez qu'il soit retiré ? | Public comments left under his YouTube videos, copied as written (spelling corrected) and translated for this page. Are you the author of a message and would like it removed? | Mensajes públicos dejados bajo sus videos de YouTube, copiados tal cual (ortografía corregida) y traducidos para esta página. ¿Es usted autor de un mensaje y desea que se retire? |
+| `footnoteLink` | כתבו לנו. | Écrivez-nous. | Write to us. | Escríbanos. |
+| `homeButton` | מה הקהל אומר | Ce que le public en dit | What listeners say | Lo que dice el público |
+| `allMessages` | לכל ההודעות של הקהל | Tous les messages du public | All messages from listeners | Todos los mensajes del público |
 
 ## Discographie
 

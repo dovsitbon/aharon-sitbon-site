@@ -16,6 +16,7 @@ export function Footer({ lang, d }: { lang: Locale; d: Dict }) {
     { href: href(lang, "today"), label: d.nav.today },
     { href: href(lang, "events"), label: d.nav.events },
     { href: href(lang, "press"), label: d.nav.press },
+    { href: href(lang, "audience"), label: d.nav.audience },
     { href: href(lang, "contact"), label: d.nav.contact },
   ];
   const ext = "inline-flex min-h-9 items-center gap-3 transition-colors hover:text-sand";

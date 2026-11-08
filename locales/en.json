@@ -22,7 +22,8 @@
     "language": "Language",
     "events": "Concerts",
     "today": "Today",
-    "guest": "Invite him for a moment"
+    "guest": "Invite him for a moment",
+    "audience": "His audience"
   },
   "intro": {
     "skip": "Skip",
@@ -185,7 +186,8 @@
       "official": "Official videos",
       "live": "Live",
       "interview": "Interviews",
-      "archive": "Archives"
+      "archive": "Archives",
+      "spanish": "In Spanish"
     },
     "play": "Play video",
     "views": "{n} views",
@@ -388,6 +390,13 @@
       "eyebrow": "A moment with him",
       "h1": "A moment of <em>emotion</em>, not a party set",
       "intro": "Aharon Sitbon is not a party singer: he comes for a few songs and gives a moment people remember. Under the chuppah, in the middle of a gala, or when the room settles at the end of the evening."
+    },
+    "audience": {
+      "title": "His audience – messages from all over the world",
+      "desc": "What listeners write to Aharon Sitbon under his videos: messages from Israel, France and Latin America, and more than 6 million views on YouTube.",
+      "eyebrow": "His audience",
+      "h1": "Words from <em>all over the world</em>",
+      "intro": "In Hebrew, French, English, Spanish, Portuguese and even Russian, messages keep pouring in under his videos. From Mexico to Chile, from France to Israel, strangers write to tell him what his voice did for them. Here are a few, copied as written on YouTube."
     }
   },
   "home": {
@@ -561,5 +570,62 @@
     "text": "This site is available in English.",
     "button": "View in English",
     "close": "Close"
+  },
+  "audience": {
+    "stats": [
+      {
+        "n": "6M+",
+        "t": "views on YouTube"
+      },
+      {
+        "n": "16",
+        "t": "videos with over 100,000 views"
+      },
+      {
+        "n": "2.2M",
+        "t": "views for “Rey Mesías”"
+      },
+      {
+        "n": "11 countries",
+        "t": "mentioned in messages from listeners"
+      }
+    ],
+    "countries": [
+      "Israel",
+      "France",
+      "Mexico",
+      "Honduras",
+      "Costa Rica",
+      "Venezuela",
+      "Colombia",
+      "Peru",
+      "Chile",
+      "Argentina",
+      "Brazil"
+    ],
+    "wallEyebrow": "Messages from listeners",
+    "wallTitle": "What his voice <em>did for them</em>",
+    "translation": "Translation",
+    "source": "YouTube",
+    "langs": {
+      "he": "Hebrew",
+      "fr": "French",
+      "en": "English",
+      "es": "Spanish",
+      "pt": "Portuguese",
+      "ru": "Russian"
+    },
+    "requestTitle": "Translated at the audience's request",
+    "requestIntro": "His Spanish versions began with a request. Under “Ein Li Milim”, the Muzika Laneshama channel wrote to him:",
+    "requestOutro": "Today these versions have nearly 3 million views. And from Peru to Argentina, people ask him to subtitle more, even in Portuguese.",
+    "requestButton": "Listen to the Spanish versions",
+    "pressTitle": "They wrote about him",
+    "pressLink": "See the press",
+    "stageTitle": "On stage",
+    "stageLink": "All his concerts",
+    "footnote": "Public comments left under his YouTube videos, copied as written (spelling corrected) and translated for this page. Are you the author of a message and would like it removed?",
+    "footnoteLink": "Write to us.",
+    "homeButton": "What listeners say",
+    "allMessages": "All messages from listeners"
   }
 }
